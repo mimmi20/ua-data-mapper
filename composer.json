@@ -1,0 +1,48 @@
+{
+  "name": "mimmi20/ua-data-mapper",
+  "description": "a class to map the results of different useragent parsers",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "Browser",
+    "user agent",
+    "http",
+    "parser",
+    "user-agent"
+  ],
+  "homepage": "https://github.com/mimmi20/ua-data-mapper",
+  "authors": [
+    {
+      "name": "Thomas Müller",
+      "homepage": "https://github.com/mimmi20",
+      "role": "Developer"
+    },
+    {
+      "name": "Contributors",
+      "homepage": "https://github.com/mimmi20/ua-data-mapper/graphs/contributors"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/mimmi20/ua-data-mapper/issues",
+    "source": "https://github.com/mimmi20/ua-data-mapper"
+  },
+  "require": {
+    "php": ">= 5.6.0",
+    "mimmi20/ua-result": "~1.0.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "2.*",
+    "fabpot/php-cs-fixer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "UaDataMapper\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "UaDataMapperTest\\": "tests/"
+    }
+  }
+}
