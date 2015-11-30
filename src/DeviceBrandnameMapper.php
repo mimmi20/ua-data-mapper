@@ -45,11 +45,10 @@ class DeviceBrandnameMapper
      * maps the brand name of a device
      *
      * @param string $brandName
-     * @param string $deviceName
      *
-     * @return string
+     * @return string|null
      */
-    public function mapDeviceBrandName($brandName, $deviceName = null)
+    public function mapDeviceBrandName($brandName)
     {
         switch (strtolower($brandName)) {
             case 'htc corporation':
@@ -117,17 +116,23 @@ class DeviceBrandnameMapper
             case 'ms':
                 $brandName = 'Microsoft';
                 break;
-            case '':
-            case 'unknown':
-            case 'other':
-            case 'generic':
-            case 'mozilla':
-                $brandName = null;
-                break;
             default:
-                // nothing to do here
                 break;
         }
+
+        return $brandName;
+    }
+
+    /**
+     * maps the brand name of a device from the device name
+     *
+     * @param string|null $deviceName
+     *
+     * @return string|null
+     */
+    public function mapDeviceName($deviceName)
+    {
+        $brandName = null;
 
         switch (strtolower($deviceName)) {
             case '':

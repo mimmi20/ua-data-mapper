@@ -46,8 +46,8 @@ class BrowserTypeMapper
     /**
      * maps the browser type
      *
-     * @param string $browserType
-     * @param string $browserName
+     * @param string      $browserType
+     * @param string|null $browserName
      *
      * @return \BrowserDetector\Detector\Type\Browser\TypeInterface
      */
@@ -71,9 +71,6 @@ class BrowserTypeMapper
             case 'pim':
                 $browserType = new Browser\EmailClient();
                 break;
-            //case 'pim':
-            //    $browserType = new Browser\Pim();
-            //    break;
             case 'feed reader':
                 $browserType = new Browser\FeedReader();
                 break;

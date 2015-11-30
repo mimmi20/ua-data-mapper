@@ -53,6 +53,11 @@ class PlatformVersionMapper
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
+        $version = new Version();
+        $version->setMode(
+            Version::COMPLETE | Version::IGNORE_MINOR_IF_EMPTY | Version::IGNORE_MICRO_IF_EMPTY
+        );
+
         switch (strtolower($osVersion)) {
             case '':
             case 'unknown':
@@ -61,6 +66,7 @@ class PlatformVersionMapper
                 break;
             case 'server 2003':
                 $osVersion = 'XP';
+                return $version->setVersion($osVersion);
                 break;
             default:
                 // nothing to do here
@@ -131,11 +137,6 @@ class PlatformVersionMapper
                 // nothing to do here
                 break;
         }
-
-        $version = new Version();
-        $version->setMode(
-            Version::COMPLETE | Version::IGNORE_MINOR_IF_EMPTY | Version::IGNORE_MICRO_IF_EMPTY
-        );
 
         return $version->setVersion($osVersion);
     }

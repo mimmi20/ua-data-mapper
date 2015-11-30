@@ -44,10 +44,10 @@ class PlatformMakerMapper
     /**
      * maps the maker of the operating system
      *
-     * @param string $osMaker
-     * @param string $osName
+     * @param string      $osMaker
+     * @param string|null $osName
      *
-     * @return string
+     * @return string|null
      */
     public function mapOsMaker($osMaker, $osName = null)
     {

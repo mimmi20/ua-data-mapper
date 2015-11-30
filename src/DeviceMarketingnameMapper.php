@@ -45,11 +45,10 @@ class DeviceMarketingnameMapper
      * maps the marketing name of a device
      *
      * @param string $marketingName
-     * @param string $deviceName
      *
-     * @return string
+     * @return string|null
      */
-    public function mapDeviceMarketingName($marketingName, $deviceName = null)
+    public function mapDeviceMarketingName($marketingName)
     {
         switch (strtolower($marketingName)) {
             case '':
@@ -162,6 +161,20 @@ class DeviceMarketingnameMapper
                 // nothing to do here
                 break;
         }
+
+        return $marketingName;
+    }
+
+    /**
+     * maps the marketing name of a device from the device name
+     *
+     * @param string|null $deviceName
+     *
+     * @return string|null
+     */
+    public function mapDeviceName($deviceName)
+    {
+        $marketingName = null;
 
         switch (strtolower($deviceName)) {
             case '':

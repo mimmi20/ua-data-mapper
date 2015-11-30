@@ -46,8 +46,8 @@ class BrowserVersionMapper
     /**
      * maps the browser version
      *
-     * @param string $browserVersion
-     * @param string $browserName
+     * @param string      $browserVersion
+     * @param string|null $browserName
      *
      * @return \UaResult\Version
      */
@@ -59,18 +59,16 @@ class BrowserVersionMapper
                 $browserVersion = null;
                 break;
             default:
-                // nothing to do here
-                break;
-        }
-
-        switch (strtolower($browserName)) {
-            case '':
-            case 'unknown':
-            case 'other':
-                $browserVersion = null;
-                break;
-            default:
-                // nothing to do here
+                switch (strtolower($browserName)) {
+                    case '':
+                    case 'unknown':
+                    case 'other':
+                        $browserVersion = null;
+                        break;
+                    default:
+                        // nothing to do here
+                        break;
+                }
                 break;
         }
 

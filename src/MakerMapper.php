@@ -46,7 +46,7 @@ class MakerMapper
      *
      * @param string $maker
      *
-     * @return string
+     * @return string|null
      */
     public function mapMaker($maker)
     {

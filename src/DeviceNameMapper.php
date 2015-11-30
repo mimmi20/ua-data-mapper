@@ -46,18 +46,18 @@ class DeviceNameMapper
      *
      * @param string $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceName($deviceName)
     {
         switch (strtolower($deviceName)) {
             case '':
             case 'pc':
-            case 'android':
             case 'unknown':
             case 'other':
                 $deviceName = null;
                 break;
+            case 'android':
             case 'android 1.6':
             case 'android 2.0':
             case 'android 2.1':

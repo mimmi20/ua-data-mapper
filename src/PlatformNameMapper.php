@@ -46,7 +46,7 @@ class PlatformNameMapper
      *
      * @param string $osName
      *
-     * @return string
+     * @return string|null
      */
     public function mapOsName($osName)
     {

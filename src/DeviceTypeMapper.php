@@ -77,9 +77,6 @@ class DeviceTypeMapper
             case 'feature phone':
                 $deviceType = new Device\MobilePhone();
                 break;
-            case '':
-            case 'unknown':
-            case 'other non-mobile':
             default:
                 $deviceType = new Device\Unknown();
                 break;

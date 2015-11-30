@@ -44,10 +44,10 @@ class BrowserMakerMapper
     /**
      * maps the browser maker
      *
-     * @param string $browserMaker
-     * @param string $browserName
+     * @param string      $browserMaker
+     * @param string|null $browserName
      *
-     * @return string
+     * @return string|null
      */
     public function mapBrowserMaker($browserMaker, $browserName = null)
     {

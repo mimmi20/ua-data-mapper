@@ -182,20 +182,34 @@ class InputMapper
      */
     public function mapDeviceMarketingName($marketingName, $deviceName = null)
     {
-        return (new DeviceMarketingnameMapper())->mapDeviceMarketingName($marketingName, $deviceName);
+        $mapper = new DeviceMarketingnameMapper();
+        $mname  = $mapper->mapDeviceName($deviceName);
+
+        if (null === $mname) {
+            $mname = $mapper->mapDeviceMarketingName($marketingName);
+        }
+
+        return $mname;
     }
 
     /**
      * maps the brand name of a device
      *
-     * @param string $brandName
-     * @param string $deviceName
+     * @param string      $brandName
+     * @param string|null $deviceName
      *
      * @return string
      */
     public function mapDeviceBrandName($brandName, $deviceName = null)
     {
-        return (new DeviceBrandnameMapper())->mapDeviceBrandName($brandName, $deviceName);
+        $mapper    = new DeviceBrandnameMapper();
+        $brandname = $mapper->mapDeviceName($deviceName);
+
+        if (null === $brandname) {
+            $brandname = $mapper->mapDeviceBrandName($brandName);
+        }
+
+        return $brandname;
     }
 
     /**

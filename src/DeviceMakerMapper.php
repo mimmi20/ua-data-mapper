@@ -48,8 +48,8 @@ class DeviceMakerMapper
     /**
      * maps the maker of a device
      *
-     * @param string $deviceMaker
-     * @param string $deviceName
+     * @param string      $deviceMaker
+     * @param string|null $deviceName
      *
      * @return string
      */
