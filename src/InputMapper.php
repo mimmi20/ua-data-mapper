@@ -30,10 +30,6 @@
 
 namespace UaDataMapper;
 
-use BrowserDetector\Detector\Type\Browser as BrowserType;
-use BrowserDetector\Detector\Type\Device as DeviceType;
-use UaResult\Version;
-
 /**
  * class with caching and update capabilities
  *
@@ -75,13 +71,12 @@ class InputMapper
      * maps the browser type
      *
      * @param string $browserType
-     * @param string $browserName
      *
-     * @return \BrowserDetector\Detector\Type\Browser\TypeInterface
+     * @return \UaBrowserType\TypeInterface
      */
-    public function mapBrowserType($browserType, $browserName = null)
+    public function mapBrowserType($browserType)
     {
-        return (new BrowserTypeMapper())->mapBrowserType($browserType, $browserName);
+        return (new BrowserTypeMapper())->mapBrowserType($browserType);
     }
 
     /**
@@ -140,7 +135,7 @@ class InputMapper
      *
      * @param string $deviceType
      *
-     * @return \BrowserDetector\Detector\Type\Device\TypeInterface
+     * @return \UaDeviceType\TypeInterface
      */
     public function mapDeviceType($deviceType)
     {

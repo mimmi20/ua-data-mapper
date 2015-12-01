@@ -30,7 +30,16 @@
 
 namespace UaDataMapper;
 
-use BrowserDetector\Detector\Type\Browser;
+use UaBrowserType\Application;
+use UaBrowserType\Bot;
+use UaBrowserType\Browser;
+use UaBrowserType\EmailClient;
+use UaBrowserType\FeedReader;
+use UaBrowserType\MultimediaPlayer;
+use UaBrowserType\OfflineBrowser;
+use UaBrowserType\Unknown;
+use UaBrowserType\UseragentAnonymizer;
+use UaBrowserType\WapBrowser;
 
 /**
  * class with caching and update capabilities
@@ -46,63 +55,55 @@ class BrowserTypeMapper
     /**
      * maps the browser type
      *
-     * @param string      $browserType
-     * @param string|null $browserName
+     * @param string $browserType
      *
-     * @return \BrowserDetector\Detector\Type\Browser\TypeInterface
+     * @return \UaBrowserType\TypeInterface
      */
-    public function mapBrowserType($browserType, $browserName = null)
+    public function mapBrowserType($browserType)
     {
         switch (strtolower($browserType)) {
+            case 'browser':
             case 'mobile browser':
-                $browserType = new Browser\Browser();
+                $browserType = new Browser();
                 break;
+            case 'bot':
             case 'robot':
             case 'bot/crawler':
             case 'library':
-                $browserType = new Browser\Bot();
+                $browserType = new Bot();
                 break;
-            case '':
-            case 'unknown':
-            case 'other':
-                $browserType = new Browser\Unknown();
-                break;
+            case 'emailclient':
             case 'email client':
             case 'pim':
-                $browserType = new Browser\EmailClient();
+                $browserType = new EmailClient();
                 break;
+            case 'feedreader':
             case 'feed reader':
-                $browserType = new Browser\FeedReader();
+                $browserType = new FeedReader();
                 break;
+            case 'multimediaplayer':
             case 'mediaplayer':
             case 'multimedia player':
-                $browserType = new Browser\MultimediaPlayer();
+                $browserType = new MultimediaPlayer();
                 break;
+            case 'offlinebrowser':
             case 'offline browser':
-                $browserType = new Browser\OfflineBrowser();
+                $browserType = new OfflineBrowser();
                 break;
+            case 'useragentanonymizer':
             case 'useragent anonymizer':
-                $browserType = new Browser\UseragentAnonymizer();
+                $browserType = new UseragentAnonymizer();
                 break;
+            case 'wapbrowser':
             case 'wap browser':
-                $browserType = new Browser\WapBrowser();
+                $browserType = new WapBrowser();
                 break;
+            case 'application':
             case 'mobile app':
-                $browserType = new Browser\Application();
+                $browserType = new Application();
                 break;
             default:
-                switch (strtolower($browserName)) {
-                    case 'unknown':
-                    case 'other':
-                    case '':
-                        $browserType = new Browser\Unknown();
-                        break;
-                    default:
-                        $typeClass = '\\BrowserDetector\\Detector\\Type\\Browser\\' . $browserType;
-
-                        $browserType = new $typeClass();
-                        break;
-                }
+                $browserType = new Unknown();
                 break;
         }
 

@@ -30,10 +30,6 @@
 
 namespace UaDataMapper;
 
-use BrowserDetector\Detector\Type\Browser as BrowserType;
-use BrowserDetector\Detector\Type\Device as DeviceType;
-use UaResult\Version;
-
 /**
  * class with caching and update capabilities
  *

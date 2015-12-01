@@ -30,7 +30,14 @@
 
 namespace UaDataMapper;
 
-use BrowserDetector\Detector\Type\Device;
+use UaDeviceType\Bot;
+use UaDeviceType\Desktop;
+use UaDeviceType\FonePad;
+use UaDeviceType\MobileDevice;
+use UaDeviceType\MobilePhone;
+use UaDeviceType\Tablet;
+use UaDeviceType\Tv;
+use UaDeviceType\Unknown;
 
 /**
  * class with caching and update capabilities
@@ -48,37 +55,37 @@ class DeviceTypeMapper
      *
      * @param string $deviceType
      *
-     * @return \BrowserDetector\Detector\Type\Device\TypeInterface
+     * @return \UaDeviceType\TypeInterface
      */
     public function mapDeviceType($deviceType)
     {
         switch (strtolower($deviceType)) {
             case 'smart-tv':
             case 'tv device':
-                $deviceType = new Device\Tv();
+                $deviceType = new Tv();
                 break;
             case 'desktop':
-                $deviceType = new Device\Desktop();
+                $deviceType = new Desktop();
                 break;
             case 'fonepad':
-                $deviceType = new Device\FonePad();
+                $deviceType = new FonePad();
                 break;
             case 'tablet':
-                $deviceType = new Device\Tablet();
+                $deviceType = new Tablet();
                 break;
             case 'mobile device':
-                $deviceType = new Device\MobileDevice();
+                $deviceType = new MobileDevice();
                 break;
             case 'robot':
-                $deviceType = new Device\Bot();
+                $deviceType = new Bot();
                 break;
             case 'mobile phone':
             case 'smartphone':
             case 'feature phone':
-                $deviceType = new Device\MobilePhone();
+                $deviceType = new MobilePhone();
                 break;
             default:
-                $deviceType = new Device\Unknown();
+                $deviceType = new Unknown();
                 break;
         }
 
