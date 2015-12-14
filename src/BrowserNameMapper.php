@@ -216,6 +216,9 @@ class BrowserNameMapper
             case 'elinks':
                 $browserName = 'ELinks';
                 break;
+            case 'whitehat aviator':
+                $browserName = 'Aviator';
+                break;
             default:
                 // nothing to do here
                 break;
