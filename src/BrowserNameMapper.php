@@ -219,6 +219,13 @@ class BrowserNameMapper
             case 'whitehat aviator':
                 $browserName = 'Aviator';
                 break;
+            case 'fake browser':
+            case 'fake ie':
+            case 'fake chrome':
+            case 'fake safari':
+            case 'fake firefox':
+                $browserName = 'Fake Browser';
+                break;
             default:
                 // nothing to do here
                 break;
