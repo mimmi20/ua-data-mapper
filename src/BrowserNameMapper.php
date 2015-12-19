@@ -226,6 +226,9 @@ class BrowserNameMapper
             case 'fake firefox':
                 $browserName = 'Fake Browser';
                 break;
+            case 'wdg html validator':
+                $browserName = 'HTML Validator';
+                break;
             default:
                 // nothing to do here
                 break;
