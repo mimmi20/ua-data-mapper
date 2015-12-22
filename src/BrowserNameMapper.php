@@ -233,6 +233,10 @@ class BrowserNameMapper
             case 'blekkobot':
                 $browserName = 'BlekkoBot';
                 break;
+            case 'tweetmemebot':
+            case 'tweetmeme bot':
+                $browserName = 'Tweetmeme Bot';
+                break;
             default:
                 // nothing to do here
                 break;
