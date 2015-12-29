@@ -68,6 +68,7 @@ class BrowserNameMapper
             case 'other':
             case 'default browser':
             case 'generic':
+            case '12345':
                 $browserName = null;
                 break;
             case 'ie':
@@ -236,6 +237,10 @@ class BrowserNameMapper
             case 'tweetmemebot':
             case 'tweetmeme bot':
                 $browserName = 'Tweetmeme Bot';
+                break;
+            case 'coremedia':
+            case 'applecoremedia':
+                $browserName = 'CoreMedia';
                 break;
             default:
                 // nothing to do here
