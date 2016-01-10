@@ -37,6 +37,7 @@ use UaBrowserType\EmailClient;
 use UaBrowserType\FeedReader;
 use UaBrowserType\MultimediaPlayer;
 use UaBrowserType\OfflineBrowser;
+use UaBrowserType\Tool;
 use UaBrowserType\Unknown;
 use UaBrowserType\UseragentAnonymizer;
 use UaBrowserType\WapBrowser;
@@ -101,6 +102,9 @@ class BrowserTypeMapper
             case 'application':
             case 'mobile app':
                 $browserType = new Application();
+                break;
+            case 'tool':
+                $browserType = new Tool();
                 break;
             default:
                 $browserType = new Unknown();
