@@ -68,7 +68,6 @@ class BrowserNameMapper
             case 'other':
             case 'default browser':
             case 'generic':
-            case '12345':
                 $browserName = null;
                 break;
             case 'ie':
