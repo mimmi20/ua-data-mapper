@@ -32,6 +32,7 @@ namespace UaDataMapper;
 
 use UaDeviceType\Bot;
 use UaDeviceType\Desktop;
+use UaDeviceType\DigitalCamera;
 use UaDeviceType\FonePad;
 use UaDeviceType\MobileDevice;
 use UaDeviceType\MobilePhone;
@@ -83,6 +84,9 @@ class DeviceTypeMapper
             case 'smartphone':
             case 'feature phone':
                 $deviceType = new MobilePhone();
+                break;
+            case 'digital camera':
+                $deviceType = new DigitalCamera();
                 break;
             default:
                 $deviceType = new Unknown();
