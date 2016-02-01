@@ -54,6 +54,7 @@ class DeviceMarketingnameMapper
             case '':
             case 'unknown':
             case 'other':
+            case 'various':
                 $marketingName = null;
                 break;
             case 'lg optimus chat':

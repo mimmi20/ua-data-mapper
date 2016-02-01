@@ -51,6 +51,12 @@ class DeviceBrandnameMapper
     public function mapDeviceBrandName($brandName)
     {
         switch (strtolower($brandName)) {
+            case '':
+            case 'unknown':
+            case 'other':
+            case 'various':
+                $brandName = null;
+                break;
             case 'htc corporation':
             case 'ht':
                 $brandName = 'HTC';
