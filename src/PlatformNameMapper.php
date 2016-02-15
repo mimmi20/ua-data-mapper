@@ -102,6 +102,7 @@ class PlatformNameMapper
             case 'mac':
             case 'macosx':
             case 'os x':
+            case 'mac osx':
                 $osName = 'Mac OS X';
                 break;
             case 'jvm':

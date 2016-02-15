@@ -85,6 +85,7 @@ class PlatformVersionMapper
             case 'win7':
             case 'winphone7':
             case 'windows phone 7':
+            case 'nt 6.1':
                 $osVersion = '7';
                 break;
             case 'winphone7.5':
@@ -95,12 +96,14 @@ class PlatformVersionMapper
             case 'winrt8':
             case 'winphone8':
             case 'windows phone 8':
+            case 'nt 6.2':
                 $osVersion = '8';
                 break;
             case 'win8.1':
             case 'winrt8.1':
             case 'winphone8.1':
             case 'windows phone 8.1':
+            case 'nt 6.3':
                 $osVersion = '8.1';
                 break;
             case 'win9':
@@ -132,6 +135,12 @@ class PlatformVersionMapper
                 break;
             case 'win31':
                 $osVersion = '3.1';
+                break;
+            case 'yosemite 10.10':
+                $osVersion = '10.10';
+                break;
+            case 'mavericks 10.9':
+                $osVersion = '10.9';
                 break;
             default:
                 // nothing to do here
