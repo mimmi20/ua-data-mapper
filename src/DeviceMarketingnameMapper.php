@@ -129,6 +129,7 @@ class DeviceMarketingnameMapper
                 $marketingName = 'Galaxy S4';
                 break;
             case 'galaxy tab 3 10.1"':
+            case 'galaxy tab 3 (10.1)':
                 $marketingName = 'Galaxy Tab 3 10.1 3G';
                 break;
             case 'kindle fire hdx 7" wifi':

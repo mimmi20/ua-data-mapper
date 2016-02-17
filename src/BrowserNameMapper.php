@@ -68,6 +68,8 @@ class BrowserNameMapper
             case 'other':
             case 'default browser':
             case 'generic':
+            case 'misc crawler':
+            case 'generic bot':
                 $browserName = null;
                 break;
             case 'ie':
@@ -93,6 +95,9 @@ class BrowserNameMapper
                 break;
             case 'bingbot':
                 $browserName = 'BingBot';
+                break;
+            case 'bingpreview':
+                $browserName = 'Bing Preview';
                 break;
             case 'jakarta commons-httpclient':
                 $browserName = 'Jakarta Commons HttpClient';
@@ -150,6 +155,9 @@ class BrowserNameMapper
             case 'microsoft outlook':
                 $browserName = 'Outlook';
                 break;
+            case 'microsoft office':
+                $browserName = 'Office';
+                break;
             case 'mj12 bot':
                 $browserName = 'MJ12bot';
                 break;
@@ -167,6 +175,7 @@ class BrowserNameMapper
                 $browserName = 'YandexBot';
                 break;
             case 'nutch-based bot':
+            case 'apache nutch':
                 $browserName = 'Nutch';
                 break;
             case 'baidu spider':
@@ -240,6 +249,10 @@ class BrowserNameMapper
             case 'coremedia':
             case 'applecoremedia':
                 $browserName = 'CoreMedia';
+                break;
+            case 'mediapartners-google':
+            case 'google mediapartners':
+                $browserName = 'AdSense Bot';
                 break;
             default:
                 // nothing to do here
