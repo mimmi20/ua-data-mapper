@@ -30,7 +30,7 @@
 
 namespace UaDataMapper;
 
-use UaResult\Version;
+use Version\Version;
 
 /**
  * class with caching and update capabilities
@@ -48,7 +48,7 @@ class EngineVersionMapper
      *
      * @param string $engineVersion
      *
-     * @return \UaResult\Version
+     * @return \Version\Version
      */
     public function mapEngineVersion($engineVersion)
     {
@@ -63,11 +63,6 @@ class EngineVersionMapper
                 break;
         }
 
-        $version = new Version();
-        $version->setMode(
-            Version::COMPLETE | Version::IGNORE_MINOR_IF_EMPTY | Version::IGNORE_MICRO_IF_EMPTY
-        );
-
-        return $version->setVersion($engineVersion);
+        return Version::parse($engineVersion);
     }
 }

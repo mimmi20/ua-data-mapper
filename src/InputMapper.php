@@ -60,7 +60,7 @@ class InputMapper
      * @param string $browserVersion
      * @param string $browserName
      *
-     * @return \UaResult\Version
+     * @return \Version\Version
      */
     public function mapBrowserVersion($browserVersion, $browserName = null)
     {
@@ -123,7 +123,7 @@ class InputMapper
      * @param string $osVersion
      * @param string $osName
      *
-     * @return \UaResult\Version
+     * @return \Version\Version
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
@@ -224,7 +224,7 @@ class InputMapper
      *
      * @param string $engineVersion
      *
-     * @return \UaResult\Version
+     * @return \Version\Version
      */
     public function mapEngineVersion($engineVersion)
     {

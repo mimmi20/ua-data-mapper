@@ -30,7 +30,7 @@
 
 namespace UaDataMapper;
 
-use UaResult\Version;
+use Version\Version;
 
 /**
  * class with caching and update capabilities
@@ -49,15 +49,10 @@ class PlatformVersionMapper
      * @param string $osVersion
      * @param string $osName
      *
-     * @return \UaResult\Version
+     * @return \Version\Version
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
-        $version = new Version();
-        $version->setMode(
-            Version::COMPLETE | Version::IGNORE_MINOR_IF_EMPTY | Version::IGNORE_MICRO_IF_EMPTY
-        );
-
         switch (strtolower($osVersion)) {
             case '':
             case 'unknown':
@@ -66,7 +61,7 @@ class PlatformVersionMapper
                 break;
             case 'server 2003':
                 $osVersion = 'XP';
-                return $version->setVersion($osVersion);
+                return Version::parse($osVersion);
                 break;
             default:
                 // nothing to do here
@@ -147,6 +142,6 @@ class PlatformVersionMapper
                 break;
         }
 
-        return $version->setVersion($osVersion);
+        return Version::parse($osVersion);
     }
 }
