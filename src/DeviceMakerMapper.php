@@ -48,7 +48,7 @@ class DeviceMakerMapper
      * @param string      $deviceMaker
      * @param string|null $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceMaker($deviceMaker, $deviceName = null)
     {

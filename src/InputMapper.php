@@ -49,7 +49,7 @@ class InputMapper
      *
      * @throws \UnexpectedValueException
      *
-     * @return string
+     * @return string|null
      */
     public function mapBrowserName($browserInput)
     {
@@ -99,7 +99,7 @@ class InputMapper
      *
      * @param string $osName
      *
-     * @return string
+     * @return string|null
      */
     public function mapOsName($osName)
     {
@@ -112,7 +112,7 @@ class InputMapper
      * @param string $osMaker
      * @param string $osName
      *
-     * @return string
+     * @return string|null
      */
     public function mapOsMaker($osMaker, $osName = null)
     {
@@ -149,7 +149,7 @@ class InputMapper
      *
      * @param string $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceName($deviceName)
     {
@@ -162,7 +162,7 @@ class InputMapper
      * @param string $deviceMaker
      * @param string $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceMaker($deviceMaker, $deviceName = null)
     {
@@ -172,10 +172,10 @@ class InputMapper
     /**
      * maps the marketing name of a device
      *
-     * @param string $marketingName
-     * @param string $deviceName
+     * @param string      $marketingName
+     * @param string|null $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceMarketingName($marketingName, $deviceName = null)
     {
@@ -195,7 +195,7 @@ class InputMapper
      * @param string      $brandName
      * @param string|null $deviceName
      *
-     * @return string
+     * @return string|null
      */
     public function mapDeviceBrandName($brandName, $deviceName = null)
     {
@@ -231,5 +231,17 @@ class InputMapper
     public function mapEngineVersion($engineVersion)
     {
         return (new EngineVersionMapper())->mapEngineVersion($engineVersion);
+    }
+
+    /**
+     * maps the name of the operating system
+     *
+     * @param string $engineName
+     *
+     * @return string|null
+     */
+    public function mapEngineName($engineName)
+    {
+        return (new EngineNameMapper())->mapEngineName($engineName);
     }
 }
