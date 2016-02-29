@@ -46,5 +46,10 @@
     "psr-4": {
       "UaDataMapperTest\\": "tests/"
     }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
   }
 }

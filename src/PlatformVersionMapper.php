@@ -58,7 +58,7 @@ class PlatformVersionMapper
             case '':
             case 'unknown':
             case 'other':
-                $osVersion = null;
+                return new Version(null);
                 break;
             case 'server 2003':
                 $osVersion = 'XP';
@@ -74,7 +74,7 @@ class PlatformVersionMapper
             case '':
             case 'unknown':
             case 'other':
-                $osVersion = null;
+                return new Version(null);
                 break;
             case 'winxp':
                 $osVersion = 'XP';

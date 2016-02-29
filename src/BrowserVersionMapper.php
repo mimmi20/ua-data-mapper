@@ -57,14 +57,14 @@ class BrowserVersionMapper
         switch (strtolower($browserVersion)) {
             case 'unknown':
             case 'other':
-                $browserVersion = null;
+                return new Version(null);
                 break;
             default:
                 switch (strtolower($browserName)) {
                     case '':
                     case 'unknown':
                     case 'other':
-                        $browserVersion = null;
+                        return new Version(null);
                         break;
                     default:
                         // nothing to do here

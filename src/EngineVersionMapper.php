@@ -57,7 +57,7 @@ class EngineVersionMapper
             case '':
             case 'unknown':
             case 'other':
-                $engineVersion = null;
+                return new Version(null);
                 break;
             default:
                 // nothing to do here
