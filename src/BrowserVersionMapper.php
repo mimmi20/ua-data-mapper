@@ -55,6 +55,7 @@ class BrowserVersionMapper
     public function mapBrowserVersion($browserVersion, $browserName = null)
     {
         switch (strtolower($browserVersion)) {
+            case '':
             case 'unknown':
             case 'other':
                 return new Version(null);
