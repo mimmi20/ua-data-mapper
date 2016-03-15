@@ -61,9 +61,7 @@ class PlatformVersionMapper
                 return new Version(null);
                 break;
             case 'server 2003':
-                $osVersion = 'XP';
-
-                return Version::parse($osVersion);
+                return new Version('XP');
                 break;
             default:
                 // nothing to do here
@@ -77,7 +75,7 @@ class PlatformVersionMapper
                 return new Version(null);
                 break;
             case 'winxp':
-                $osVersion = 'XP';
+                return new Version('XP');
                 break;
             case 'win7':
             case 'winphone7':
@@ -110,7 +108,7 @@ class PlatformVersionMapper
                 $osVersion = '10';
                 break;
             case 'winvista':
-                $osVersion = 'Vista';
+                return new Version('Vista');
                 break;
             case 'win2000':
                 $osVersion = '2000';
@@ -140,7 +138,7 @@ class PlatformVersionMapper
                 $osVersion = '10.9';
                 break;
             default:
-                // nothing to do here
+                return new Version($osVersion);
                 break;
         }
 
