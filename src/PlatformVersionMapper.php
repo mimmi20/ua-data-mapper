@@ -58,7 +58,7 @@ class PlatformVersionMapper
             case '':
             case 'unknown':
             case 'other':
-                return new Version(null);
+                return new Version(0);
                 break;
             case 'server 2003':
                 return new Version('XP');
@@ -72,7 +72,7 @@ class PlatformVersionMapper
             case '':
             case 'unknown':
             case 'other':
-                return new Version(null);
+                return new Version(0);
                 break;
             case 'winxp':
                 return new Version('XP');
