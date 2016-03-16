@@ -61,7 +61,19 @@ class PlatformVersionMapper
                 return new Version(0);
                 break;
             case 'server 2003':
+                return new Version(2003);
+                break;
+            case 'nt 5.1':
                 return new Version('XP');
+                break;
+            case 'nt 6.1':
+                return new Version(7);
+                break;
+            case 'nt 6.2':
+                return new Version(8);
+                break;
+            case 'nt 6.3':
+                return new Version(8, 1);
                 break;
             default:
                 // nothing to do here
@@ -75,73 +87,78 @@ class PlatformVersionMapper
                 return new Version(0);
                 break;
             case 'winxp':
+            case 'nt 5.1':
                 return new Version('XP');
                 break;
             case 'win7':
             case 'winphone7':
             case 'windows phone 7':
             case 'nt 6.1':
-                $osVersion = '7';
+            return new Version(7);
                 break;
             case 'winphone7.5':
             case 'windows phone 7.5':
-                $osVersion = '7.5';
+            return new Version(7, 5);
                 break;
             case 'win8':
             case 'winrt8':
             case 'winphone8':
             case 'windows phone 8':
             case 'nt 6.2':
-                $osVersion = '8';
+            return new Version(8);
                 break;
             case 'win8.1':
             case 'winrt8.1':
             case 'winphone8.1':
             case 'windows phone 8.1':
             case 'nt 6.3':
-                $osVersion = '8.1';
+            return new Version(8, 1);
                 break;
             case 'win9':
-                $osVersion = '9';
+                return new Version(9);
                 break;
             case 'win10':
-                $osVersion = '10';
+                return new Version(10);
                 break;
             case 'winvista':
                 return new Version('Vista');
                 break;
             case 'win2000':
-                $osVersion = '2000';
+                return new Version(2000);
                 break;
             case 'win2003':
-                $osVersion = '2003';
+                return new Version(2003);
                 break;
             case 'win98':
-                $osVersion = '98';
+                return new Version(98);
                 break;
             case 'win95':
-                $osVersion = '95';
+                return new Version(95);
                 break;
             case 'winnt':
-                $osVersion = 'NT';
+                return new Version('NT');
                 break;
             case 'winme':
-                $osVersion = 'ME';
+                return new Version('ME');
                 break;
             case 'win31':
-                $osVersion = '3.1';
+                return new Version(3, 1);
                 break;
             case 'yosemite 10.10':
-                $osVersion = '10.10';
+                return new Version(10, 10);
                 break;
             case 'mavericks 10.9':
-                $osVersion = '10.9';
+                return new Version(10, 9);
                 break;
             default:
-                return new Version($osVersion);
+                // nothing to do here
                 break;
         }
 
-        return Version::parse($osVersion);
+        if (is_numeric(substr($osVersion, 0, 1))) {
+            return Version::parse($osVersion);
+        } else {
+            return new Version($osVersion);
+        }
     }
 }
