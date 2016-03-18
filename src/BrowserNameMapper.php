@@ -75,6 +75,7 @@ class BrowserNameMapper
                 $browserName = null;
                 break;
             case 'ie':
+            case 'msie':
                 $browserName = 'Internet Explorer';
                 break;
             case 'iceweasel':
