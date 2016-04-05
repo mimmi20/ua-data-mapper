@@ -31,7 +31,8 @@
 
 namespace UaDataMapper;
 
-use Version\Version;
+use BrowserDetector\Version\Version;
+use BrowserDetector\Version\VersionFactory;
 
 /**
  * class with caching and update capabilities
@@ -50,7 +51,7 @@ class BrowserVersionMapper
      * @param string      $browserVersion
      * @param string|null $browserName
      *
-     * @return \Version\Version
+     * @return \BrowserDetector\Version\Version
      */
     public function mapBrowserVersion($browserVersion, $browserName = null)
     {
@@ -74,6 +75,6 @@ class BrowserVersionMapper
                 break;
         }
 
-        return Version::parse($browserVersion);
+        return VersionFactory::set($browserVersion);
     }
 }

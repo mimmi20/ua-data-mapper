@@ -31,7 +31,8 @@
 
 namespace UaDataMapper;
 
-use Version\Version;
+use BrowserDetector\Version\Version;
+use BrowserDetector\Version\VersionFactory;
 
 /**
  * class with caching and update capabilities
@@ -50,7 +51,7 @@ class PlatformVersionMapper
      * @param string $osVersion
      * @param string $osName
      *
-     * @return \Version\Version
+     * @return \BrowserDetector\Version\Version
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
@@ -64,7 +65,7 @@ class PlatformVersionMapper
                 return new Version(2003);
                 break;
             case 'nt 5.1':
-                return new Version('XP');
+                return ('XP');
                 break;
             case 'nt 6.1':
                 return new Version(7);
@@ -88,7 +89,7 @@ class PlatformVersionMapper
                 break;
             case 'winxp':
             case 'nt 5.1':
-                return new Version('XP');
+                return VersionFactory::set('XP');
                 break;
             case 'win7':
             case 'winphone7':
@@ -121,7 +122,7 @@ class PlatformVersionMapper
                 return new Version(10);
                 break;
             case 'winvista':
-                return new Version('Vista');
+                return VersionFactory::set('Vista');
                 break;
             case 'win2000':
                 return new Version(2000);
@@ -136,10 +137,10 @@ class PlatformVersionMapper
                 return new Version(95);
                 break;
             case 'winnt':
-                return new Version('NT');
+                return VersionFactory::set('NT');
                 break;
             case 'winme':
-                return new Version('ME');
+                return VersionFactory::set('ME');
                 break;
             case 'win31':
                 return new Version(3, 1);
@@ -155,10 +156,6 @@ class PlatformVersionMapper
                 break;
         }
 
-        if (is_numeric(substr($osVersion, 0, 1))) {
-            return Version::parse($osVersion);
-        } else {
-            return new Version($osVersion);
-        }
+        return VersionFactory::set($osVersion);
     }
 }
