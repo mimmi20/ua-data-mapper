@@ -95,25 +95,25 @@ class PlatformVersionMapper
             case 'winphone7':
             case 'windows phone 7':
             case 'nt 6.1':
-            return new Version(7);
+                return new Version(7);
                 break;
             case 'winphone7.5':
             case 'windows phone 7.5':
-            return new Version(7, 5);
+                return new Version(7, 5);
                 break;
             case 'win8':
             case 'winrt8':
             case 'winphone8':
             case 'windows phone 8':
             case 'nt 6.2':
-            return new Version(8);
+                return new Version(8);
                 break;
             case 'win8.1':
             case 'winrt8.1':
             case 'winphone8.1':
             case 'windows phone 8.1':
             case 'nt 6.3':
-            return new Version(8, 1);
+                return new Version(8, 1);
                 break;
             case 'win9':
                 return new Version(9);
