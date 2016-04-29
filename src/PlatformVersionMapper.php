@@ -145,6 +145,9 @@ class PlatformVersionMapper
             case 'win31':
                 return new Version(3, 1);
                 break;
+            case 'win32':
+                return new Version(0);
+                break;
             case 'yosemite 10.10':
                 return new Version(10, 10);
                 break;

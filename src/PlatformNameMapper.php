@@ -69,6 +69,7 @@ class PlatformNameMapper
             case 'win98':
             case 'win95':
             case 'win31':
+            case 'win32':
             case 'winnt':
             case 'winme':
             case 'windows xp':
