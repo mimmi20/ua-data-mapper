@@ -123,6 +123,9 @@ class DeviceBrandnameMapper
             case 'ms':
                 $brandName = 'Microsoft';
                 break;
+            case 'mi':
+                $brandName = 'Micromax';
+                break;
             default:
                 break;
         }

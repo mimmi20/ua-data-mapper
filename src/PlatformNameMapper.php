@@ -72,11 +72,14 @@ class PlatformNameMapper
             case 'win32':
             case 'winnt':
             case 'winme':
+            case 'windows 98':
+            case 'windows 2000':
             case 'windows xp':
             case 'windows vista':
             case 'windows 7':
             case 'windows 8':
             case 'windows 8.1':
+            case 'windows 10':
             case 'windows server':
                 $osName = 'Windows';
                 break;

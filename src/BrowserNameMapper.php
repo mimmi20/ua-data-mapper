@@ -54,7 +54,7 @@ class BrowserNameMapper
     public function mapBrowserName($browserInput)
     {
         if (null === $browserInput) {
-            return;
+            return null;
         }
 
         if (!is_string($browserInput)) {
@@ -72,6 +72,7 @@ class BrowserNameMapper
             case 'generic':
             case 'misc crawler':
             case 'generic bot':
+            case 'http library':
                 $browserName = null;
                 break;
             case 'ie':
@@ -157,6 +158,10 @@ class BrowserNameMapper
                 break;
             case 'microsoft outlook':
                 $browserName = 'Outlook';
+                break;
+            case 'outlook express':
+            case 'microsoft outlook express':
+                $browserName = 'Windows Live Mail';
                 break;
             case 'microsoft office':
                 $browserName = 'Office';
@@ -256,6 +261,13 @@ class BrowserNameMapper
             case 'mediapartners-google':
             case 'google mediapartners':
                 $browserName = 'AdSense Bot';
+                break;
+            case 'wordpress.com':
+                $browserName = 'WordPress';
+                break;
+            case 'up.browser':
+            case 'au by kddi':
+                $browserName = 'Openwave Mobile Browser';
                 break;
             default:
                 // nothing to do here

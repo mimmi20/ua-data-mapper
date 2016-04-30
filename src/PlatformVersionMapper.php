@@ -88,12 +88,19 @@ class PlatformVersionMapper
                 return new Version(0);
                 break;
             case 'winxp':
+            case 'windows xp':
             case 'nt 5.1':
                 return VersionFactory::set('XP');
+                break;
+            case 'winvista':
+            case 'windows vista':
+            case 'nt 6.0':
+                return VersionFactory::set('Vista');
                 break;
             case 'win7':
             case 'winphone7':
             case 'windows phone 7':
+            case 'windows 7':
             case 'nt 6.1':
                 return new Version(7);
                 break;
@@ -105,6 +112,7 @@ class PlatformVersionMapper
             case 'winrt8':
             case 'winphone8':
             case 'windows phone 8':
+            case 'windows 8':
             case 'nt 6.2':
                 return new Version(8);
                 break;
@@ -112,6 +120,7 @@ class PlatformVersionMapper
             case 'winrt8.1':
             case 'winphone8.1':
             case 'windows phone 8.1':
+            case 'windows 8.1':
             case 'nt 6.3':
                 return new Version(8, 1);
                 break;
@@ -119,18 +128,19 @@ class PlatformVersionMapper
                 return new Version(9);
                 break;
             case 'win10':
+            case 'windows 10':
                 return new Version(10);
                 break;
-            case 'winvista':
-                return VersionFactory::set('Vista');
-                break;
             case 'win2000':
+            case 'windows 2000':
+            case 'nt 5.0':
                 return new Version(2000);
                 break;
             case 'win2003':
                 return new Version(2003);
                 break;
             case 'win98':
+            case 'windows 98':
                 return new Version(98);
                 break;
             case 'win95':

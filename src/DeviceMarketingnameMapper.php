@@ -254,6 +254,9 @@ class DeviceMarketingnameMapper
             case 'iphone':
                 $marketingName = 'iPhone';
                 break;
+            case 'e610':
+                $marketingName = 'Optimus L5';
+                break;
             default:
                 // nothing to do here
                 break;
