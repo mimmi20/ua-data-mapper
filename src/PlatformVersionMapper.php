@@ -65,7 +65,7 @@ class PlatformVersionMapper
                 return new Version(2003);
                 break;
             case 'nt 5.1':
-                return ('XP');
+                return VersionFactory::set('XP');
                 break;
             case 'nt 6.1':
                 return new Version(7);
