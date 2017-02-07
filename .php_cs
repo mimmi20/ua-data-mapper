@@ -1,6 +1,6 @@
 <?php
 $header = <<<EOF
-This file is part of the ua-data-mapper package.
+This file is part of the BrowserDetector package.
 
 (c) Thomas Mueller <mimmi20@live.de>
 
@@ -15,11 +15,14 @@ $finder = Symfony\CS\Finder\DefaultFinder::create()
     ->in(__DIR__ . '/tests')
 ;
 
+ini_set('memory_limit', '-1');
+
 return Symfony\CS\Config\Config::create()
     ->level(\Symfony\CS\FixerInterface::PSR2_LEVEL)
     ->fixers(
         array(
             'align_double_arrow',
+            'double_arrow_multiline_whitespaces',
             'align_equals',
             'braces',
             'concat_with_spaces',

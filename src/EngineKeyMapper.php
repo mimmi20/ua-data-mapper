@@ -40,7 +40,7 @@ namespace UaDataMapper;
  * @copyright 2015-2017 Thomas Mueller
  * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class EngineNameMapper
+class EngineKeyMapper
 {
     /**
      * maps the name of the operating system
@@ -49,19 +49,61 @@ class EngineNameMapper
      *
      * @return string|null
      */
-    public function mapEngineName($engineName)
+    public function mapEngineKey($engineName)
     {
         switch (strtolower($engineName)) {
             case '':
             case 'unknown':
             case 'other':
-                $engineName = null;
+                return 'unknown';
+                break;
+            case 'webkit':
+                return 'webkit';
+                break;
+            case 'gecko':
+                return 'gecko';
+                break;
+            case 'trident':
+                return 'trident';
+                break;
+            case 'edge':
+                return 'edge';
+                break;
+            case 'presto':
+                return 'presto';
+                break;
+            case 'netfront':
+                return 'netfront';
+                break;
+            case 't5':
+                return 't5';
+                break;
+            case 'tasman':
+                return 'tasman';
+                break;
+            case 'khtml':
+                return 'khtml';
+                break;
+            case 'u2':
+                return 'u2';
+                break;
+            case 'u3':
+                return 'u3';
+                break;
+            case 'blink':
+                return 'blink';
+                break;
+            case 'goanna':
+                return 'goanna';
+                break;
+            case 'clecko':
+                return 'clecko';
                 break;
             default:
                 // nothing to do here
                 break;
         }
 
-        return $engineName;
+        return 'unknown';
     }
 }
