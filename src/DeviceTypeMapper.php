@@ -31,15 +31,8 @@
 
 namespace UaDataMapper;
 
-use UaDeviceType\Bot;
-use UaDeviceType\Desktop;
-use UaDeviceType\DigitalCamera;
-use UaDeviceType\FonePad;
-use UaDeviceType\MobileDevice;
-use UaDeviceType\MobilePhone;
-use UaDeviceType\Tablet;
-use UaDeviceType\Tv;
-use UaDeviceType\Unknown;
+use Psr\Cache\CacheItemPoolInterface;
+use UaDeviceType\TypeLoader;
 
 /**
  * class with caching and update capabilities
@@ -55,45 +48,47 @@ class DeviceTypeMapper
     /**
      * maps the name of a device
      *
-     * @param string $deviceType
+     * @param \Psr\Cache\CacheItemPoolInterface $cache
+     * @param string                            $deviceType
      *
      * @return \UaDeviceType\TypeInterface
      */
-    public function mapDeviceType($deviceType)
+    public function mapDeviceType(CacheItemPoolInterface $cache, $deviceType)
     {
         switch (strtolower($deviceType)) {
             case 'smart-tv':
             case 'tv device':
-                $deviceType = new Tv();
+                $typeKey = 'tv';
                 break;
             case 'desktop':
-                $deviceType = new Desktop();
+                $typeKey = 'desktop';
                 break;
             case 'fonepad':
-                $deviceType = new FonePad();
+                $typeKey = 'fone-pad';
                 break;
             case 'tablet':
-                $deviceType = new Tablet();
+                $typeKey = 'tablet';
                 break;
             case 'mobile device':
-                $deviceType = new MobileDevice();
-                break;
-            case 'robot':
-                $deviceType = new Bot();
+                $typeKey = 'mobile-device';
                 break;
             case 'mobile phone':
+                $typeKey = 'mobile-phone';
+                break;
             case 'smartphone':
+                $typeKey = 'smartphone';
+                break;
             case 'feature phone':
-                $deviceType = new MobilePhone();
+                $typeKey = 'feature-phone';
                 break;
             case 'digital camera':
-                $deviceType = new DigitalCamera();
+                $typeKey = 'digital-camera';
                 break;
             default:
-                $deviceType = new Unknown();
+                $typeKey = 'unknown';
                 break;
         }
 
-        return $deviceType;
+        return (new TypeLoader($cache))->load($typeKey);
     }
 }
