@@ -31,8 +31,8 @@
 
 namespace UaDataMapper;
 
-use UaDeviceType\TypeLoader;
 use Psr\Cache\CacheItemPoolInterface;
+use UaDeviceType\TypeLoader;
 
 /**
  * class with caching and update capabilities
