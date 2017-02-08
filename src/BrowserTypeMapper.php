@@ -31,17 +31,8 @@
 
 namespace UaDataMapper;
 
-use UaBrowserType\Application;
-use UaBrowserType\Bot;
-use UaBrowserType\Browser;
-use UaBrowserType\EmailClient;
-use UaBrowserType\FeedReader;
-use UaBrowserType\MultimediaPlayer;
-use UaBrowserType\OfflineBrowser;
-use UaBrowserType\Tool;
-use UaBrowserType\Unknown;
-use UaBrowserType\UseragentAnonymizer;
-use UaBrowserType\WapBrowser;
+use Psr\Cache\CacheItemPoolInterface;
+use UaBrowserType\TypeLoader;
 
 /**
  * class with caching and update capabilities
@@ -57,61 +48,64 @@ class BrowserTypeMapper
     /**
      * maps the browser type
      *
-     * @param string $browserType
+     * @param \Psr\Cache\CacheItemPoolInterface $cache
+     * @param string                            $browserType
      *
      * @return \UaBrowserType\TypeInterface
      */
-    public function mapBrowserType($browserType)
+    public function mapBrowserType(CacheItemPoolInterface $cache, $browserType)
     {
         switch (strtolower($browserType)) {
             case 'browser':
             case 'mobile browser':
-                $browserType = new Browser();
+                $typeKey = 'browser';
                 break;
             case 'bot':
             case 'robot':
             case 'bot/crawler':
             case 'library':
-                $browserType = new Bot();
+                $typeKey = 'bot';
                 break;
             case 'emailclient':
             case 'email client':
+                $typeKey = 'email-client';
+                break;
             case 'pim':
-                $browserType = new EmailClient();
+                $typeKey = 'pim';
                 break;
             case 'feedreader':
             case 'feed reader':
-                $browserType = new FeedReader();
+                $typeKey = 'feed-reader';
                 break;
             case 'multimediaplayer':
             case 'mediaplayer':
             case 'multimedia player':
-                $browserType = new MultimediaPlayer();
+                $typeKey = 'multimedia-player';
                 break;
             case 'offlinebrowser':
             case 'offline browser':
-                $browserType = new OfflineBrowser();
+                $typeKey = 'offline-browser';
                 break;
             case 'useragentanonymizer':
             case 'useragent anonymizer':
-                $browserType = new UseragentAnonymizer();
+                $typeKey = 'useragent-anonymizer';
                 break;
             case 'wapbrowser':
             case 'wap browser':
-                $browserType = new WapBrowser();
+                $typeKey = 'wap-browser';
                 break;
             case 'application':
             case 'mobile app':
-                $browserType = new Application();
+                $typeKey = 'application';
                 break;
             case 'tool':
-                $browserType = new Tool();
+                $typeKey = 'tool';
                 break;
             default:
-                $browserType = new Unknown();
+                $typeKey = 'unknown';
                 break;
         }
 
-        return $browserType;
+        return (new TypeLoader($cache))->load($typeKey);
     }
 }
