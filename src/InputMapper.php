@@ -31,6 +31,8 @@
 
 namespace UaDataMapper;
 
+use Psr\Cache\CacheItemPoolInterface;
+
 /**
  * class with caching and update capabilities
  *
@@ -72,13 +74,14 @@ class InputMapper
     /**
      * maps the browser type
      *
-     * @param string $browserType
+     * @param \Psr\Cache\CacheItemPoolInterface $cache
+     * @param string                            $browserType
      *
      * @return \UaBrowserType\TypeInterface
      */
-    public function mapBrowserType($browserType)
+    public function mapBrowserType(CacheItemPoolInterface $cache, $browserType)
     {
-        return (new BrowserTypeMapper())->mapBrowserType($browserType);
+        return (new BrowserTypeMapper())->mapBrowserType($cache, $browserType);
     }
 
     /**
@@ -135,13 +138,14 @@ class InputMapper
     /**
      * maps the name of a device
      *
-     * @param string $deviceType
+     * @param \Psr\Cache\CacheItemPoolInterface $cache
+     * @param string                            $deviceType
      *
      * @return \UaDeviceType\TypeInterface
      */
-    public function mapDeviceType($deviceType)
+    public function mapDeviceType(CacheItemPoolInterface $cache, $deviceType)
     {
-        return (new DeviceTypeMapper())->mapDeviceType($deviceType);
+        return (new DeviceTypeMapper())->mapDeviceType($cache, $deviceType);
     }
 
     /**
