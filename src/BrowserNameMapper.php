@@ -269,6 +269,13 @@ class BrowserNameMapper
             case 'au by kddi':
                 $browserName = 'Openwave Mobile Browser';
                 break;
+            case 'qqbrowser':
+                $browserName = 'QQ Browser';
+                break;
+            case 'wosbrowser':
+            case 'webkit/webos':
+                $browserName = 'webOS Browser';
+                break;
             default:
                 // nothing to do here
                 break;

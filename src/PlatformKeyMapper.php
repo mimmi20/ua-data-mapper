@@ -352,6 +352,7 @@ class PlatformKeyMapper
                 return 'openvms';
                 break;
             case 'firefoxos':
+            case 'firefox os':
                 return 'firefoxos';
                 break;
             case 'palmos':

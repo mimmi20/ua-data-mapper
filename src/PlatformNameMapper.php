@@ -81,6 +81,7 @@ class PlatformNameMapper
             case 'windows 8.1':
             case 'windows 10':
             case 'windows server':
+            case 'windows unknown ver':
                 $osName = 'Windows';
                 break;
             case 'winphone7':
