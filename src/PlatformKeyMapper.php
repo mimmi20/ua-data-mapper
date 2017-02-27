@@ -1,6 +1,14 @@
 <?php
+/**
+ * This file is part of the ua-data-mapper package.
+ *
+ * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 /**
@@ -24,7 +32,7 @@ class PlatformKeyMapper
      */
     public function mapPlatformKey($osVersion, $platform = null)
     {
-        switch (strtolower($osVersion)) {
+        switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':
             case 'other':
@@ -59,7 +67,7 @@ class PlatformKeyMapper
                 break;
         }
 
-        switch (strtolower($platform)) {
+        switch (mb_strtolower($platform)) {
             case '':
             case 'unknown':
             case 'other':
@@ -67,7 +75,7 @@ class PlatformKeyMapper
                 break;
             case 'winxp':
             case 'windows xp':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '5.1':
                         return 'windows nt 5.1';
                         break;
@@ -108,7 +116,7 @@ class PlatformKeyMapper
                 break;
             case 'win2000':
             case 'windows 2000':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '5.01':
                         return 'windows nt 5.01';
                         break;
@@ -127,7 +135,7 @@ class PlatformKeyMapper
             case 'win9':
             case 'win10':
             case 'windows 10':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '6.4':
                         return 'windows nt 6.4';
                         break;
@@ -141,7 +149,7 @@ class PlatformKeyMapper
                 return 'windows nt 10.0';
                 break;
             case 'win31':
-                if ('3.11' === strtolower($osVersion)) {
+                if ('3.11' === mb_strtolower($osVersion)) {
                     return 'windows 3.11';
                 }
 
@@ -151,7 +159,7 @@ class PlatformKeyMapper
                 return 'windows ce';
                 break;
             case 'winnt':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '3.1':
                         return 'windows nt 3.1';
                         break;

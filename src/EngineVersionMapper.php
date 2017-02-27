@@ -1,6 +1,14 @@
 <?php
+/**
+ * This file is part of the ua-data-mapper package.
+ *
+ * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 use BrowserDetector\Version\Version;
@@ -26,7 +34,7 @@ class EngineVersionMapper
      */
     public function mapEngineVersion($engineVersion)
     {
-        switch (strtolower($engineVersion)) {
+        switch (mb_strtolower($engineVersion)) {
             case '':
             case 'unknown':
             case 'other':

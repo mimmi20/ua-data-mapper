@@ -1,6 +1,14 @@
 <?php
+/**
+ * This file is part of the ua-data-mapper package.
+ *
+ * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 use BrowserDetector\Version\Version;
@@ -27,7 +35,7 @@ class PlatformVersionMapper
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
-        switch (strtolower($osVersion)) {
+        switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':
             case 'other':
@@ -53,7 +61,7 @@ class PlatformVersionMapper
                 break;
         }
 
-        switch (strtolower($osName)) {
+        switch (mb_strtolower($osName)) {
             case '':
             case 'unknown':
             case 'other':

@@ -1,6 +1,14 @@
 <?php
+/**
+ * This file is part of the ua-data-mapper package.
+ *
+ * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 /**
@@ -26,7 +34,7 @@ class BrowserNameMapper
     public function mapBrowserName($browserInput)
     {
         if (null === $browserInput) {
-            return null;
+            return;
         }
 
         if (!is_string($browserInput)) {
@@ -37,7 +45,7 @@ class BrowserNameMapper
 
         $browserName = $browserInput;
 
-        switch (strtolower($browserInput)) {
+        switch (mb_strtolower($browserInput)) {
             case 'unknown':
             case 'other':
             case 'default browser':

@@ -1,6 +1,14 @@
 <?php
+/**
+ * This file is part of the ua-data-mapper package.
+ *
+ * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 /**
@@ -23,7 +31,7 @@ class DeviceMarketingnameMapper
      */
     public function mapDeviceMarketingName($marketingName)
     {
-        switch (strtolower($marketingName)) {
+        switch (mb_strtolower($marketingName)) {
             case '':
             case 'unknown':
             case 'other':
@@ -151,7 +159,7 @@ class DeviceMarketingnameMapper
     {
         $marketingName = null;
 
-        switch (strtolower($deviceName)) {
+        switch (mb_strtolower($deviceName)) {
             case '':
             case 'unknown':
             case 'other':
