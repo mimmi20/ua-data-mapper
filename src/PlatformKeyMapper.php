@@ -1,34 +1,14 @@
 <?php
 /**
+ * This file is part of the ua-data-mapper package.
+ *
  * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
  *
- * Permission is hereby granted, free of charge, to any person obtaining a
- * copy of this software and associated documentation files (the "Software"),
- * to deal in the Software without restriction, including without limitation
- * the rights to use, copy, modify, merge, publish, distribute, sublicense,
- * and/or sell copies of the Software, and to permit persons to whom the
- * Software is furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included
- * in all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @category  ua-data-mapper
- *
- * @author    Thomas Mueller <mimmi20@live.de>
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
- *
- * @link      https://github.com/mimmi20/BrowserDetectorModule
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+declare(strict_types = 1);
 namespace UaDataMapper;
 
 /**
@@ -52,7 +32,7 @@ class PlatformKeyMapper
      */
     public function mapPlatformKey($osVersion, $platform = null)
     {
-        switch (strtolower($osVersion)) {
+        switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':
             case 'other':
@@ -87,7 +67,7 @@ class PlatformKeyMapper
                 break;
         }
 
-        switch (strtolower($platform)) {
+        switch (mb_strtolower($platform)) {
             case '':
             case 'unknown':
             case 'other':
@@ -95,7 +75,7 @@ class PlatformKeyMapper
                 break;
             case 'winxp':
             case 'windows xp':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '5.1':
                         return 'windows nt 5.1';
                         break;
@@ -136,7 +116,7 @@ class PlatformKeyMapper
                 break;
             case 'win2000':
             case 'windows 2000':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '5.01':
                         return 'windows nt 5.01';
                         break;
@@ -155,7 +135,7 @@ class PlatformKeyMapper
             case 'win9':
             case 'win10':
             case 'windows 10':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '6.4':
                         return 'windows nt 6.4';
                         break;
@@ -169,7 +149,7 @@ class PlatformKeyMapper
                 return 'windows nt 10.0';
                 break;
             case 'win31':
-                if ('3.11' === strtolower($osVersion)) {
+                if ('3.11' === mb_strtolower($osVersion)) {
                     return 'windows 3.11';
                 }
 
@@ -179,7 +159,7 @@ class PlatformKeyMapper
                 return 'windows ce';
                 break;
             case 'winnt':
-                switch (strtolower($osVersion)) {
+                switch (mb_strtolower($osVersion)) {
                     case '3.1':
                         return 'windows nt 3.1';
                         break;
@@ -352,6 +332,7 @@ class PlatformKeyMapper
                 return 'openvms';
                 break;
             case 'firefoxos':
+            case 'firefox os':
                 return 'firefoxos';
                 break;
             case 'palmos':
