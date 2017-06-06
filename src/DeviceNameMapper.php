@@ -31,6 +31,10 @@ class DeviceNameMapper
      */
     public function mapDeviceName($deviceName)
     {
+        if (null === $deviceName) {
+            return;
+        }
+
         switch (mb_strtolower($deviceName)) {
             case '':
             case 'pc':

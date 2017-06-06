@@ -32,6 +32,10 @@ class BrowserMakerMapper
      */
     public function mapBrowserMaker($browserMaker, $browserName = null)
     {
+        if (null === $browserName) {
+            return;
+        }
+
         switch (mb_strtolower($browserName)) {
             case 'unknown':
             case 'other':

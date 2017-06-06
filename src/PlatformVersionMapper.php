@@ -35,6 +35,10 @@ class PlatformVersionMapper
      */
     public function mapOsVersion($osVersion, $osName = null)
     {
+        if (null === $osVersion) {
+            return new Version(0);
+        }
+
         switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':

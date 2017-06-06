@@ -31,6 +31,10 @@ class EngineNameMapper
      */
     public function mapEngineName($engineName)
     {
+        if (null === $engineName) {
+            return;
+        }
+
         switch (mb_strtolower($engineName)) {
             case '':
             case 'unknown':

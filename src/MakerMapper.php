@@ -31,6 +31,10 @@ class MakerMapper
      */
     public function mapMaker($maker)
     {
+        if (null === $maker) {
+            return;
+        }
+
         switch (mb_strtolower(trim($maker))) {
             case '':
             case 'unknown':

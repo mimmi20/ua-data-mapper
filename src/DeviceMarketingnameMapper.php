@@ -31,6 +31,10 @@ class DeviceMarketingnameMapper
      */
     public function mapDeviceMarketingName($marketingName)
     {
+        if (null === $marketingName) {
+            return;
+        }
+
         switch (mb_strtolower($marketingName)) {
             case '':
             case 'unknown':

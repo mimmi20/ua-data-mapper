@@ -32,6 +32,10 @@ class PlatformKeyMapper
      */
     public function mapPlatformKey($osVersion, $platform = null)
     {
+        if (null === $osVersion) {
+            return 'unknown';
+        }
+
         switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':

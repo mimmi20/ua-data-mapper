@@ -31,6 +31,10 @@ class DeviceBrandnameMapper
      */
     public function mapDeviceBrandName($brandName)
     {
+        if (null === $brandName) {
+            return;
+        }
+
         switch (mb_strtolower($brandName)) {
             case '':
             case 'unknown':
