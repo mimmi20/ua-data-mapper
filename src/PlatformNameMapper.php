@@ -31,6 +31,10 @@ class PlatformNameMapper
      */
     public function mapOsName($osName)
     {
+        if (null === $osName) {
+            return;
+        }
+
         switch (mb_strtolower($osName)) {
             case '':
             case 'unknown':

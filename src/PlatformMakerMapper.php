@@ -32,6 +32,10 @@ class PlatformMakerMapper
      */
     public function mapOsMaker($osMaker, $osName = null)
     {
+        if (null === $osName) {
+            return;
+        }
+
         switch (mb_strtolower($osName)) {
             case '':
             case 'unknown':

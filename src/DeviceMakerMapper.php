@@ -32,6 +32,10 @@ class DeviceMakerMapper
      */
     public function mapDeviceMaker($deviceMaker, $deviceName = null)
     {
+        if (null === $deviceName) {
+            return;
+        }
+
         switch (mb_strtolower($deviceName)) {
             case '':
             case 'unknown':

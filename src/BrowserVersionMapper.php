@@ -35,6 +35,10 @@ class BrowserVersionMapper
      */
     public function mapBrowserVersion($browserVersion, $browserName = null)
     {
+        if (null === $browserVersion) {
+            return new Version(0);
+        }
+
         switch (mb_strtolower($browserVersion)) {
             case '':
             case 'unknown':

@@ -34,6 +34,10 @@ class EngineVersionMapper
      */
     public function mapEngineVersion($engineVersion)
     {
+        if (null === $engineVersion) {
+            return new Version(0);
+        }
+
         switch (mb_strtolower($engineVersion)) {
             case '':
             case 'unknown':
