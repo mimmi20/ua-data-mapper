@@ -46,6 +46,10 @@ class BrowserVersionMapper
                 return new Version(0);
                 break;
             default:
+                if (null === $browserName) {
+                    return new Version(0);
+                }
+
                 switch (mb_strtolower($browserName)) {
                     case '':
                     case 'unknown':

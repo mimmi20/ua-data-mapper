@@ -35,6 +35,10 @@ class DeviceTypeMapper
      */
     public function mapDeviceType(CacheItemPoolInterface $cache, $deviceType)
     {
+        if (null === $deviceType) {
+            return (new TypeLoader($cache))->load('unknown');
+        }
+
         switch (mb_strtolower($deviceType)) {
             case 'smart-tv':
             case 'tv device':

@@ -65,6 +65,10 @@ class PlatformVersionMapper
                 break;
         }
 
+        if (null === $osName) {
+            return new Version(0);
+        }
+
         switch (mb_strtolower($osName)) {
             case '':
             case 'unknown':
