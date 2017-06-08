@@ -35,6 +35,10 @@ class BrowserTypeMapper
      */
     public function mapBrowserType(CacheItemPoolInterface $cache, $browserType)
     {
+        if (null === $browserType) {
+            return (new TypeLoader($cache))->load('unknown');
+        }
+
         switch (mb_strtolower($browserType)) {
             case 'browser':
             case 'mobile browser':

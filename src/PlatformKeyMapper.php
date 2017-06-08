@@ -71,6 +71,10 @@ class PlatformKeyMapper
                 break;
         }
 
+        if (null === $platform) {
+            return 'unknown';
+        }
+
         switch (mb_strtolower($platform)) {
             case '':
             case 'unknown':
@@ -79,6 +83,10 @@ class PlatformKeyMapper
                 break;
             case 'winxp':
             case 'windows xp':
+                if (null === $osVersion) {
+                    return 'windows nt 5.1';
+                }
+
                 switch (mb_strtolower($osVersion)) {
                     case '5.1':
                         return 'windows nt 5.1';
@@ -120,6 +128,10 @@ class PlatformKeyMapper
                 break;
             case 'win2000':
             case 'windows 2000':
+                if (null === $osVersion) {
+                    return 'windows nt 5.0';
+                }
+
                 switch (mb_strtolower($osVersion)) {
                     case '5.01':
                         return 'windows nt 5.01';
@@ -139,6 +151,10 @@ class PlatformKeyMapper
             case 'win9':
             case 'win10':
             case 'windows 10':
+                if (null === $osVersion) {
+                    return 'windows nt 10.0';
+                }
+
                 switch (mb_strtolower($osVersion)) {
                     case '6.4':
                         return 'windows nt 6.4';
@@ -153,6 +169,10 @@ class PlatformKeyMapper
                 return 'windows nt 10.0';
                 break;
             case 'win31':
+                if (null === $osVersion) {
+                    return 'windows 3.1';
+                }
+
                 if ('3.11' === mb_strtolower($osVersion)) {
                     return 'windows 3.11';
                 }
@@ -163,6 +183,10 @@ class PlatformKeyMapper
                 return 'windows ce';
                 break;
             case 'winnt':
+                if (null === $osVersion) {
+                    return 'windows nt';
+                }
+
                 switch (mb_strtolower($osVersion)) {
                     case '3.1':
                         return 'windows nt 3.1';

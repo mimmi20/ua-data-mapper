@@ -161,6 +161,10 @@ class DeviceMarketingnameMapper
      */
     public function mapDeviceName($deviceName)
     {
+        if (null === $deviceName) {
+            return;
+        }
+
         $marketingName = null;
 
         switch (mb_strtolower($deviceName)) {
