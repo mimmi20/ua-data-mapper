@@ -2,7 +2,7 @@
 /**
  * This file is part of the ua-data-mapper package.
  *
- * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,7 +11,7 @@
 declare(strict_types = 1);
 namespace UaDataMapper;
 
-use Psr\Cache\CacheItemPoolInterface;
+use UaDeviceType\TypeInterface;
 use UaDeviceType\TypeLoader;
 
 /**
@@ -19,7 +19,6 @@ use UaDeviceType\TypeLoader;
  *
  * @category  ua-data-mapper
  *
- * @author    Thomas Mueller <mimmi20@live.de>
  * @copyright 2015-2017 Thomas Mueller
  * @license   http://www.opensource.org/licenses/MIT MIT License
  */
@@ -28,15 +27,14 @@ class DeviceTypeMapper
     /**
      * maps the name of a device
      *
-     * @param \Psr\Cache\CacheItemPoolInterface $cache
-     * @param string                            $deviceType
+     * @param string|null $deviceType
      *
      * @return \UaDeviceType\TypeInterface
      */
-    public function mapDeviceType(CacheItemPoolInterface $cache, $deviceType)
+    public function mapDeviceType(?string $deviceType): TypeInterface
     {
         if (null === $deviceType) {
-            return (new TypeLoader($cache))->load('unknown');
+            return (new TypeLoader())->load('unknown');
         }
 
         switch (mb_strtolower($deviceType)) {
@@ -73,6 +71,6 @@ class DeviceTypeMapper
                 break;
         }
 
-        return (new TypeLoader($cache))->load($typeKey);
+        return (new TypeLoader())->load($typeKey);
     }
 }
