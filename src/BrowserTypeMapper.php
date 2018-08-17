@@ -2,7 +2,7 @@
 /**
  * This file is part of the ua-data-mapper package.
  *
- * Copyright (c) 2015-2017, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,7 +11,7 @@
 declare(strict_types = 1);
 namespace UaDataMapper;
 
-use Psr\Cache\CacheItemPoolInterface;
+use UaBrowserType\TypeInterface;
 use UaBrowserType\TypeLoader;
 
 /**
@@ -19,7 +19,6 @@ use UaBrowserType\TypeLoader;
  *
  * @category  ua-data-mapper
  *
- * @author    Thomas Mueller <mimmi20@live.de>
  * @copyright 2015-2017 Thomas Mueller
  * @license   http://www.opensource.org/licenses/MIT MIT License
  */
@@ -28,15 +27,14 @@ class BrowserTypeMapper
     /**
      * maps the browser type
      *
-     * @param \Psr\Cache\CacheItemPoolInterface $cache
-     * @param string                            $browserType
+     * @param string|null $browserType
      *
      * @return \UaBrowserType\TypeInterface
      */
-    public function mapBrowserType(CacheItemPoolInterface $cache, $browserType)
+    public function mapBrowserType(?string $browserType): TypeInterface
     {
         if (null === $browserType) {
-            return (new TypeLoader($cache))->load('unknown');
+            return (new TypeLoader())->load('unknown');
         }
 
         switch (mb_strtolower($browserType)) {
@@ -90,6 +88,6 @@ class BrowserTypeMapper
                 break;
         }
 
-        return (new TypeLoader($cache))->load($typeKey);
+        return (new TypeLoader())->load($typeKey);
     }
 }

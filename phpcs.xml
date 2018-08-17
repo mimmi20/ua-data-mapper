@@ -18,6 +18,4 @@
     <!-- Paths to check -->
     <file>src</file>
     <file>tests</file>
-
-    <exclude-pattern>*/temp/*</exclude-pattern>
 </ruleset>
