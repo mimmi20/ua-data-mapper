@@ -212,6 +212,7 @@ class DeviceMarketingnameMapper
             case 'mozilla firefox for android':
             case 'firefox for android tablet':
             case 'firefox for android':
+            case 'desktop':
                 $marketingName = null;
                 break;
             // Acer

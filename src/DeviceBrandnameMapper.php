@@ -83,6 +83,8 @@ class DeviceBrandnameMapper
                 $brandName = 'Nintendo';
                 break;
             case 'ap':
+            case 'apple':
+            case 'apple inc':
                 $brandName = 'Apple';
                 break;
             case 'al':

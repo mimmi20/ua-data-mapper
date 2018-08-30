@@ -39,6 +39,7 @@ class DeviceNameMapper
             case 'pc':
             case 'unknown':
             case 'other':
+            case 'desktop':
                 $deviceName = null;
                 break;
             case 'android':
