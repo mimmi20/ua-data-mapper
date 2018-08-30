@@ -188,6 +188,7 @@ class DeviceBrandnameMapper
             // Apple
             case 'ipad':
             case 'iphone':
+            case 'apple inc':
                 $brandName = 'Apple';
                 break;
             default:

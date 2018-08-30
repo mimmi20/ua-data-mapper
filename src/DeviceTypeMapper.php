@@ -43,6 +43,7 @@ class DeviceTypeMapper
                 $typeKey = 'tv';
                 break;
             case 'desktop':
+            case 'pc':
                 $typeKey = 'desktop';
                 break;
             case 'fonepad':
@@ -52,6 +53,7 @@ class DeviceTypeMapper
                 $typeKey = 'tablet';
                 break;
             case 'mobile device':
+            case 'mobile':
                 $typeKey = 'mobile-device';
                 break;
             case 'mobile phone':

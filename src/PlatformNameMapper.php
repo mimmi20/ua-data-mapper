@@ -92,7 +92,8 @@ class PlatformNameMapper
             case 'macosx':
             case 'os x':
             case 'mac osx':
-                $osName = 'Mac OS X';
+            case 'macos':
+                $osName = 'macOS';
                 break;
             case 'jvm':
             case 'java':
@@ -114,6 +115,9 @@ class PlatformNameMapper
                 break;
             case 'mint':
                 $osName = 'Linux Mint';
+                break;
+            case 'iphone':
+                $osName = 'iOS';
                 break;
             default:
                 // nothing to do here

@@ -58,6 +58,9 @@ class BrowserNameMapper
             case 'msie':
                 $browserName = 'Internet Explorer';
                 break;
+            case 'microsoftedge':
+                $browserName = 'Edge';
+                break;
             case 'iceweasel':
                 $browserName = 'Iceweasel';
                 break;
@@ -65,8 +68,8 @@ class BrowserNameMapper
                 $browserName = 'Safari';
                 break;
             case 'chrome mobile':
-            case 'chrome mobile ios':
             case 'chrome frame':
+            case 'google chrome':
                 $browserName = 'Chrome';
                 break;
             case 'android':
@@ -109,6 +112,9 @@ class BrowserNameMapper
             case 'mobile firefox tablet':
             case 'mobile firefox':
                 $browserName = 'Firefox';
+                break;
+            case 'firefox ios':
+                $browserName = 'Firefox for iOS';
                 break;
             case 'dolfin/jasmine webkit':
             case 'dolphin':
