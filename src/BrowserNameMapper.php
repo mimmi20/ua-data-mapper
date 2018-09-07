@@ -52,6 +52,8 @@ class BrowserNameMapper
             case 'misc crawler':
             case 'generic bot':
             case 'http library':
+            case 'na':
+            case 'n\a':
                 $browserName = null;
                 break;
             case 'ie':
