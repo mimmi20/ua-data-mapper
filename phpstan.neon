@@ -1,21 +1,141 @@
 parameters:
-  autoload_files:
+  level: max
+
+  phpVersion: 80300 # PHP 8.3
+
+  parallel:
+    maximumNumberOfProcesses: 1
+    processTimeout: 200.0
+
+  paths:
+    - src
+    - tests
+
+  scanFiles:
+    - %currentWorkingDirectory%/vendor/autoload.php
     - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/autoload.php
     - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/src/Util/Tokens.php
-  includes:
-      - vendor/phpstan/phpstan-strict-rules/rules.neon
-      - vendor/phpstan/phpstan-phpunit/extension.neon
-      - vendor/phpstan/phpstan-phpunit/rules.neon
-      - vendor/pepakriz/phpstan-exception-rules/extension.neon
-      - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-      - vendor/phpstan/phpstan-beberlei-assert/extension.neon
-  parameters:
-      exceptionRules:
-          reportUnusedCatchesOfUncheckedExceptions: false
-          uncheckedExceptions: []
-  excludes_analyse:
-    - */tests/*/data/*
-  ignoreErrors:
-    - '~expects string,~'
-#    - '~is not subtype of Throwable~'
-#    - '~of function array_multisort is passed by reference, so it expects variables only~'
+
+  # enable stricter analysis of benevolent union types
+  checkBenevolentUnionTypes: true
+
+  # reports use of dynamic properties as undefined
+  checkDynamicProperties: true
+
+  # reports code paths with missing return statement in functions and methods with @return mixed PHPDoc
+  checkExplicitMixedMissingReturn: true
+
+  # reports function and method calls with incorrect name case
+  checkFunctionNameCase: true
+
+  # be strict about values with an unspecified (implicit mixed) type
+  checkImplicitMixed: false # todo: fix
+
+  # reports references to built-in classes with incorrect name case
+  checkInternalClassCaseSensitivity: true
+
+  # require that callable signatures are specified
+
+  # reports return typehints that could be narrowed down because some of the listed types are never returned
+  checkTooWideReturnTypesInProtectedAndPublicMethods: true
+
+  # reports properties with native types that weren’t initialized in the class constructor
+  checkUninitializedProperties: true
+
+  # reports missing #[\Override] attribute
+  checkMissingOverrideMethodAttribute: true
+
+  # doesn’t require typehints for properties if the types can be inferred from constructor injection
+  inferPrivatePropertyTypeFromConstructor: false
+
+  # prevents reading key and value variables set in foreach when iterating over a non-empty array
+  polluteScopeWithAlwaysIterableForeach: false
+
+  # prevents reading variables set in for loop initial statement and while loop condition after the loop
+  polluteScopeWithLoopInitialAssignments: false
+
+  # report always true last condition in a series of elseif branches and match expression arms
+  reportAlwaysTrueInLastCondition: true
+
+  # reports violations of parameter type contravariance and return type covariance
+  reportMaybesInMethodSignatures: false # todo: fix
+
+  # reports violations of property type invariance
+  reportMaybesInPropertyPhpDocTypes: false # todo: fix
+
+  # reports violations of parameter type contravariance and return type covariance in static methods
+  reportStaticMethodSignatures: true
+
+  #
+  reportWrongPhpDocTypeInVarTag: true
+
+  # differentiate between PHPDoc and native types (if false)
+  treatPhpDocTypesAsCertain: false
+
+  tipsOfTheDay: false
+
+  exceptions:
+    implicitThrows: false
+    checkedExceptionRegexes:
+      - '#Exception#'
+      - '#Throwable#'
+    check:
+      missingCheckedExceptionInThrows: true
+      tooWideThrowType: true
+
+  cognitive_complexity:
+    class: 5
+    function: 5
+
+  type_coverage:
+    return_type: 100
+    param_type: 92.8
+    property_type: 100
+    constant_type: 100
+    # also, how many files has declare strict types
+    declare: 100
+
+  unused_public:
+    methods: true
+    properties: true
+    constants: true
+    local_methods: true
+
+  type_perfect:
+    null_over_false: true
+    no_mixed: true
+    narrow_param: true
+
+#  ignoreErrors:
+#    - '~will always evaluate to true~'
+#    - '~so it can be removed from the return type~'
+
+rules:
+  # code complexity
+  - Symplify\PHPStanRules\Rules\NoDynamicNameRule
+
+  - Symplify\PHPStanRules\Rules\ForbiddenExtendOfNonAbstractClassRule
+
+  # domain
+  - Symplify\PHPStanRules\Rules\Domain\RequireExceptionNamespaceRule
+  - Symplify\PHPStanRules\Rules\Domain\RequireAttributeNamespaceRule
+  - Symplify\PHPStanRules\Rules\Enum\RequireUniqueEnumConstantRule
+  - Symplify\PHPStanRules\Rules\PreventParentMethodVisibilityOverrideRule
+
+  # paths
+  - Symplify\PHPStanRules\Rules\NoReferenceRule
+
+  # explicit naming
+  - Symplify\PHPStanRules\Rules\ForbiddenMultipleClassLikeInOneFileRule
+
+  - Symplify\PHPStanRules\Rules\Complexity\ForbiddenArrayMethodCallRule
+  # - Symplify\PHPStanRules\Rules\CheckRequiredInterfaceInContractNamespaceRule
+
+  # naming
+  - Symplify\PHPStanRules\Rules\RequireAttributeNameRule
+
+  # naming
+  - Symplify\PHPStanRules\Rules\Explicit\ExplicitClassPrefixSuffixRule
+  - Symplify\PHPStanRules\Rules\NoReturnSetterMethodRule
+  - Symplify\PHPStanRules\Rules\UppercaseConstantRule
+  - Symplify\PHPStanRules\Rules\ClassNameRespectsParentSuffixRule

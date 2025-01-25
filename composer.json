@@ -10,7 +10,6 @@
     "parser",
     "user-agent"
   ],
-  "homepage": "https://github.com/mimmi20/ua-data-mapper",
   "authors": [
     {
       "name": "Thomas Müller",
@@ -22,27 +21,44 @@
       "homepage": "https://github.com/mimmi20/ua-data-mapper/graphs/contributors"
     }
   ],
+  "homepage": "https://github.com/mimmi20/ua-data-mapper",
   "support": {
     "issues": "https://github.com/mimmi20/ua-data-mapper/issues",
     "source": "https://github.com/mimmi20/ua-data-mapper"
   },
   "require": {
-    "php": "^7.1",
-    "mimmi20/ua-browser-type": "~6.0.2",
-    "mimmi20/ua-device-type": "~6.0.0",
-    "mimmi20/browser-detector-version": "~5.0.1"
+    "php": "~8.3.0 || ~8.4.0 || ~8.5.0",
+    "mimmi20/ua-browser-type": "^11.0.0",
+    "mimmi20/ua-device-type": "^11.0.0",
+    "mimmi20/browser-detector-version": "^11.0.0"
   },
   "require-dev": {
-    "friendsofphp/php-cs-fixer": "^2.12",
-    "pepakriz/phpstan-exception-rules": "^0.3",
-    "phpstan/phpstan": "^0.10",
-    "phpstan/phpstan-beberlei-assert": "^0.10",
-    "phpstan/phpstan-deprecation-rules": "^0.10",
-    "phpstan/phpstan-phpunit": "^0.10",
-    "phpstan/phpstan-strict-rules": "^0.10",
-    "phpunit/phpunit": "^7.3",
-    "squizlabs/php_codesniffer": "^3.3"
+    "ext-ctype": "*",
+    "ext-dom": "*",
+    "ext-simplexml": "*",
+    "ext-tokenizer": "*",
+    "ext-xml": "*",
+    "ext-xmlwriter": "*",
+    "filp/whoops": "^2.16.0",
+    "infection/infection": "^0.29.10",
+    "mimmi20/coding-standard": "^6.0.8",
+    "nikic/php-parser": "^5.4.0",
+    "phpstan/extension-installer": "^1.4.3",
+    "phpstan/phpstan": "^2.1.2",
+    "phpstan/phpstan-deprecation-rules": "^2.0.1",
+    "phpstan/phpstan-phpunit": "^2.0.3",
+    "phpunit/phpunit": "^11.5.3",
+    "rector/rector": "^2.0.7",
+    "rector/type-perfect": "^2.0.2",
+    "shipmonk/composer-dependency-analyser": "^1.8.2",
+    "symfony/process": "^7.2.0",
+    "symplify/phpstan-rules": "^14.2.5",
+    "tomasvotruba/cognitive-complexity": "^1.0.0",
+    "tomasvotruba/type-coverage": "^2.0.2",
+    "tomasvotruba/unused-public": "^2.0.0"
   },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "UaDataMapper\\": "src/"
@@ -52,5 +68,15 @@
     "psr-4": {
       "UaDataMapperTest\\": "tests/"
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "infection/extension-installer": true,
+      "phpstan/extension-installer": true
+    },
+    "lock": false,
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }

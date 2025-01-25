@@ -1,40 +1,36 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
 
+use BrowserDetector\Version\Exception\NotNumericException;
 use BrowserDetector\Version\VersionInterface;
 use UaBrowserType\TypeInterface as BrowserTypeInterface;
 use UaDeviceType\TypeInterface as DeviceTypeInterface;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class InputMapper
+final class InputMapper
 {
     /**
      * mapps the browser
      *
-     * @param string|null $browserInput
+     * @throws void
      *
-     * @throws \UnexpectedValueException
-     *
-     * @return string|null
+     * @api
      */
-    public function mapBrowserName(?string $browserInput): ?string
+    public function mapBrowserName(string | null $browserInput): string | null
     {
         return (new BrowserNameMapper())->mapBrowserName($browserInput);
     }
@@ -42,24 +38,25 @@ class InputMapper
     /**
      * maps the browser version
      *
-     * @param string|null $browserVersion
-     * @param string|null $browserName
+     * @throws NotNumericException
      *
-     * @return \BrowserDetector\Version\VersionInterface
+     * @api
      */
-    public function mapBrowserVersion(?string $browserVersion, ?string $browserName = null): VersionInterface
-    {
+    public function mapBrowserVersion(
+        string | null $browserVersion,
+        string | null $browserName = null,
+    ): VersionInterface {
         return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion, $browserName);
     }
 
     /**
      * maps the browser type
      *
-     * @param string|null $browserType
+     * @throws void
      *
-     * @return \UaBrowserType\TypeInterface
+     * @api
      */
-    public function mapBrowserType(?string $browserType): BrowserTypeInterface
+    public function mapBrowserType(string | null $browserType): BrowserTypeInterface
     {
         return (new BrowserTypeMapper())->mapBrowserType($browserType);
     }
@@ -67,12 +64,11 @@ class InputMapper
     /**
      * maps the browser maker
      *
-     * @param string      $browserMaker
-     * @param string|null $browserName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapBrowserMaker(string $browserMaker, ?string $browserName = null): ?string
+    public function mapBrowserMaker(string $browserMaker, string | null $browserName = null): string | null
     {
         return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker, $browserName);
     }
@@ -80,11 +76,11 @@ class InputMapper
     /**
      * maps the name of the operating system
      *
-     * @param string|null $osName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapOsName(?string $osName): ?string
+    public function mapOsName(string | null $osName): string | null
     {
         return (new PlatformNameMapper())->mapOsName($osName);
     }
@@ -92,12 +88,11 @@ class InputMapper
     /**
      * maps the maker of the operating system
      *
-     * @param string      $osMaker
-     * @param string|null $osName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapOsMaker(string $osMaker, ?string $osName = null): ?string
+    public function mapOsMaker(string $osMaker, string | null $osName = null): string | null
     {
         return (new PlatformMakerMapper())->mapOsMaker($osMaker, $osName);
     }
@@ -105,12 +100,11 @@ class InputMapper
     /**
      * maps the version of the operating system
      *
-     * @param string|null $osVersion
-     * @param string|null $osName
+     * @throws NotNumericException
      *
-     * @return \BrowserDetector\Version\VersionInterface
+     * @api
      */
-    public function mapOsVersion(?string $osVersion, ?string $osName = null): VersionInterface
+    public function mapOsVersion(string | null $osVersion, string | null $osName = null): VersionInterface
     {
         return (new PlatformVersionMapper())->mapOsVersion($osVersion, $osName);
     }
@@ -118,11 +112,11 @@ class InputMapper
     /**
      * maps the name of a device
      *
-     * @param string|null $deviceType
+     * @throws void
      *
-     * @return \UaDeviceType\TypeInterface
+     * @api
      */
-    public function mapDeviceType(?string $deviceType): DeviceTypeInterface
+    public function mapDeviceType(string | null $deviceType): DeviceTypeInterface
     {
         return (new DeviceTypeMapper())->mapDeviceType($deviceType);
     }
@@ -130,11 +124,11 @@ class InputMapper
     /**
      * maps the name of a device
      *
-     * @param string|null $deviceName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapDeviceName(?string $deviceName): ?string
+    public function mapDeviceName(string | null $deviceName): string | null
     {
         return (new DeviceNameMapper())->mapDeviceName($deviceName);
     }
@@ -142,12 +136,11 @@ class InputMapper
     /**
      * maps the maker of a device
      *
-     * @param string      $deviceMaker
-     * @param string|null $deviceName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapDeviceMaker(string $deviceMaker, ?string $deviceName = null): ?string
+    public function mapDeviceMaker(string $deviceMaker, string | null $deviceName = null): string | null
     {
         return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker, $deviceName);
     }
@@ -155,17 +148,18 @@ class InputMapper
     /**
      * maps the marketing name of a device
      *
-     * @param string|null $marketingName
-     * @param string|null $deviceName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapDeviceMarketingName(?string $marketingName, ?string $deviceName = null): ?string
-    {
+    public function mapDeviceMarketingName(
+        string | null $marketingName,
+        string | null $deviceName = null,
+    ): string | null {
         $mapper = new DeviceMarketingnameMapper();
         $mname  = $mapper->mapDeviceName($deviceName);
 
-        if (null === $mname) {
+        if ($mname === null) {
             $mname = $mapper->mapDeviceMarketingName($marketingName);
         }
 
@@ -175,17 +169,16 @@ class InputMapper
     /**
      * maps the brand name of a device
      *
-     * @param string|null $brandName
-     * @param string|null $deviceName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapDeviceBrandName(?string $brandName, ?string $deviceName = null): ?string
+    public function mapDeviceBrandName(string | null $brandName, string | null $deviceName = null): string | null
     {
         $mapper    = new DeviceBrandnameMapper();
         $brandname = $mapper->mapDeviceName($deviceName);
 
-        if (null === $brandname) {
+        if ($brandname === null) {
             $brandname = $mapper->mapDeviceBrandName($brandName);
         }
 
@@ -195,11 +188,11 @@ class InputMapper
     /**
      * maps the value for the frame/iframe support
      *
-     * @param bool|string $support
+     * @throws void
      *
-     * @return string
+     * @api
      */
-    public function mapFrameSupport($support): string
+    public function mapFrameSupport(bool | string $support): string
     {
         return (new FrameSupportMapper())->mapFrameSupport($support);
     }
@@ -207,11 +200,11 @@ class InputMapper
     /**
      * maps the version of the operating system
      *
-     * @param string|null $engineVersion
+     * @throws NotNumericException
      *
-     * @return \BrowserDetector\Version\VersionInterface
+     * @api
      */
-    public function mapEngineVersion(?string $engineVersion): VersionInterface
+    public function mapEngineVersion(string | null $engineVersion): VersionInterface
     {
         return (new EngineVersionMapper())->mapEngineVersion($engineVersion);
     }
@@ -219,11 +212,11 @@ class InputMapper
     /**
      * maps the name of the operating system
      *
-     * @param string|null $engineName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapEngineName(?string $engineName): ?string
+    public function mapEngineName(string | null $engineName): string | null
     {
         return (new EngineNameMapper())->mapEngineName($engineName);
     }

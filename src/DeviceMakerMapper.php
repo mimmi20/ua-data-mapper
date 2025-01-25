@@ -1,168 +1,54 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
+
+use function mb_strtolower;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class DeviceMakerMapper
+final class DeviceMakerMapper
 {
     /**
      * maps the maker of a device
      *
-     * @param string      $deviceMaker
-     * @param string|null $deviceName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapDeviceMaker(string $deviceMaker, ?string $deviceName = null): ?string
+    public function mapDeviceMaker(string $deviceMaker, string | null $deviceName = null): string | null
     {
-        if (null === $deviceName) {
+        if ($deviceName === null) {
             return null;
         }
 
-        switch (mb_strtolower($deviceName)) {
-            case '':
-            case 'unknown':
-            case 'other':
-            case 'various':
-            case 'android 1.6':
-            case 'android 2.0':
-            case 'android 2.1':
-            case 'android 2.2':
-            case 'android 2.3':
-            case 'android 3.0':
-            case 'android 3.1':
-            case 'android 3.2':
-            case 'android 4.0':
-            case 'android 4.1':
-            case 'android 4.2':
-            case 'android 4.3':
-            case 'android 4.4':
-            case 'android 5.0':
-            case 'android 2.2 tablet':
-            case 'android 4 tablet':
-            case 'android 4.1 tablet':
-            case 'android 4.2 tablet':
-            case 'android 4.3 tablet':
-            case 'android 4.4 tablet':
-            case 'android 5.0 tablet':
-            case 'disguised as macintosh':
-            case 'mini 1':
-            case 'mini 4':
-            case 'mini 5':
-            case 'windows mobile 6.5':
-            case 'windows mobile 7':
-            case 'windows mobile 7.5':
-            case 'windows phone 7':
-            case 'windows phone 8':
-            case 'fennec tablet':
-            case 'tablet on android':
-            case 'fennec':
-            case 'opera for series 60':
-            case 'opera mini for s60':
-            case 'windows mobile (opera)':
-            case 'mobi for android':
-            case 'mozilla firefox for android':
-            case 'firefox for android tablet':
-            case 'firefox for android':
-                $deviceMaker = null;
-                break;
-            // Motorola
-            case 'motomz616':
-            case 'motoxt610':
-            case 'motxt912b':
-                $deviceMaker = 'Motorola';
-                break;
-            // LG
-            case 'lg/c550/v1.0':
-                $deviceMaker = 'LG';
-                break;
-            // Samsung
-            case 'gt s8500':
-            case 'gp-p6810':
-            case 'gt-i8350':
-            case 'gt-i9001':
-            case 'gt-i9100':
-            case 'gt-i9300':
-            case 'samsung gt-i9300/i9300xxdlih':
-            case 'gt i7500':
-            case 'gt-p5110':
-            case 'gt s5620':
-            case 'sch-i699':
-            case 'sgh-i917':
-            case 'sgh-i957':
-            case 'sgh-i900v':
-            case 'sgh i900':
-            case 'sph-930':
-                $deviceMaker = 'Samsung';
-                break;
-            // Acer
-            case 'acer e310':
-            case 'acer e320':
-                $deviceMaker = 'Acer';
-                break;
-            // HTC
-            case 'sensationxe beats z715e':
-            case 's510b':
-            case 'htc desire sv':
-                $deviceMaker = 'HTC';
-                break;
-            // Asus
-            case 'asus-padfone':
-                $deviceMaker = 'Asus';
-                break;
-            // Creative
-            case 'creative ziio7':
-                $deviceMaker = 'Creative';
-                break;
-            // HP
-            case 'touchpad':
-                $deviceMaker = 'HP';
-                break;
-            // Huawei
-            case 'u8800':
-                $deviceMaker = 'Huawei';
-                break;
-            // Amazon
-            case 'd01400':
-                $deviceMaker = 'Amazon';
-                break;
-            // Nokia
-            case 'nokia asha 201':
-            case 'nokia unrecognized ovi browser':
-                $deviceMaker = 'Nokia';
-                break;
-            // Medion
-            case 'p9514':
-            case 'lifetab p9514':
-            case 'lifetab s9512':
-                $deviceMaker = 'Medion';
-                break;
-            // Apple
-            case 'ipad':
-            case 'iphone':
-                $deviceMaker = 'Apple Inc';
-                break;
-            default:
-                $deviceMaker = (new MakerMapper())->mapMaker($deviceMaker);
-                break;
-        }
-
-        return $deviceMaker;
+        return match (mb_strtolower($deviceName)) {
+            '', 'unknown', 'other', 'various', 'android 1.6', 'android 2.0', 'android 2.1', 'android 2.2', 'android 2.3', 'android 3.0', 'android 3.1', 'android 3.2', 'android 4.0', 'android 4.1', 'android 4.2', 'android 4.3', 'android 4.4', 'android 5.0', 'android 2.2 tablet', 'android 4 tablet', 'android 4.1 tablet', 'android 4.2 tablet', 'android 4.3 tablet', 'android 4.4 tablet', 'android 5.0 tablet', 'disguised as macintosh', 'mini 1', 'mini 4', 'mini 5', 'windows mobile 6.5', 'windows mobile 7', 'windows mobile 7.5', 'windows phone 7', 'windows phone 8', 'fennec tablet', 'tablet on android', 'fennec', 'opera for series 60', 'opera mini for s60', 'windows mobile (opera)', 'mobi for android', 'mozilla firefox for android', 'firefox for android tablet', 'firefox for android' => null,
+            'motomz616', 'motoxt610', 'motxt912b' => 'Motorola',
+            'lg/c550/v1.0' => 'LG',
+            'gt s8500', 'gp-p6810', 'gt-i8350', 'gt-i9001', 'gt-i9100', 'gt-i9300', 'samsung gt-i9300/i9300xxdlih', 'gt i7500', 'gt-p5110', 'gt s5620', 'sch-i699', 'sgh-i917', 'sgh-i957', 'sgh-i900v', 'sgh i900', 'sph-930' => 'Samsung',
+            'acer e310', 'acer e320' => 'Acer',
+            'sensationxe beats z715e', 's510b', 'htc desire sv' => 'HTC',
+            'asus-padfone' => 'Asus',
+            'creative ziio7' => 'Creative',
+            'touchpad' => 'HP',
+            'u8800' => 'Huawei',
+            'd01400' => 'Amazon',
+            'nokia asha 201', 'nokia unrecognized ovi browser' => 'Nokia',
+            'p9514', 'lifetab p9514', 'lifetab s9512' => 'Medion',
+            'ipad', 'iphone' => 'Apple Inc',
+            default => (new MakerMapper())->mapMaker($deviceMaker),
+        };
     }
 }

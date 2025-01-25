@@ -1,162 +1,91 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
 
+use BrowserDetector\Version\Exception\NotNumericException;
+use BrowserDetector\Version\NullVersion;
 use BrowserDetector\Version\Version;
-use BrowserDetector\Version\VersionFactory;
+use BrowserDetector\Version\VersionBuilder;
 use BrowserDetector\Version\VersionInterface;
+
+use function mb_strtolower;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class PlatformVersionMapper
+final class PlatformVersionMapper
 {
     /**
      * maps the version of the operating system
      *
-     * @param string|null $osVersion
-     * @param string|null $osName
+     * @throws NotNumericException
      *
-     * @return \BrowserDetector\Version\VersionInterface
+     * @api
      */
-    public function mapOsVersion(?string $osVersion, ?string $osName = null): VersionInterface
+    public function mapOsVersion(string | null $osVersion, string | null $osName = null): VersionInterface
     {
-        if (null === $osVersion) {
-            return new Version();
+        if ($osVersion === null) {
+            return new NullVersion();
         }
 
         switch (mb_strtolower($osVersion)) {
             case '':
             case 'unknown':
             case 'other':
-                return new Version();
-                break;
+                return new NullVersion();
             case 'server 2003':
                 return new Version('2003');
-                break;
             case 'nt 5.1':
-                return (new VersionFactory())->set('XP');
-                break;
+                return (new VersionBuilder())->set('XP');
             case 'nt 6.1':
                 return new Version('7');
-                break;
             case 'nt 6.2':
                 return new Version('8');
-                break;
             case 'nt 6.3':
                 return new Version('8', '1');
-                break;
             default:
                 // nothing to do here
                 break;
         }
 
-        if (null === $osName) {
-            return new Version();
+        if ($osName === null) {
+            return new NullVersion();
         }
 
-        switch (mb_strtolower($osName)) {
-            case '':
-            case 'unknown':
-            case 'other':
-                return new Version();
-                break;
-            case 'winxp':
-            case 'windows xp':
-            case 'nt 5.1':
-                return (new VersionFactory())->set('XP');
-                break;
-            case 'winvista':
-            case 'windows vista':
-            case 'nt 6.0':
-                return (new VersionFactory())->set('Vista');
-                break;
-            case 'win7':
-            case 'winphone7':
-            case 'windows phone 7':
-            case 'windows 7':
-            case 'nt 6.1':
-                return new Version('7');
-                break;
-            case 'winphone7.5':
-            case 'windows phone 7.5':
-                return new Version('7', '5');
-                break;
-            case 'win8':
-            case 'winrt8':
-            case 'winphone8':
-            case 'windows phone 8':
-            case 'windows 8':
-            case 'nt 6.2':
-                return new Version('8');
-                break;
-            case 'win8.1':
-            case 'winrt8.1':
-            case 'winphone8.1':
-            case 'windows phone 8.1':
-            case 'windows 8.1':
-            case 'nt 6.3':
-                return new Version('8', '1');
-                break;
-            case 'win9':
-                return new Version('9');
-                break;
-            case 'win10':
-            case 'windows 10':
-                return new Version('10');
-                break;
-            case 'win2000':
-            case 'windows 2000':
-            case 'nt 5.0':
-                return new Version('2000');
-                break;
-            case 'win2003':
-                return new Version('2003');
-                break;
-            case 'win98':
-            case 'windows 98':
-                return new Version('98');
-                break;
-            case 'win95':
-                return new Version('95');
-                break;
-            case 'winnt':
-                return (new VersionFactory())->set('NT');
-                break;
-            case 'winme':
-                return (new VersionFactory())->set('ME');
-                break;
-            case 'win31':
-                return new Version('3', '1');
-                break;
-            case 'win32':
-                return new Version();
-                break;
-            case 'yosemite 10.10':
-                return new Version('10', '10');
-                break;
-            case 'mavericks 10.9':
-                return new Version('10', '9');
-                break;
-            default:
-                // nothing to do here
-                break;
-        }
-
-        return (new VersionFactory())->set($osVersion);
+        return match (mb_strtolower($osName)) {
+            '', 'unknown', 'other', 'win32' => new NullVersion(),
+            'winxp', 'windows xp', 'nt 5.1' => (new VersionBuilder())->set('XP'),
+            'winvista', 'windows vista', 'nt 6.0' => (new VersionBuilder())->set('Vista'),
+            'win7', 'winphone7', 'windows phone 7', 'windows 7', 'nt 6.1' => new Version('7'),
+            'winphone7.5', 'windows phone 7.5' => new Version('7', '5'),
+            'win8', 'winrt8', 'winphone8', 'windows phone 8', 'windows 8', 'nt 6.2' => new Version('8'),
+            'win8.1', 'winrt8.1', 'winphone8.1', 'windows phone 8.1', 'windows 8.1', 'nt 6.3' => new Version(
+                '8',
+                '1',
+            ),
+            'win9' => new Version('9'),
+            'win10', 'windows 10' => new Version('10'),
+            'win2000', 'windows 2000', 'nt 5.0' => new Version('2000'),
+            'win2003' => new Version('2003'),
+            'win98', 'windows 98' => new Version('98'),
+            'win95' => new Version('95'),
+            'winnt' => (new VersionBuilder())->set('NT'),
+            'winme' => (new VersionBuilder())->set('ME'),
+            'win31' => new Version('3', '1'),
+            'yosemite 10.10' => new Version('10', '10'),
+            'mavericks 10.9' => new Version('10', '9'),
+            default => (new VersionBuilder())->set($osVersion),
+        };
     }
 }

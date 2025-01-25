@@ -1,48 +1,37 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
+
+use function mb_strtolower;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class BrowserNameMapper
+final class BrowserNameMapper
 {
     /**
      * mapps the browser
      *
-     * @param string|null $browserInput
+     * @throws void
      *
-     * @throws \UnexpectedValueException
-     *
-     * @return string|null
+     * @api
      */
-    public function mapBrowserName(?string $browserInput): ?string
+    public function mapBrowserName(string | null $browserInput): string | null
     {
-        if (null === $browserInput) {
+        if ($browserInput === null) {
             return null;
         }
-
-        if (!is_string($browserInput)) {
-            throw new \UnexpectedValueException(
-                'a string is required as input in this function'
-            );
-        }
-
-        $browserName = $browserInput;
 
         switch (mb_strtolower($browserInput)) {
             case 'unknown':
@@ -52,214 +41,150 @@ class BrowserNameMapper
             case 'misc crawler':
             case 'generic bot':
             case 'http library':
-                $browserName = null;
-                break;
+                return null;
             case 'ie':
             case 'msie':
-                $browserName = 'Internet Explorer';
-                break;
+                return 'Internet Explorer';
             case 'iceweasel':
-                $browserName = 'Iceweasel';
-                break;
+                return 'Iceweasel';
             case 'mobile safari':
-                $browserName = 'Safari';
-                break;
+                return 'Safari';
             case 'chrome mobile':
             case 'chrome mobile ios':
             case 'chrome frame':
-                $browserName = 'Chrome';
-                break;
+                return 'Chrome';
             case 'android':
             case 'android browser':
-                $browserName = 'Android Webkit';
-                break;
+                return 'Android Webkit';
             case 'googlebot':
-                $browserName = 'Google Bot';
-                break;
+                return 'Google Bot';
             case 'bingbot':
-                $browserName = 'BingBot';
-                break;
+                return 'BingBot';
             case 'bingpreview':
-                $browserName = 'Bing Preview';
-                break;
+                return 'Bing Preview';
             case 'jakarta commons-httpclient':
-                $browserName = 'Jakarta Commons HttpClient';
-                break;
+                return 'Jakarta Commons HttpClient';
             case 'adsbot-google':
-                $browserName = 'AdsBot Google';
-                break;
+                return 'AdsBot Google';
             case 'seokicks-robot':
-                $browserName = 'SEOkicks Robot';
-                break;
+                return 'SEOkicks Robot';
             case 'gomeza':
             case 'gomezagent':
-                $browserName = 'Gomez Site Monitor';
-                break;
+                return 'Gomez Site Monitor';
             case 'yandex.browser':
-                $browserName = 'Yandex Browser';
-                break;
+                return 'Yandex Browser';
             case 'ie mobile':
-                $browserName = 'IEMobile';
-                break;
+                return 'IEMobile';
             case 'ovi browser':
-                $browserName = 'Nokia Proxy Browser';
-                break;
+            case 'nokia/s40ovi':
+            case 'nokia ovi browser':
+                return 'Nokia Proxy Browser';
             case 'firefox mobile':
             case 'mobile firefox mobile':
             case 'mobile firefox tablet':
             case 'mobile firefox':
-                $browserName = 'Firefox';
-                break;
+                return 'Firefox';
             case 'dolfin/jasmine webkit':
             case 'dolphin':
-                $browserName = 'Dolfin';
-                break;
+                return 'Dolfin';
             case 'facebookexternalhit':
             case 'facebook external hit':
             case 'facebookbot':
-                $browserName = 'FaceBook Bot';
-                break;
+                return 'FaceBook Bot';
             case 'java':
-                $browserName = 'Java Standard Library';
-                break;
+                return 'Java Standard Library';
             case 'nokia web browser':
-                $browserName = 'Nokia Browser';
-                break;
+                return 'Nokia Browser';
             case 'applemail':
-                $browserName = 'Apple Mail';
-                break;
+                return 'Apple Mail';
             case 'sistrix':
-                $browserName = 'Sistrix Crawler';
-                break;
+            case 'sistrix crawler':
+                return 'Sistrix Crawler';
             case 'blackberry webkit':
             case 'blackberry browser':
-                $browserName = 'BlackBerry';
-                break;
+                return 'BlackBerry';
             case 'microsoft outlook':
-                $browserName = 'Outlook';
-                break;
+                return 'Outlook';
             case 'outlook express':
             case 'microsoft outlook express':
-                $browserName = 'Windows Live Mail';
-                break;
+                return 'Windows Live Mail';
             case 'microsoft office':
-                $browserName = 'Office';
-                break;
+                return 'Office';
             case 'mj12 bot':
-                $browserName = 'MJ12bot';
-                break;
+                return 'MJ12bot';
             case 'mobile silk':
             case 'amazon silk':
-                $browserName = 'Silk';
-                break;
+                return 'Silk';
             case 'genieo web filter':
-                $browserName = 'Genieo Web Filter';
-                break;
+                return 'Genieo Web Filter';
             case 'yahoo! slurp':
-                $browserName = 'Slurp';
-                break;
+                return 'Slurp';
             case 'yandex bot':
-                $browserName = 'YandexBot';
-                break;
+                return 'YandexBot';
             case 'nutch-based bot':
             case 'apache nutch':
-                $browserName = 'Nutch';
-                break;
+                return 'Nutch';
             case 'baidu spider':
-                $browserName = 'Baiduspider';
-                break;
+                return 'Baiduspider';
             case 'semrush bot':
-                $browserName = 'SemrushBot';
-                break;
+                return 'SemrushBot';
             case 'python urllib':
-                $browserName = 'Python-urllib';
-                break;
+                return 'Python-urllib';
             case 'mail.ru bot':
-                $browserName = 'Mail.Ru';
-                break;
-            case 'nokia/s40ovi':
-            case 'nokia ovi browser':
-                $browserName = 'Nokia Proxy Browser';
-                break;
-            case 'sistrix crawler':
-                $browserName = 'Sistrix Crawler';
-                break;
+                return 'Mail.Ru';
             case 'exabot':
-                $browserName = 'Exabot';
-                break;
+                return 'Exabot';
             case 'curl':
-                $browserName = 'cURL';
-                break;
+                return 'cURL';
             case 'pale moon (firefox variant)':
             case 'pale moon':
-                $browserName = 'PaleMoon';
-                break;
+                return 'PaleMoon';
             case 'opera next':
-                $browserName = 'Opera';
-                break;
+                return 'Opera';
             case 'yeti/naverbot':
-                $browserName = 'NaverBot';
-                break;
+                return 'NaverBot';
             case 'ahrefs bot':
-                $browserName = 'AhrefsBot';
-                break;
+                return 'AhrefsBot';
             case 'picsearch bot':
-                $browserName = 'Picsearch Bot';
-                break;
+                return 'Picsearch Bot';
             case 'androiddownloadmanager':
-                $browserName = 'Android Download Manager';
-                break;
+                return 'Android Download Manager';
             case 'elinks':
-                $browserName = 'ELinks';
-                break;
+                return 'ELinks';
             case 'whitehat aviator':
-                $browserName = 'Aviator';
-                break;
+                return 'Aviator';
             case 'fake browser':
             case 'fake ie':
             case 'fake chrome':
             case 'fake safari':
             case 'fake firefox':
             case 'fake android':
-                $browserName = 'Fake Browser';
-                break;
+                return 'Fake Browser';
             case 'wdg html validator':
-                $browserName = 'HTML Validator';
-                break;
+                return 'HTML Validator';
             case 'blekkobot':
-                $browserName = 'BlekkoBot';
-                break;
+                return 'BlekkoBot';
             case 'tweetmemebot':
             case 'tweetmeme bot':
-                $browserName = 'Tweetmeme Bot';
-                break;
+                return 'Tweetmeme Bot';
             case 'coremedia':
             case 'applecoremedia':
-                $browserName = 'CoreMedia';
-                break;
+                return 'CoreMedia';
             case 'mediapartners-google':
             case 'google mediapartners':
-                $browserName = 'AdSense Bot';
-                break;
+                return 'AdSense Bot';
             case 'wordpress.com':
-                $browserName = 'WordPress';
-                break;
+                return 'WordPress';
             case 'up.browser':
             case 'au by kddi':
-                $browserName = 'Openwave Mobile Browser';
-                break;
+                return 'Openwave Mobile Browser';
             case 'qqbrowser':
-                $browserName = 'QQ Browser';
-                break;
+                return 'QQ Browser';
             case 'wosbrowser':
             case 'webkit/webos':
-                $browserName = 'webOS Browser';
-                break;
+                return 'webOS Browser';
             default:
-                // nothing to do here
-                break;
+                return $browserInput;
         }
-
-        return $browserName;
     }
 }

@@ -1,125 +1,54 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
+
+use function mb_strtolower;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class PlatformNameMapper
+final class PlatformNameMapper
 {
     /**
      * maps the name of the operating system
      *
-     * @param string|null $osName
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapOsName(?string $osName): ?string
+    public function mapOsName(string | null $osName): string | null
     {
-        if (null === $osName) {
+        if ($osName === null) {
             return null;
         }
 
-        switch (mb_strtolower($osName)) {
-            case '':
-            case 'unknown':
-            case 'other':
-                $osName = null;
-                break;
-            case 'winxp':
-            case 'win7':
-            case 'win8':
-            case 'win8.1':
-            case 'win9':
-            case 'win10':
-            case 'winvista':
-            case 'win2000':
-            case 'win2003':
-            case 'win98':
-            case 'win95':
-            case 'win31':
-            case 'win32':
-            case 'winnt':
-            case 'winme':
-            case 'windows 98':
-            case 'windows 2000':
-            case 'windows xp':
-            case 'windows vista':
-            case 'windows 7':
-            case 'windows 8':
-            case 'windows 8.1':
-            case 'windows 10':
-            case 'windows server':
-            case 'windows unknown ver':
-                $osName = 'Windows';
-                break;
-            case 'winphone7':
-            case 'winphone7.5':
-            case 'winphone8':
-            case 'winphone8.1':
-            case 'windows phone':
-            case 'windows phone 7':
-                $osName = 'Windows Phone OS';
-                break;
-            case 'winrt8':
-            case 'winrt8.1':
-                $osName = 'Windows RT';
-                break;
-            case 'winmobile':
-                $osName = 'Windows Mobile OS';
-                break;
-            case 'wince':
-                $osName = 'Windows CE';
-                break;
-            case 'blackberry os':
-                $osName = 'RIM OS';
-                break;
-            case 'mac':
-            case 'macosx':
-            case 'os x':
-            case 'mac osx':
-                $osName = 'Mac OS X';
-                break;
-            case 'jvm':
-            case 'java':
-                $osName = 'Java';
-                break;
-            case 'bada os':
-                $osName = 'Bada';
-                break;
-            case 'symbianos':
-            case 'nokia series 40':
-            case 'symbian os series 40':
-                $osName = 'Symbian OS';
-                break;
-            case 'gnu/linux':
-                $osName = 'Linux';
-                break;
-            case 'chrome os':
-                $osName = 'ChromeOS';
-                break;
-            case 'mint':
-                $osName = 'Linux Mint';
-                break;
-            default:
-                // nothing to do here
-                break;
-        }
-
-        return $osName;
+        return match (mb_strtolower($osName)) {
+            '', 'unknown', 'other' => null,
+            'winxp', 'win7', 'win8', 'win8.1', 'win9', 'win10', 'winvista', 'win2000', 'win2003', 'win98', 'win95', 'win31', 'win32', 'winnt', 'winme', 'windows 98', 'windows 2000', 'windows xp', 'windows vista', 'windows 7', 'windows 8', 'windows 8.1', 'windows 10', 'windows server', 'windows unknown ver' => 'Windows',
+            'winphone7', 'winphone7.5', 'winphone8', 'winphone8.1', 'windows phone', 'windows phone 7' => 'Windows Phone OS',
+            'winrt8', 'winrt8.1' => 'Windows RT',
+            'winmobile' => 'Windows Mobile OS',
+            'wince' => 'Windows CE',
+            'blackberry os' => 'RIM OS',
+            'mac', 'macosx', 'os x', 'mac osx' => 'Mac OS X',
+            'jvm', 'java' => 'Java',
+            'bada os' => 'Bada',
+            'symbianos', 'nokia series 40', 'symbian os series 40' => 'Symbian OS',
+            'gnu/linux' => 'Linux',
+            'chrome os' => 'ChromeOS',
+            'mint' => 'Linux Mint',
+            default => $osName,
+        };
     }
 }
