@@ -1,57 +1,29 @@
----
-engines:
-  duplication:
-    enabled: true
-    config:
-      languages:
-        php:
-          mass_threshold: 40
-    checks:
-      Similar Code:
-        enabled: false
-      Identical code:
-        enabled: false
-      Similar code:
-        enabled: false
-  fixme:
-    enabled: true
-  phpmd:
-    enabled: true
-    config:
-      file_extensions: "php"
-      rulesets: "unusedcode,codesize,naming,cleancode"
-    checks:
-      Naming/ShortVariable:
-        enabled: false
-      Design/CouplingBetweenObjects:
-        enabled: false
-      Design/WeightedMethodCount:
-        enabled: false
-      Design/LongClass:
-        enabled: false
-      Design/LongMethod:
-        enabled: false
-      Design/NpathComplexity:
-        enabled: false
-      CyclomaticComplexity:
-        enabled: false
-      CleanCode/ElseExpression:
-        enabled: false
-      CleanCode/StaticAccess:
-        enabled: false
-  phan:
+version: "2"
+checks:
+  argument-count:
     enabled: false
-    config:
-      file_extensions: "php"
-  phpcodesniffer:
+  complex-logic:
+    enabled: false
+  file-lines:
+    enabled: false
+  method-complexity:
+    enabled: false
+  method-count:
+    enabled: false
+  method-lines:
+    enabled: false
+  nested-control-flow:
     enabled: true
-    config:
-      file_extensions: "php"
-      standard: "PSR2"
-      ignore_warnings: true
-ratings:
-  paths:
-  - "**.php"
-exclude_paths:
-- tests/*
-- vendor/*
+  return-statements:
+    enabled: false
+  similar-code:
+    enabled: false
+  identical-code:
+    enabled: false
+plugins:
+  phpmd:
+    enabled: false
+  phpcodesniffer:
+    enabled: false
+  sonar-php:
+    enabled: false

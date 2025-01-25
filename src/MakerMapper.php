@@ -1,111 +1,60 @@
 <?php
+
 /**
- * This file is part of the ua-data-mapper package.
+ * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2018, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
 declare(strict_types = 1);
+
 namespace UaDataMapper;
+
+use function mb_strtolower;
+use function trim;
 
 /**
  * class with caching and update capabilities
- *
- * @category  ua-data-mapper
- *
- * @copyright 2015-2017 Thomas Mueller
- * @license   http://www.opensource.org/licenses/MIT MIT License
  */
-class MakerMapper
+final class MakerMapper
 {
     /**
      * maps the maker of the browser, os, engine or device
      *
-     * @param string|null $maker
+     * @throws void
      *
-     * @return string|null
+     * @api
      */
-    public function mapMaker(?string $maker): ?string
+    public function mapMaker(string | null $maker): string | null
     {
-        if (null === $maker) {
+        if ($maker === null) {
             return null;
         }
 
-        switch (mb_strtolower(trim($maker))) {
-            case '':
-            case 'unknown':
-            case 'other':
-            case 'bot':
-            case 'various':
-                $maker = null;
-                break;
-            case 'microsoft':
-            case 'microsoft corporation.':
-                $maker = 'Microsoft Corporation';
-                break;
-            case 'apple':
-            case 'apple inc.':
-            case 'apple computer, inc.':
-                $maker = 'Apple Inc';
-                break;
-            case 'google':
-            case 'google inc.':
-            case 'google, inc.':
-                $maker = 'Google Inc';
-                break;
-            case 'lunascape & co., ltd.':
-                $maker = 'Lunascape Corporation';
-                break;
-            case 'opera software asa.':
-                $maker = 'Opera Software ASA';
-                break;
-            case 'sun microsystems, inc.':
-                $maker = 'Oracle';
-                break;
-            case 'postbox, inc.':
-                $maker = 'Postbox Inc';
-                break;
-            case 'comodo group, inc.':
-                $maker = 'Comodo Group Inc';
-                break;
-            case 'canonical ltd.':
-                $maker = 'Canonical Ltd';
-                break;
-            case 'gentoo foundation, inc.':
-                $maker = 'Gentoo Foundation Inc';
-                break;
-            case 'omni development, inc.':
-                $maker = 'Omni Development Inc';
-                break;
-            case 'slackware linux, inc.':
-                $maker = 'Slackware Linux Inc';
-                break;
-            case 'red hat, inc.':
-                $maker = 'Red Hat Inc';
-                break;
-            case 'rim':
-                $maker = 'Research In Motion Limited';
-                break;
-            case 'mozilla':
-                $maker = 'Mozilla Foundation';
-                break;
-            case 'majestic-12':
-                $maker = 'Majestic-12 Ltd';
-                break;
-            case 'zum internet':
-                $maker = 'ZUMinternet Corp';
-                break;
-            case 'mojeek ltd.':
-                $maker = 'Linkdex Limited';
-                break;
-            default:
-                // nothing to do here
-                break;
-        }
-
-        return $maker;
+        return match (mb_strtolower(trim($maker))) {
+            '', 'unknown', 'other', 'bot', 'various' => null,
+            'microsoft', 'microsoft corporation.' => 'Microsoft Corporation',
+            'apple', 'apple inc.', 'apple computer, inc.' => 'Apple Inc',
+            'google', 'google inc.', 'google, inc.' => 'Google Inc',
+            'lunascape & co., ltd.' => 'Lunascape Corporation',
+            'opera software asa.' => 'Opera Software ASA',
+            'sun microsystems, inc.' => 'Oracle',
+            'postbox, inc.' => 'Postbox Inc',
+            'comodo group, inc.' => 'Comodo Group Inc',
+            'canonical ltd.' => 'Canonical Ltd',
+            'gentoo foundation, inc.' => 'Gentoo Foundation Inc',
+            'omni development, inc.' => 'Omni Development Inc',
+            'slackware linux, inc.' => 'Slackware Linux Inc',
+            'red hat, inc.' => 'Red Hat Inc',
+            'rim' => 'Research In Motion Limited',
+            'mozilla' => 'Mozilla Foundation',
+            'majestic-12' => 'Majestic-12 Ltd',
+            'zum internet' => 'ZUMinternet Corp',
+            'mojeek ltd.' => 'Linkdex Limited',
+            default => $maker,
+        };
     }
 }
