@@ -18,9 +18,6 @@ $config = new Configuration();
 
 $config
     // Adjusting scanned paths
-    ->addPathToScan(__DIR__ . '/config', isDev: false)
-    ->addPathToScan(__DIR__ . '/language', isDev: false)
-    ->addPathToScan(__DIR__ . '/public', isDev: false)
     ->addPathToScan(__DIR__ . '/src', isDev: false)
     ->addPathToScan(__DIR__ . '/tests', isDev: true)
     ->addPathToScan(__DIR__ . '/vendor', isDev: false)
@@ -34,7 +31,6 @@ $config
     ->ignoreErrorsOnPath(__DIR__ . '/vendor', [ErrorType::UNKNOWN_FUNCTION])
     ->ignoreErrorsOnPath(__DIR__ . '/vendor', [ErrorType::UNKNOWN_CLASS])
     ->ignoreErrorsOnPath(__DIR__ . '/vendor', [ErrorType::DEV_DEPENDENCY_IN_PROD])
-    ->ignoreErrorsOnPath(__DIR__ . '/config', [ErrorType::UNKNOWN_CLASS])
 
     // do not complain about some modules
     ->ignoreErrorsOnPackage('mimmi20/coding-standard', [ErrorType::UNUSED_DEPENDENCY])
