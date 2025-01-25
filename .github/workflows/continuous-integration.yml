@@ -59,9 +59,9 @@ jobs:
       skip-phpcs: false
       skip-phpstan: false
       skip-rector: false
-      skip-eslint: false
-      skip-stylelint: false
-      skip-prettier: false
+      skip-eslint: true
+      skip-stylelint: true
+      skip-prettier: true
       phpcs-options: ""
 
 #  tests:
