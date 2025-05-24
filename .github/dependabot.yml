@@ -16,9 +16,6 @@ updates:
 
     open-pull-requests-limit: 10
 
-    reviewers:
-      - "mimmi20"
-
     assignees:
       - "mimmi20"
 
@@ -35,36 +32,6 @@ updates:
 
     rebase-strategy: "auto"
 
-  - package-ecosystem: "npm"
-
-    directory: "/"
-
-    schedule:
-      interval: "daily"
-      time: "04:00"
-      timezone: "Europe/Berlin"
-
-    open-pull-requests-limit: 10
-
-    reviewers:
-      - "mimmi20"
-
-    assignees:
-      - "mimmi20"
-
-    labels:
-      - "dependencies"
-
-    versioning-strategy: "increase"
-
-    target-branch: "master"
-
-    commit-message:
-      include: "scope"
-      prefix: "npm"
-
-    rebase-strategy: "auto"
-
   - package-ecosystem: "github-actions"
 
     directory: "/"
@@ -75,9 +42,6 @@ updates:
       timezone: "Europe/Berlin"
 
     open-pull-requests-limit: 10
-
-    reviewers:
-      - "mimmi20"
 
     assignees:
       - "mimmi20"
