@@ -34,7 +34,6 @@ final class EngineKeyMapper
         }
 
         return match (mb_strtolower($engineName)) {
-            '', 'unknown', 'other' => 'unknown',
             'webkit' => 'webkit',
             'gecko' => 'gecko',
             'trident' => 'trident',

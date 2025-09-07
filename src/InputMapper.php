@@ -186,18 +186,6 @@ final class InputMapper
     }
 
     /**
-     * maps the value for the frame/iframe support
-     *
-     * @throws void
-     *
-     * @api
-     */
-    public function mapFrameSupport(bool | string $support): string
-    {
-        return (new FrameSupportMapper())->mapFrameSupport($support);
-    }
-
-    /**
      * maps the version of the operating system
      *
      * @throws NotNumericException
