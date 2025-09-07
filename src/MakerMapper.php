@@ -14,7 +14,7 @@ declare(strict_types = 1);
 namespace UaDataMapper;
 
 use function mb_strtolower;
-use function trim;
+use function mb_trim;
 
 /**
  * class with caching and update capabilities
@@ -34,7 +34,7 @@ final class MakerMapper
             return null;
         }
 
-        return match (mb_strtolower(trim($maker))) {
+        return match (mb_strtolower(mb_trim($maker))) {
             '', 'unknown', 'other', 'bot', 'various' => null,
             'microsoft', 'microsoft corporation.' => 'Microsoft Corporation',
             'apple', 'apple inc.', 'apple computer, inc.' => 'Apple Inc',

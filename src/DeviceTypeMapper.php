@@ -32,6 +32,6 @@ final class DeviceTypeMapper
      */
     public function mapDeviceType(string | null $deviceType): TypeInterface
     {
-        return Type::fromName(mb_strtolower($deviceType));
+        return Type::fromName(mb_strtolower($deviceType ?? ''));
     }
 }

@@ -31,6 +31,6 @@ final class BrowserTypeMapper
      */
     public function mapBrowserType(string | null $browserType): Type
     {
-        return Type::fromName(mb_strtolower($browserType));
+        return Type::fromName(mb_strtolower($browserType ?? ''));
     }
 }
