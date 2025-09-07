@@ -32,23 +32,6 @@ final class DeviceTypeMapper
      */
     public function mapDeviceType(string | null $deviceType): TypeInterface
     {
-        if ($deviceType === null) {
-            return Type::fromName('unknown');
-        }
-
-        $typeKey = match (mb_strtolower($deviceType)) {
-            'smart-tv', 'tv device' => 'tv',
-            'desktop' => 'desktop',
-            'fonepad' => 'fone-pad',
-            'tablet' => 'tablet',
-            'mobile device' => 'mobile-device',
-            'mobile phone' => 'mobile-phone',
-            'smartphone' => 'smartphone',
-            'feature phone' => 'feature-phone',
-            'digital camera' => 'digital-camera',
-            default => 'unknown',
-        };
-
-        return Type::fromName($typeKey);
+        return Type::fromName(mb_strtolower($deviceType));
     }
 }
