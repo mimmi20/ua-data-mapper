@@ -48,7 +48,7 @@ final class DeviceBrandnameMapper
             'kn' => 'Amazon',
             'hu' => 'Huawei',
             'ni' => 'Nintendo',
-            'ap' => 'Apple',
+            'ap', 'apple inc' => 'Apple',
             'al' => 'Alcatel',
             'mb' => 'Mobistel',
             'wi' => 'Wiko',
