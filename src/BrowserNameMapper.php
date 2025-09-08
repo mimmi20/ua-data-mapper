@@ -41,6 +41,7 @@ final class BrowserNameMapper
             case 'misc crawler':
             case 'generic bot':
             case 'http library':
+            case 'ios':
                 return null;
             case 'ie':
             case 'msie':
@@ -48,10 +49,16 @@ final class BrowserNameMapper
             case 'iceweasel':
                 return 'Iceweasel';
             case 'mobile safari':
+            case 'mobile safari/wkwebview':
+            case 'safari mobile':
+            case 'webview':
                 return 'Safari';
             case 'chrome mobile':
             case 'chrome mobile ios':
             case 'chrome frame':
+            case 'chrome for ios':
+            case 'mobile chrome':
+            case 'crios':
                 return 'Chrome';
             case 'android':
             case 'android browser':
@@ -83,6 +90,11 @@ final class BrowserNameMapper
             case 'mobile firefox mobile':
             case 'mobile firefox tablet':
             case 'mobile firefox':
+            case 'firefox mobile for ios':
+            case 'firefox mobile ios':
+            case 'firefox for ios':
+            case 'firefox ios':
+            case 'fxios':
                 return 'Firefox';
             case 'dolfin/jasmine webkit':
             case 'dolphin':
@@ -183,6 +195,9 @@ final class BrowserNameMapper
             case 'wosbrowser':
             case 'webkit/webos':
                 return 'webOS Browser';
+            case 'microsoft edge':
+            case 'spartan':
+                return 'Edge';
             default:
                 return $browserInput;
         }
