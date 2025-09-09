@@ -42,6 +42,8 @@ final class BrowserNameMapper
             case 'generic bot':
             case 'http library':
             case 'ios':
+            case 'playstation 3':
+            case 'playstation 4':
                 return null;
             case 'ie':
             case 'msie':
@@ -198,6 +200,8 @@ final class BrowserNameMapper
             case 'microsoft edge':
             case 'spartan':
                 return 'Edge';
+            case 'seomoz rogerbot':
+                return 'roger bot';
             default:
                 return $browserInput;
         }
