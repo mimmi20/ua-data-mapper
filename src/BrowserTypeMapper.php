@@ -31,6 +31,26 @@ final class BrowserTypeMapper
      */
     public function mapBrowserType(string | null $browserType): Type
     {
-        return Type::fromName(mb_strtolower($browserType ?? ''));
+        if ($browserType === null) {
+            return Type::Unknown;
+        }
+
+        $typeKey = match (mb_strtolower($browserType)) {
+            'browser', 'mobile browser' => 'browser',
+            'bot', 'robot', 'bot/crawler', 'library' => 'bot',
+            'emailclient', 'email client' => 'email-client',
+            'pim' => 'pim',
+            'feedreader', 'feed reader' => 'feed-reader',
+            'multimediaplayer', 'mediaplayer', 'multimedia player' => 'multimedia-player',
+            'offlinebrowser', 'offline browser' => 'offline-browser',
+            'useragentanonymizer', 'useragent anonymizer' => 'useragent-anonymizer',
+            'wapbrowser', 'wap browser' => 'wap-browser',
+            'application', 'mobile app' => 'application',
+            'tool' => 'tool',
+            'unknown' => 'unknown',
+            default => mb_strtolower($browserType),
+        };
+
+        return Type::fromName($typeKey);
     }
 }
