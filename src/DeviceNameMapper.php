@@ -76,6 +76,7 @@ final class DeviceNameMapper
             'i9506' => 'GT-I9506',
             'lifetab_e10320' => 'E10320',
             'xperia sgp312' => 'SGP312',
+            'tf300t', 'transformer pad tf300t' => 'TF300T',
             default => $deviceName,
         };
     }
