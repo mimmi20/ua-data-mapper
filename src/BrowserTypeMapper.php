@@ -35,22 +35,22 @@ final class BrowserTypeMapper
             return Type::Unknown;
         }
 
-        $typeKey = match (mb_strtolower($browserType)) {
-            'browser', 'mobile browser' => 'browser',
-            'bot', 'robot', 'bot/crawler', 'library' => 'bot',
-            'emailclient', 'email client' => 'email-client',
-            'pim' => 'pim',
-            'feedreader', 'feed reader' => 'feed-reader',
-            'multimediaplayer', 'mediaplayer', 'multimedia player' => 'multimedia-player',
-            'offlinebrowser', 'offline browser' => 'offline-browser',
-            'useragentanonymizer', 'useragent anonymizer' => 'useragent-anonymizer',
-            'wapbrowser', 'wap browser' => 'wap-browser',
-            'application', 'mobile app' => 'application',
-            'tool' => 'tool',
-            'unknown' => 'unknown',
-            default => mb_strtolower($browserType),
+        return match (mb_strtolower($browserType)) {
+            'browser', 'mobile browser' => Type::Browser,
+            'bot', 'robot', 'bot/crawler' => Type::Bot,
+            'library' => Type::Library,
+            'emailclient', 'email client' => Type::EmailClient,
+            'pim' => Type::Pim,
+            'feedreader', 'feed reader' => Type::FeedReader,
+            'multimediaplayer', 'mediaplayer', 'multimedia player' => Type::MultimediaPlayer,
+            'offlinebrowser', 'offline browser' => Type::OfflineBrowser,
+            'useragentanonymizer', 'useragent anonymizer' => Type::UseragentAnonymizer,
+            'wapbrowser', 'wap browser' => Type::WapBrowser,
+            'application' => Type::Application,
+            'mobile app' => Type::MobileApplication,
+            'tool' => Type::Tool,
+            'unknown' => Type::Unknown,
+            default => Type::fromName(mb_strtolower($browserType)),
         };
-
-        return Type::fromName($typeKey);
     }
 }
