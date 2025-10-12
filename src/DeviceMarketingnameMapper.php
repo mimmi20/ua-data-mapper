@@ -68,6 +68,11 @@ final class DeviceMarketingnameMapper
             'one touch 6030x' => 'One Touch Idol',
             'one mini2' => 'One Mini 2',
             's iii mini' => 'Galaxy S III Mini',
+            'galaxy s24 (usa)', 'galaxy s24' => 'Galaxy S24',
+            'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" WiFi',
+            'galaxy s7 (verizon)', 'galaxy s7' => 'Galaxy S7',
+            'galaxy s10 (global)', 'galaxy s10' => 'Galaxy S10',
+            'galaxy note 10 plus 4g (europe)', 'galaxy note 10+' => 'Galaxy Note 10+',
             default => $marketingName,
         };
     }
