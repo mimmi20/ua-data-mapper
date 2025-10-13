@@ -76,6 +76,9 @@ final class DeviceMarketingnameMapper
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+' => 'Galaxy Note 10+',
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
+            'a95 4g', 'a95' => 'A95',
+            'in 1b' => 'IN 1B',
+            'mi 10', 'mi 10 5g' => 'Mi 10',
             default => $marketingName,
         };
     }

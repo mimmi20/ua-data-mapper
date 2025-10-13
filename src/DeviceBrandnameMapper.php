@@ -77,6 +77,11 @@ final class DeviceBrandnameMapper
             'nubia' => 'Nubia',
             'blackview' => 'Blackview',
             'cubot' => 'CUBOT',
+            'f150', 'iiif150' => 'iiiF150',
+            'poco' => 'POCO',
+            'meizu' => 'Meizu',
+            'cmf' => 'CMF',
+            'tcl' => 'TCL',
             default => $brandName,
         };
     }
