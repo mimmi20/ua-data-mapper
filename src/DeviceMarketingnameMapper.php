@@ -79,6 +79,8 @@ final class DeviceMarketingnameMapper
             'a95 4g', 'a95' => 'A95',
             'in 1b' => 'IN 1B',
             'mi 10', 'mi 10 5g' => 'Mi 10',
+            'iqoo neo 10', 'iqoo neo 10 (china)' => 'iQOO Neo 10',
+            'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
             default => $marketingName,
         };
     }
