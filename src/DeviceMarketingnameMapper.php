@@ -74,6 +74,11 @@ final class DeviceMarketingnameMapper
             'galaxy s7 (verizon)', 'galaxy s7' => 'Galaxy S7',
             'galaxy s10 (global)', 'galaxy s10' => 'Galaxy S10',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+' => 'Galaxy Note 10+',
+            'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)' => 'Galaxy S22 Ultra',
+            'galaxy s22', 'galaxy s22 5g (international)' => 'Galaxy S22',
+            'galaxy s24 ultra', 'galaxy s24 ultra (usa)' => 'Galaxy S24 Ultra',
+            'galaxy s24 fe', 'galaxy s24 fe (international)' => 'Galaxy S24 FE',
+            'galaxy s21+ 5g', 'galaxy s21 plus 5g (usa)' => 'Galaxy S21+ 5G',
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
             'a95 4g', 'a95' => 'A95',
@@ -81,6 +86,7 @@ final class DeviceMarketingnameMapper
             'mi 10', 'mi 10 5g' => 'Mi 10',
             'iqoo neo 10', 'iqoo neo 10 (china)' => 'iQOO Neo 10',
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
+            'redmi note 14', 'redmi note 14 4g' => 'Redmi Note 14',
             default => $marketingName,
         };
     }
