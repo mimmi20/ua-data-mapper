@@ -36,20 +36,17 @@ final class DeviceTypeMapper
             return Type::Unknown;
         }
 
-        $typeKey = match (mb_strtolower($deviceType)) {
-            'smart-tv', 'tv device' => 'tv',
-            'desktop' => 'desktop',
-            'fonepad' => 'fone-pad',
-            'tablet' => 'tablet',
-            'mobile device' => 'mobile-device',
-            'mobile phone' => 'mobile-phone',
-            'smartphone' => 'smartphone',
-            'feature phone' => 'feature-phone',
-            'digital camera' => 'digital-camera',
-            'unknown' => 'unknown',
-            default => mb_strtolower($deviceType),
+        return match (mb_strtolower($deviceType)) {
+            'smart-tv', 'tv device' => Type::Tv,
+            'desktop' => Type::Desktop,
+            'tablet', 'fone-pad', 'fonepad' => Type::Tablet,
+            'mobile device' => Type::MobileDevice,
+            'mobile phone' => Type::MobilePhone,
+            'smartphone' => Type::Smartphone,
+            'feature phone' => Type::FeaturePhone,
+            'digital camera' => Type::DigitalCamera,
+            'unknown' => Type::Unknown,
+            default => Type::fromName(mb_strtolower($deviceType)),
         };
-
-        return Type::fromName($typeKey);
     }
 }
