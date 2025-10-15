@@ -43,31 +43,56 @@ final class DeviceMarketingnameMapper
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy a9 lte duos (2016, europe)', 'galaxy a9' => 'Galaxy A9',
-            'galaxy s24 (usa)', 'galaxy s24' => 'Galaxy S24',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" WiFi',
             'galaxy s7 (verizon)', 'galaxy s7' => 'Galaxy S7',
             'galaxy s10 (global)', 'galaxy s10' => 'Galaxy S10',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+' => 'Galaxy Note 10+',
-            'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)' => 'Galaxy S22 Ultra',
-            'galaxy s22', 'galaxy s22 5g (international)' => 'Galaxy S22',
-            'galaxy s24 ultra', 'galaxy s24 ultra (usa)' => 'Galaxy S24 Ultra',
-            'galaxy s24 fe', 'galaxy s24 fe (international)' => 'Galaxy S24 FE',
+            'galaxy s21 5g', 'galaxy s21 5g (usa unlocked)' => 'Galaxy S21 5G',
             'galaxy s21+ 5g', 'galaxy s21 plus 5g (usa)' => 'Galaxy S21+ 5G',
+            'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)' => 'Galaxy S22 Ultra',
+            'galaxy s22', 'galaxy s22 5g (international)', 'galaxy s22 5g (korea)' => 'Galaxy S22',
+            'galaxy s22+', 'galaxy s22 plus 5g (international)' => 'Galaxy S22+',
+            'galaxy s23', 'galaxy s23 (china)' => 'Galaxy S23',
+            'galaxy s23+', 'galaxy s23 plus (international)' => 'Galaxy S23+',
+            'galaxy s24 (usa)', 'galaxy s24' => 'Galaxy S24',
+            'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)' => 'Galaxy S24 FE',
+            'galaxy s24 ultra', 'galaxy s24 ultra (usa)' => 'Galaxy S24 Ultra',
+            'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)' => 'Galaxy S25',
+            'galaxy s25+', 'galaxy s25 plus (canada)' => 'Galaxy S25+',
+            'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)' => 'Galaxy S25 Ultra',
+            'galaxy a53 5g', 'galaxy a53 5g (canada)' => 'Galaxy A53 5G',
+            // apple
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
             // oppo
             'a95 4g', 'a95' => 'A95',
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
+            'a5x', 'a5x 4g' => 'A5x',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
             'mi 10', 'mi 10 5g' => 'Mi 10',
-            // vivo
-            'iqoo neo 10', 'iqoo neo 10 (china)' => 'iQOO Neo 10',
-            // xiaomi
+            'x7', 'x7 5g' => 'X7',
+            'redmi note 12', 'redmi note 12 4g' => 'Redmi Note 12',
+            'redmi note 13', 'redmi note 13 4g' => 'Redmi Note 13',
             'redmi note 14', 'redmi note 14 4g' => 'Redmi Note 14',
+            'redmi pad 2', 'redmi pad 2 wi-fi' => 'Redmi Pad 2',
+            'redmi 15c', 'redmi 15c 4g' => 'Redmi 15C',
+            // vivo
+            'iqoo neo 10', 'iqoo neo 10 (china)', 'iqoo neo 10 (india)' => 'iQOO Neo 10',
             // lenovo
             'tab plus', 'tab plus wi-fi' => 'Tab Plus',
+            'tab p12', 'tab p12 wi-fi' => 'Tab P12',
+            // infinix
+            'hot 60i', 'hot 60i 4g' => 'Hot 60i',
+            'hot 60 pro', 'hot 60 pro 4g' => 'Hot 60 Pro',
+            'note 50s 5g' => 'Note 50s 5G',
+            // oneplus
+            'ace 5 racing', 'ace 5 race' => 'Ace 5 Racing',
+            // tecno
+            'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
+            // sony
+            'xperia 10 v', 'xperia 10 v 5g (japan)' => 'Xperia 10 V',
             default => $marketingName,
         };
     }

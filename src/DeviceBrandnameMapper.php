@@ -82,6 +82,7 @@ final class DeviceBrandnameMapper
             'meizu' => 'Meizu',
             'cmf' => 'CMF',
             'tcl' => 'TCL',
+            'pritom' => 'Pritom',
             default => $brandName,
         };
     }
