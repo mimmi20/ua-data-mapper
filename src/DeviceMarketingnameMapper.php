@@ -35,39 +35,13 @@ final class DeviceMarketingnameMapper
 
         return match (mb_strtolower($marketingName)) {
             '', 'unknown', 'other', 'various' => null,
-            'lg optimus chat' => 'Optimus Chat',
-            't mobile move balance' => 'T-Mobile Move Balance',
-            'xperia arc so-01c for docomo' => 'Xperia Arc SO-01C for DoCoMo',
-            'galaxy sii' => 'Galaxy S II',
-            'galaxy sii plus' => 'Galaxy S II Plus',
-            'galaxy siii', 'galaxy s3' => 'Galaxy S III',
-            'galaxy s3 lte international' => 'Galaxy S III LTE International',
-            'lifetab' => 'LifeTab',
-            'galaxy sii epic 4g touch' => 'Galaxy S II Epic 4G Touch',
-            'prestigio multipad' => 'Multipad',
-            'samsung galaxy tab 7.0 plus' => 'Galaxy Tab 7.0 Plus',
-            'one touch m\'pop' => 'One Touch MPop',
-            'people\'s tablet' => 'Peoples Tablet',
-            'lumia 530 dual sim' => 'Lumia 530',
-            'droid razr i' => 'RAZR i',
-            'nokia asha 300', '300' => 'Asha 300',
-            'galaxy tabpro 10.1" wifi' => 'Galaxy Tab Pro 10.1 WiFi',
-            'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1 3G WiFi',
-            'galaxy tab 4 10.1" wifi' => 'Galaxy Tab 4 10.1 WiFi',
-            'galaxy tab 4 10.1" lte' => 'Galaxy Tab 4 10.1 LTE',
-            'galaxy tab 2 10.1" wifi' => 'Galaxy Tab 2 10.1 WiFi',
-            'galaxy s5' => 'Galaxy S5',
-            'gt-i9515' => 'Galaxy S4',
-            'galaxy tab 3 10.1"', 'galaxy tab 3 (10.1)' => 'Galaxy Tab 3 10.1 3G',
-            'kindle fire hdx 7" wifi' => 'Kindle Fire HDX 7 WiFi',
-            'ideatab b8080-f' => 'Yoga Tab 10 HD+',
-            'galaxy note 4' => 'Galaxy Note 4',
-            'b8000-f' => 'Yoga B8000-F',
-            'iconia a3' => 'Iconia Tab A3',
-            'galaxy trend lite' => 'Galaxy Trend Lite',
-            'one touch 6030x' => 'One Touch Idol',
+            // alcatel/tcl
+            'one touch 6030x' => 'OneTouch Idol',
+            // htc
             'one mini2' => 'One Mini 2',
-            's iii mini' => 'Galaxy S III Mini',
+            // samsung
+            'galaxy note 4' => 'Galaxy Note 4',
+            'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy a9 lte duos (2016, europe)', 'galaxy a9' => 'Galaxy A9',
             'galaxy s24 (usa)', 'galaxy s24' => 'Galaxy S24',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" WiFi',
@@ -81,12 +55,19 @@ final class DeviceMarketingnameMapper
             'galaxy s21+ 5g', 'galaxy s21 plus 5g (usa)' => 'Galaxy S21+ 5G',
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
+            // oppo
             'a95 4g', 'a95' => 'A95',
-            'in 1b' => 'IN 1B',
-            'mi 10', 'mi 10 5g' => 'Mi 10',
-            'iqoo neo 10', 'iqoo neo 10 (china)' => 'iQOO Neo 10',
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
+            // micromax
+            'in 1b' => 'IN 1B',
+            // xiaomi
+            'mi 10', 'mi 10 5g' => 'Mi 10',
+            // vivo
+            'iqoo neo 10', 'iqoo neo 10 (china)' => 'iQOO Neo 10',
+            // xiaomi
             'redmi note 14', 'redmi note 14 4g' => 'Redmi Note 14',
+            // lenovo
+            'tab plus', 'tab plus wi-fi' => 'Tab Plus',
             default => $marketingName,
         };
     }
