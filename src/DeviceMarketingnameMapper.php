@@ -43,11 +43,13 @@ final class DeviceMarketingnameMapper
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy a9 lte duos (2016, europe)', 'galaxy a9' => 'Galaxy A9',
+            'galaxy a21s (2020)', 'galaxy a21s' => 'Galaxy A21s',
             'galaxy a35 5g', 'galaxy a35 5g (international)' => 'Galaxy A35 5G',
-            'galaxy a36 5g', 'galaxy a36 5g (international)' => 'Galaxy A36 5G',
+            'galaxy a36 5g', 'galaxy a36 5g (international)', 'galaxy a36 5g (usa)' => 'Galaxy A36 5G',
             'galaxy a53 5g', 'galaxy a53 5g (canada)' => 'Galaxy A53 5G',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" WiFi',
             'galaxy tab s9 fe 10.9" 5g', 'galaxy tab s9 fe 10.9" 5g (international)' => 'Galaxy Tab S9 FE 10.9" 5G',
+            'galaxy tab s10 fe+ 13.1"', 'galaxy tab s10 fe+ 13.1" wi-fi' => 'Galaxy Tab S10 FE+ 13.1"',
             'galaxy s7 (verizon)', 'galaxy s7' => 'Galaxy S7',
             'galaxy s10 (global)', 'galaxy s10' => 'Galaxy S10',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+' => 'Galaxy Note 10+',
@@ -61,15 +63,17 @@ final class DeviceMarketingnameMapper
             'galaxy s24 (usa)', 'galaxy s24' => 'Galaxy S24',
             'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)' => 'Galaxy S24 FE',
             'galaxy s24 ultra', 'galaxy s24 ultra (usa)' => 'Galaxy S24 Ultra',
-            'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)' => 'Galaxy S25',
+            'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)' => 'Galaxy S25+',
-            'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)' => 'Galaxy S25 Ultra',
+            'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
+            'galaxy w25 5g', 'galaxy w25' => 'Galaxy W25',
             'galaxy z flip 6', 'galaxy z flip 6 (international)' => 'Galaxy Z Flip 6',
             // apple
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
             // oppo
             'a95 4g', 'a95' => 'A95',
+            'a5 5g', 'a5 5g (china)' => 'A5 5G',
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
             'a5x', 'a5x 4g' => 'A5x',
             // micromax
@@ -82,8 +86,12 @@ final class DeviceMarketingnameMapper
             'redmi note 14', 'redmi note 14 4g' => 'Redmi Note 14',
             'redmi pad 2', 'redmi pad 2 wi-fi' => 'Redmi Pad 2',
             'redmi 15c', 'redmi 15c 4g' => 'Redmi 15C',
+            'redmi a5', 'redmi a5 4g' => 'Redmi A5',
             // vivo
             'iqoo neo 10', 'iqoo neo 10 (china)', 'iqoo neo 10 (india)' => 'iQOO Neo 10',
+            'y300', 'y300 (china)' => 'Y300',
+            'y29', 'y29 4g' => 'Y29',
+            'v50 lite', 'v50 lite 4g' => 'V50 Lite',
             // lenovo
             'tab plus', 'tab plus wi-fi' => 'Tab Plus',
             'tab p12', 'tab p12 wi-fi' => 'Tab P12',
@@ -100,7 +108,15 @@ final class DeviceMarketingnameMapper
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
             // huawei
+            'honor 400', 'honor 400 (china)' => 'Honor 400',
             'honor 400 pro', 'honor 400 pro (china)' => 'Honor 400 Pro',
+            // realme
+            '14 pro', '14 pro 5g' => '14 Pro',
+            // realme
+            'mblu 22 pro' => 'mBlu 22 Pro',
+            'gt 7', 'gt 7 (global)', 'gt 7 (china)' => 'GT 7',
+            // google
+            'pixel 4a', 'pixel 4a 5g' => 'Pixel 4a',
             default => $marketingName,
         };
     }
