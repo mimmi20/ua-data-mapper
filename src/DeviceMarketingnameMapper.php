@@ -96,6 +96,7 @@ final class DeviceMarketingnameMapper
             'redmi 15c', 'redmi 15c 4g' => 'Redmi 15C',
             'redmi a5', 'redmi a5 4g' => 'Redmi A5',
             'pad 6s pro 12.4"', 'pad 6s pro 12.4" wi-fi' => 'Pad 6S Pro 12.4"',
+            'redmi note 14 pro 5g', 'redmi note 14 pro 5g (global)' => 'Redmi Note 14 Pro 5G',
             // vivo
             'iqoo neo 10', 'iqoo neo 10 (china)', 'iqoo neo 10 (india)' => 'iQOO Neo 10',
             'y300', 'y300 (china)' => 'Y300',
@@ -134,6 +135,8 @@ final class DeviceMarketingnameMapper
             'pixel 4a', 'pixel 4a 5g' => 'Pixel 4a',
             // asus
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
+            // zte/nubia
+            'z70s ultra' => 'Z70s Ultra',
             default => $marketingName,
         };
     }
