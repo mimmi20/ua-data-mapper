@@ -148,6 +148,8 @@ final class DeviceBrandnameMapper
             'novey' => 'Novey',
             'sparx' => 'Sparx',
             'vocal' => 'VOCAL',
+            'sky' => 'Sky',
+            'toscido' => 'TOSCIDO',
             default => $brandName,
         };
     }
