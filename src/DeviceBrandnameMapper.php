@@ -147,6 +147,7 @@ final class DeviceBrandnameMapper
             'dcode' => 'Dcode',
             'novey' => 'Novey',
             'sparx' => 'Sparx',
+            'vocal' => 'VOCAL',
             default => $brandName,
         };
     }
