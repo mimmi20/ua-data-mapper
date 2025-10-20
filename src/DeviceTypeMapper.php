@@ -45,6 +45,7 @@ final class DeviceTypeMapper
             'smartphone' => Type::Smartphone,
             'feature phone' => Type::FeaturePhone,
             'digital camera' => Type::DigitalCamera,
+            'portable media player' => Type::MobileMediaPlayer,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };

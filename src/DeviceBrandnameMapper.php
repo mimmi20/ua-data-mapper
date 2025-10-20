@@ -148,6 +148,17 @@ final class DeviceBrandnameMapper
             'novey' => 'Novey',
             'sparx' => 'Sparx',
             'vocal' => 'VOCAL',
+            'sky' => 'Sky',
+            'toscido' => 'TOSCIDO',
+            'oysters' => 'Oysters',
+            'chuwi' => 'Chuwi',
+            'biegedy' => 'Biegedy',
+            'dish', 'boost-mobile' => 'DISH',
+            'ace' => 'Ace',
+            'cepter' => 'CEPTER',
+            'headwolf', 'head-wolf' => 'HeadWolf',
+            'padpro' => 'Padpro',
+            'energizer' => 'Energizer',
             default => $brandName,
         };
     }
