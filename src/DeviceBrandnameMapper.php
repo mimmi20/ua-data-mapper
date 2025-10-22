@@ -159,6 +159,9 @@ final class DeviceBrandnameMapper
             'headwolf', 'head-wolf' => 'HeadWolf',
             'padpro' => 'Padpro',
             'energizer' => 'Energizer',
+            'nuu mobile', 'nuu-mobile' => 'NUU Mobile',
+            'lava' => 'Lava',
+            'xreal' => 'XREAL',
             default => $brandName,
         };
     }

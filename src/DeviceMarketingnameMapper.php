@@ -45,6 +45,7 @@ final class DeviceMarketingnameMapper
             'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy a9 lte duos (2016, europe)', 'galaxy a9' => 'Galaxy A9',
             'galaxy a04', 'galaxy a04 4g' => 'Galaxy A04',
+            'galaxy a04s', 'galaxy a04s 4g' => 'Galaxy A04s',
             'galaxy a05', 'galaxy a05 4g' => 'Galaxy A05',
             'galaxy a13 5g', 'galaxy a13 5g (international)' => 'Galaxy A13 5G',
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
@@ -79,7 +80,7 @@ final class DeviceMarketingnameMapper
             'galaxy s23 fe', 'galaxy s23 fe (canada)', 'galaxy s23 fe (usa)', 'galaxy s23 fe (korea)' => 'Galaxy S23 FE',
             'galaxy s23 ultra', 'galaxy s23 ultra (china)', 'galaxy s23 ultra (international)', 'galaxy s23 ultra (usa unlocked)' => 'Galaxy S23 Ultra',
             'galaxy s24', 'galaxy s24 (usa)', 'galaxy s24 (china)', 'galaxy s24 5g uw' => 'Galaxy S24',
-            'galaxy s24+', 'galaxy s24+ (china)' => 'Galaxy S24+',
+            'galaxy s24+', 'galaxy s24+ (china)', 'galaxy s24+ (usa)' => 'Galaxy S24+',
             'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)' => 'Galaxy S24 FE',
             'galaxy s24 ultra', 'galaxy s24 ultra (usa)', 'galaxy s24 ultra (canada)' => 'Galaxy S24 Ultra',
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
@@ -87,16 +88,24 @@ final class DeviceMarketingnameMapper
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
             'galaxy tab a7 lite 8.7" wi-fi (2021)', 'galaxy tab a7 lite 8.7" (2021) wifi' => 'Galaxy Tab A7 Lite 8.7" Wi-Fi (2021)',
             'galaxy tab a9 8.7"', 'galaxy tab a9 8.7" 4g' => 'Galaxy Tab A9 8.7"',
+            'galaxy tab a8 10.5" wi-fi', 'galaxy tab a8 10.5" wi-fi (2021)', 'galaxy tab a8 10.5" wifi' => 'Galaxy Tab A8 10.5" Wi-Fi',
+            'galaxy tab a8 10.5" lte', 'galaxy tab a8 10.5" lte (2021)' => 'Galaxy Tab A8 10.5" LTE',
             'galaxy tab a9 8.7" wifi', 'galaxy tab a9 8.7" wi-fi' => 'Galaxy Tab A9 8.7" Wi-Fi',
             'galaxy tab a9+ 11.0" 5g', 'galaxy tab a9+ 11.0" 5g (international, 2023)', 'galaxy tab a9+ 11.0" 5g (usa, 2023)' => 'Galaxy Tab A9+ 11.0" 5G',
             'galaxy tab a9+ 11.0" wi-fi', 'galaxy tab a9+ 11.0" wifi' => 'Galaxy Tab A9+ 11.0" Wi-Fi',
             'galaxy tab active 4 pro 10.1" 5g', 'galaxy tab active 4 pro 10.1" 5g (international)' => 'Galaxy Tab Active 4 Pro 10.1" 5G',
-            'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)' => 'Galaxy Tab S6 Lite 10.4" Wi-Fi',
+            'galaxy tab s6 lite 10.4"', 'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)', 'galaxy tab s6 lite 10.4" wi-fi (2022)' => 'Galaxy Tab S6 Lite 10.4"',
+            'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)' => 'Galaxy Tab S7 FE 12.4" 5G',
+            'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" Wi-Fi',
             'galaxy tab s8 11.0" wi-fi', 'galaxy tab s8 11.0" wifi' => 'Galaxy Tab S8 11.0" Wi-Fi',
             'galaxy tab s8 ultra 14.6" wifi', 'galaxy tab s8 ultra 14.6" wi-fi' => 'Galaxy Tab S8 Ultra 14.6" Wi-Fi',
             'galaxy tab s9 11" wi-fi', 'galaxy tab s9 11" wifi' => 'Galaxy Tab S9 11" Wi-Fi',
+            'galaxy tab s9 fe 10.9" wi-fi', 'galaxy tab s9 fe 10.9" wifi' => 'Galaxy Tab S9 FE 10.9" Wi-Fi',
             'galaxy tab s9 fe 10.9" 5g', 'galaxy tab s9 fe 10.9" 5g (international)', 'galaxy tab s9 fe 10.9" 5g (korea)', 'galaxy tab s9 fe 10.9" 5g (usa)' => 'Galaxy Tab S9 FE 10.9" 5G',
+            'galaxy tab s9 fe+ 12.4" wi-fi', 'galaxy tab s9 fe+ 12.4" wifi' => 'Galaxy Tab S9 FE+ 12.4" Wi-Fi',
+            'galaxy tab s9 ultra 14.6" wi-fi', 'galaxy tab s9 ultra 14.6" wifi' => 'Galaxy Tab S9 Ultra 14.6" Wi-Fi',
+            'galaxy tab s9+ 12.4" 5g', 'galaxy tab s9+ 12.4" 5g (usa)' => 'Galaxy Tab S9+ 12.4" 5G',
             'galaxy tab s10 fe+ 13.1"', 'galaxy tab s10 fe+ 13.1" wi-fi', 'galaxy tab s10 fe+ 13.1" wifi' => 'Galaxy Tab S10 FE+ 13.1"',
             'galaxy tab s10+ 12.4" wi-fi', 'galaxy tab s10+ 12.4" wifi' => 'Galaxy Tab S10+ 12.4" Wi-Fi',
             'galaxy w24 5g', 'galaxy w24 fold' => 'Galaxy W24',
@@ -104,12 +113,16 @@ final class DeviceMarketingnameMapper
             'galaxy xcover 6 pro', 'galaxy xcover 6 pro (usa)' => 'Galaxy Xcover 6 Pro',
             'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)' => 'Galaxy Z Fold 5',
             'galaxy z fold 6', 'galaxy z fold 6 (korea)' => 'Galaxy Z Fold 6',
+            'galaxy z flip 4', 'galaxy z flip 4 (china)', 'galaxy z flip 4 (international)' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)' => 'Galaxy Z Flip 6',
             // apple
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
             // oppo
+            'a3', 'a3 4g' => 'A3',
+            'a3x', 'a3x 4g' => 'A3x',
+            'a3 5g', 'a3 5g (india)' => 'A3 5G',
             'a3 energy', 'a3 energy (china)' => 'A3 Energy',
             'a5 5g', 'a5 5g (china)' => 'A5 5G',
             'a5 pro', 'a5 pro 4g' => 'A5 Pro',
@@ -124,6 +137,7 @@ final class DeviceMarketingnameMapper
             'reno 13 pro', 'reno 13 pro 5g' => 'Reno 13 Pro',
             'pad neo', 'pad neo 4g' => 'Pad Neo',
             'k12x 5g', 'k12x 5g (china)' => 'K12x 5G',
+            'pad 11.61" wi-fi', 'pad 11.61" wifi' => 'Pad 11.61" Wi-Fi',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
@@ -134,10 +148,11 @@ final class DeviceMarketingnameMapper
             'redmi note 12 pro', 'redmi note 12 pro 5g' => 'Redmi Note 12 Pro',
             'redmi note 12 pro+ 5g', 'redmi note 12 pro plus 5g' => 'Redmi Note 12 Pro+ 5G',
             'redmi note 13', 'redmi note 13 4g' => 'Redmi Note 13',
+            'redmi note 13r', 'redmi note 13r (china)' => 'Redmi Note 13R',
             'redmi note 13 pro', 'redmi note 13 pro 4g' => 'Redmi Note 13 Pro',
             'redmi note 14', 'redmi note 14 4g' => 'Redmi Note 14',
             'redmi note 14 5g', 'redmi note 14 5g (china)', 'redmi note 14 5g (global)', 'redmi note 14 5g (india)' => 'Redmi Note 14 5G',
-            'redmi note 14 pro', 'redmi note 14 pro 5g', 'redmi note 14 pro 5g (global)', 'redmi note 14 pro 5g (india)', 'redmi note 14 pro 4g' => 'Redmi Note 14 Pro',
+            'redmi note 14 pro', 'redmi note 14 pro 5g', 'redmi note 14 pro 5g (global)', 'redmi note 14 pro 5g (india)', 'redmi note 14 pro 4g', 'redmi note 14 pro 5g (china)' => 'Redmi Note 14 Pro',
             'redmi note 14 pro+', 'redmi note 14 pro+ 5g (global)', 'redmi note 14 pro+ 5g (india)', 'redmi note 14 pro+ 5g (china)' => 'Redmi Note 14 Pro+',
             'redmi pad 2', 'redmi pad 2 wi-fi', 'redmi pad 2 wifi' => 'Redmi Pad 2',
             'redmi pad pro', 'redmi pad pro 12.1"' => 'Redmi Pad Pro',
@@ -154,10 +169,11 @@ final class DeviceMarketingnameMapper
             'v50 lite', 'v50 lite 4g' => 'V50 Lite',
             // lenovo
             'tab k10 (gen 2)', 'tab k10 (gen 2) wi-fi', 'tab k10 (gen 2) wifi' => 'Tab K10 (Gen 2)',
-            'tab m11', 'tab m11 lte' => 'Tab M11',
+            'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
             'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
             'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi' => 'Tab P11 (Gen 2)',
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
+            'legion y700', 'legion y700 wi-fi (2025)' => 'Legion Y700',
             // infinix
             'hot 50', 'hot 50 4g' => 'Hot 50',
             'hot 50 pro', 'hot 50 pro 4g' => 'Hot 50 Pro',
@@ -171,6 +187,8 @@ final class DeviceMarketingnameMapper
             // oneplus
             'ace 5 racing', 'ace 5 race' => 'Ace 5 Racing',
             'pad go 11.35"', 'pad go 11.35" lte' => 'Pad Go 11.35"',
+            'nord ce 4 lite 5g', 'nord ce 4 lite 5g (india)' => 'Nord CE 4 Lite 5G',
+            'pad 2 12.1" wi-fi', 'pad 2 12.1" wifi' => 'Pad 2 12.1" Wi-Fi',
             // tecno
             'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
             'spark go 1s', 'spark go 1s 4g' => 'Spark Go 1S',
@@ -191,6 +209,11 @@ final class DeviceMarketingnameMapper
             'honor pad x9a 11.5" wi-fi', 'honor pad x9a 11.5" wifi' => 'Honor Pad X9a 11.5" Wi-Fi',
             'honor pad v9 11.5" wi-fi', 'honor pad v9 11.5" wifi' => 'Honor Pad V9 11.5" Wi-Fi',
             'honor x7c', 'honor x7c 4g' => 'Honor X7c',
+            'honor pad x8a wi-fi', 'honor pad x8a wifi' => 'Honor Pad X8a Wi-Fi',
+            'honor magicpad 2 12.3" wi-fi', 'honor magicpad 2 wifi' => 'Honor MagicPad 2 12.3" Wi-Fi',
+            'honor 200 lite', 'honor 200 lite 5g' => 'Honor 200 Lite',
+            'matepad 11 wi-fi (2023)', 'matepad 11 (2023) wifi' => 'MatePad 11 Wi-Fi (2023)',
+            'matepad 11.5" air', 'matepad 11.5" air lte (2021)' => 'MatePad 11.5" Air',
             // realme
             '9 pro+ 5g', '9 pro plus 5g' => '9 Pro+ 5G',
             '13', '13 5g' => '13',
@@ -218,7 +241,7 @@ final class DeviceMarketingnameMapper
             'pro infinity', 'pro infinity ta3d0m01', 'pro infinity ta2d0m01', 'pro infinity ta3e0m01' => 'Pro Infinity',
             'pro spectrum', 'pro spectrum ta2d0p02' => 'Pro Spectrum',
             'pro spark', 'pro spark ta1c8m01' => 'Pro Spark',
-            'pro pulse', 'pro pulse ta3e0p01' => 'Pro Pulse',
+            'pro pulse', 'pro pulse ta3e0p01', 'pro pulse ta3d0p01', 'pro pulse ta2d0p01' => 'Pro Pulse',
             'q8', 'q8 da6b8p01' => 'Q8',
             // itel
             'p65c', 'p55' => 'P55',
@@ -235,9 +258,17 @@ final class DeviceMarketingnameMapper
             'tab 9 wifi', 'tab 9 wi-fi' => 'Tab 9 Wi-Fi',
             // poco
             'm6', 'm6 4g' => 'M6',
+            'f6', 'f6 5g' => 'F6',
+            'pad 12.1"', 'pad 12.1" wi-fi' => 'Pad 12.1"',
             // oscal
             'pad 70 wi-fi', 'pad 70 wifi' => 'Pad 70 Wi-Fi',
             'pad 80 wi-fi', 'pad 80 wifi' => 'Pad 80 Wi-Fi',
+            // chuwi
+            'hi10 xpro', 'hi10 xpro pad' => 'Hi10 XPro',
+            // motorola
+            'moto razr 50', 'moto razr 50 5g (2024)' => 'Moto Razr 50',
+            // nuu-mobile
+            'b30 pro', 'b30 pro 5g' => 'B30 Pro',
             default => $marketingName,
         };
     }
