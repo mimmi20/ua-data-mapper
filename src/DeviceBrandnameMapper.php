@@ -39,7 +39,7 @@ final class DeviceBrandnameMapper
             'au', 'asus' => 'Asus',
             'sa', 'samsung' => 'Samsung',
             'so', 'sony' => 'Sony',
-            'rm', 'blackberry' => 'BlackBerry',
+            'rm', 'blackberry', 'rim', 'black-berry' => 'BlackBerry',
             'nk', 'nokia' => 'Nokia',
             'ac', 'acer' => 'Acer',
             'go', 'google' => 'Google',
@@ -162,6 +162,10 @@ final class DeviceBrandnameMapper
             'nuu mobile', 'nuu-mobile' => 'NUU Mobile',
             'lava' => 'Lava',
             'xreal' => 'XREAL',
+            'ihunt' => 'iHunt',
+            'kyocera' => 'Kyocera',
+            'vortex' => 'Vortex',
+            'm-kopa' => 'M-KOPA',
             default => $brandName,
         };
     }
