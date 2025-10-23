@@ -166,6 +166,7 @@ final class DeviceBrandnameMapper
             'kyocera' => 'Kyocera',
             'vortex' => 'Vortex',
             'm-kopa' => 'M-KOPA',
+            'lg' => 'LG',
             default => $brandName,
         };
     }
