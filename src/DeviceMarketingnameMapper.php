@@ -191,6 +191,7 @@ final class DeviceMarketingnameMapper
             'iqoo neo 9 pro', 'iqoo neo 9 pro (china)', 'iqoo neo 9 pro (international)' => 'iQOO Neo 9 Pro',
             'iqoo 11', 'iqoo 11 5g' => 'iQOO 11',
             'v30 lite', 'v30 lite (me)' => 'V30 Lite',
+            'iqoo z10 lite', 'iqoo z10 lite 4g' => 'iQOO Z10 Lite',
             // lenovo
             'tab k10 (gen 2)', 'tab k10 (gen 2) wi-fi', 'tab k10 (gen 2) wifi' => 'Tab K10 (Gen 2)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
