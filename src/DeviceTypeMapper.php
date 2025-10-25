@@ -37,7 +37,7 @@ final class DeviceTypeMapper
         }
 
         return match (mb_strtolower($deviceType)) {
-            'smart-tv', 'tv device', 'tv-media-player' => Type::Tv,
+            'smart-tv', 'tv device', 'tv-media-player', 'tv-set-top-box' => Type::Tv,
             'desktop' => Type::Desktop,
             'tablet', 'fone-pad', 'fonepad' => Type::Tablet,
             'mobile device' => Type::MobileDevice,
@@ -46,6 +46,7 @@ final class DeviceTypeMapper
             'feature phone' => Type::FeaturePhone,
             'digital camera' => Type::DigitalCamera,
             'portable media player' => Type::MobileMediaPlayer,
+            'mobile-console' => Type::Console,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
