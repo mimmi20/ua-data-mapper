@@ -43,7 +43,7 @@
     "ext-xmlwriter": "*",
     "filp/whoops": "^2.18.4",
     "infection/infection": "^0.31.7",
-    "mimmi20/coding-standard": "^6.2.5",
+    "mimmi20/coding-standard": "^7.0.0",
     "nikic/php-parser": "^5.6.1",
     "phpstan/extension-installer": "^1.4.3",
     "phpstan/phpstan": "^2.1.31",
