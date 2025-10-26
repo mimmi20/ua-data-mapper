@@ -107,6 +107,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" Wi-Fi',
             'galaxy tab s8 11.0" wi-fi', 'galaxy tab s8 11.0" wifi' => 'Galaxy Tab S8 11.0" Wi-Fi',
+            'galaxy tab s8+ 12.4" wi-fi', 'galaxy tab s8+ 12.4" wifi' => 'Galaxy Tab S8+ 12.4" Wi-Fi',
             'galaxy tab s8 ultra 14.6" wifi', 'galaxy tab s8 ultra 14.6" wi-fi' => 'Galaxy Tab S8 Ultra 14.6" Wi-Fi',
             'galaxy tab s9 11" wi-fi', 'galaxy tab s9 11" wifi' => 'Galaxy Tab S9 11" Wi-Fi',
             'galaxy tab s9 fe 10.9" wi-fi', 'galaxy tab s9 fe 10.9" wifi' => 'Galaxy Tab S9 FE 10.9" Wi-Fi',
@@ -123,6 +124,7 @@ final class DeviceMarketingnameMapper
             'galaxy w24 flip', 'galaxy w24 flip 5g' => 'Galaxy W24 Flip',
             'galaxy w25 5g', 'galaxy w25' => 'Galaxy W25',
             'galaxy xcover 6 pro', 'galaxy xcover 6 pro (usa)' => 'Galaxy Xcover 6 Pro',
+            'galaxy z fold 4', 'galaxy z fold 4 5g (international)' => 'Galaxy Z Fold 4',
             'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)', 'galaxy z fold 5 (china)', 'galaxy z fold 5 (canada)' => 'Galaxy Z Fold 5',
             'galaxy z fold 6', 'galaxy z fold 6 (korea)' => 'Galaxy Z Fold 6',
             'galaxy z flip 3', 'galaxy z flip 3 5g (usa)' => 'Galaxy Z Flip 3',
@@ -200,6 +202,7 @@ final class DeviceMarketingnameMapper
             'iqoo 11', 'iqoo 11 5g' => 'iQOO 11',
             'v30 lite', 'v30 lite (me)' => 'V30 Lite',
             'iqoo z10 lite', 'iqoo z10 lite 4g' => 'iQOO Z10 Lite',
+            'iqoo neo 7', 'iqoo neo 7 (china)' => 'iQOO Neo 7',
             // lenovo
             'tab k10 (gen 2)', 'tab k10 (gen 2) wi-fi', 'tab k10 (gen 2) wifi' => 'Tab K10 (Gen 2)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
