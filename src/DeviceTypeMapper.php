@@ -37,9 +37,10 @@ final class DeviceTypeMapper
         }
 
         return match (mb_strtolower($deviceType)) {
-            'tv-media-player', 'tv-set-top-box' => Type::Tv,
             'fone-pad' => Type::Tablet,
             'mobile-console' => Type::Console,
+            'smart-watch' => Type::Wearable,
+            'tv-media-player', 'tv-set-top-box' => Type::Tv,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };

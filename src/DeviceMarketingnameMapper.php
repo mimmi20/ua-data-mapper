@@ -48,6 +48,7 @@ final class DeviceMarketingnameMapper
             'galaxy a04', 'galaxy a04 4g' => 'Galaxy A04',
             'galaxy a04s', 'galaxy a04s 4g' => 'Galaxy A04s',
             'galaxy a05', 'galaxy a05 4g' => 'Galaxy A05',
+            'galaxy a12', 'galaxy a12 (india)' => 'Galaxy A12',
             'galaxy a13 5g', 'galaxy a13 5g (international)' => 'Galaxy A13 5G',
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
             'galaxy a14 5g', 'galaxy a14 5g (international)', 'galaxy a14 5g (usa unlocked)', 'galaxy a14 5g (usa)' => 'Galaxy A14 5G',
@@ -63,7 +64,8 @@ final class DeviceMarketingnameMapper
             'galaxy a34 5g', 'galaxy a34 5g (international)', 'galaxy a34 5g (asia/africa)' => 'Galaxy A34 5G',
             'galaxy a35 5g', 'galaxy a35 5g (international)', 'galaxy a35 5g (korea)', 'galaxy a35 5g (usa)', 'galaxy a35 5g (china)' => 'Galaxy A35 5G',
             'galaxy a36 5g', 'galaxy a36 5g (international)', 'galaxy a36 5g (usa)' => 'Galaxy A36 5G',
-            'galaxy a51', 'galaxy a51 4g (global)' => 'Galaxy A51',
+            'galaxy a51', 'galaxy a51 4g (global)', 'galaxy a51 4g (usa unlocked)' => 'Galaxy A51',
+            'galaxy a51 5g', 'galaxy a51 5g (international)' => 'Galaxy A51 5G',
             'galaxy a52', 'galaxy a52 4g' => 'Galaxy A52',
             'galaxy a52 5g', 'galaxy a52 5g (international)', 'galaxy a52 5g (usa)' => 'Galaxy A52 5G',
             'galaxy a52s 5g', 'galaxy a52s 5g (international)' => 'Galaxy A52s 5G',
@@ -72,7 +74,7 @@ final class DeviceMarketingnameMapper
             'galaxy a55 5g', 'galaxy a55 5g (china)', 'galaxy a55 5g (japan)' => 'Galaxy A55 5G',
             'galaxy a56 5g', 'galaxy a56 5g (international)' => 'Galaxy A56 5G',
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
-            'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum' => 'Galaxy A71 5G',
+            'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)' => 'Galaxy A71 5G',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
             'galaxy f14', 'galaxy f14 4g' => 'Galaxy F14',
             'galaxy f15 5g', 'galaxy f15 5g (international)' => 'Galaxy F15 5G',
@@ -86,16 +88,17 @@ final class DeviceMarketingnameMapper
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
             'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)' => 'Galaxy S20 5G',
             'galaxy s20+', 'galaxy s20+ 4g' => 'Galaxy S20+',
-            'galaxy s20+ 5g', 'galaxy s20+ 5g (international)' => 'Galaxy S20+ 5G',
-            'galaxy s20 fe 5g', 'galaxy s20 fe 5g (usa unlocked)', 'galaxy s20 fe 5g (international)', 'galaxy s20 fe 5g (usa)' => 'Galaxy S20 FE 5G',
-            'galaxy s20 ultra 5g', 'galaxy s20 ultra 5g (usa unlocked)' => 'Galaxy S20 Ultra 5G',
+            'galaxy s20+ 5g', 'galaxy s20+ 5g (international)', 'galaxy s20+ 5g (usa unlocked)' => 'Galaxy S20+ 5G',
+            'galaxy s20 fe', 'galaxy s20 fe 4g' => 'Galaxy S20 FE',
+            'galaxy s20 fe 5g', 'galaxy s20 fe 5g (usa unlocked)', 'galaxy s20 fe 5g (international)', 'galaxy s20 fe 5g (usa)', 'galaxy s20 fe 5g (china, hong kong)' => 'Galaxy S20 FE 5G',
+            'galaxy s20 ultra 5g', 'galaxy s20 ultra 5g (usa unlocked)', 'galaxy s20 ultra 5g (usa)' => 'Galaxy S20 Ultra 5G',
             'galaxy s21 5g', 'galaxy s21 5g (usa unlocked)', 'galaxy s21 5g (korea)', 'galaxy s21 5g (international)', 'galaxy s21 5g (usa)' => 'Galaxy S21 5G',
             'galaxy s21+ 5g', 'galaxy s21+ 5g (usa)', 'galaxy s21+ 5g (international)' => 'Galaxy S21+ 5G',
             'galaxy s21 fe 5g', 'galaxy s21 fe 5g (usa)', 'galaxy s21 fe 5g (usa unlocked)', 'galaxy s21 fe 5g (canada)' => 'Galaxy S21 FE 5G',
             'galaxy s21 ultra 5g', 'galaxy s21 ultra 5g (international)' => 'Galaxy S21 Ultra 5G',
             'galaxy s22', 'galaxy s22 5g (international)', 'galaxy s22 5g (korea)', 'galaxy s22 5g (usa unlocked)', 'galaxy s22 5g (asia/africa)', 'galaxy s22 5g (usa)' => 'Galaxy S22',
-            'galaxy s22+', 'galaxy s22+ 5g (usa)' => 'Galaxy S22+',
-            'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)', 'galaxy s22 ultra 5g (asia/africa)', 'galaxy s22 ultra 5g (usa unlocked)', 'galaxy s22 ultra 5g (usa)' => 'Galaxy S22 Ultra',
+            'galaxy s22+', 'galaxy s22+ 5g (usa)', 'galaxy s22+ 5g (international)', 'galaxy s22+ 5g (asia/africa)' => 'Galaxy S22+',
+            'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)', 'galaxy s22 ultra 5g (asia/africa)', 'galaxy s22 ultra 5g (usa unlocked)', 'galaxy s22 ultra 5g (usa)', 'galaxy s22 ultra 5g (china)' => 'Galaxy S22 Ultra',
             'galaxy s23', 'galaxy s23 (china)', 'galaxy s23 (international)', 'galaxy s23 5g uw', 'galaxy s23 (usa unlocked)', 'galaxy s23 (usa)', 'galaxy s23 (canada)', 'galaxy s23 (korea)', 'galaxy s23 5g uw (japan)' => 'Galaxy S23',
             'galaxy s23+', 'galaxy s23+ (international)', 'galaxy s23+ (usa unlocked)', 'galaxy s23+ (korea)', 'galaxy s23+ (china)' => 'Galaxy S23+',
             'galaxy s23 fe', 'galaxy s23 fe (canada)', 'galaxy s23 fe (usa)', 'galaxy s23 fe (korea)', 'galaxy s23 fe (japan)' => 'Galaxy S23 FE',
@@ -108,6 +111,7 @@ final class DeviceMarketingnameMapper
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)', 'galaxy s25 plus (usa)' => 'Galaxy S25+',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
             'galaxy tab a7 lite 8.7" wi-fi (2021)', 'galaxy tab a7 lite 8.7" (2021) wifi' => 'Galaxy Tab A7 Lite 8.7" Wi-Fi (2021)',
+            'galaxy tab a7 lite 8.7" wi-fi (2021)', 'galaxy tab a7 lite 8.7" (2021) wifi' => 'Galaxy Tab A7 Lite 8.7" Wi-Fi (2021)',
             'galaxy tab a9 8.7"', 'galaxy tab a9 8.7" 4g' => 'Galaxy Tab A9 8.7"',
             'galaxy tab a8 10.5" wi-fi', 'galaxy tab a8 10.5" wi-fi (2021)', 'galaxy tab a8 10.5" wifi' => 'Galaxy Tab A8 10.5" Wi-Fi',
             'galaxy tab a8 10.5" lte', 'galaxy tab a8 10.5" lte (2021)' => 'Galaxy Tab A8 10.5" LTE',
@@ -115,7 +119,9 @@ final class DeviceMarketingnameMapper
             'galaxy tab a9+ 11.0" 5g', 'galaxy tab a9+ 11.0" 5g (international, 2023)', 'galaxy tab a9+ 11.0" 5g (usa, 2023)' => 'Galaxy Tab A9+ 11.0" 5G',
             'galaxy tab a9+ 11.0" wi-fi', 'galaxy tab a9+ 11.0" wifi' => 'Galaxy Tab A9+ 11.0" Wi-Fi',
             'galaxy tab active 4 pro 10.1" 5g', 'galaxy tab active 4 pro 10.1" 5g (international)' => 'Galaxy Tab Active 4 Pro 10.1" 5G',
+            'galaxy tab s4 10.5"', 'galaxy tab s4 10.5" lte (2018)' => 'Galaxy Tab S4 10.5"',
             'galaxy tab s6 lite 10.4"', 'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)', 'galaxy tab s6 lite 10.4" wi-fi (2022)', 'galaxy tab s6 lite 10.4" lte (2022)' => 'Galaxy Tab S6 Lite 10.4"',
+            'galaxy tab s7 11.0" 4g', 'galaxy tab s7 11.0" lte' => 'Galaxy Tab S7 11.0" 4G',
             'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)' => 'Galaxy Tab S7 FE 12.4" 5G',
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" Wi-Fi',
@@ -138,8 +144,10 @@ final class DeviceMarketingnameMapper
             'galaxy w24 5g', 'galaxy w24 fold' => 'Galaxy W24',
             'galaxy w24 flip', 'galaxy w24 flip 5g' => 'Galaxy W24 Flip',
             'galaxy w25 5g', 'galaxy w25' => 'Galaxy W25',
+            'galaxy watch 6 classic (43mm)', 'galaxy watch 6 classic 43mm' => 'Galaxy Watch 6 Classic (43mm)',
+            'galaxy watch 6 classic (47mm)', 'galaxy watch 6 classic 47mm' => 'Galaxy Watch 6 Classic (47mm)',
             'galaxy xcover 6 pro', 'galaxy xcover 6 pro (usa)', 'galaxy xcover 6 pro (international)' => 'Galaxy Xcover 6 Pro',
-            'galaxy z fold 3 5g', 'galaxy z fold 3 5g (canada)', 'galaxy z fold 3 5g (international)' => 'Galaxy Z Fold 3 5G',
+            'galaxy z fold 3 5g', 'galaxy z fold 3 5g (canada)', 'galaxy z fold 3 5g (international)', 'galaxy z fold 3 5g (korea)' => 'Galaxy Z Fold 3 5G',
             'galaxy z fold 4', 'galaxy z fold 4 5g (international)', 'galaxy z fold 4 5g (canada)' => 'Galaxy Z Fold 4',
             'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)', 'galaxy z fold 5 (china)', 'galaxy z fold 5 (canada)' => 'Galaxy Z Fold 5',
             'galaxy z fold 6', 'galaxy z fold 6 (korea)' => 'Galaxy Z Fold 6',
@@ -163,6 +171,7 @@ final class DeviceMarketingnameMapper
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
             'a58', 'a58 4g' => 'A58',
             'a5x', 'a5x 4g' => 'A5x',
+            'a94 4g', 'a94' => 'A94',
             'a95 4g', 'a95' => 'A95',
             'reno 6', 'reno 6 5g' => 'Reno 6',
             'reno 8t', 'reno 8t 4g', 'reno 8t 5g' => 'Reno 8T',
@@ -177,14 +186,17 @@ final class DeviceMarketingnameMapper
             'a3 pro 5g', 'a3 pro 5g (china)' => 'A3 Pro 5G',
             'reno 11 pro', 'reno 11 pro (china)' => 'Reno 11 Pro',
             'reno 7', 'reno 7 5g (china)' => 'Reno 7',
+            'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
             'mi 11t', '11t' => '11T',
             'mi 10', 'mi 10 5g' => 'Mi 10',
+            'mi pad 5 pro', 'mi pad 5 pro 11" wi-fi', 'mi pad 5 pro 11" 5g' => 'Mi Pad 5 Pro',
             'x7', 'x7 5g' => 'X7',
+            'redmi note 11 pro+', 'redmi note 11 pro+ 5g' => 'Redmi Note 11 Pro+',
             'redmi note 12', 'redmi note 12 4g', 'redmi note 12 5g', 'note 12 4g top edition' => 'Redmi Note 12',
-            'redmi note 12 pro', 'redmi note 12 pro 5g' => 'Redmi Note 12 Pro',
+            'redmi note 12 pro', 'redmi note 12 pro 5g', 'redmi note 12 pro 4g' => 'Redmi Note 12 Pro',
             'redmi note 12 pro+ 5g', 'redmi note 12 pro plus 5g' => 'Redmi Note 12 Pro+ 5G',
             'redmi note 13', 'redmi note 13 4g' => 'Redmi Note 13',
             'redmi note 13r', 'redmi note 13r (china)' => 'Redmi Note 13R',
@@ -223,14 +235,18 @@ final class DeviceMarketingnameMapper
             'iqoo neo 7', 'iqoo neo 7 (china)' => 'iQOO Neo 7',
             'iqoo 9t', 'iqoo 9t 5g' => 'iQOO 9T',
             'v27e', 'v25e 4g (latam)' => 'V27e',
+            'y52', 'y52 5g' => 'Y52',
             // lenovo
             'tab k10 (gen 2)', 'tab k10 (gen 2) wi-fi', 'tab k10 (gen 2) wifi' => 'Tab K10 (Gen 2)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
             'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
-            'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi' => 'Tab P11 (Gen 2)',
+            'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi', 'tab p11 (2nd gen, 2022)' => 'Tab P11 (Gen 2)',
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
             'legion y700', 'legion y700 wi-fi (2025)' => 'Legion Y700',
             'tab m9', 'tab m9 wi-fi' => 'Tab M9',
+            'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
+            'tab m8 (gen 4) (2024)', 'tab m8 4g (4rd gen, 2024)' => 'Tab M8 4G (4rd Gen, 2024)',
+            'tab m10 plus (gen 3)', 'tab m10 plus (3rd gen) wi-fi', 'tab m10 plus (3rd gen) 5g' => 'Tab M10 Plus (Gen 3)',
             // infinix
             'hot 50', 'hot 50 4g' => 'Hot 50',
             'hot 50 pro', 'hot 50 pro 4g' => 'Hot 50 Pro',
@@ -293,6 +309,7 @@ final class DeviceMarketingnameMapper
             'gt neo 6', 'gt neo 6 5g' => 'GT Neo 6',
             '12 pro+', '12 pro+ 5g' => '12 Pro+',
             '12 pro', '12 pro 5g' => '12 Pro',
+            'c53', 'c53 (india)' => 'C53',
             // google
             'pixel 4a', 'pixel 4a 5g', 'pixel 4a (5g)' => 'Pixel 4a',
             // asus
@@ -300,6 +317,8 @@ final class DeviceMarketingnameMapper
             'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
             // zte/nubia
             'z70s ultra' => 'Z70s Ultra',
+            'blade a73', 'blade a73 5g' => 'Blade A73',
+            'blade a75', 'blade a75 4g' => 'Blade A75',
             // digma
             'pro empire', 'pro empire ta3e2m01' => 'Pro Empire',
             'pro eclipse', 'pro eclipse ta3e1p02' => 'Pro Eclipse',
@@ -316,16 +335,20 @@ final class DeviceMarketingnameMapper
             // itel
             'p65c', 'p55' => 'P55',
             // casper
-            'via x45' => 'Via X45',
-            'via m40' => 'Via M40',
+            'via l40' => 'Via L40',
             'via l50' => 'Via L50',
+            'via m40' => 'Via M40',
+            'via x45' => 'Via X45',
             // Krüger&Matz
             'live 12' => 'Live 12',
+            'flow 11' => 'Flow 11',
             // homii
             'xbook 12' => 'XBook 12',
             // blackview
-            'tab 90 wifi', 'tab 90 wi-fi' => 'Tab 90 Wi-Fi',
-            'tab 9 wifi', 'tab 9 wi-fi' => 'Tab 9 Wi-Fi',
+            'tab 9 wi-fi', 'tab 9 wifi' => 'Tab 9 Wi-Fi',
+            'tab 10 wi-fi', 'tab 10 wifi' => 'Tab 10 Wi-Fi',
+            'tab 70 wi-fi', 'tab 70 wifi' => 'Tab 70 Wi-Fi',
+            'tab 90 wi-fi', 'tab 90 wifi' => 'Tab 90 Wi-Fi',
             // poco
             'm6', 'm6 4g' => 'M6',
             'f6', 'f6 5g' => 'F6',
@@ -345,11 +368,22 @@ final class DeviceMarketingnameMapper
             'aquos wish 3 5g', 'aquos wish3' => 'Aquos Wish 3 5G',
             // lg
             'g8 thinq', 'g8 thinq (at&t)' => 'G8 ThinQ',
+            'k92', 'k92 5g' => 'K92',
             // krono
             'net alpha' => 'Net Alpha',
             'net hit' => 'Net Hit',
             // reeder
             's19 max', 's19 max 64 gb' => 'S19 Max',
+            // hanson
+            'flex 7000' => 'Flex 7000',
+            // hafury
+            'meet' => 'Meet',
+            // pritom
+            'm10 c01', 'm10 c01 eea' => 'M10 C01',
+            // vale
+            'v10e lte' => 'V10e LTE',
+            // saiet
+            'sicure smart', 'sicuro smart sts602' => 'Sicure Smart',
             default => $marketingName,
         };
     }
