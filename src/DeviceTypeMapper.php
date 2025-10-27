@@ -37,6 +37,7 @@ final class DeviceTypeMapper
         }
 
         return match (mb_strtolower($deviceType)) {
+            'car browser' => Type::CarEntertainmentSystem,
             'fone-pad' => Type::Tablet,
             'mobile-console' => Type::Console,
             'smart-watch' => Type::Wearable,
