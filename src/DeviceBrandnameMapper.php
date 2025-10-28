@@ -46,7 +46,7 @@ final class DeviceBrandnameMapper
             'le', 'md', 'lenovo' => 'Lenovo',
             'mr', 'motorola' => 'Motorola',
             'kn', 'amazon' => 'Amazon',
-            'hu', 'huawei' => 'Huawei',
+            'hu', 'huawei', 'honor' => 'Huawei',
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',
             'al', 'alcatel' => 'Alcatel',
