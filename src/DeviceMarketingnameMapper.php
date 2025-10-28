@@ -187,6 +187,8 @@ final class DeviceMarketingnameMapper
             'reno 11 pro', 'reno 11 pro (china)' => 'Reno 11 Pro',
             'reno 7', 'reno 7 5g (china)' => 'Reno 7',
             'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
+            'a74', 'f19s' => 'A74',
+            'a1x', 'a2x 5g' => 'A1x',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
@@ -209,15 +211,19 @@ final class DeviceMarketingnameMapper
             'redmi pad pro', 'redmi pad pro 12.1"' => 'Redmi Pad Pro',
             'redmi pad se 8.7"', 'redmi pad se 8.7" 4g' => 'Redmi Pad SE 8.7"',
             'redmi 13', 'redmi 13 4g' => 'Redmi 13',
+            'redmi 14c 5g', 'redmi 14r 5g' => 'Redmi 14C 5G',
             'redmi 15c', 'redmi 15c 4g' => 'Redmi 15C',
+            'redmi a3', 'redmi 3' => 'Redmi A3',
             'redmi a5', 'redmi a5 4g' => 'Redmi A5',
             'pad 6s pro 12.4"', 'pad 6s pro 12.4" wi-fi', 'pad 6s pro 12.4" wifi' => 'Pad 6S Pro 12.4"',
             'pad 6 pro', 'mi pad 6 pro' => 'Mi Pad 6 Pro',
             '12 lite', '12 lite 5g' => '12 Lite',
+            '14t', '14t pro' => '14T',
+            'redmi note 10 pro', 'redmi k40 gaming edition' => 'Redmi Note 10 Pro',
             // vivo
             'iqoo neo 10', 'iqoo neo 10 (china)', 'iqoo neo 10 (india)' => 'iQOO Neo 10',
-            'y300', 'y300 (china)' => 'Y300',
-            'y29', 'y29 4g' => 'Y29',
+            'y300', 'y300 (china)', 'y29', 'y29 4g' => 'Y300',
+            'y300t', 'y300+' => 'Y300t',
             'v40 lite', 'v40 lite 5g (india)', 'v40 lite (international)' => 'V40 Lite',
             'v50 lite', 'v50 lite 4g' => 'V50 Lite',
             't2', 't2 (china)' => 'T2',
@@ -269,6 +275,7 @@ final class DeviceMarketingnameMapper
             // tecno
             'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
             'spark go 1s', 'spark go 1s 4g' => 'Spark Go 1S',
+            'spark 30c 5g', 'pop 9 5g' => 'Spark 30C 5G',
             // sony
             'xperia 10 v', 'xperia 10 v 5g (japan)' => 'Xperia 10 V',
             'xperia 10 vi', 'xperia 10 vi 5g' => 'Xperia 10 VI',
@@ -294,6 +301,7 @@ final class DeviceMarketingnameMapper
             'matepad 11 wi-fi (2023)', 'matepad 11 (2023) wifi' => 'MatePad 11 Wi-Fi (2023)',
             'matepad 11.5" air', 'matepad 11.5" air lte (2021)' => 'MatePad 11.5" Air',
             'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi' => 'MediaPad M3 Lite',
+            'honor x9c', 'honor magic 7 lite' => 'Honor X9c',
             // realme
             '9 pro+ 5g', '9 pro plus 5g' => '9 Pro+ 5G',
             '12', '12 4g' => '12',
@@ -310,6 +318,9 @@ final class DeviceMarketingnameMapper
             '12 pro+', '12 pro+ 5g' => '12 Pro+',
             '12 pro', '12 pro 5g' => '12 Pro',
             'c53', 'c53 (india)' => 'C53',
+            '14x', '14x (global)', 'c75x' => '14x',
+            'note 60', 'narzo n61' => 'Note 60',
+            '14x 5g', 'c75 5g' => '14x 5G',
             // google
             'pixel 4a', 'pixel 4a 5g', 'pixel 4a (5g)' => 'Pixel 4a',
             // asus
@@ -319,6 +330,7 @@ final class DeviceMarketingnameMapper
             'z70s ultra' => 'Z70s Ultra',
             'blade a73', 'blade a73 5g' => 'Blade A73',
             'blade a75', 'blade a75 4g' => 'Blade A75',
+            'blade v70 vita', 'blade v70 design' => 'Blade V70 Vita',
             // digma
             'pro empire', 'pro empire ta3e2m01' => 'Pro Empire',
             'pro eclipse', 'pro eclipse ta3e1p02' => 'Pro Eclipse',
@@ -362,6 +374,7 @@ final class DeviceMarketingnameMapper
             'moto razr 50', 'moto razr 50 5g (2024)' => 'Moto Razr 50',
             'moto g50', 'moto g50 4g' => 'Moto G50',
             'edge+ (2023)', 'edge plus (2023)' => 'Edge+ (2023)',
+            's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
             // nuu-mobile
             'b30 pro', 'b30 pro 5g' => 'B30 Pro',
             // sharp
@@ -384,6 +397,10 @@ final class DeviceMarketingnameMapper
             'v10e lte' => 'V10e LTE',
             // saiet
             'sicure smart', 'sicuro smart sts602' => 'Sicure Smart',
+            // logicom
+            'five pro', 'five pro 32' => 'Five Pro',
+            // safaricom
+            'neon ray ultra', 'neon ray ultra m' => 'Neon Ray Ultra',
             default => $marketingName,
         };
     }
