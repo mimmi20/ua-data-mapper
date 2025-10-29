@@ -38,10 +38,10 @@ final class DeviceTypeMapper
 
         return match (mb_strtolower($deviceType)) {
             'car browser' => Type::CarEntertainmentSystem,
-            'fone-pad' => Type::Tablet,
-            'mobile-console' => Type::Console,
-            'smart-watch' => Type::Wearable,
-            'tv-media-player', 'tv-set-top-box' => Type::Tv,
+            'fonepad', 'fone-pad' => Type::Tablet,
+            'mobileconsole', 'mobile-console', 'mobile console' => Type::Console,
+            'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
+            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box' => Type::Tv,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
