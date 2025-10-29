@@ -46,7 +46,7 @@ final class DeviceBrandnameMapper
             'le', 'md', 'lenovo' => 'Lenovo',
             'mr', 'motorola' => 'Motorola',
             'kn', 'amazon' => 'Amazon',
-            'hu', 'huawei', 'honor' => 'Huawei',
+            'hu', 'huawei' => 'Huawei',
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',
             'al', 'alcatel' => 'Alcatel',
@@ -291,6 +291,13 @@ final class DeviceBrandnameMapper
             'soho style', 'soho-style' => 'Soho Style',
             'veidoo' => 'Veidoo',
             'opelmobile', 'opel-mobile' => 'OpelMobile',
+            'dudu-auto', 'dudu auto' => 'dudu-auto',
+            'crosscall' => 'crosscall',
+            'maze-speed', 'maze speed' => 'maze-speed',
+            'foxxd' => 'FoxxD',
+            's-color' => 'S-Color',
+            'higrace', 'hi-grace' => 'HiGrace',
+            'myphone', 'myphone (pl)' => 'MyPhone',
             default => $brandName,
         };
     }
