@@ -37,15 +37,12 @@ final class DeviceTypeMapper
         }
 
         return match (mb_strtolower($deviceType)) {
-            'smart-tv', 'tv device', 'tv-media-player' => Type::Tv,
-            'desktop' => Type::Desktop,
-            'tablet', 'fone-pad', 'fonepad' => Type::Tablet,
-            'mobile device' => Type::MobileDevice,
-            'mobile phone' => Type::MobilePhone,
-            'smartphone' => Type::Smartphone,
-            'feature phone' => Type::FeaturePhone,
-            'digital camera' => Type::DigitalCamera,
-            'portable media player' => Type::MobileMediaPlayer,
+            'car browser' => Type::CarEntertainmentSystem,
+            'fonepad', 'fone-pad' => Type::Tablet,
+            'laptop' => Type::Desktop,
+            'mobileconsole', 'mobile-console', 'mobile console' => Type::Console,
+            'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
+            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box' => Type::Tv,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
