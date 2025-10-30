@@ -298,6 +298,7 @@ final class DeviceBrandnameMapper
             's-color' => 'S-Color',
             'higrace', 'hi-grace' => 'HiGrace',
             'myphone', 'myphone (pl)' => 'MyPhone',
+            'idata' => 'iData',
             default => $brandName,
         };
     }

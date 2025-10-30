@@ -175,7 +175,7 @@ final class DeviceMarketingnameMapper
             'a3', 'a3 4g' => 'A3',
             'a3x', 'a3x 4g' => 'A3x',
             'a3x 5g', 'a3x 5g (china)' => 'A3x 5G',
-            'a3 5g', 'a3 5g (india)' => 'A3 5G',
+            'a3 5g', 'a3 5g (india)', 'a3 5g (china)' => 'A3 5G',
             'a3 energy', 'a3 energy (china)' => 'A3 Energy',
             'a3 pro 5g', 'a3 pro 5g (china)' => 'A3 Pro 5G',
             'a5 5g', 'a5 5g (china)' => 'A5 5G',
@@ -191,7 +191,8 @@ final class DeviceMarketingnameMapper
             'k11x 5g', 'k11x 5g (china)' => 'K11x 5G',
             'k12x 5g', 'k12x 5g (china)' => 'K12x 5G',
             'pad 11.61" wi-fi', 'pad 11.61" wifi' => 'Pad 11.61" Wi-Fi',
-            'pad neo', 'pad neo 4g' => 'Pad Neo',
+            'pad air 2', 'pad air 2 wi-fi' => 'Pad Air 2',
+            'pad neo', 'pad neo 4g', 'pad neo wi-fi' => 'Pad Neo',
             'reno 6', 'reno 6 5g' => 'Reno 6',
             'reno 7', 'reno 7 5g (china)' => 'Reno 7',
             'reno 8', 'reno 8 pro' => 'Reno 8',
@@ -270,16 +271,17 @@ final class DeviceMarketingnameMapper
             'y300', 'y300 (china)', 'y29', 'y29 4g' => 'Y300',
             'y300t', 'y300+' => 'Y300t',
             // lenovo
+            'legion y700', 'legion y700 wi-fi (2025)' => 'Legion Y700',
             'tab k10 (gen 2)', 'tab k10 (gen 2) wi-fi', 'tab k10 (gen 2) wifi' => 'Tab K10 (Gen 2)',
+            'tab m8 (gen 4) (2024)', 'tab m8 4g (4rd gen, 2024)' => 'Tab M8 4G (4rd Gen, 2024)',
+            'tab m9', 'tab m9 wi-fi' => 'Tab M9',
+            'tab m10 plus (gen 3)', 'tab m10 plus (3rd gen) wi-fi', 'tab m10 plus (3rd gen) 5g' => 'Tab M10 Plus (Gen 3)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
-            'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
             'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi', 'tab p11 (2nd gen, 2022)' => 'Tab P11 (Gen 2)',
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
-            'legion y700', 'legion y700 wi-fi (2025)' => 'Legion Y700',
-            'tab m9', 'tab m9 wi-fi' => 'Tab M9',
+            'tab p12 pro', 'tab p12 pro 5g' => 'Tab P12 Pro',
+            'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
             'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
-            'tab m8 (gen 4) (2024)', 'tab m8 4g (4rd gen, 2024)' => 'Tab M8 4G (4rd Gen, 2024)',
-            'tab m10 plus (gen 3)', 'tab m10 plus (3rd gen) wi-fi', 'tab m10 plus (3rd gen) 5g' => 'Tab M10 Plus (Gen 3)',
             // infinix
             'hot 50', 'hot 50 4g' => 'Hot 50',
             'hot 50 pro', 'hot 50 pro 4g' => 'Hot 50 Pro',
@@ -329,6 +331,7 @@ final class DeviceMarketingnameMapper
             'honor 200 lite', 'honor 200 lite 5g' => 'Honor 200 Lite',
             'matepad 11 wi-fi (2023)', 'matepad 11 (2023) wifi' => 'MatePad 11 Wi-Fi (2023)',
             'matepad 11.5" air', 'matepad 11.5" air lte (2021)' => 'MatePad 11.5" Air',
+            'matepad pro 11', 'matepad pro 11 lte (2022)' => 'MatePad Pro 11',
             'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi' => 'MediaPad M3 Lite',
             'honor x9c', 'honor magic 7 lite' => 'Honor X9c',
             // realme
@@ -391,6 +394,9 @@ final class DeviceMarketingnameMapper
             'via x45' => 'Via X45',
             // Krüger&Matz
             'drive 10' => 'Drive 10',
+            'eagle 807 8.4"', 'eagle 807 8.4" 4g' => 'Eagle 807 8.4"',
+            'eagle 1074 10.4"', 'eagle 1074 10.4" 4g' => 'Eagle 1074 10.4"',
+            'eagle 1076 10.4"', 'eagle 1076 10.4" 4g' => 'Eagle 1076 10.4"',
             'flow 10' => 'Flow 10',
             'flow 11' => 'Flow 11',
             'live 12' => 'Live 12',
@@ -438,6 +444,7 @@ final class DeviceMarketingnameMapper
             'm10 c01', 'm10 c01 eea' => 'M10 C01',
             // vale
             'v10e lte' => 'V10e LTE',
+            'v12e lte' => 'V12e LTE',
             // saiet
             'sicure smart', 'sicuro smart sts602' => 'Sicure Smart',
             // logicom
@@ -456,6 +463,16 @@ final class DeviceMarketingnameMapper
             'outlast', 'outlast 5g' => 'Outlast',
             // aligator
             'extremo', 'rx850 extremo' => 'eXtremo',
+            // nec
+            'lavie tab t9', 'lavie tab 9qhd1' => 'LAVIE TAB T9',
+            // hezire
+            'hbook pro', 'hbook-pro' => 'HBook Pro',
+            // archos
+            't101 fhd wi-fi', 't101 fhd wifi' => 'T101 FHD Wi-Fi',
+            // cepter
+            'tab 10l', 'tab10l' => 'Tab 10L',
+            // energizer
+            'hardcase g5', 'hard case g5' => 'Hardcase G5',
             default => $marketingName,
         };
     }
