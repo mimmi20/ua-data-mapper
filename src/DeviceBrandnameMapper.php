@@ -299,6 +299,12 @@ final class DeviceBrandnameMapper
             'higrace', 'hi-grace' => 'HiGrace',
             'myphone', 'myphone (pl)' => 'MyPhone',
             'idata' => 'iData',
+            'mintt' => 'Mintt',
+            'sigma mobile', 'sigma-mobile', 'sigma' => 'Sigma Mobile',
+            'goodtel' => 'GOODTEL',
+            'iotwe' => 'IOTWE',
+            'vontar' => 'Vontar',
+            'ibrit' => 'iBrit',
             default => $brandName,
         };
     }
