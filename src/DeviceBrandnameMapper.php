@@ -305,6 +305,7 @@ final class DeviceBrandnameMapper
             'iotwe' => 'IOTWE',
             'vontar' => 'Vontar',
             'ibrit' => 'iBrit',
+            'readboy' => 'Readboy',
             default => $brandName,
         };
     }
