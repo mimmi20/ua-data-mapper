@@ -306,6 +306,9 @@ final class DeviceBrandnameMapper
             'vontar' => 'Vontar',
             'ibrit' => 'iBrit',
             'readboy' => 'Readboy',
+            'eplutus' => 'Eplutus',
+            'techpad' => 'TechPad',
+            'blaupunkt' => 'Blaupunkt',
             default => $brandName,
         };
     }
