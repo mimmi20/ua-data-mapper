@@ -186,7 +186,7 @@ final class DeviceMarketingnameMapper
             'ipad 6 9.7', 'ipad 6 (9.7)' => 'iPad 6 9.7',
             'ipad pro 10.5', 'ipad pro (10.5, 2nd gen.)' => 'iPad Pro 10.5',
             'ipad pro 12.9', 'ipad pro (12.9)' => 'iPad Pro 12.9',
-            'ipad pro 3 11.0 wifi', 'iPad Pro 11.0" Wi-Fi (3rd Gen.)' => 'iPad Pro 3 11.0 WiFi',
+            'ipad pro 3 11.0 wifi', 'ipad pro 11.0" wi-fi (3rd gen.)' => 'iPad Pro 3 11.0 WiFi',
             'iphone se (3rd gen.)', 'iphone se (2022)' => 'iPhone SE (3rd Gen.)',
             'iphone se (2nd gen.)', 'iphone se (2020)' => 'iPhone SE (2nd Gen.)',
             'iphone 6s' => 'iPhone 6S',
