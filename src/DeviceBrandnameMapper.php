@@ -309,6 +309,21 @@ final class DeviceBrandnameMapper
             'eplutus' => 'Eplutus',
             'techpad' => 'TechPad',
             'blaupunkt' => 'Blaupunkt',
+            'great asia', 'great-asia' => 'Great Asia',
+            'fmt' => 'FMT',
+            'lanix' => 'Lanix',
+            'x-tigi' => 'X-TIGI',
+            'yestel' => 'Yestel',
+            'blackton' => 'Blackton',
+            'sebbe' => 'SEBBE',
+            'doro' => 'Doro',
+            'iconbit' => 'IconBIT',
+            'kinstone' => 'Kinstone',
+            'ruggear' => 'RugGear',
+            'sunmax' => 'Sunmax',
+            'medion' => 'Medion',
+            'kempler & strauss', 'kempler-strauss' => 'Kempler & Strauss',
+            'wortmann' => 'Wortmann',
             default => $brandName,
         };
     }
@@ -327,8 +342,6 @@ final class DeviceBrandnameMapper
         }
 
         return match (mb_strtolower($deviceName)) {
-            'p9514', 'lifetab p9514', 'lifetab s9512' => 'Medion',
-            'htc desire sv' => 'HTC',
             'ipad', 'iphone' => 'Apple',
             default => null,
         };
