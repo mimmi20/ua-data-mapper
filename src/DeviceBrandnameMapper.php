@@ -324,6 +324,9 @@ final class DeviceBrandnameMapper
             'medion' => 'Medion',
             'kempler & strauss', 'kempler-strauss' => 'Kempler & Strauss',
             'wortmann' => 'Wortmann',
+            'redline' => 'RedLine',
+            'magenta' => 'Magenta',
+            'china telecom', 'china-telecom' => 'China Telecom',
             default => $brandName,
         };
     }
