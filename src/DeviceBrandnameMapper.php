@@ -327,6 +327,11 @@ final class DeviceBrandnameMapper
             'redline' => 'RedLine',
             'magenta' => 'Magenta',
             'china telecom', 'china-telecom' => 'China Telecom',
+            'skyworth', 'sky-worth' => 'Skyworth',
+            'land rover', 'land-rover' => 'Land Rover',
+            'insys' => 'INSYS',
+            'spc' => 'SPC',
+            'conquest' => 'Conquest',
             default => $brandName,
         };
     }

@@ -42,7 +42,7 @@ final class DeviceTypeMapper
             'laptop' => Type::Desktop,
             'mobileconsole', 'mobile-console', 'mobile console' => Type::Console,
             'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
-            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'TvStick', 'tv-stick', 'TV Stick' => Type::Tv,
+            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => Type::Tv,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
