@@ -34,7 +34,7 @@ final class EngineNameMapper
         }
 
         return match (mb_strtolower($engineName)) {
-            '', 'unknown', 'other' => null,
+            '', 'unknown', 'other', 'unk' => null,
             'edgehtml' => 'Edge',
             'moz' => 'Gecko',
             default => $engineName,

@@ -34,22 +34,14 @@ final class BrowserVersionMapper
      */
     public function mapBrowserVersion(
         string | null $browserVersion,
-        string | null $browserName = null,
     ): VersionInterface {
         if ($browserVersion === null) {
             return new NullVersion();
         }
 
-        if ($browserName === null) {
-            return new NullVersion();
-        }
-
         return match (mb_strtolower($browserVersion)) {
             '', 'unknown', 'other' => new NullVersion(),
-            default => match (mb_strtolower($browserName)) {
-                '', 'unknown', 'other' => new NullVersion(),
-                default => (new VersionBuilder())->set($browserVersion),
-            },
+            default => (new VersionBuilder())->set($browserVersion),
         };
     }
 }

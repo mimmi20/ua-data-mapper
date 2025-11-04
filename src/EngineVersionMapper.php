@@ -39,7 +39,7 @@ final class EngineVersionMapper
         }
 
         return match (mb_strtolower($engineVersion)) {
-            '', 'unknown', 'other' => new NullVersion(),
+            '', 'unknown', 'other', 'unk' => new NullVersion(),
             default => (new VersionBuilder())->set($engineVersion),
         };
     }

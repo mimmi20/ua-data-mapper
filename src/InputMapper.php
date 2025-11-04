@@ -44,9 +44,8 @@ final class InputMapper
      */
     public function mapBrowserVersion(
         string | null $browserVersion,
-        string | null $browserName = null,
     ): VersionInterface {
-        return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion, $browserName);
+        return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion);
     }
 
     /**
@@ -68,9 +67,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapBrowserMaker(string $browserMaker, string | null $browserName = null): string | null
+    public function mapBrowserMaker(string $browserMaker): string | null
     {
-        return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker, $browserName);
+        return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker);
     }
 
     /**
@@ -92,9 +91,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapOsMaker(string $osMaker, string | null $osName = null): string | null
+    public function mapOsMaker(string $osMaker): string | null
     {
-        return (new PlatformMakerMapper())->mapOsMaker($osMaker, $osName);
+        return (new PlatformMakerMapper())->mapOsMaker($osMaker);
     }
 
     /**
@@ -140,9 +139,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceMaker(string $deviceMaker, string | null $deviceName = null): string | null
+    public function mapDeviceMaker(string $deviceMaker): string | null
     {
-        return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker, $deviceName);
+        return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker);
     }
 
     /**
