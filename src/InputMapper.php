@@ -152,18 +152,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceMarketingName(
-        string | null $marketingName,
-        string | null $deviceName = null,
-    ): string | null {
-        $mapper = new DeviceMarketingnameMapper();
-        $mname  = $mapper->mapDeviceName($deviceName);
-
-        if ($mname === null) {
-            $mname = $mapper->mapDeviceMarketingName($marketingName);
-        }
-
-        return $mname;
+    public function mapDeviceMarketingName(string | null $marketingName): string | null
+    {
+        return (new DeviceMarketingnameMapper())->mapDeviceMarketingName($marketingName);
     }
 
     /**
@@ -173,16 +164,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceBrandName(string | null $brandName, string | null $deviceName = null): string | null
+    public function mapDeviceBrandName(string | null $brandName): string | null
     {
-        $mapper    = new DeviceBrandnameMapper();
-        $brandname = $mapper->mapDeviceName($deviceName);
-
-        if ($brandname === null) {
-            $brandname = $mapper->mapDeviceBrandName($brandName);
-        }
-
-        return $brandname;
+        return (new DeviceBrandnameMapper())->mapDeviceBrandName($brandName);
     }
 
     /**

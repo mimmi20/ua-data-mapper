@@ -335,23 +335,4 @@ final class DeviceBrandnameMapper
             default => $brandName,
         };
     }
-
-    /**
-     * maps the brand name of a device from the device name
-     *
-     * @throws void
-     *
-     * @api
-     */
-    public function mapDeviceName(string | null $deviceName): string | null
-    {
-        if ($deviceName === null) {
-            return null;
-        }
-
-        return match (mb_strtolower($deviceName)) {
-            'ipad', 'iphone' => 'Apple',
-            default => null,
-        };
-    }
 }

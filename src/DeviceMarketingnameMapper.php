@@ -589,24 +589,4 @@ final class DeviceMarketingnameMapper
             default => $marketingName,
         };
     }
-
-    /**
-     * maps the marketing name of a device from the device name
-     *
-     * @throws void
-     *
-     * @api
-     */
-    public function mapDeviceName(string | null $deviceName): string | null
-    {
-        if ($deviceName === null) {
-            return null;
-        }
-
-        return match (mb_strtolower($deviceName)) {
-            'ipad' => 'iPad',
-            'iphone' => 'iPhone',
-            default => null,
-        };
-    }
 }
