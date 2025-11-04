@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace UaDataMapper;
 
-use function mb_strtolower;
-
 /**
  * class with caching and update capabilities
  */

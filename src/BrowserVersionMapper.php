@@ -32,9 +32,8 @@ final class BrowserVersionMapper
      *
      * @api
      */
-    public function mapBrowserVersion(
-        string | null $browserVersion,
-    ): VersionInterface {
+    public function mapBrowserVersion(string | null $browserVersion): VersionInterface
+    {
         if ($browserVersion === null) {
             return new NullVersion();
         }

@@ -42,9 +42,8 @@ final class InputMapper
      *
      * @api
      */
-    public function mapBrowserVersion(
-        string | null $browserVersion,
-    ): VersionInterface {
+    public function mapBrowserVersion(string | null $browserVersion): VersionInterface
+    {
         return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion);
     }
 
