@@ -332,6 +332,14 @@ final class DeviceBrandnameMapper
             'insys' => 'INSYS',
             'spc' => 'SPC',
             'conquest' => 'Conquest',
+            'klipad' => 'Klipad',
+            'polaroid' => 'Polaroid',
+            'telia' => 'Telia',
+            'bell' => 'Bell',
+            'everfine' => 'Everfine',
+            'jusyea' => 'JUSYEA',
+            'acepad' => 'Acepad',
+            'korax' => 'Korax',
             default => $brandName,
         };
     }
