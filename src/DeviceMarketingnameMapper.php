@@ -410,6 +410,7 @@ final class DeviceMarketingnameMapper
             'matepad 11.5" wi-fi (2024)', 'matepad 11.5" (2024) wifi' => 'MatePad 11.5" Wi-Fi (2024)',
             'matepad pro 11', 'matepad pro 11 lte (2022)' => 'MatePad Pro 11',
             'matepad pro 11 wi-fi (2024)', 'matepad pro 11 (2024) wifi' => 'MatePad Pro 11 Wi-Fi (2024)',
+            'matepad pro 12.2" wi-fi (2024)', 'matepad pro 12.2" (2024) wifi' => 'MatePad Pro 12.2" Wi-Fi (2024)',
             'matepad pro 12.6" wifi', 'matepad pro 12.6" wi-fi (2022)' => 'MatePad Pro 12.6" Wi-Fi',
             'matepad pro 13.2" wi-fi (2025)', 'matepad pro 13.2" (2025) wifi' => 'MatePad Pro 13.2" Wi-Fi (2025)',
             'matepad t10s wi-fi', 'matepad t10s wifi' => 'MatePad T10s Wi-Fi',
@@ -586,6 +587,8 @@ final class DeviceMarketingnameMapper
             'm5', 'm5 5g' => 'M5',
             // medion
             'lifetab p1075x' => 'LifeTab P1075X',
+            // magenta
+            'tv one (2nd gen)', 'tv one (gen 2)' => 'TV One (2nd Gen)',
             default => $marketingName,
         };
     }
