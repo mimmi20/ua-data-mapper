@@ -36,10 +36,12 @@ final class DeviceMarketingnameMapper
         return match (mb_strtolower($marketingName)) {
             '', 'unknown', 'other', 'various' => null,
             // alcatel/tcl
+            '30 z', '30 z (cricket)' => '30 Z',
             '40 se', '40 se (latam)' => '40 SE',
             '505', '505 s' => '505',
             'one touch 6030x' => 'OneTouch Idol',
             'nxtpaper 11', 'nxtpaper 11 4g' => 'NxtPaper 11',
+            'tab 8 le', 'tab 8 le (metropcs)' => 'Tab 8 LE',
             'tab 10 lte (2nd gen)', 'tab 10 lte (gen 2)' => 'Tab 10 LTE (2nd Gen)',
             'tab 10 wi-fi (2nd gen)', 'tab 10 wifi (gen 2)' => 'Tab 10 Wi-Fi (2nd Gen)',
             'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi' => 'Tab 11',
@@ -252,6 +254,7 @@ final class DeviceMarketingnameMapper
             '11t pro', 'mi 11t pro' => '11T Pro',
             '12 lite', '12 lite 5g' => '12 Lite',
             '12 lite ne', '13 lite' => '12 Lite NE',
+            '12t pro', 'mi 12t pro 5g (japan)' => '12T Pro',
             '13t', '13t 5g' => '13T',
             '14t', '14t pro' => '14T',
             'mi 10', 'mi 10 5g' => 'Mi 10',
@@ -357,6 +360,7 @@ final class DeviceMarketingnameMapper
             'note 50 pro', 'note 50 pro 4g' => 'Note 50 Pro',
             'note 50', 'note 50 4g' => 'Note 50',
             'note 40 pro', 'note 40 pro 4g' => 'Note 40 Pro',
+            'smart 7 plus', 'smart 7 plus (india)' => 'Smart 7 Plus',
             'zero 30', 'zero 30 4g' => 'Zero 30',
             'zero 40', 'zero 40 4g' => 'Zero 40',
             'zero 5g', 'zero 5g (2023)' => 'Zero 5G',
@@ -411,7 +415,7 @@ final class DeviceMarketingnameMapper
             'matepad 11 wi-fi (2021)', 'matepad 11 wifi' => 'MatePad 11 Wi-Fi (2021)',
             'matepad 11 wi-fi (2023)', 'matepad 11 (2023) wifi' => 'MatePad 11 Wi-Fi (2023)',
             'matepad 11.5" air', 'matepad 11.5" air lte (2021)' => 'MatePad 11.5" Air',
-            'matepad 11.5" s wi-fi (2024)', 'matepad 11.5" s wifi' => 'MatePad 11.5" S Wi-Fi (2024)',
+            'matepad 11.5" s wi-fi (2024)', 'matepad 11.5" s wifi', 'matepad 11.5" s wi-fi' => 'MatePad 11.5" S Wi-Fi',
             'matepad 11.5" wi-fi (2024)', 'matepad 11.5" (2024) wifi' => 'MatePad 11.5" Wi-Fi (2024)',
             'matepad pro 11', 'matepad pro 11 lte (2022)' => 'MatePad Pro 11',
             'matepad pro 11 wi-fi (2024)', 'matepad pro 11 (2024) wifi' => 'MatePad Pro 11 Wi-Fi (2024)',
@@ -601,6 +605,8 @@ final class DeviceMarketingnameMapper
             'tv one (2nd gen)', 'tv one (gen 2)' => 'TV One (2nd Gen)',
             // hammer
             'construction', 'construction 4g' => 'Construction',
+            // nokia
+            '8.3', '8.3 4g' => '8.3',
             default => $marketingName,
         };
     }

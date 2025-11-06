@@ -340,6 +340,16 @@ final class DeviceBrandnameMapper
             'jusyea' => 'JUSYEA',
             'acepad' => 'Acepad',
             'korax' => 'Korax',
+            'xppen', 'xp-pen' => 'XPPen',
+            'dmoao' => 'DMOAO',
+            'atouch' => 'Atouch',
+            'canaima' => 'Canaima',
+            'smooth mobile', 'smooth-mobile' => 'Smooth Mobile',
+            'qlink' => 'QLink',
+            'ox tab', 'ox-tab' => 'OX TAB',
+            'transpeed' => 'Transpeed',
+            'sk broadband', 'sk-broadband' => 'SK Broadband',
+            'gotv', 'go-tv' => 'GOtv',
             default => $brandName,
         };
     }
