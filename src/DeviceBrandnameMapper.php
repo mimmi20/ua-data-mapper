@@ -350,6 +350,7 @@ final class DeviceBrandnameMapper
             'transpeed' => 'Transpeed',
             'sk broadband', 'sk-broadband' => 'SK Broadband',
             'gotv', 'go-tv' => 'GOtv',
+            'honor' => 'Honor',
             default => $brandName,
         };
     }
