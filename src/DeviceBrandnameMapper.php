@@ -351,6 +351,17 @@ final class DeviceBrandnameMapper
             'sk broadband', 'sk-broadband' => 'SK Broadband',
             'gotv', 'go-tv' => 'GOtv',
             'honor' => 'Honor',
+            'mecool' => 'Mecool',
+            'imo', 'imo mobile' => 'IMO',
+            'jio' => 'Jio',
+            'yezz' => 'Yezz',
+            'dgtec' => 'DGTEC',
+            'enova' => 'eNOVA',
+            'wozifan' => 'WOZIFAN',
+            'tjd' => 'TJD',
+            'rocket' => 'Rocket',
+            'qilive' => 'Qilive',
+            'sunwind', 'sun-wind' => 'SunWind',
             default => $brandName,
         };
     }
