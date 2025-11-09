@@ -202,13 +202,13 @@ final class DeviceMarketingnameMapper
             'iphone 6s' => 'iPhone 6S',
             'iphone 6s plus' => 'iPhone 6S Plus',
             'ipod touch 7', 'ipod touch (7th gen.)' => 'iPod Touch 7',
-            'ipod touch 7', 'ipod touch (7th gen.)' => 'iPod Touch 7',
             'ipad air (11, 6th gen)', 'ipad air 6 11"', 'ipad air 6 11" wifi' => 'iPad Air (11, 6th gen)',
             'ipad air (13, 7th gen)', 'ipad air 7 13"', 'ipad air 7 13" wifi' => 'iPad Air (13, 7th gen)',
             'ipad pro (11, 5th gen)', 'ipad pro 5 11"', 'ipad pro 5 11" wifi' => 'iPad Pro (11, 5th gen)',
             'ipad pro (13, 5th gen)', 'ipad pro 7 13"', 'ipad pro 7 13" wifi' => 'iPad Pro (13, 5th gen)',
             'ipad pro (11, 4th gen)', 'ipad pro 4 11"', 'ipad pro 4 11" wifi' => 'iPad Pro (11, 4th gen)',
             'ipad pro (12.9, 6th gen)', 'ipad pro 6 12.9"', 'ipad pro 6 12.9" wifi' => 'iPad Pro (12.9, 6th gen)',
+            'ipad pro (11, 5th gen.)', 'ipad pro 5 11" wifi' => 'iPad Pro (11, 5th Gen.)',
             // oppo
             'a1x', 'a2x 5g' => 'A1x',
             'a3', 'a3 4g', 'a60', 'a60 5g' => 'A3',
@@ -553,7 +553,7 @@ final class DeviceMarketingnameMapper
             'moto tab g62', 'moto tab g62 (2022)' => 'Moto Tab G62',
             'razr 40 ultra' => 'Razr 40 Ultra',
             'razr 5g' => 'Razr 5G',
-            'razr (2022)' => 'Razr (2022)',
+            'razr (2022)', 'razr 2022', 'moto razr (2022)' => 'Razr (2022)',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
             // nuu-mobile
             'b30 pro', 'b30 pro 5g' => 'B30 Pro',

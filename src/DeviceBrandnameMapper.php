@@ -362,6 +362,8 @@ final class DeviceBrandnameMapper
             'rocket' => 'Rocket',
             'qilive' => 'Qilive',
             'sunwind', 'sun-wind' => 'SunWind',
+            'neoregent' => 'Neoregent',
+            'hi nova', 'hi-nova' => 'Hi Nova',
             default => $brandName,
         };
     }
