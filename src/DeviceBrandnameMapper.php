@@ -290,7 +290,7 @@ final class DeviceBrandnameMapper
             'bmobile' => 'Bmobile',
             'soho style', 'soho-style' => 'Soho Style',
             'veidoo' => 'Veidoo',
-            'opelmobile', 'opel-mobile' => 'OpelMobile',
+            'opelmobile', 'opel-mobile', 'opel mobile' => 'OpelMobile',
             'dudu-auto', 'dudu auto' => 'dudu-auto',
             'crosscall' => 'crosscall',
             'maze-speed', 'maze speed' => 'maze-speed',
