@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace UaDataMapper;
 
-use function mb_strtolower;
-
 /**
  * class with caching and update capabilities
  */
@@ -27,15 +25,8 @@ final class BrowserMakerMapper
      *
      * @api
      */
-    public function mapBrowserMaker(string $browserMaker, string | null $browserName = null): string | null
+    public function mapBrowserMaker(string $browserMaker): string | null
     {
-        if ($browserName === null) {
-            return null;
-        }
-
-        return match (mb_strtolower($browserName)) {
-            'unknown', 'other', '' => null,
-            default => (new MakerMapper())->mapMaker($browserMaker),
-        };
+        return (new MakerMapper())->mapMaker($browserMaker);
     }
 }

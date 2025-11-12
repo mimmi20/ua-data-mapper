@@ -42,11 +42,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapBrowserVersion(
-        string | null $browserVersion,
-        string | null $browserName = null,
-    ): VersionInterface {
-        return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion, $browserName);
+    public function mapBrowserVersion(string | null $browserVersion): VersionInterface
+    {
+        return (new BrowserVersionMapper())->mapBrowserVersion($browserVersion);
     }
 
     /**
@@ -68,9 +66,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapBrowserMaker(string $browserMaker, string | null $browserName = null): string | null
+    public function mapBrowserMaker(string $browserMaker): string | null
     {
-        return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker, $browserName);
+        return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker);
     }
 
     /**
@@ -92,9 +90,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapOsMaker(string $osMaker, string | null $osName = null): string | null
+    public function mapOsMaker(string $osMaker): string | null
     {
-        return (new PlatformMakerMapper())->mapOsMaker($osMaker, $osName);
+        return (new PlatformMakerMapper())->mapOsMaker($osMaker);
     }
 
     /**
@@ -140,9 +138,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceMaker(string $deviceMaker, string | null $deviceName = null): string | null
+    public function mapDeviceMaker(string $deviceMaker): string | null
     {
-        return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker, $deviceName);
+        return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker);
     }
 
     /**
@@ -152,18 +150,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceMarketingName(
-        string | null $marketingName,
-        string | null $deviceName = null,
-    ): string | null {
-        $mapper = new DeviceMarketingnameMapper();
-        $mname  = $mapper->mapDeviceName($deviceName);
-
-        if ($mname === null) {
-            $mname = $mapper->mapDeviceMarketingName($marketingName);
-        }
-
-        return $mname;
+    public function mapDeviceMarketingName(string | null $marketingName): string | null
+    {
+        return (new DeviceMarketingnameMapper())->mapDeviceMarketingName($marketingName);
     }
 
     /**
@@ -173,16 +162,9 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceBrandName(string | null $brandName, string | null $deviceName = null): string | null
+    public function mapDeviceBrandName(string | null $brandName): string | null
     {
-        $mapper    = new DeviceBrandnameMapper();
-        $brandname = $mapper->mapDeviceName($deviceName);
-
-        if ($brandname === null) {
-            $brandname = $mapper->mapDeviceBrandName($brandName);
-        }
-
-        return $brandname;
+        return (new DeviceBrandnameMapper())->mapDeviceBrandName($brandName);
     }
 
     /**

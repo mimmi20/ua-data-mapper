@@ -13,8 +13,6 @@ declare(strict_types = 1);
 
 namespace UaDataMapper;
 
-use function mb_strtolower;
-
 /**
  * class with caching and update capabilities
  */
@@ -27,15 +25,8 @@ final class PlatformMakerMapper
      *
      * @api
      */
-    public function mapOsMaker(string $osMaker, string | null $osName = null): string | null
+    public function mapOsMaker(string $osMaker): string | null
     {
-        if ($osName === null) {
-            return null;
-        }
-
-        return match (mb_strtolower($osName)) {
-            '', 'unknown', 'other' => null,
-            default => (new MakerMapper())->mapMaker($osMaker),
-        };
+        return (new MakerMapper())->mapMaker($osMaker);
     }
 }
