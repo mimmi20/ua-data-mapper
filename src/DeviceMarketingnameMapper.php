@@ -151,6 +151,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s6 10.5" wi-fi', 'galaxy tab s6 10.5" wifi' => 'Galaxy Tab S6 10.5" Wi-Fi',
             'galaxy tab s6 lite 10.4"', 'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)', 'galaxy tab s6 lite 10.4" wi-fi (2022)', 'galaxy tab s6 lite 10.4" lte (2022)', 'galaxy tab s6 lite 10.4" lte', 'galaxy tab s6 lite 10.4" wi-fi' => 'Galaxy Tab S6 Lite 10.4"',
             'galaxy tab s7 11.0" 4g', 'galaxy tab s7 11.0" lte' => 'Galaxy Tab S7 11.0" 4G',
+            'galaxy tab s7 11.0 wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7 11.0 Wi-Fi',
             'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)' => 'Galaxy Tab S7 FE 12.4" 5G',
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7+ 12.4" 5g' => 'Galaxy Tab S7+ 12.4" 5G',
@@ -343,6 +344,7 @@ final class DeviceMarketingnameMapper
             'x fold 3', 'x fold 3 5g' => 'X Fold 3',
             'y3s', 'y3s (2021)' => 'Y3s',
             'y18', 'y18 (india)' => 'Y18',
+            'y28', 'y28 4g' => 'Y28',
             'y28s 5g', 't3 lite 5g' => 'Y28s 5G',
             'y37 5g', 'y36c 5g' => 'Y37 5G',
             'y52', 'y52 5g' => 'Y52',
@@ -533,6 +535,7 @@ final class DeviceMarketingnameMapper
             'live 12' => 'Live 12',
             'move 10' => 'Move 10',
             'eagle 806 8"', 'eagle 806 8" 4g' => 'Eagle 806 8"',
+            'eagle 806 8.0"', 'eagle 806 8.0" 4g' => 'Eagle 806 8.0"',
             // homii
             'xbook 12' => 'XBook 12',
             // blackview
@@ -563,7 +566,7 @@ final class DeviceMarketingnameMapper
             'moto razr 50', 'moto razr 50 5g (2024)' => 'Moto Razr 50',
             'moto tab g62', 'moto tab g62 (2022)' => 'Moto Tab G62',
             'razr 40' => 'Razr 40',
-            'razr 40 ultra' => 'Razr 40 Ultra',
+            'razr 40 ultra', 'moto razr 40 ultra' => 'Razr 40 Ultra',
             'razr 5g' => 'Razr 5G',
             'razr (2022)', 'razr 2022', 'moto razr (2022)' => 'Razr (2022)',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
