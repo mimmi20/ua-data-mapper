@@ -151,7 +151,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s6 10.5" wi-fi', 'galaxy tab s6 10.5" wifi' => 'Galaxy Tab S6 10.5" Wi-Fi',
             'galaxy tab s6 lite 10.4"', 'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)', 'galaxy tab s6 lite 10.4" wi-fi (2022)', 'galaxy tab s6 lite 10.4" lte (2022)', 'galaxy tab s6 lite 10.4" lte', 'galaxy tab s6 lite 10.4" wi-fi' => 'Galaxy Tab S6 Lite 10.4"',
             'galaxy tab s7 11.0" 4g', 'galaxy tab s7 11.0" lte' => 'Galaxy Tab S7 11.0" 4G',
-            'galaxy tab s7 11.0 wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7 11.0 Wi-Fi',
+            'galaxy tab s7 11.0" wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7 11.0" Wi-Fi',
             'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)' => 'Galaxy Tab S7 FE 12.4" 5G',
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7+ 12.4" 5g' => 'Galaxy Tab S7+ 12.4" 5G',
@@ -637,6 +637,8 @@ final class DeviceMarketingnameMapper
             'construction', 'construction 4g' => 'Construction',
             // nokia
             '8.3', '8.3 4g' => '8.3',
+            // next
+            'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             default => $marketingName,
         };
     }
