@@ -57,7 +57,7 @@ final class DeviceMarketingnameMapper
             'galaxy a05', 'galaxy a05 4g' => 'Galaxy A05',
             'galaxy a11', 'galaxy a11 (inernational)' => 'Galaxy A11',
             'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)' => 'Galaxy A12',
-            'galaxy a13', 'galaxy a13 (usa)', 'galaxy a13 (usa unlocked)' => 'Galaxy A13',
+            'galaxy a13', 'galaxy a13 (usa)', 'galaxy a13 (usa unlocked)', 'galaxy a13 (korea)' => 'Galaxy A13',
             'galaxy a13 5g', 'galaxy a13 5g (international)', 'galaxy a13 5g (usa unlocked)' => 'Galaxy A13 5G',
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
             'galaxy a14 5g', 'galaxy a14 5g (international)', 'galaxy a14 5g (usa unlocked)', 'galaxy a14 5g (usa)', 'galaxy a14 5g (canada)' => 'Galaxy A14 5G',
@@ -152,7 +152,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s6 lite 10.4"', 'galaxy tab s6 lite 10.4" wifi', 'galaxy tab s6 lite 10.4" wi-fi (2024)', 'galaxy tab s6 lite 10.4" wi-fi (2022)', 'galaxy tab s6 lite 10.4" lte (2022)', 'galaxy tab s6 lite 10.4" lte', 'galaxy tab s6 lite 10.4" wi-fi' => 'Galaxy Tab S6 Lite 10.4"',
             'galaxy tab s7 11.0" 4g', 'galaxy tab s7 11.0" lte' => 'Galaxy Tab S7 11.0" 4G',
             'galaxy tab s7 11.0" wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7 11.0" Wi-Fi',
-            'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)' => 'Galaxy Tab S7 FE 12.4" 5G',
+            'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)', 'galaxy tab s7 fe 12.4" 5g (korea)', 'galaxy tab s7 fe 12.4" lte' => 'Galaxy Tab S7 FE 12.4"',
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7+ 12.4" 5g' => 'Galaxy Tab S7+ 12.4" 5G',
             'galaxy tab s7 plus 12.4 wi-fi', 'galaxy tab s7+ 12.4" wifi' => 'Galaxy Tab S7+ 12.4" Wi-Fi',
@@ -239,6 +239,7 @@ final class DeviceMarketingnameMapper
             'a95 4g', 'a95' => 'A95',
             'a96' => 'A96',
             'f21 pro', 'f21 pro 5g' => 'F21 Pro',
+            'f21s pro', 'f21s pro 4g' => 'F21s Pro',
             'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
             'find x3 neo 5g', 'reno 5 pro 5g' => 'Find X3 Neo 5G',
             'k11x 5g', 'k11x 5g (china)' => 'K11x 5G',
@@ -349,6 +350,7 @@ final class DeviceMarketingnameMapper
             'y37 5g', 'y36c 5g' => 'Y37 5G',
             'y52', 'y52 5g' => 'Y52',
             'y72 5g', 'y72 5g (global)' => 'Y72 5G',
+            'y77', 'y77 (china)' => 'Y77',
             'y100', 'y100 4g', 'y100 (international)' => 'Y100',
             'y100 5g', 'y100 5g (china)' => 'Y100 5G',
             'y200 5g', 'y200 5g (china)', 'y200 pro 5g', 'y200 5g (india)' => 'Y200 5G',
@@ -432,7 +434,9 @@ final class DeviceMarketingnameMapper
             'matepad 11.5" air wi-fi (2021)', 'matepad 11.5" air wifi' => 'MatePad 11.5" Air Wi-Fi',
             'matepad 11.5" s wi-fi (2024)', 'matepad 11.5" s wifi', 'matepad 11.5" s wi-fi' => 'MatePad 11.5" S Wi-Fi',
             'matepad 11.5" wi-fi (2024)', 'matepad 11.5" (2024) wifi' => 'MatePad 11.5" Wi-Fi (2024)',
+            'matepad pro 10.8"', 'matepad pro 10.8" lte (2019)' => 'MatePad Pro 10.8"',
             'matepad pro 11', 'matepad pro 11 lte (2022)' => 'MatePad Pro 11',
+            'matepad pro 11 wi-fi (2022)', 'matepad pro 11 wifi' => 'MatePad Pro 11 Wi-Fi (2022)',
             'matepad pro 11 wi-fi (2024)', 'matepad pro 11 (2024) wifi' => 'MatePad Pro 11 Wi-Fi (2024)',
             'matepad pro 12.2" wi-fi (2024)', 'matepad pro 12.2" (2024) wifi' => 'MatePad Pro 12.2" Wi-Fi (2024)',
             'matepad pro 12.6" wifi', 'matepad pro 12.6" wi-fi (2022)' => 'MatePad Pro 12.6" Wi-Fi',
@@ -628,7 +632,7 @@ final class DeviceMarketingnameMapper
             // visual-land
             'elite 10qh pro', 'prestige elite 10qh pro' => 'Elite 10QH Pro',
             // free-yond
-            'm5', 'm5 5g' => 'M5',
+            'm5', 'm5 5g', 'm5 (india)' => 'M5',
             // medion
             'lifetab p1075x' => 'LifeTab P1075X',
             // magenta
@@ -639,6 +643,8 @@ final class DeviceMarketingnameMapper
             '8.3', '8.3 4g' => '8.3',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
+            // yezz
+            'liv 3s', 'liv 3s lte' => 'LIV 3S',
             default => $marketingName,
         };
     }

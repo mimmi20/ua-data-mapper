@@ -370,6 +370,7 @@ final class DeviceBrandnameMapper
             'brondi' => 'Brondi',
             'orbic' => 'Orbic',
             'pcd', 'pcd argentina' => 'PCD',
+            'chcnav' => 'CHCnav',
             default => $brandName,
         };
     }
