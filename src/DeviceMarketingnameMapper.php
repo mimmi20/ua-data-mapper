@@ -44,7 +44,7 @@ final class DeviceMarketingnameMapper
             'tab 8 le', 'tab 8 le (metropcs)' => 'Tab 8 LE',
             'tab 10 lte (2nd gen)', 'tab 10 lte (gen 2)' => 'Tab 10 LTE (2nd Gen)',
             'tab 10 wi-fi (2nd gen)', 'tab 10 wifi (gen 2)' => 'Tab 10 Wi-Fi (2nd Gen)',
-            'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi' => 'Tab 11',
+            'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi', 'tab 11 wifi' => 'Tab 11',
             // htc
             'one mini2' => 'One Mini 2',
             // samsung
@@ -294,6 +294,7 @@ final class DeviceMarketingnameMapper
             'redmi a2', 'redmi a2+' => 'Redmi A2',
             'redmi a3', 'redmi 3' => 'Redmi A3',
             'redmi a5', 'redmi a5 4g' => 'Redmi A5',
+            'redmi k40 gaming', 'redmi k40 gaming edition' => 'Redmi K40 Gaming',
             'redmi k70e', 'redmi k70e 5g' => 'Redmi K70E',
             'redmi k80', 'redmi k80 pro' => 'Redmi K80',
             'redmi note 9 pro', 'redmi note 9 pro (india)' => 'Redmi Note 9 Pro',
@@ -351,7 +352,7 @@ final class DeviceMarketingnameMapper
             'y52', 'y52 5g' => 'Y52',
             'y72 5g', 'y72 5g (global)' => 'Y72 5G',
             'y77', 'y77 (china)' => 'Y77',
-            'y100', 'y100 4g', 'y100 (international)' => 'Y100',
+            'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)' => 'Y100',
             'y100 5g', 'y100 5g (china)' => 'Y100 5G',
             'y200 5g', 'y200 5g (china)', 'y200 pro 5g', 'y200 5g (india)' => 'Y200 5G',
             'y300', 'y300 (china)', 'y29', 'y29 4g' => 'Y300',
@@ -369,6 +370,7 @@ final class DeviceMarketingnameMapper
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
             'tab p12 pro', 'tab p12 pro 5g' => 'Tab P12 Pro',
             'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
+            'xiaoxin pad 11" (2024)', 'xiaoxin pad 11" wi-fi (2024)' => 'Xiaoxin Pad 11" (2024)',
             'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
             // infinix
             'hot 30 play', 'hot 30 play nfc' => 'Hot 30 Play',
@@ -529,6 +531,8 @@ final class DeviceMarketingnameMapper
             'via m40' => 'Via M40',
             'via x40' => 'Via X40',
             'via x45' => 'Via X45',
+            'via m30' => 'Via M30',
+            'via f30' => 'Via F30',
             // Krüger&Matz
             'drive 10' => 'Drive 10',
             'eagle 807 8.4"', 'eagle 807 8.4" 4g' => 'Eagle 807 8.4"',

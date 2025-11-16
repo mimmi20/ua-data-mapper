@@ -371,6 +371,7 @@ final class DeviceBrandnameMapper
             'orbic' => 'Orbic',
             'pcd', 'pcd argentina' => 'PCD',
             'chcnav' => 'CHCnav',
+            'ans' => 'ANS',
             default => $brandName,
         };
     }
