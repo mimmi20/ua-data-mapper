@@ -196,6 +196,7 @@ final class DeviceMarketingnameMapper
             'ipad (9.7, 5th gen)', 'ipad 5 9.7' => 'iPad (9.7, 5th Gen)',
             'ipad (10.2, 7th gen)', 'ipad 7 10.2' => 'iPad (10.2, 7th Gen)',
             'ipad (10.2, 8th gen)', 'ipad 8 10.2"', 'ipad (10.2, 8th gen.)' => 'iPad (10.2, 8th Gen)',
+            'ipad (10.2, 9th gen)', 'ipad 9 10.2" wifi' => 'iPad (10.2, 9th Gen)',
             'ipad (10.9, 10th gen)', 'ipad 10 10.9" wifi' => 'iPad (10.9, 10th Gen)',
             'ipad air (10.5, 3rd gen)', 'ipad air 3' => 'iPad Air (10.5, 3rd Gen)',
             'ipad air (10.9, 4rd gen)', 'ipad air 4 wifi' => 'iPad Air (10.9, 4rd Gen)',
@@ -513,6 +514,7 @@ final class DeviceMarketingnameMapper
             'blade v60 design 4g', 'axon 60 lite' => 'Blade V60 Design 4G',
             'blade v70 vita', 'blade v70 design' => 'Blade V70 Vita',
             'red magic 6', 'red magic 6 5g' => 'Red Magic 6',
+            'red magic 7', 'red magic 7s 5g' => 'Red Magic 7',
             'z70s ultra' => 'Z70s Ultra',
             // digma
             'k10', 'k10 da1c0p01' => 'K10',
