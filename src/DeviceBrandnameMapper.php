@@ -369,6 +369,9 @@ final class DeviceBrandnameMapper
             'positivo' => 'Positivo',
             'brondi' => 'Brondi',
             'orbic' => 'Orbic',
+            'pcd', 'pcd argentina' => 'PCD',
+            'chcnav' => 'CHCnav',
+            'ans' => 'ANS',
             default => $brandName,
         };
     }
