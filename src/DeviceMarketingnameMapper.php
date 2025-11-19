@@ -222,7 +222,7 @@ final class DeviceMarketingnameMapper
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
             // oppo
             'a1x', 'a2x 5g' => 'A1x',
-            'a3', 'a3 4g', 'a60', 'a60 5g' => 'A3',
+            'a3', 'a3 4g' => 'A3',
             'a3x', 'a3x 4g' => 'A3x',
             'a3x 5g', 'a3x 5g (china)' => 'A3x 5G',
             'a3 5g', 'a3 5g (india)', 'a3 5g (china)' => 'A3 5G',
@@ -252,7 +252,7 @@ final class DeviceMarketingnameMapper
             'reno 4 pro 5g', 'reno 4 pro 5g (international)' => 'Reno 4 Pro 5G',
             'reno 5', 'reno 5 4g' => 'Reno 5',
             'reno 5 5g', 'reno 5 5g (international)' => 'Reno 5 5G',
-            'reno 6', 'reno 6 5g' => 'Reno 6',
+            'reno 6', 'reno 6 5g', 'reno 6 5g (international)' => 'Reno 6',
             'reno 7', 'reno 7 5g (china)', 'reno 7 4g', 'reno 7 5g' => 'Reno 7',
             'reno 7z', 'reno 7z 5g' => 'Reno 7Z',
             'reno 8', 'reno 8 pro' => 'Reno 8',
