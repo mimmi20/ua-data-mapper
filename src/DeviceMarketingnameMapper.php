@@ -374,6 +374,7 @@ final class DeviceMarketingnameMapper
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
             'tab p12 pro', 'tab p12 pro 5g' => 'Tab P12 Pro',
             'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
+            'tab qt k11 wi-fi', 'tab qt k11 wifi' => 'Tab QT K11 Wi-Fi',
             'xiaoxin pad 11" (2024)', 'xiaoxin pad 11" wi-fi (2024)' => 'Xiaoxin Pad 11" (2024)',
             'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
             // infinix
