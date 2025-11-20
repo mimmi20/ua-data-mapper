@@ -203,6 +203,7 @@ final class DeviceMarketingnameMapper
             'ipad air (11, 6th gen)', 'ipad air 6 11"', 'ipad air 6 11" wifi' => 'iPad Air (11, 6th Gen)',
             'ipad air (13, 7th gen)', 'ipad air 7 13"', 'ipad air 7 13" wifi' => 'iPad Air (13, 7th Gen)',
             'ipad mini (7.9, 5th gen)', 'ipad mini 5' => 'iPad mini (7.9, 5th Gen)',
+            'ipad mini (8.3, 6th gen)', 'ipad mini 6 wifi' => 'iPad Mini (8.3, 6th Gen)',
             'ipad pro (9.7)', 'ipad pro 9.7' => 'iPad Pro (9.7)',
             'ipad pro 10.5', 'ipad pro (10.5, 2nd gen)', 'ipad pro (10.5)' => 'iPad Pro 10.5',
             'ipad pro (11, 4th gen)', 'ipad pro 4 11"', 'ipad pro 4 11" wifi' => 'iPad Pro (11, 4th Gen)',
