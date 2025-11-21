@@ -99,6 +99,7 @@ final class DeviceMarketingnameMapper
             'galaxy m33 5g', 'galaxy jump 2' => 'Galaxy M33 5G',
             'galaxy m35 5g', 'galaxy m35 5g (international)' => 'Galaxy M35 5G',
             'galaxy m51', 'galaxy m51 (international)' => 'Galaxy M51',
+            'galaxy m62', 'galaxy m62 (international)' => 'Galaxy M62',
             'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)' => 'Galaxy Note 10',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+', 'galaxy note 10+ 5g', 'galaxy note 10+ 4g (usa)', 'galaxy note 10+ 4g (europe)' => 'Galaxy Note 10+',
             'galaxy note 20', 'galaxy note 20 4g' => 'Galaxy Note 20',
@@ -305,7 +306,7 @@ final class DeviceMarketingnameMapper
             'redmi note 11 pro', 'redmi note 11 pro 4g' => 'Redmi Note 11 Pro',
             'redmi note 11 pro+', 'redmi note 11 pro+ 5g' => 'Redmi Note 11 Pro+',
             'redmi note 12', 'redmi note 12 4g', 'redmi note 12 5g', 'note 12 4g top edition' => 'Redmi Note 12',
-            'redmi note 12 pro', 'redmi note 12 pro 5g', 'redmi note 12 pro 4g', 'redmi k60', 'note 12 pro' => 'Redmi Note 12 Pro',
+            'redmi note 12 pro', 'redmi note 12 pro 5g', 'redmi note 12 pro 4g', 'note 12 pro' => 'Redmi Note 12 Pro',
             'redmi note 12 pro+ 5g', 'redmi note 12 pro plus 5g', 'redmi note 12 pro+' => 'Redmi Note 12 Pro+',
             'redmi note 12 turbo', 'redmi note 12t' => 'Redmi Note 12 Turbo',
             'redmi note 13', 'redmi note 13 4g' => 'Redmi Note 13',
@@ -662,6 +663,8 @@ final class DeviceMarketingnameMapper
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz
             'liv 3s', 'liv 3s lte' => 'LIV 3S',
+            // teclast
+            'p25t', 'p25 t' => 'P25T',
             default => $marketingName,
         };
     }
