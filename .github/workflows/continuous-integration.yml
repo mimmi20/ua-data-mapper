@@ -67,6 +67,8 @@ jobs:
       skip-stylelint: true
       skip-prettier: true
       skip-psalm: false
+      skip-nasm-install: true
+      skip-libimagequant-install: true
       phpcs-options: ""
 
 #  tests:
