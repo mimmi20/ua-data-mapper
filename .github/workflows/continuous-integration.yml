@@ -46,6 +46,8 @@ jobs:
       skip-npm-install: true
       skip-nasm-install: true
       skip-libimagequant-install: true
+      skip-librabbitmq-install: true
+      skip-libgif-install: true
 
   analytics:
     name: "Project Analysis"
