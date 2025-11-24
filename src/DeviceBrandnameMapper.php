@@ -372,6 +372,8 @@ final class DeviceBrandnameMapper
             'pcd', 'pcd argentina' => 'PCD',
             'chcnav' => 'CHCnav',
             'ans' => 'ANS',
+            'dynalink', 'dinalink' => 'Dynalink',
+            'aiwa' => 'Aiwa',
             default => $brandName,
         };
     }
