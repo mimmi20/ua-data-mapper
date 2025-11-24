@@ -373,6 +373,7 @@ final class DeviceBrandnameMapper
             'chcnav' => 'CHCnav',
             'ans' => 'ANS',
             'dynalink', 'dinalink' => 'Dynalink',
+            'aiwa' => 'Aiwa',
             default => $brandName,
         };
     }
