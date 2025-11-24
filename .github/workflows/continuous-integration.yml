@@ -91,10 +91,15 @@ jobs:
 #      skip-phpunit: false
 #      skip-vitest: true
 #      skip-stryker: true
+#      skip-nasm-install: true
+#      skip-libimagequant-install: true
+#      skip-librabbitmq-install: true
+#      skip-libgif-install: true
 #      upload-codecov: true
 #      upload-codeclimate: true
 #      upload-coveralls: true
 #      upload-flag: ""
+#      use-phpstan: true
 #    secrets:
 #      ENV_CODECLIMATE_API_KEY: ${{ secrets.CODECLIMATE_API_KEY }}
 #      ENV_CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

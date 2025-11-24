@@ -591,7 +591,7 @@ final class DeviceMarketingnameMapper
             'tab 90 wi-fi', 'tab 90 wifi' => 'Tab 90 Wi-Fi',
             // poco
             'f6', 'f6 5g' => 'F6',
-            'm4', 'm4 5g' => 'M4',
+            'm4', 'm4 5g', 'm4 5g (india)' => 'M4',
             'm6', 'm6 4g' => 'M6',
             'm6 pro', 'm6 pro 4g' => 'M6 Pro',
             'pad 12.1"', 'pad 12.1" wi-fi' => 'Pad 12.1"',
