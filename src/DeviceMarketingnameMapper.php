@@ -204,7 +204,7 @@ final class DeviceMarketingnameMapper
             'ipad (10.9, 10th gen)', 'ipad 10 10.9" wifi' => 'iPad (10.9, 10th Gen)',
             'ipad a16 (11, 11th gen)', 'ipad 11 10.9"', 'ipad 11 10.9" wifi' => 'iPad A16 (11, 11th Gen)',
             'ipad air (10.5, 3rd gen)', 'ipad air 3' => 'iPad Air (10.5, 3rd Gen)',
-            'ipad air (10.9, 4rd gen)', 'ipad air 4 wifi', 'ipad air 4' => 'iPad Air (10.9, 4rd Gen)',
+            'ipad air (10.9, 4rd gen.)', 'ipad air 4 wifi', 'ipad air 4' => 'iPad Air (10.9, 4rd Gen.)',
             'ipad air (10.9, 5th gen)', 'ipad air 5', 'ipad air 5 wifi' => 'iPad Air (10.9, 5th Gen)',
             'ipad air (11, 6th gen)', 'ipad air 6 11"', 'ipad air 6 11" wifi' => 'iPad Air (11, 6th Gen)',
             'ipad air 7 11"', 'ipad air 7 11" wifi', 'ipad air m3 (11)' => 'iPad Air M3 (11)',
@@ -269,7 +269,7 @@ final class DeviceMarketingnameMapper
             'reno 7', 'reno 7 5g (china)', 'reno 7 4g', 'reno 7 5g' => 'Reno 7',
             'reno 7z', 'reno 7z 5g' => 'Reno 7Z',
             'reno 8 5g', 'reno 8 5g (china)' => 'Reno 8 5G',
-            'reno 8 pro', 'reno 8 pro (china)' => 'Reno 8 Pro',
+            'reno 8 pro 5g', 'reno 8 pro 5g (china)' => 'Reno 8 Pro 5G',
             'reno 8t', 'reno 8t 4g', 'reno 8t 5g' => 'Reno 8T',
             'reno 8 z', 'reno 8 z 5g' => 'Reno 8 Z',
             'reno 9 a', 'reno 9a 5g' => 'Reno 9A',
@@ -376,6 +376,7 @@ final class DeviceMarketingnameMapper
             'y18', 'y18 (india)' => 'Y18',
             'y28', 'y28 4g' => 'Y28',
             'y28s 5g', 't3 lite 5g' => 'Y28s 5G',
+            'y29', 'y29 4g' => 'Y29',
             'y35', 'y35 4g' => 'Y35',
             'y37 5g' => 'Y37 5G',
             'y52', 'y52 5g' => 'Y52',
@@ -716,6 +717,8 @@ final class DeviceMarketingnameMapper
             'e50s', 'e50s 128gb' => 'E50s',
             // umi/umidigi
             'bison gt2', 'bison gt2 5g' => 'Bison GT2',
+            // spc
+            'smart ultimate', 'smart ultimate 64' => 'Smart Ultimate',
             default => $marketingName,
         };
     }
