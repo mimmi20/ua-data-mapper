@@ -108,7 +108,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy s7 (verizon)', 'galaxy s7' => 'Galaxy S7',
-            'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)' => 'Galaxy S10',
+            'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)' => 'Galaxy S10',
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)' => 'Galaxy S10+',
             'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)' => 'Galaxy S10e',
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
