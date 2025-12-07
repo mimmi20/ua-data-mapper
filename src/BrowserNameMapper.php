@@ -104,6 +104,7 @@ final class BrowserNameMapper
             'via browser', 'via' => 'Via Browser',
             'f-secure safe', 'safe' => 'SAFE',
             'chrome webview' => 'Chrome WebView',
+            'start', 'microsoft start' => 'Start',
             default => $browserInput,
         };
     }
