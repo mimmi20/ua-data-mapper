@@ -105,6 +105,7 @@ final class BrowserNameMapper
             'f-secure safe', 'safe' => 'SAFE',
             'chrome webview' => 'Chrome WebView',
             'start', 'microsoft start' => 'Start',
+            'kodi', 'kodi media center' => 'Kodi',
             default => $browserInput,
         };
     }
