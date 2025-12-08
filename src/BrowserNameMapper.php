@@ -95,7 +95,7 @@ final class BrowserNameMapper
             'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
             'qqbrowser' => 'QQ Browser',
             'wosbrowser', 'webkit/webos' => 'webOS Browser',
-            'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile' => 'Edge',
+            'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile', 'edge mobile for android' => 'Edge',
             'seomoz rogerbot' => 'roger bot',
             'airwatch browser', 'vmware airwatch' => 'AirWatch Browser',
             'google search app', 'google mobile app' => 'Google Search App',
@@ -106,6 +106,10 @@ final class BrowserNameMapper
             'chrome webview' => 'Chrome WebView',
             'start', 'microsoft start' => 'Start',
             'kodi', 'kodi media center' => 'Kodi',
+            'keplr', 'keplr wallet' => 'Keplr',
+            'canopy - ai online safety app', 'canopy' => 'Canopy',
+            'genspark', 'genspark ai workspace' => 'Genspark',
+            'wechat', 'wechat app' => 'WeChat',
             default => $browserInput,
         };
     }
