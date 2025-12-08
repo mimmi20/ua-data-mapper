@@ -33,177 +33,84 @@ final class BrowserNameMapper
             return null;
         }
 
-        switch (mb_strtolower($browserInput)) {
-            case 'unknown':
-            case 'other':
-            case 'default browser':
-            case 'generic':
-            case 'misc crawler':
-            case 'generic bot':
-            case 'http library':
-            case 'ios':
-            case 'playstation 3':
-            case 'playstation 4':
-                return null;
-            case 'ie':
-            case 'msie':
-                return 'Internet Explorer';
-            case 'iceweasel':
-                return 'Iceweasel';
-            case 'mobile safari':
-            case 'mobile safari/wkwebview':
-            case 'safari mobile':
-            case 'webview':
-                return 'Safari';
-            case 'chrome mobile':
-            case 'chrome mobile ios':
-            case 'chrome frame':
-            case 'chrome for ios':
-            case 'mobile chrome':
-            case 'crios':
-                return 'Chrome';
-            case 'android':
-            case 'android browser':
-                return 'Android Webkit';
-            case 'googlebot':
-                return 'Google Bot';
-            case 'bingbot':
-                return 'BingBot';
-            case 'bingpreview':
-                return 'Bing Preview';
-            case 'jakarta commons-httpclient':
-                return 'Jakarta Commons HttpClient';
-            case 'adsbot-google':
-                return 'AdsBot Google';
-            case 'seokicks-robot':
-                return 'SEOkicks Robot';
-            case 'gomeza':
-            case 'gomezagent':
-                return 'Gomez Site Monitor';
-            case 'yandex.browser':
-                return 'Yandex Browser';
-            case 'ie mobile':
-                return 'IEMobile';
-            case 'ovi browser':
-            case 'nokia/s40ovi':
-            case 'nokia ovi browser':
-                return 'Nokia Proxy Browser';
-            case 'firefox mobile':
-            case 'mobile firefox mobile':
-            case 'mobile firefox tablet':
-            case 'mobile firefox':
-            case 'firefox mobile for ios':
-            case 'firefox mobile ios':
-            case 'firefox for ios':
-            case 'firefox ios':
-            case 'fxios':
-                return 'Firefox';
-            case 'dolfin/jasmine webkit':
-            case 'dolphin':
-                return 'Dolfin';
-            case 'facebookexternalhit':
-            case 'facebook external hit':
-            case 'facebookbot':
-                return 'FaceBook Bot';
-            case 'java':
-                return 'Java Standard Library';
-            case 'nokia web browser':
-                return 'Nokia Browser';
-            case 'applemail':
-                return 'Apple Mail';
-            case 'sistrix':
-            case 'sistrix crawler':
-                return 'Sistrix Crawler';
-            case 'blackberry webkit':
-            case 'blackberry browser':
-                return 'BlackBerry';
-            case 'microsoft outlook':
-                return 'Outlook';
-            case 'outlook express':
-            case 'microsoft outlook express':
-                return 'Windows Live Mail';
-            case 'microsoft office':
-                return 'Office';
-            case 'mj12 bot':
-                return 'MJ12bot';
-            case 'mobile silk':
-            case 'amazon silk':
-                return 'Silk';
-            case 'genieo web filter':
-                return 'Genieo Web Filter';
-            case 'yahoo! slurp':
-                return 'Slurp';
-            case 'yandex bot':
-                return 'YandexBot';
-            case 'nutch-based bot':
-            case 'apache nutch':
-                return 'Nutch';
-            case 'baidu spider':
-                return 'Baiduspider';
-            case 'semrush bot':
-                return 'SemrushBot';
-            case 'python urllib':
-                return 'Python-urllib';
-            case 'mail.ru bot':
-                return 'Mail.Ru';
-            case 'exabot':
-                return 'Exabot';
-            case 'curl':
-                return 'cURL';
-            case 'pale moon (firefox variant)':
-            case 'pale moon':
-                return 'PaleMoon';
-            case 'opera next':
-                return 'Opera';
-            case 'yeti/naverbot':
-                return 'NaverBot';
-            case 'ahrefs bot':
-                return 'AhrefsBot';
-            case 'picsearch bot':
-                return 'Picsearch Bot';
-            case 'androiddownloadmanager':
-                return 'Android Download Manager';
-            case 'elinks':
-                return 'ELinks';
-            case 'whitehat aviator':
-                return 'Aviator';
-            case 'fake browser':
-            case 'fake ie':
-            case 'fake chrome':
-            case 'fake safari':
-            case 'fake firefox':
-            case 'fake android':
-                return 'Fake Browser';
-            case 'wdg html validator':
-                return 'HTML Validator';
-            case 'blekkobot':
-                return 'BlekkoBot';
-            case 'tweetmemebot':
-            case 'tweetmeme bot':
-                return 'Tweetmeme Bot';
-            case 'coremedia':
-            case 'applecoremedia':
-                return 'CoreMedia';
-            case 'mediapartners-google':
-            case 'google mediapartners':
-                return 'AdSense Bot';
-            case 'wordpress.com':
-                return 'WordPress';
-            case 'up.browser':
-            case 'au by kddi':
-                return 'Openwave Mobile Browser';
-            case 'qqbrowser':
-                return 'QQ Browser';
-            case 'wosbrowser':
-            case 'webkit/webos':
-                return 'webOS Browser';
-            case 'microsoft edge':
-            case 'spartan':
-                return 'Edge';
-            case 'seomoz rogerbot':
-                return 'roger bot';
-            default:
-                return $browserInput;
-        }
+        return match (mb_strtolower($browserInput)) {
+            'unknown', 'other', 'default browser', 'generic', 'misc crawler', 'generic bot', 'http library', 'ios', 'playstation 3', 'playstation 4' => null,
+            'ie', 'msie' => 'Internet Explorer',
+            'iceweasel' => 'Iceweasel',
+            'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
+            'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
+            'android', 'android browser' => 'Android Webkit',
+            'googlebot' => 'Google Bot',
+            'bingbot' => 'BingBot',
+            'bingpreview' => 'Bing Preview',
+            'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
+            'adsbot-google' => 'AdsBot Google',
+            'seokicks-robot' => 'SEOkicks Robot',
+            'gomeza', 'gomezagent' => 'Gomez Site Monitor',
+            'yandex.browser', 'yandex search browser' => 'Yandex Browser',
+            'ie mobile' => 'IEMobile',
+            'ovi browser', 'nokia/s40ovi', 'nokia ovi browser' => 'Nokia Proxy Browser',
+            'firefox mobile', 'mobile firefox mobile', 'mobile firefox tablet', 'mobile firefox', 'firefox mobile for ios', 'firefox mobile ios', 'firefox for ios', 'firefox ios', 'fxios' => 'Firefox',
+            'dolfin/jasmine webkit', 'dolphin' => 'Dolfin',
+            'facebookexternalhit', 'facebook external hit', 'facebookbot' => 'FaceBook Bot',
+            'facebook', 'facebook app' => 'Facebook App',
+            'facebook messenger', 'facebook messenger app' => 'Facebook Messenger App',
+            'instagram', 'instagram app' => 'Instagram App',
+            'java' => 'Java Standard Library',
+            'nokia web browser' => 'Nokia Browser',
+            'applemail' => 'Apple Mail',
+            'sistrix', 'sistrix crawler' => 'Sistrix Crawler',
+            'blackberry webkit', 'blackberry browser' => 'BlackBerry',
+            'microsoft outlook' => 'Outlook',
+            'outlook express', 'microsoft outlook express' => 'Windows Live Mail',
+            'microsoft office', 'microsoft office mobile' => 'Microsoft Office',
+            'mj12 bot' => 'MJ12bot',
+            'mobile silk', 'amazon silk' => 'Silk',
+            'genieo web filter' => 'Genieo Web Filter',
+            'yahoo! slurp' => 'Slurp',
+            'yandex bot' => 'YandexBot',
+            'nutch-based bot', 'apache nutch' => 'Nutch',
+            'baidu spider' => 'Baiduspider',
+            'semrush bot' => 'SemrushBot',
+            'python urllib' => 'Python-urllib',
+            'mail.ru bot' => 'Mail.Ru',
+            'exabot' => 'Exabot',
+            'curl' => 'cURL',
+            'pale moon (firefox variant)', 'pale moon' => 'PaleMoon',
+            'opera next', 'opera mobile' => 'Opera',
+            'opera mini for ios', 'opera mini ios' => 'Opera Mini for iOS',
+            'yeti/naverbot' => 'NaverBot',
+            'ahrefs bot' => 'AhrefsBot',
+            'picsearch bot' => 'Picsearch Bot',
+            'androiddownloadmanager' => 'Android Download Manager',
+            'elinks' => 'ELinks',
+            'whitehat aviator' => 'Aviator',
+            'fake browser', 'fake ie', 'fake chrome', 'fake safari', 'fake firefox', 'fake android' => 'Fake Browser',
+            'wdg html validator' => 'HTML Validator',
+            'blekkobot' => 'BlekkoBot',
+            'tweetmemebot', 'tweetmeme bot' => 'Tweetmeme Bot',
+            'coremedia', 'applecoremedia' => 'CoreMedia',
+            'mediapartners-google', 'google mediapartners' => 'AdSense Bot',
+            'wordpress.com' => 'WordPress',
+            'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
+            'qqbrowser' => 'QQ Browser',
+            'wosbrowser', 'webkit/webos' => 'webOS Browser',
+            'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile', 'edge mobile for android' => 'Edge',
+            'seomoz rogerbot' => 'roger bot',
+            'airwatch browser', 'vmware airwatch' => 'AirWatch Browser',
+            'google search app', 'google mobile app' => 'Google Search App',
+            'word', 'microsoft office word' => 'Microsoft Word',
+            'microsoft bing', 'bing search' => 'Microsoft Bing',
+            'via browser', 'via' => 'Via Browser',
+            'f-secure safe', 'safe' => 'SAFE',
+            'chrome webview' => 'Chrome WebView',
+            'start', 'microsoft start' => 'Start',
+            'kodi', 'kodi media center' => 'Kodi',
+            'keplr', 'keplr wallet' => 'Keplr',
+            'canopy - ai online safety app', 'canopy' => 'Canopy',
+            'genspark', 'genspark ai workspace' => 'Genspark',
+            'wechat', 'wechat app' => 'WeChat',
+            default => $browserInput,
+        };
     }
 }
