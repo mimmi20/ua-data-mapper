@@ -110,6 +110,11 @@ final class BrowserNameMapper
             'canopy - ai online safety app', 'canopy' => 'Canopy',
             'genspark', 'genspark ai workspace' => 'Genspark',
             'wechat', 'wechat app' => 'WeChat',
+            'omshy vpn', 'omshy vpn - secure vpn proxy' => 'Omshy VPN',
+            'dezor', 'dezor browser' => 'Dezor',
+            'youtube', 'youtube app' => 'YouTube',
+            'news home', 'news home: news home screen' => 'News Home',
+            'podcasts', 'apple podcasts' => 'Podcasts',
             default => $browserInput,
         };
     }
