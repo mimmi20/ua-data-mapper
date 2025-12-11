@@ -115,6 +115,8 @@ final class BrowserNameMapper
             'youtube', 'youtube app' => 'YouTube',
             'news home', 'news home: news home screen' => 'News Home',
             'podcasts', 'apple podcasts' => 'Podcasts',
+            'twitter', 'x' => 'X',
+            'crosswalk app', 'crosswalkapp' => 'Crosswalk App',
             default => $browserInput,
         };
     }
