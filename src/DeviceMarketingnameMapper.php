@@ -331,6 +331,8 @@ final class DeviceMarketingnameMapper
             'pad 5', 'mi pad 5' => 'Pad 5',
             'pad 6 pro', 'mi pad 6 pro' => 'Mi Pad 6 Pro',
             'pad 6s pro 12.4"', 'pad 6s pro 12.4" wi-fi', 'pad 6s pro 12.4" wifi' => 'Pad 6S Pro 12.4"',
+            'redmi 9a', 'redmi 9a (global)' => 'Redmi 9A',
+            'redmi 9c', 'redmi 9c (global)' => 'Redmi 9C',
             'redmi 13', 'redmi 13 4g' => 'Redmi 13',
             'redmi 14c 5g', 'redmi 14r 5g' => 'Redmi 14C 5G',
             'redmi 15', 'redmi 15 4g' => 'Redmi 15',
