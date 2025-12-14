@@ -99,6 +99,7 @@ final class DeviceMarketingnameMapper
             'galaxy m05', 'galaxy m05 (international)' => 'Galaxy M05',
             'galaxy m12', 'galaxy m12 4g (europe)', 'galaxy m12 4g (india)' => 'Galaxy M12',
             'galaxy m14', 'galaxy m14 4g' => 'Galaxy M14',
+            'galaxy m15 5g', 'galaxy m15 5g (international)' => 'Galaxy M15 5G',
             'galaxy m33 5g', 'galaxy jump 2' => 'Galaxy M33 5G',
             'galaxy m35 5g', 'galaxy m35 5g (international)' => 'Galaxy M35 5G',
             'galaxy m51', 'galaxy m51 (international)' => 'Galaxy M51',
@@ -311,6 +312,7 @@ final class DeviceMarketingnameMapper
             'reno 13 f', 'reno 13 f 4g', 'reno 13 f 5g' => 'Reno 13 F',
             'reno 13', 'reno 13 5g' => 'Reno 13',
             'reno 13 pro', 'reno 13 pro 5g' => 'Reno 13 Pro',
+            'reno 14', 'reno 14 5g' => 'Reno 14',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi

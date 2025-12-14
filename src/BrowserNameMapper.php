@@ -117,6 +117,10 @@ final class BrowserNameMapper
             'podcasts', 'apple podcasts' => 'Podcasts',
             'twitter', 'x' => 'X',
             'crosswalk app', 'crosswalkapp' => 'Crosswalk App',
+            'jelly browser', 'jelly' => 'Jelly Browser',
+            'moyaapp', 'moya' => 'MoyaApp',
+            'cast to tv+', 'castify' => 'Cast to TV+',
+            'cici', 'cici - your ai assistant' => 'Cici',
             default => $browserInput,
         };
     }
