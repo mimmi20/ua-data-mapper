@@ -269,6 +269,7 @@ final class DeviceMarketingnameMapper
             'a3 5g', 'a3 5g (india)', 'a3 5g (china)' => 'A3 5G',
             'a3 energy', 'a3 energy (china)' => 'A3 Energy',
             'a3 pro 5g', 'a3 pro 5g (china)' => 'A3 Pro 5G',
+            'a5 4g (2025)', 'a5 (2025)' => 'A5 4G (2025)',
             'a5 5g', 'a5 5g (china)' => 'A5 5G',
             'a5 pro', 'a5 pro 4g' => 'A5 Pro',
             'a5 pro 5g', 'a5 pro 5g (china)' => 'A5 Pro 5G',
