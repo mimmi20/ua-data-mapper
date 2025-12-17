@@ -68,7 +68,7 @@ final class InputMapper
      */
     public function mapBrowserMaker(string $browserMaker): string | null
     {
-        return (new BrowserMakerMapper())->mapBrowserMaker($browserMaker);
+        return (new MakerMapper())->mapMaker($browserMaker);
     }
 
     /**
@@ -92,7 +92,7 @@ final class InputMapper
      */
     public function mapOsMaker(string $osMaker): string | null
     {
-        return (new PlatformMakerMapper())->mapOsMaker($osMaker);
+        return (new MakerMapper())->mapMaker($osMaker);
     }
 
     /**
@@ -140,7 +140,7 @@ final class InputMapper
      */
     public function mapDeviceMaker(string $deviceMaker): string | null
     {
-        return (new DeviceMakerMapper())->mapDeviceMaker($deviceMaker);
+        return (new MakerMapper())->mapMaker($deviceMaker);
     }
 
     /**
@@ -189,5 +189,17 @@ final class InputMapper
     public function mapEngineName(string | null $engineName): string | null
     {
         return (new EngineNameMapper())->mapEngineName($engineName);
+    }
+
+    /**
+     * maps the maker of a device
+     *
+     * @throws void
+     *
+     * @api
+     */
+    public function mapEngineMaker(string $engineMaker): string | null
+    {
+        return (new MakerMapper())->mapMaker($engineMaker);
     }
 }

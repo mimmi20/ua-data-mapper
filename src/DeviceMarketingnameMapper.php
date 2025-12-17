@@ -590,6 +590,8 @@ final class DeviceMarketingnameMapper
             'rog phone 6d', 'rog phone 6d 5g' => 'ROG Phone 6D',
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
             'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
+            'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
+            'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
             // zte/nubia
             'axon 30 ultra 5g', 'axon 30 pro 5g' => 'Axon 30 Ultra 5G',
             'axon 40 pro', 'axon 40 pro 5g' => 'Axon 40 Pro',

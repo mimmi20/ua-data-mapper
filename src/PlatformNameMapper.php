@@ -45,9 +45,10 @@ final class PlatformNameMapper
             'jvm', 'java' => 'Java',
             'bada os' => 'Bada',
             'symbianos', 'nokia series 40', 'symbian os series 40' => 'Symbian OS',
-            'gnu/linux' => 'Linux',
+            'gnu/linux', 'ventana linux' => 'Linux',
             'chrome os' => 'ChromeOS',
             'mint' => 'Linux Mint',
+            'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             default => $osName,
         };
     }

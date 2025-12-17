@@ -60,7 +60,7 @@ final class BrowserNameMapper
             'nokia web browser' => 'Nokia Browser',
             'applemail' => 'Apple Mail',
             'sistrix', 'sistrix crawler' => 'Sistrix Crawler',
-            'blackberry webkit', 'blackberry browser' => 'BlackBerry',
+            'blackberry webkit', 'blackberry browser', 'blackberry playbook browser' => 'BlackBerry',
             'microsoft outlook' => 'Outlook',
             'outlook express', 'microsoft outlook express' => 'Windows Live Mail',
             'microsoft office', 'microsoft office mobile' => 'Microsoft Office',
