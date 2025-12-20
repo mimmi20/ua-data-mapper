@@ -121,6 +121,7 @@ final class BrowserNameMapper
             'moyaapp', 'moya' => 'MoyaApp',
             'cast to tv+', 'castify' => 'Cast to TV+',
             'cici', 'cici - your ai assistant' => 'Cici',
+            'veilig virusscanner', 'kpn veilig' => 'Veilig Virusscanner',
             default => $browserInput,
         };
     }
