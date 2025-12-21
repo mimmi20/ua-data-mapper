@@ -122,6 +122,7 @@ final class BrowserNameMapper
             'cast to tv+', 'castify' => 'Cast to TV+',
             'cici', 'cici - your ai assistant' => 'Cici',
             'veilig virusscanner', 'kpn veilig' => 'Veilig Virusscanner',
+            'nytimes - crossword', 'the crossword' => 'NYTimes - Crossword',
             default => $browserInput,
         };
     }
