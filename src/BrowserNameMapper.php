@@ -123,6 +123,7 @@ final class BrowserNameMapper
             'cici', 'cici - your ai assistant' => 'Cici',
             'veilig virusscanner', 'kpn veilig' => 'Veilig Virusscanner',
             'nytimes - crossword', 'the crossword' => 'NYTimes - Crossword',
+            'npr', 'npr: national & local news' => 'NPR',
             default => $browserInput,
         };
     }
