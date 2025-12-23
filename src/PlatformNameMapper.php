@@ -49,6 +49,7 @@ final class PlatformNameMapper
             'chrome os' => 'ChromeOS',
             'mint' => 'Linux Mint',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
+            'chinese operating system', 'china os' => 'Chinese Operating System',
             default => $osName,
         };
     }
