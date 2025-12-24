@@ -127,6 +127,9 @@ final class BrowserNameMapper
             'nytimes - crossword', 'the crossword' => 'NYTimes - Crossword',
             'npr', 'npr: national & local news' => 'NPR',
             'quora app', 'quora' => 'Quora App',
+            'nintendo browser', 'nintendobrowser' => 'Nintendo Browser',
+            'dorado wap browser', 'dorado' => 'Dorado WAP Browser',
+            'podverse', 'podverse - podcast player' => 'Podverse',
             default => $browserInput,
         };
     }

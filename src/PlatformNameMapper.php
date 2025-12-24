@@ -46,10 +46,12 @@ final class PlatformNameMapper
             'bada os' => 'Bada',
             'symbianos', 'nokia series 40', 'symbian os series 40' => 'Symbian OS',
             'gnu/linux', 'ventana linux' => 'Linux',
+            'slackware linux', 'slackware' => 'Slackware Linux',
             'chrome os' => 'ChromeOS',
             'mint' => 'Linux Mint',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
+            'nintendo os', 'nintendo', 'nintendo mobile' => 'Nintendo OS',
             default => $osName,
         };
     }

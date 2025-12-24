@@ -46,6 +46,7 @@ final class DeviceMarketingnameMapper
             'tab 10 wi-fi (2nd gen)', 'tab 10 wifi (gen 2)' => 'Tab 10 Wi-Fi (2nd Gen)',
             'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi', 'tab 11 wifi' => 'Tab 11',
             // htc
+            'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
             // samsung
             'galaxy note 4' => 'Galaxy Note 4',
@@ -144,6 +145,7 @@ final class DeviceMarketingnameMapper
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)', 'galaxy s25 plus (usa)' => 'Galaxy S25+',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
+            'galaxy tab 3 10.1" wi-fi', 'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1" Wi-Fi',
             'galaxy tab a7 10.4" lte (2020)', 'galaxy tab a7 10.4" (2020) lte' => 'Galaxy Tab A7 10.4" LTE (2020)',
             'galaxy tab a7 10.4" wi-fi (2020)', 'galaxy tab a7 10.4" (2020) wifi' => 'Galaxy Tab A7 10.4" Wi-Fi (2020)',
             'galaxy tab a7 10.4" wi-fi (2022)', 'galaxy tab a7 10.4" (2022) wifi' => 'Galaxy Tab A7 10.4" Wi-Fi (2022)',
@@ -515,7 +517,7 @@ final class DeviceMarketingnameMapper
             'magic vs', 'magic vs 5g' => 'Magic Vs',
             'mate 20', 'mate 20 (china)' => 'Mate 20',
             'mate 70 5g', 'mate 70 5g (china)' => 'Mate 70 5G',
-            'matepad 10.4"', 'matepad 10.4 wi-fi' => 'MatePad 10.4"',
+            'matepad 10.4"', 'matepad 10.4" wi-fi' => 'MatePad 10.4"',
             'matepad 10.4" wi-fi (2022)', 'matepad 10.4" (2022) wifi' => 'MatePad 10.4" Wi-Fi (2022)',
             'matepad 10.4" se', 'matepad 10.4" se (2023)', 'matepad 10.4" se lte (2023)' => 'MatePad 10.4" SE',
             'matepad 10.4" se wifi', 'matepad 10.4" se wi-fi (2023)' => 'MatePad 10.4" SE Wi-Fi',
@@ -682,6 +684,7 @@ final class DeviceMarketingnameMapper
             'edge 30 ultra 5g', 'moto edge x30 5g' => 'Edge 30 Ultra 5G',
             'edge+ (2023)', 'edge plus (2023)' => 'Edge+ (2023)',
             'g pure', 'moto g pure' => 'G Pure',
+            'moto g', 'moto g (2nd gen)' => 'Moto G',
             'moto g stylus 5g', 'moto g stylus 5g (2023)' => 'Moto G Stylus 5G',
             'moto g50', 'moto g50 4g' => 'Moto G50',
             'moto razr 40', 'moto razr 40 5g (2023)' => 'Moto Razr 40',
