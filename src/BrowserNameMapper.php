@@ -126,6 +126,7 @@ final class BrowserNameMapper
             'veilig virusscanner', 'kpn veilig' => 'Veilig Virusscanner',
             'nytimes - crossword', 'the crossword' => 'NYTimes - Crossword',
             'npr', 'npr: national & local news' => 'NPR',
+            'quora app', 'quora' => 'Quora App',
             default => $browserInput,
         };
     }
