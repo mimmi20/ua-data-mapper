@@ -36,7 +36,7 @@ final class BrowserTypeMapper
         }
 
         return match (mb_strtolower($browserType)) {
-            'browser', 'mobile browser', 'transcoder' => Type::Browser,
+            'browser', 'mobile browser', 'transcoder', 'wap-browser' => Type::Browser,
             'bot', 'robot', 'bot/crawler' => Type::Bot,
             'library' => Type::Library,
             'emailclient', 'email client' => Type::EmailClient,

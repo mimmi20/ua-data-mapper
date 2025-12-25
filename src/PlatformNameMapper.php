@@ -51,7 +51,7 @@ final class PlatformNameMapper
             'mint' => 'Linux Mint',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
-            'nintendo os', 'nintendo', 'nintendo mobile' => 'Nintendo OS',
+            'nintendo os', 'nintendo', 'nintendo mobile', 'nintendo switch os', 'nintendo wii os' => 'Nintendo OS',
             default => $osName,
         };
     }

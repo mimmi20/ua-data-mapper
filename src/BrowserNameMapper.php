@@ -135,6 +135,7 @@ final class BrowserNameMapper
             'mobile security', 'f-secure mobile security' => 'Mobile Security',
             'xing app', 'xing' => 'XING App',
             'super cleaner', 'phone clean' => 'Super Cleaner',
+            'bonprix', 'bonprix app' => 'BonPrix',
             default => $browserInput,
         };
     }

@@ -43,6 +43,9 @@ final class PlatformVersionMapper
             case '':
             case 'unknown':
             case 'other':
+            case '3ds':
+            case 'wii':
+            case 'switch':
                 return new NullVersion();
             case 'server 2003':
                 return new Version('2003');
