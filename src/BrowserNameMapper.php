@@ -130,6 +130,11 @@ final class BrowserNameMapper
             'nintendo browser', 'nintendobrowser' => 'Nintendo Browser',
             'dorado wap browser', 'dorado' => 'Dorado WAP Browser',
             'podverse', 'podverse - podcast player' => 'Podverse',
+            'jack & jones to go', 'jj2go' => 'Jack & Jones to go',
+            'internet security', 'swisscom internet security' => 'Internet Security',
+            'mobile security', 'f-secure mobile security' => 'Mobile Security',
+            'xing app', 'xing' => 'XING App',
+            'super cleaner', 'phone clean' => 'Super Cleaner',
             default => $browserInput,
         };
     }
