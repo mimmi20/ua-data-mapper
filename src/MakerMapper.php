@@ -54,6 +54,7 @@ final class MakerMapper
             'majestic-12' => 'Majestic-12 Ltd',
             'zum internet' => 'ZUMinternet Corp',
             'mojeek ltd.' => 'Linkdex Limited',
+            'kddi' => 'KDDI',
             default => $maker,
         };
     }

@@ -15,6 +15,8 @@ namespace UaDataMapper;
 
 /**
  * class with caching and update capabilities
+ *
+ * @deprecated Will be removed soon, {@use MakerMapper::mapMaker directly}
  */
 final class DeviceMakerMapper
 {

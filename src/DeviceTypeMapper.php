@@ -40,7 +40,7 @@ final class DeviceTypeMapper
             'car browser' => Type::CarEntertainmentSystem,
             'fonepad', 'fone-pad' => Type::Tablet,
             'laptop' => Type::Desktop,
-            'mobileconsole', 'mobile-console', 'mobile console' => Type::Console,
+            'mobileconsole', 'mobile-console', 'mobile console', 'tv-console' => Type::Console,
             'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
             'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => Type::Tv,
             'unknown' => Type::Unknown,
