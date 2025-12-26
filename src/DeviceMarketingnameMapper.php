@@ -189,6 +189,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s9+ 12.4" 5g', 'galaxy tab s9+ 12.4" 5g (usa)' => 'Galaxy Tab S9+ 12.4" 5G',
             'galaxy tab s10 fe 10.9" wi-fi', 'galaxy tab s10 fe 10.9" wifi' => 'Galaxy Tab S10 FE 10.9" Wi-Fi',
             'galaxy tab s10 fe+ 13.1"', 'galaxy tab s10 fe+ 13.1" wi-fi', 'galaxy tab s10 fe+ 13.1" wifi' => 'Galaxy Tab S10 FE+ 13.1"',
+            'galaxy tab s10 lite wi-fi', 'galaxy tab s10 lite wifi' => 'Galaxy Tab S10 Lite Wi-Fi',
             'galaxy tab s10 ultra 14.6" wi-fi', 'galaxy tab s10 ultra 14.6" wifi' => 'Galaxy Tab S10 Ultra 14.6" Wi-Fi',
             'galaxy tab s10+ 12.4" wi-fi', 'galaxy tab s10+ 12.4" wifi' => 'Galaxy Tab S10+ 12.4" Wi-Fi',
             'galaxy tab s11 wi-fi', 'galaxy tab s11 wifi' => 'Galaxy Tab S11 Wi-Fi',
