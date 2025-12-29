@@ -39,7 +39,7 @@ final class BrowserNameMapper
             'iceweasel' => 'Iceweasel',
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
-            'android', 'android browser' => 'Android Webkit',
+            'android', 'android browser', 'aliyun browser' => 'Android Webkit',
             'googlebot' => 'Google Bot',
             'bingbot' => 'BingBot',
             'bingpreview' => 'Bing Preview',
@@ -136,6 +136,7 @@ final class BrowserNameMapper
             'xing app', 'xing' => 'XING App',
             'super cleaner', 'phone clean' => 'Super Cleaner',
             'bonprix', 'bonprix app' => 'BonPrix',
+            'blazer', 'palm blazer' => 'Blazer',
             default => $browserInput,
         };
     }
