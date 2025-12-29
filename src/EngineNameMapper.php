@@ -37,6 +37,7 @@ final class EngineNameMapper
             '', 'unknown', 'other', 'unk' => null,
             'edgehtml' => 'Edge',
             'moz' => 'Gecko',
+            'text', 'text-based' => 'Text',
             default => $engineName,
         };
     }

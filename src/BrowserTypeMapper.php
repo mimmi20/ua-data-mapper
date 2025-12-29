@@ -49,6 +49,7 @@ final class BrowserTypeMapper
             'application' => Type::Application,
             'mobile app' => Type::MobileApplication,
             'tool' => Type::Tool,
+            'search bot' => Type::SearchBot,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($browserType)),
         };

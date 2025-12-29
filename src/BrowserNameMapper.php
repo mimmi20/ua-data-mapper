@@ -137,6 +137,14 @@ final class BrowserNameMapper
             'super cleaner', 'phone clean' => 'Super Cleaner',
             'bonprix', 'bonprix app' => 'BonPrix',
             'blazer', 'palm blazer' => 'Blazer',
+            'xbmc media center', 'xbmc' => 'XBMC Media Center',
+            'wget' => 'wget',
+            'epiphany', 'gnome web' => 'Epiphany',
+            'amigavoyager', 'amiga voyager' => 'AmigaVoyager',
+            'yacy bot', 'yacy' => 'YaCy Bot',
+            'mosaic', 'ncsa mosaic' => 'Mosaic',
+            'fresco', 'ant fresco' => 'Fresco',
+            'web pro', 'palm webpro' => 'Web Pro',
             default => $browserInput,
         };
     }
