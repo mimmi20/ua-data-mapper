@@ -280,7 +280,7 @@ final class DeviceMarketingnameMapper
             'iphone 6s' => 'iPhone 6S',
             'iphone 6s plus' => 'iPhone 6S Plus',
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
-            'watch (38mm)', 'watch (38mm, lte)', 'Watch 38mm' => 'Watch (38mm)',
+            'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
             'watch se (40mm)', 'watch se (40mm, lte)', 'watch se 40mm' => 'Watch SE (40mm)',
             'watch se (44mm)', 'watch se (44mm, lte)', 'watch se 44mm' => 'Watch SE (44mm)',
