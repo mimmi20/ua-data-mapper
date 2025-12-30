@@ -47,6 +47,7 @@ final class PlatformNameMapper
             'fedora linux', 'fedora' => 'Fedora Linux',
             'cent os linux', 'centos' => 'Cent OS Linux',
             'archlinux', 'arch linux' => 'ArchLinux',
+            'zenwalk gnu linux', 'zenwalk' => 'Zenwalk GNU Linux',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
             'nintendo os', 'nintendo', 'nintendo mobile', 'nintendo switch os', 'nintendo wii os' => 'Nintendo OS',
@@ -56,6 +57,7 @@ final class PlatformNameMapper
             'inferno os', 'inferno' => 'Inferno OS',
             'chromeos', 'chrome os' => 'ChromeOS',
             'dragonfly bsd', 'dragonfly' => 'DragonFly BSD',
+            'raspbian', 'raspberry pi os' => 'Raspbian',
             default => $osName,
         };
     }

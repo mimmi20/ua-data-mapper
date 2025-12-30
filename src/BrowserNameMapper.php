@@ -145,6 +145,9 @@ final class BrowserNameMapper
             'mosaic', 'ncsa mosaic' => 'Mosaic',
             'fresco', 'ant fresco' => 'Fresco',
             'web pro', 'palm webpro' => 'Web Pro',
+            'telegram app', 'telegram' => 'Telegram App',
+            'oceanhero browser', 'oceanhero' => 'OceanHero Browser',
+            'stargon browser', 'stargon' => 'Stargon Browser',
             default => $browserInput,
         };
     }
