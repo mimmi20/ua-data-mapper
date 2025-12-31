@@ -61,6 +61,8 @@ final class PlatformNameMapper
             'dragonfly bsd', 'dragonfly' => 'DragonFly BSD',
             'raspbian', 'raspberry pi os' => 'Raspbian',
             'osf/1', 'osf1' => 'OSF/1',
+            'lindows', 'lindowsos' => 'LindowsOS',
+            'yi', 'baidu yi' => 'Yi',
             default => $osName,
         };
     }
