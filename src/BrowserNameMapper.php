@@ -154,6 +154,7 @@ final class BrowserNameMapper
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
             'sogou web spider', 'sogou spider' => 'Sogou Web Spider',
             'headline bot', 'headline' => 'headline bot',
+            'hubspot crawler', 'hubspot' => 'HubSpot Crawler',
             default => $browserInput,
         };
     }
