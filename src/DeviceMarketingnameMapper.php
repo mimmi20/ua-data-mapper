@@ -91,6 +91,7 @@ final class DeviceMarketingnameMapper
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)' => 'Galaxy A71 5G',
             'galaxy a90', 'galaxy a90 5g (south korea)' => 'Galaxy A90',
+            'galaxy ace plus' => 'Galaxy Ace Plus',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
             'galaxy f04', 'galaxy m04' => 'Galaxy F04',
             'galaxy f06 5g', 'galaxy f06 5g (international)' => 'Galaxy F06 5G',
@@ -115,6 +116,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)' => 'Galaxy Note 20 5G',
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
+            'galaxy s3 lte international', 'galaxy s iii lte' => 'Galaxy S3 LTE',
             'galaxy s5', 'galaxy s5 lte' => 'Galaxy S5',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s7', 'galaxy s7 (verizon)' => 'Galaxy S7',
@@ -220,6 +222,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'wave 2', 'wave ii' => 'Wave 2',
             // apple
             'ipad 9.7" (5th gen) wi-fi', 'ipad 9.7" (5th gen) 4g', 'ipad 5 9.7' => 'iPad 9.7" (5th Gen)',
             'ipad 9.7" (6th gen) wi-fi', 'ipad 9.7" (6th gen) 4g', 'ipad 6 9.7' => 'iPad 9.7" (6th Gen)',
@@ -533,6 +536,7 @@ final class DeviceMarketingnameMapper
             'xperia 1 vi', 'xperia 1 vi 5g' => 'Xperia 1 VI',
             'xperia 5 iv', 'xperia 5 iv 5g', 'xperia 5 iv (japan)' => 'Xperia 5 IV',
             'xperia 5 v', 'xperia 5 v 5g' => 'Xperia 5 V',
+            'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',

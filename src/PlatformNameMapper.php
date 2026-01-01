@@ -63,6 +63,7 @@ final class PlatformNameMapper
             'osf/1', 'osf1' => 'OSF/1',
             'lindows', 'lindowsos' => 'LindowsOS',
             'yi', 'baidu yi' => 'Yi',
+            'android', 'android opensource project' => 'Android',
             default => $osName,
         };
     }

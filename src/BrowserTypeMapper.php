@@ -51,6 +51,7 @@ final class BrowserTypeMapper
             'tool' => Type::Tool,
             'search bot' => Type::SearchBot,
             'social media agent' => Type::SocialMediaAgent,
+            'site monitor' => Type::SiteMonitor,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($browserType)),
         };
