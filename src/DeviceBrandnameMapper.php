@@ -374,6 +374,7 @@ final class DeviceBrandnameMapper
             'ans' => 'ANS',
             'dynalink', 'dinalink' => 'Dynalink',
             'aiwa' => 'Aiwa',
+            'jide', 'jedi' => 'Jide',
             default => $brandName,
         };
     }

@@ -160,6 +160,8 @@ final class BrowserNameMapper
             'comodo dragon', 'dragon' => 'Comodo Dragon',
             'evernote app', 'evernote' => 'Evernote App',
             'foss browser' => 'Foss Browser',
+            'lens', 'google lens' => 'Lens',
+            'sodes', '\'sodes' => 'Sodes',
             default => $browserInput,
         };
     }
