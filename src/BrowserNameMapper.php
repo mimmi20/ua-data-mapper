@@ -162,6 +162,8 @@ final class BrowserNameMapper
             'foss browser' => 'Foss Browser',
             'lens', 'google lens' => 'Lens',
             'sodes', '\'sodes' => 'Sodes',
+            'browser app' => 'Browser App',
+            'imessage', 'apple imessage' => 'iMessage',
             default => $browserInput,
         };
     }
