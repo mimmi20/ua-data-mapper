@@ -164,6 +164,7 @@ final class BrowserNameMapper
             'sodes', '\'sodes' => 'Sodes',
             'browser app' => 'Browser App',
             'imessage', 'apple imessage' => 'iMessage',
+            'cliqz browser', 'cliqz' => 'Cliqz Browser',
             default => $browserInput,
         };
     }
