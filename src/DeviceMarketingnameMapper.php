@@ -811,6 +811,7 @@ final class DeviceMarketingnameMapper
             'construction', 'construction 4g' => 'Construction',
             // nokia
             '8.3', '8.3 4g' => '8.3',
+            'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz

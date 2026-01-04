@@ -167,6 +167,9 @@ final class BrowserNameMapper
             'reminders', 'apple reminders' => 'Reminders',
             'cliqz browser', 'cliqz' => 'Cliqz Browser',
             'onebrowser', 'one browser' => 'OneBrowser',
+            'docomo browser', 'docomo' => 'DoCoMo Browser',
+            'amazon bot', 'amazonbot' => 'Amazon Bot',
+            'maui wap browser' => 'MAUI Wap Browser',
             default => $browserInput,
         };
     }

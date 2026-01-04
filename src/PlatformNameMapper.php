@@ -65,6 +65,8 @@ final class PlatformNameMapper
             'yi', 'baidu yi' => 'Yi',
             'android', 'android opensource project' => 'Android',
             'series 40', 'symbian os series 40' => 'Series 40',
+            'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
+            'amiga os', 'amigaos' => 'Amiga OS',
             default => $osName,
         };
     }

@@ -56,6 +56,7 @@ final class MakerMapper
             'mojeek ltd.' => 'Linkdex Limited',
             'kddi' => 'KDDI',
             'jide', 'jedi' => 'Jide',
+            'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             default => $maker,
         };
     }
