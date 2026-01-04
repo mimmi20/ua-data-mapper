@@ -164,7 +164,9 @@ final class BrowserNameMapper
             'sodes', '\'sodes' => 'Sodes',
             'browser app' => 'Browser App',
             'imessage', 'apple imessage' => 'iMessage',
+            'reminders', 'apple reminders' => 'Reminders',
             'cliqz browser', 'cliqz' => 'Cliqz Browser',
+            'onebrowser', 'one browser' => 'OneBrowser',
             default => $browserInput,
         };
     }

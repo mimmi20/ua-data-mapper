@@ -64,6 +64,7 @@ final class PlatformNameMapper
             'lindows', 'lindowsos' => 'LindowsOS',
             'yi', 'baidu yi' => 'Yi',
             'android', 'android opensource project' => 'Android',
+            'series 40', 'symbian os series 40' => 'Series 40',
             default => $osName,
         };
     }
