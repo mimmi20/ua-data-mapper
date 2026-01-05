@@ -35,8 +35,7 @@ final class PlatformNameMapper
 
         return match (mb_strtolower($osName)) {
             '', 'unknown', 'other', 'iphone', 'ipad' => null,
-            'mac os', 'mac' => 'macOS',
-            'macintosh' => 'Macintosh',
+            'mac os', 'mac', 'macintosh' => 'macOS',
             'gnu/linux', 'ventana linux', 'moblin' => 'Linux',
             'slackware linux', 'slackware' => 'Slackware Linux',
             'suse linux', 'suse' => 'Suse Linux',
