@@ -170,6 +170,7 @@ final class BrowserNameMapper
             'docomo browser', 'docomo' => 'DoCoMo Browser',
             'amazon bot', 'amazonbot' => 'Amazon Bot',
             'maui wap browser' => 'MAUI Wap Browser',
+            'apple tv app', 'apple tv' => 'Apple TV App',
             default => $browserInput,
         };
     }

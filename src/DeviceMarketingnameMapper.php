@@ -149,6 +149,7 @@ final class DeviceMarketingnameMapper
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)', 'galaxy s25 plus (usa)' => 'Galaxy S25+',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
+            'galaxy tab 3 10.1"', 'galaxy tab 3 10.1" 3g' => 'Galaxy Tab 3 10.1"',
             'galaxy tab 3 10.1" wi-fi', 'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1" Wi-Fi',
             'galaxy tab a7 10.4" lte (2020)', 'galaxy tab a7 10.4" (2020) lte' => 'Galaxy Tab A7 10.4" LTE (2020)',
             'galaxy tab a7 10.4" wi-fi (2020)', 'galaxy tab a7 10.4" (2020) wifi' => 'Galaxy Tab A7 10.4" Wi-Fi (2020)',

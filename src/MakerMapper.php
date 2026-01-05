@@ -57,6 +57,7 @@ final class MakerMapper
             'kddi' => 'KDDI',
             'jide', 'jedi' => 'Jide',
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
+            'premier', 'premier star' => 'Premier',
             default => $maker,
         };
     }
