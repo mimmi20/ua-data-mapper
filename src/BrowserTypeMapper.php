@@ -3,7 +3,7 @@
 /**
  * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2026, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -49,6 +49,10 @@ final class BrowserTypeMapper
             'application' => Type::Application,
             'mobile app' => Type::MobileApplication,
             'tool' => Type::Tool,
+            'search bot' => Type::SearchBot,
+            'social media agent' => Type::SocialMediaAgent,
+            'site monitor' => Type::SiteMonitor,
+            'ai search crawler' => Type::Crawler,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($browserType)),
         };

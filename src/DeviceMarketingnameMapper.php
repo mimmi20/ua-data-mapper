@@ -3,7 +3,7 @@
 /**
  * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2026, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -56,6 +56,7 @@ final class DeviceMarketingnameMapper
             'galaxy a04', 'galaxy a04 4g' => 'Galaxy A04',
             'galaxy a04s', 'galaxy a04s 4g' => 'Galaxy A04s',
             'galaxy a05', 'galaxy a05 4g' => 'Galaxy A05',
+            'galaxy a6', 'galaxy a6 (2018)' => 'Galaxy A6',
             'galaxy a06', 'galaxy a06 (international)' => 'Galaxy A06',
             'galaxy a11', 'galaxy a11 (inernational)' => 'Galaxy A11',
             'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)', 'galaxy a12 nacho' => 'Galaxy A12',
@@ -90,6 +91,7 @@ final class DeviceMarketingnameMapper
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)' => 'Galaxy A71 5G',
             'galaxy a90', 'galaxy a90 5g (south korea)' => 'Galaxy A90',
+            'galaxy ace plus' => 'Galaxy Ace Plus',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
             'galaxy f04', 'galaxy m04' => 'Galaxy F04',
             'galaxy f06 5g', 'galaxy f06 5g (international)' => 'Galaxy F06 5G',
@@ -114,6 +116,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)' => 'Galaxy Note 20 5G',
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
+            'galaxy s3 lte international', 'galaxy s iii lte' => 'Galaxy S3 LTE',
             'galaxy s5', 'galaxy s5 lte' => 'Galaxy S5',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s7', 'galaxy s7 (verizon)' => 'Galaxy S7',
@@ -146,6 +149,7 @@ final class DeviceMarketingnameMapper
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)', 'galaxy s25 plus (usa)' => 'Galaxy S25+',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
+            'galaxy tab 3 10.1"', 'galaxy tab 3 10.1" 3g' => 'Galaxy Tab 3 10.1"',
             'galaxy tab 3 10.1" wi-fi', 'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1" Wi-Fi',
             'galaxy tab a7 10.4" lte (2020)', 'galaxy tab a7 10.4" (2020) lte' => 'Galaxy Tab A7 10.4" LTE (2020)',
             'galaxy tab a7 10.4" wi-fi (2020)', 'galaxy tab a7 10.4" (2020) wifi' => 'Galaxy Tab A7 10.4" Wi-Fi (2020)',
@@ -198,6 +202,13 @@ final class DeviceMarketingnameMapper
             'galaxy w24 5g', 'galaxy w24 fold' => 'Galaxy W24',
             'galaxy w24 flip', 'galaxy w24 flip 5g' => 'Galaxy W24 Flip',
             'galaxy w25', 'galaxy w25 5g' => 'Galaxy W25',
+            'galaxy watch 4 classic 42mm', 'galaxy watch 4 classic (42mm, lte)' => 'Galaxy Watch 4 Classic (42mm)',
+            'galaxy watch 4 classic 46mm', 'galaxy watch 4 classic (46mm, lte)', 'galaxy watch 4 46mm' => 'Galaxy Watch 4 Classic (46mm)',
+            'galaxy watch 4 40mm', 'galaxy watch 4 (40mm, lte)', 'galaxy watch 4 (40mm)' => 'Galaxy Watch 4 (40mm)',
+            'galaxy watch 4 44mm', 'galaxy watch 4 (44mm, lte)', 'galaxy watch 4 (44mm)' => 'Galaxy Watch 4 (44mm)',
+            'galaxy watch 5 40mm', 'galaxy watch 5 (40mm)', 'galaxy watch 5 (40mm, lte)' => 'Galaxy Watch 5 (40mm)',
+            'galaxy watch 5 44mm', 'galaxy watch 5 (44mm)', 'galaxy watch 5 (44mm, lte)' => 'Galaxy Watch 5 (44mm)',
+            'galaxy watch 5 pro 45mm', 'galaxy watch 5 pro (45mm)', 'galaxy watch 5 pro (45mm, lte)' => 'Galaxy Watch 5 Pro (45mm)',
             'galaxy watch 6 classic (43mm)', 'galaxy watch 6 classic 43mm' => 'Galaxy Watch 6 Classic (43mm)',
             'galaxy watch 6 classic (47mm)', 'galaxy watch 6 classic 47mm' => 'Galaxy Watch 6 Classic (47mm)',
             'galaxy xcover 5', 'galaxy xcover 5 (korea)' => 'Galaxy Xcover 5',
@@ -212,6 +223,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'wave 2', 'wave ii' => 'Wave 2',
             // apple
             'ipad 9.7" (5th gen) wi-fi', 'ipad 9.7" (5th gen) 4g', 'ipad 5 9.7' => 'iPad 9.7" (5th Gen)',
             'ipad 9.7" (6th gen) wi-fi', 'ipad 9.7" (6th gen) 4g', 'ipad 6 9.7' => 'iPad 9.7" (6th Gen)',
@@ -272,6 +284,28 @@ final class DeviceMarketingnameMapper
             'iphone 6s' => 'iPhone 6S',
             'iphone 6s plus' => 'iPhone 6S Plus',
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
+            'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
+            'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
+            'watch se (40mm)', 'watch se (40mm, lte)', 'watch se 40mm' => 'Watch SE (40mm)',
+            'watch se (44mm)', 'watch se (44mm, lte)', 'watch se 44mm' => 'Watch SE (44mm)',
+            'watch series 1 (38mm)', 'watch series 1 (38mm, lte)', 'watch series 1 38mm' => 'Watch Series 1 (38mm)',
+            'watch series 1 (42mm)', 'watch series 1 (42mm, lte)', 'watch series 1 42mm' => 'Watch Series 1 (42mm)',
+            'watch series 2 (38mm)', 'watch series 2 (38mm, lte)', 'watch series 2 38mm' => 'Watch Series 2 (38mm)',
+            'watch series 2 (42mm)', 'watch series 2 (42mm, lte)', 'watch series 2 42mm' => 'Watch Series 2 (42mm)',
+            'watch series 3 (38mm)', 'watch series 3 (38mm, lte)', 'watch series 3 38mm' => 'Watch Series 3 (38mm)',
+            'watch series 3 (42mm)', 'watch series 3 (42mm, lte)', 'watch series 3 42mm' => 'Watch Series 3 (42mm)',
+            'watch series 4 (40mm)', 'watch series 4 (40mm, lte)', 'watch series 4 40mm' => 'Watch Series 4 (40mm)',
+            'watch series 4 (44mm)', 'watch series 4 (44mm, lte)', 'watch series 4 44mm' => 'Watch Series 4 (44mm)',
+            'watch series 5 (40mm)', 'watch series 5 (40mm, lte)', 'watch series 5 40mm' => 'Watch Series 5 (40mm)',
+            'watch series 5 (44mm)', 'watch series 5 (44mm, lte)', 'watch series 5 44mm' => 'Watch Series 5 (44mm)',
+            'watch series 6 (40mm)', 'watch series 6 (40mm, lte)', 'watch series 6 40mm' => 'Watch Series 6 (40mm)',
+            'watch series 6 (44mm)', 'watch series 6 (44mm, lte)', 'watch series 6 44mm' => 'Watch Series 6 (44mm)',
+            'watch series 7 (41mm)', 'watch series 7 (41mm, lte)', 'watch series 7 41mm' => 'Watch Series 7 (41mm)',
+            'watch series 7 (45mm)', 'watch series 7 (45mm, lte)', 'watch series 7 45mm' => 'Watch Series 7 (45mm)',
+            'watch series 8 (41mm)', 'watch series 8 (41mm, lte)', 'watch series 8 41mm' => 'Watch Series 8 (41mm)',
+            'watch series 8 (45mm)', 'watch series 8 (45mm, lte)', 'watch series 8 45mm' => 'Watch Series 8 (45mm)',
+            'watch series 10 (42mm)', 'watch series 10 (42mm, lte)', 'watch series 10 42mm' => 'Watch Series 10 (42mm)',
+            'watch series 10 (46mm)', 'watch series 10 (46mm, lte)', 'watch series 10 46mm' => 'Watch Series 10 (46mm)',
             // oppo
             'a1x', 'a2x 5g' => 'A1x',
             'a3', 'a3 4g' => 'A3',
@@ -340,6 +374,7 @@ final class DeviceMarketingnameMapper
             '13t', '13t 5g' => '13T',
             '14t', '14t pro' => '14T',
             'm7', 'm7 4g' => 'M7',
+            'mi 2sc' => 'Mi 2SC',
             'mi 10', 'mi 10 5g' => 'Mi 10',
             'mi 10 pro', 'mi 10 pro 5g' => 'Mi 10 Pro',
             'mi 10t 5g', 'mi 10t 5g (global)' => 'Mi 10T 5G',
@@ -502,6 +537,7 @@ final class DeviceMarketingnameMapper
             'xperia 1 vi', 'xperia 1 vi 5g' => 'Xperia 1 VI',
             'xperia 5 iv', 'xperia 5 iv 5g', 'xperia 5 iv (japan)' => 'Xperia 5 IV',
             'xperia 5 v', 'xperia 5 v 5g' => 'Xperia 5 V',
+            'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',
@@ -625,6 +661,7 @@ final class DeviceMarketingnameMapper
             'blade v50', 'blade v50 5g' => 'Blade V50',
             'blade v60 design 4g', 'axon 60 lite' => 'Blade V60 Design 4G',
             'blade v70 vita', 'blade v70 design' => 'Blade V70 Vita',
+            'open' => 'Open',
             'pad pro 10.9" wi-fi', 'pad pro 10.9" wifi' => 'Pad Pro 10.9" Wi-Fi',
             'red magic 6', 'red magic 6 5g' => 'Red Magic 6',
             'red magic 7', 'red magic 7s 5g' => 'Red Magic 7',
@@ -775,6 +812,7 @@ final class DeviceMarketingnameMapper
             'construction', 'construction 4g' => 'Construction',
             // nokia
             '8.3', '8.3 4g' => '8.3',
+            'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz

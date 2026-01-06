@@ -3,7 +3,7 @@
 /**
  * This file is part of the mimmi20/ua-data-mapper package.
  *
- * Copyright (c) 2015-2025, Thomas Mueller <mimmi20@live.de>
+ * Copyright (c) 2015-2026, Thomas Mueller <mimmi20@live.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -39,8 +39,8 @@ final class BrowserNameMapper
             'iceweasel' => 'Iceweasel',
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
-            'android', 'android browser' => 'Android Webkit',
-            'googlebot' => 'Google Bot',
+            'android', 'android browser', 'aliyun browser' => 'Android Webkit',
+            'googlebot', 'google bot mobile' => 'Google Bot',
             'bingbot' => 'BingBot',
             'bingpreview' => 'Bing Preview',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
@@ -78,7 +78,7 @@ final class BrowserNameMapper
             'pale moon (firefox variant)', 'pale moon' => 'PaleMoon',
             'opera next', 'opera mobile' => 'Opera',
             'opera mini for ios', 'opera mini ios' => 'Opera Mini for iOS',
-            'yeti/naverbot' => 'NaverBot',
+            'yeti/naverbot', 'adsbot naver' => 'NaverBot',
             'ahrefs bot' => 'AhrefsBot',
             'picsearch bot' => 'Picsearch Bot',
             'androiddownloadmanager' => 'Android Download Manager',
@@ -102,6 +102,7 @@ final class BrowserNameMapper
             'office mobile', 'microsoft office mobile' => 'Microsoft Office Mobile',
             'word', 'microsoft office word' => 'Microsoft Word',
             'onenote', 'microsoft office onenote' => 'Microsoft OneNote',
+            'powerpoint', 'microsoft office powerpoint' => 'Microsoft PowerPoint',
             'microsoft bing', 'bing search' => 'Microsoft Bing',
             'via browser', 'via' => 'Via Browser',
             'f-secure safe', 'safe' => 'SAFE',
@@ -136,6 +137,40 @@ final class BrowserNameMapper
             'xing app', 'xing' => 'XING App',
             'super cleaner', 'phone clean' => 'Super Cleaner',
             'bonprix', 'bonprix app' => 'BonPrix',
+            'blazer', 'palm blazer' => 'Blazer',
+            'xbmc media center', 'xbmc' => 'XBMC Media Center',
+            'wget' => 'wget',
+            'epiphany', 'gnome web' => 'Epiphany',
+            'amigavoyager', 'amiga voyager' => 'AmigaVoyager',
+            'yacy bot', 'yacy' => 'YaCy Bot',
+            'mosaic', 'ncsa mosaic' => 'Mosaic',
+            'fresco', 'ant fresco' => 'Fresco',
+            'web pro', 'palm webpro' => 'Web Pro',
+            'telegram app', 'telegram' => 'Telegram App',
+            'oceanhero browser', 'oceanhero' => 'OceanHero Browser',
+            'stargon browser', 'stargon' => 'Stargon Browser',
+            'puffin', 'puffin web browser' => 'Puffin',
+            'slack app', 'slack' => 'Slack App',
+            'radio.de app', 'radio.de' => 'radio.de App',
+            'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
+            'sogou web spider', 'sogou spider' => 'Sogou Web Spider',
+            'headline bot', 'headline' => 'headline bot',
+            'hubspot crawler', 'hubspot' => 'HubSpot Crawler',
+            'kindle browser', 'kindle' => 'Kindle Browser',
+            'comodo dragon', 'dragon' => 'Comodo Dragon',
+            'evernote app', 'evernote' => 'Evernote App',
+            'foss browser' => 'Foss Browser',
+            'lens', 'google lens' => 'Lens',
+            'sodes', '\'sodes' => 'Sodes',
+            'browser app' => 'Browser App',
+            'imessage', 'apple imessage' => 'iMessage',
+            'reminders', 'apple reminders' => 'Reminders',
+            'cliqz browser', 'cliqz' => 'Cliqz Browser',
+            'onebrowser', 'one browser' => 'OneBrowser',
+            'docomo browser', 'docomo' => 'DoCoMo Browser',
+            'amazon bot', 'amazonbot' => 'Amazon Bot',
+            'maui wap browser' => 'MAUI Wap Browser',
+            'apple tv app', 'apple tv' => 'Apple TV App',
             default => $browserInput,
         };
     }
