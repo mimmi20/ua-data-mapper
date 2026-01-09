@@ -171,6 +171,7 @@ final class BrowserNameMapper
             'amazon bot', 'amazonbot' => 'Amazon Bot',
             'maui wap browser' => 'MAUI Wap Browser',
             'apple tv app', 'apple tv' => 'Apple TV App',
+            'netflix app', 'netflix' => 'Netflix App',
             default => $browserInput,
         };
     }

@@ -125,7 +125,7 @@ final class DeviceBrandnameMapper
             'qiuwoky' => 'Qiuwoky',
             'colorroom' => 'COLORROOM',
             'hometech' => 'Hometech',
-            'premier' => 'Premier',
+            'premier', 'premier star' => 'Premier',
             'umidigi', 'umi' => 'UMIDIGI',
             'logicom' => 'Logicom',
             'walton' => 'Walton',
