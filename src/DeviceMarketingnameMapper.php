@@ -328,6 +328,7 @@ final class DeviceMarketingnameMapper
             'a94 4g', 'a94' => 'A94',
             'a95 4g', 'a95' => 'A95',
             'a96' => 'A96',
+            'ace 2 5g', 'reno ace 2' => 'Ace 2',
             'f21 pro', 'f21 pro 5g' => 'F21 Pro',
             'f21s pro', 'f21s pro 4g', 'f21s pro 5g' => 'F21s Pro',
             'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
@@ -540,6 +541,7 @@ final class DeviceMarketingnameMapper
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
+            'g3', 'oukitel g3' => 'G3',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',
             // huawei/honor
             '70', '70 5g' => '70',
