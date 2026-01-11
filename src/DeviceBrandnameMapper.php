@@ -375,6 +375,7 @@ final class DeviceBrandnameMapper
             'dynalink', 'dinalink' => 'Dynalink',
             'aiwa' => 'Aiwa',
             'jide', 'jedi' => 'Jide',
+            'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             default => $brandName,
         };
     }

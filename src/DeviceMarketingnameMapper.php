@@ -819,6 +819,7 @@ final class DeviceMarketingnameMapper
             // nokia
             '8.3', '8.3 4g' => '8.3',
             'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
+            'asha 230', 'asha230singlesim' => 'Asha 230',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz
@@ -831,6 +832,8 @@ final class DeviceMarketingnameMapper
             'bison gt2', 'bison gt2 5g' => 'Bison GT2',
             // spc
             'smart ultimate', 'smart ultimate 64' => 'Smart Ultimate',
+            // fujitsu
+            'arrows n', 'arrows n f-51c' => 'Arrows N',
             default => $marketingName,
         };
     }
