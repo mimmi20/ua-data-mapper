@@ -66,6 +66,7 @@ final class PlatformNameMapper
             'series 40', 'symbian os series 40' => 'Series 40',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
+            'windows', 'windows nt' => 'Windows',
             default => $osName,
         };
     }

@@ -173,6 +173,7 @@ final class BrowserNameMapper
             'apple tv app', 'apple tv' => 'Apple TV App',
             'netflix app', 'netflix' => 'Netflix App',
             'avant', 'avant browser' => 'Avant',
+            'k-meleon' => 'K-Meleon',
             default => $browserInput,
         };
     }
