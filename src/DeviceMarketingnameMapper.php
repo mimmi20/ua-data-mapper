@@ -528,6 +528,7 @@ final class DeviceMarketingnameMapper
             'nord ce 4 lite 5g', 'nord ce4 lite 5g (india)', 'nord ce4 lite 5g' => 'Nord CE4 Lite 5G',
             'pad 2 12.1" wi-fi', 'pad 2 12.1" wifi' => 'Pad 2 12.1" Wi-Fi',
             'pad go 11.35"', 'pad go 11.35" lte' => 'Pad Go 11.35"',
+            'pad lite 11.0"', 'pad lite 11.0" wi-fi', 'pad lite 11.0" lte' => 'Pad Lite 11.0"',
             // tecno
             'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
             'spark go 1', 'pop 9' => 'Spark Go 1',
