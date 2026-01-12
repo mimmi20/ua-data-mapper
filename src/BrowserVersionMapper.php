@@ -42,7 +42,9 @@ final class BrowserVersionMapper
 
         return match (mb_strtolower($browserVersion)) {
             '', 'unknown', 'other' => new NullVersion(),
-            '8618.1', '8617.2', '8617.1', '8616.2', '8615.6', '8615.5', '8615.4', '8613.7', '8613.1', '8612.4', '8612.3', '8612.2', '8612.1' => $versionBuilder->set('6.0'),
+            '8618.1', '8617.2', '8617.1', '8616.2', '8615.6', '8615.5', '8615.4', '8613.7', '8613.1', '8612.4', '8612.3', '8612.2', '8612.1' => $versionBuilder->set(
+                '6.0',
+            ),
             '604.1' => $versionBuilder->set('5.0'),
             default => $versionBuilder->set($browserVersion),
         };
