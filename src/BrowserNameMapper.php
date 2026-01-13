@@ -185,6 +185,9 @@ final class BrowserNameMapper
             'quark', 'quarkpc' => 'Quark',
             'norton secure browser', 'norton private browser' => 'Norton Secure Browser',
             'daum app', 'daum' => 'Daum App',
+            'pingdom', 'pingdom bot' => 'Pingdom Bot',
+            'pinterest app', 'pinterest' => 'Pinterest App',
+            'rddocuments app', 'rddocuments' => 'RDDocuments App',
             default => $browserInput,
         };
     }

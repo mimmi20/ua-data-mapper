@@ -836,6 +836,8 @@ final class DeviceMarketingnameMapper
             'smart ultimate', 'smart ultimate 64' => 'Smart Ultimate',
             // fujitsu
             'arrows n', 'arrows n f-51c' => 'Arrows N',
+            // nvidia
+            'shield android tv' => 'Shield Android TV',
             default => $marketingName,
         };
     }
