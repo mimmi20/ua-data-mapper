@@ -67,6 +67,7 @@ final class PlatformNameMapper
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
             'windows', 'windows nt' => 'Windows',
+            'ios', 'iphone os' => 'iOS',
             default => $osName,
         };
     }

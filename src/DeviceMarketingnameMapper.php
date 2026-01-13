@@ -34,7 +34,7 @@ final class DeviceMarketingnameMapper
         }
 
         return match (mb_strtolower($marketingName)) {
-            '', 'unknown', 'other', 'various' => null,
+            '', 'unknown', 'other', 'various', 'some unknown model' => null,
             // alcatel/tcl
             '30 z', '30 z (cricket)' => '30 Z',
             '40 se', '40 se (latam)' => '40 SE',
@@ -280,6 +280,7 @@ final class DeviceMarketingnameMapper
             'ipad pro m4 13" wi-fi', 'ipad pro 7 13" wifi' => 'iPad Pro M4 13" Wi-Fi',
             'ipad pro m5 11" (6th gen) 5g', 'ipad pro 6 11"' => 'iPad Pro 6 11"',
             'ipad pro m5 11" (6th gen) wi-fi', 'ipad pro 6 11" wifi' => 'iPad Pro 6 11" Wi-Fi',
+            'iphone', 'iphone 2g' => 'iPhone',
             'iphone se (3rd gen)', 'iphone se (2022)' => 'iPhone SE (3rd Gen)',
             'iphone se (2nd gen)', 'iphone se (2020)' => 'iPhone SE (2nd Gen)',
             'iphone 6s' => 'iPhone 6S',

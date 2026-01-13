@@ -376,6 +376,7 @@ final class DeviceBrandnameMapper
             'aiwa' => 'Aiwa',
             'jide', 'jedi' => 'Jide',
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
+            'multynet' => 'Multynet',
             default => $brandName,
         };
     }
