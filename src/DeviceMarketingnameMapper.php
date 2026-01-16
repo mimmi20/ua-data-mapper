@@ -852,6 +852,8 @@ final class DeviceMarketingnameMapper
             'arrows n', 'arrows n f-51c' => 'Arrows N',
             // nvidia
             'shield android tv' => 'Shield Android TV',
+            // tv+
+            'smart tv', 'tvplus box' => 'Smart TV',
             default => $marketingName,
         };
     }
