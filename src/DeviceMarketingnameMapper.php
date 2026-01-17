@@ -46,6 +46,7 @@ final class DeviceMarketingnameMapper
             'tab 10 wi-fi (2nd gen)', 'tab 10 wifi (gen 2)' => 'Tab 10 Wi-Fi (2nd Gen)',
             'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi', 'tab 11 wifi' => 'Tab 11',
             // htc
+            'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
             // samsung
@@ -229,9 +230,9 @@ final class DeviceMarketingnameMapper
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
-            'ipad 2', 'ipad (2nd gen) wi-fi' => 'iPad 2',
+            'ipad 2', 'ipad (2nd gen) wi-fi', 'ipad (2nd gen) 3g' => 'iPad 2',
             'ipad 3', 'ipad (3rd gen) wi-fi', 'ipad 3 3g' => 'iPad 3',
-            'ipad 4', 'ipad 4 3g' => 'iPad 4',
+            'ipad 4', 'ipad (4th gen) 3g' => 'iPad 4',
             'ipad 9.7" (5th gen) wi-fi', 'ipad 9.7" (5th gen) 4g', 'ipad 5 9.7' => 'iPad 9.7" (5th Gen)',
             'ipad 9.7" (6th gen) wi-fi', 'ipad 9.7" (6th gen) 4g', 'ipad 6 9.7' => 'iPad 9.7" (6th Gen)',
             'ipad 10.2" (7th gen) wi-fi', 'ipad 10.2" (7th gen) 4g', 'ipad 7 10.2' => 'iPad 10.2" (7th Gen)',
@@ -854,6 +855,10 @@ final class DeviceMarketingnameMapper
             'shield android tv' => 'Shield Android TV',
             // tv+
             'smart tv', 'tvplus box' => 'Smart TV',
+            // spice
+            'm5885', 'm5885   browser' => 'M5885',
+            // philips
+            'android tv', 'google tv ta1' => 'Android TV',
             default => $marketingName,
         };
     }

@@ -37,6 +37,7 @@ final class DeviceNameMapper
             '', 'pc', 'unknown', 'other' => null,
             'tf300t', 'transformer pad tf300t' => 'TF300T',
             'gr500' => 'Gr500',
+            '50u6305/43i', '50u6305' => '50U6305',
             default => $deviceName,
         };
     }

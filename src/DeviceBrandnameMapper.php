@@ -377,6 +377,7 @@ final class DeviceBrandnameMapper
             'jide', 'jedi' => 'Jide',
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             'multynet' => 'Multynet',
+            'arcelik', 'arçelik' => 'Arcelik',
             default => $brandName,
         };
     }
