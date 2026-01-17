@@ -38,6 +38,8 @@ final class DeviceNameMapper
             'tf300t', 'transformer pad tf300t' => 'TF300T',
             'gr500' => 'Gr500',
             '50u6305/43i', '50u6305' => '50U6305',
+            'sch-r900', 'sam-r900' => 'SCH-R900',
+            'sch-r640', 'sam-r640' => 'SCH-R640',
             default => $deviceName,
         };
     }

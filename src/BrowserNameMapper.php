@@ -196,6 +196,9 @@ final class BrowserNameMapper
             'facebook groups app', 'facebook groups' => 'Facebook Groups App',
             'firefox focus', 'firefox klar' => 'Firefox Focus',
             'whale browser', 'whale tv browser' => 'Whale Browser',
+            'lightspeed systems crawler', 'lightspeedsystemscrawler' => 'Lightspeed Systems Crawler',
+            'woorank', 'woorank review' => 'WooRank',
+            'tbrowser', 't-browser' => 'TBrowser',
             default => $browserInput,
         };
     }
