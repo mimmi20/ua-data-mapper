@@ -81,7 +81,7 @@ final class DeviceBrandnameMapper
             'poco' => 'POCO',
             'meizu' => 'Meizu',
             'cmf' => 'CMF',
-            'tcl' => 'TCL',
+            'tcl', 'tcl scbc' => 'TCL',
             'pritom' => 'Pritom',
             'itel' => 'iTel',
             'casper' => 'Casper',

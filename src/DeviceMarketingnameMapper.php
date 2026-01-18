@@ -868,9 +868,11 @@ final class DeviceMarketingnameMapper
             // nvidia
             'shield android tv' => 'Shield Android TV',
             // tv+
-            'smart tv', 'tvplus box' => 'Smart TV',
+            'smart tv', 'tvplus box', 'google tv uhd+' => 'Smart TV',
             // spice
             'm5885', 'm5885   browser' => 'M5885',
+            // aoc
+            '50u6305/43i', '50u6305' => '50U6305',
             // philips
             'android tv', 'google tv ta1' => 'Android TV',
             default => $marketingName,
