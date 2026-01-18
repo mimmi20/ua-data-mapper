@@ -199,6 +199,7 @@ final class BrowserNameMapper
             'lightspeed systems crawler', 'lightspeedsystemscrawler' => 'Lightspeed Systems Crawler',
             'woorank', 'woorank review' => 'WooRank',
             'tbrowser', 't-browser' => 'TBrowser',
+            'player fm', 'alpha player fm' => 'Player FM',
             default => $browserInput,
         };
     }

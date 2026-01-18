@@ -287,7 +287,7 @@ final class DeviceMarketingnameMapper
             'ipad pro 11" wi-fi' => 'iPad Pro 11" Wi-Fi',
             'ipad pro 11" (2nd gen) wi-fi', 'ipad pro 11" (2nd gen) 4g', 'ipad pro 2 11"' => 'iPad Pro 11" (2nd Gen)',
             'ipad pro 11" (3rd gen) 5g', 'ipad pro 3 11"', 'ipad pro 3 11.0' => 'iPad Pro 11" (3rd Gen)',
-            'ipad pro 11" (3rd gen) wi-fi', 'ipad pro 3 11" wifi' => 'iPad Pro 11" (3rd Gen) Wi-Fi',
+            'ipad pro 11" (3rd gen) wi-fi', 'ipad pro 3 11" wifi', 'ipad pro 3 11.0 wifi' => 'iPad Pro 11" (3rd Gen) Wi-Fi',
             'ipad pro 11" (4th gen) 5g', 'ipad pro 4 11"' => 'iPad Pro 11" (4th Gen) 5G',
             'ipad pro 11" (4th gen) wi-fi', 'ipad pro 4 11" wifi' => 'iPad Pro 11" (4th Gen) Wi-Fi',
             'ipad pro 12.9" wi-fi', 'ipad pro 12.9" 4g', 'ipad pro 12.9' => 'iPad Pro 12.9"',
