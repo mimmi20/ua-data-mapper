@@ -35,7 +35,7 @@ final class PlatformNameMapper
 
         return match (mb_strtolower($osName)) {
             '', 'unknown', 'other', 'iphone', 'ipad' => null,
-            'mac os', 'mac', 'macintosh' => 'macOS',
+            'mac os', 'mac', 'macintosh', 'mac os x' => 'macOS',
             'gnu/linux', 'ventana linux', 'moblin' => 'Linux',
             'slackware linux', 'slackware' => 'Slackware Linux',
             'suse linux', 'suse' => 'Suse Linux',
@@ -65,10 +65,13 @@ final class PlatformNameMapper
             'yi', 'baidu yi' => 'Yi',
             'android', 'android opensource project' => 'Android',
             'series 40', 'symbian os series 40' => 'Series 40',
+            'series 60', 'symbian os series 60' => 'Series 60',
+            'symbian', 'symbian^3' => 'Symbian',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
             'windows', 'windows nt' => 'Windows',
             'ios', 'iphone os' => 'iOS',
+            'solaris', 'sunos' => 'Solaris',
             default => $osName,
         };
     }

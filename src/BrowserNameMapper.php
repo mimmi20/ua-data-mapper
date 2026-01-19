@@ -57,7 +57,7 @@ final class BrowserNameMapper
             'facebook messenger', 'facebook messenger app' => 'Facebook Messenger App',
             'instagram', 'instagram app' => 'Instagram App',
             'java' => 'Java Standard Library',
-            'nokia web browser' => 'Nokia Browser',
+            'nokia web browser', 'nokia oss browser' => 'Nokia Browser',
             'applemail' => 'Apple Mail',
             'sistrix', 'sistrix crawler' => 'Sistrix Crawler',
             'blackberry webkit', 'blackberry browser', 'blackberry playbook browser' => 'BlackBerry',
@@ -103,6 +103,7 @@ final class BrowserNameMapper
             'word', 'microsoft office word' => 'Microsoft Word',
             'onenote', 'microsoft office onenote' => 'Microsoft OneNote',
             'powerpoint', 'microsoft office powerpoint' => 'Microsoft PowerPoint',
+            'excel', 'microsoft office excel' => 'Microsoft Excel',
             'microsoft bing', 'bing search', 'bingweb app' => 'Microsoft Bing',
             'via browser', 'via' => 'Via Browser',
             'f-secure safe', 'safe' => 'SAFE',
@@ -202,6 +203,7 @@ final class BrowserNameMapper
             'player fm', 'alpha player fm' => 'Player FM',
             'grapeshotcrawler', 'grapeshot' => 'GrapeshotCrawler',
             'rssradio podcast player', 'rssradio', 'rssradio bot' => 'RSSRadio Podcast Player',
+            '1password', '1passwordthumbs' => '1Password',
             default => $browserInput,
         };
     }

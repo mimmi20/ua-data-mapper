@@ -49,6 +49,7 @@ final class DeviceMarketingnameMapper
             'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
+            'desire hd', 'desirehd' => 'Desire HD',
             // samsung
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy trend lite' => 'Galaxy Trend Lite',
@@ -225,6 +226,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'messager touch', 'sam-r631' => 'Messager Touch',
             'pls-m330', 'pls m330' => 'PLS-M330',
             'sgh-e608', 'sghe608' => 'SGH-E608',
             'sph-a500', 'spha500' => 'SPH-A500',
@@ -876,6 +878,8 @@ final class DeviceMarketingnameMapper
             '50u6305/43i', '50u6305' => '50U6305',
             // philips
             'android tv', 'google tv ta1' => 'Android TV',
+            // nintendo
+            '3ds', 'new 3ds' => '3DS',
             default => $marketingName,
         };
     }
