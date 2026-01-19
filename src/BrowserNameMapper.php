@@ -200,6 +200,8 @@ final class BrowserNameMapper
             'woorank', 'woorank review' => 'WooRank',
             'tbrowser', 't-browser' => 'TBrowser',
             'player fm', 'alpha player fm' => 'Player FM',
+            'grapeshotcrawler', 'grapeshot' => 'GrapeshotCrawler',
+            'rssradio podcast player', 'rssradio', 'rssradio bot' => 'RSSRadio Podcast Player',
             default => $browserInput,
         };
     }

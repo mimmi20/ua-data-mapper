@@ -690,6 +690,7 @@ final class DeviceMarketingnameMapper
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
             'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
             // zte/nubia
+            'adamant', 'adamant (verizon)' => 'Adamant',
             'axon 30 ultra 5g', 'axon 30 pro 5g' => 'Axon 30 Ultra 5G',
             'axon 40 pro', 'axon 40 pro 5g' => 'Axon 40 Pro',
             'blade a73', 'blade a73 5g', '5g ug phone u23' => 'Blade A73',
@@ -868,7 +869,7 @@ final class DeviceMarketingnameMapper
             // nvidia
             'shield android tv' => 'Shield Android TV',
             // tv+
-            'smart tv', 'tvplus box', 'google tv uhd+' => 'Smart TV',
+            'smart tv', 'tvplus box', 'google tv uhd+', 'viera tv' => 'Smart TV',
             // spice
             'm5885', 'm5885   browser' => 'M5885',
             // aoc
