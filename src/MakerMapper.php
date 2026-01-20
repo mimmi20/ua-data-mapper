@@ -58,6 +58,8 @@ final class MakerMapper
             'jide', 'jedi' => 'Jide',
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             'premier', 'premier star' => 'Premier',
+            'multynet' => 'Multynet',
+            'tcl', 'tcl scbc' => 'TCL',
             default => $maker,
         };
     }

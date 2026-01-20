@@ -34,7 +34,7 @@ final class DeviceMarketingnameMapper
         }
 
         return match (mb_strtolower($marketingName)) {
-            '', 'unknown', 'other', 'various' => null,
+            '', 'unknown', 'other', 'various', 'some unknown model' => null,
             // alcatel/tcl
             '30 z', '30 z (cricket)' => '30 Z',
             '40 se', '40 se (latam)' => '40 SE',
@@ -46,8 +46,10 @@ final class DeviceMarketingnameMapper
             'tab 10 wi-fi (2nd gen)', 'tab 10 wifi (gen 2)' => 'Tab 10 Wi-Fi (2nd Gen)',
             'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi', 'tab 11 wifi' => 'Tab 11',
             // htc
+            'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
+            'desire hd', 'desirehd' => 'Desire HD',
             // samsung
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy trend lite' => 'Galaxy Trend Lite',
@@ -87,7 +89,7 @@ final class DeviceMarketingnameMapper
             'galaxy a53 5g', 'galaxy a53 5g (canada)', 'galaxy a53 5g (international)', 'galaxy a53 5g (usa unlocked)', 'galaxy a53 5g (asia/africa)', 'galaxy a53 5g (usa)', 'galaxy a53 5g (china)', 'galaxy a53 5g (japan)', 'galaxy a53 5g uw', 'galaxy a53 5g (korea)' => 'Galaxy A53 5G',
             'galaxy a54 5g', 'galaxy a54 5g (usa)', 'galaxy a54 5g (international)', 'galaxy a54 5g (china)', 'galaxy a54 5g (asia/africa)', 'galaxy quantum 4', 'galaxy a54 5g (canada)', 'galaxy a54 5g (usa unlocked)', 'galaxy a54 5g (japan)' => 'Galaxy A54 5G',
             'galaxy a55 5g', 'galaxy a55 5g (china)', 'galaxy a55 5g (japan)', 'galaxy a55 5g (usa)' => 'Galaxy A55 5G',
-            'galaxy a56 5g', 'galaxy a56 5g (international)', 'galaxy a56 5g (korea)', 'galaxy quantum 6' => 'Galaxy A56 5G',
+            'galaxy a56 5g', 'galaxy a56 5g (international)', 'galaxy a56 5g (korea)', 'galaxy quantum 6', 'galaxy a56 5g (china)' => 'Galaxy A56 5G',
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)' => 'Galaxy A71 5G',
             'galaxy a90', 'galaxy a90 5g (south korea)' => 'Galaxy A90',
@@ -118,6 +120,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy s3 lte international', 'galaxy s iii lte' => 'Galaxy S3 LTE',
             'galaxy s5', 'galaxy s5 lte' => 'Galaxy S5',
+            'galaxy s5 duos', 'galaxy s5 dual-sim' => 'Galaxy S5 Duos',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s7', 'galaxy s7 (verizon)' => 'Galaxy S7',
             'galaxy s9', 'galaxy s9 (usa)' => 'Galaxy S9',
@@ -144,7 +147,7 @@ final class DeviceMarketingnameMapper
             'galaxy s23 ultra', 'galaxy s23 ultra (china)', 'galaxy s23 ultra (international)', 'galaxy s23 ultra (usa unlocked)', 'galaxy s23 ultra (canada)', 'galaxy s23 ultra (korea)', 'galaxy s23 ultra (usa)' => 'Galaxy S23 Ultra',
             'galaxy s24', 'galaxy s24 (usa)', 'galaxy s24 (china)', 'galaxy s24 5g uw', 'galaxy s24 (canada)', 'galaxy s24 (japan)', 'galaxy s24 (korea)' => 'Galaxy S24',
             'galaxy s24+', 'galaxy s24+ (china)', 'galaxy s24+ (usa)', 'galaxy s24+ (korea)', 'galaxy s24+ (canada)' => 'Galaxy S24+',
-            'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)' => 'Galaxy S24 FE',
+            'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)', 'galaxy s24 fe (canada)', 'galaxy s24 fe (korea)' => 'Galaxy S24 FE',
             'galaxy s24 ultra', 'galaxy s24 ultra (usa)', 'galaxy s24 ultra (canada)', 'galaxy s24 ultra (japan)', 'galaxy s24 ultra (korea)', 'galaxy s24 ultra (china)' => 'Galaxy S24 Ultra',
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25 plus (canada)', 'galaxy s25 plus (international)', 'galaxy s25 plus (usa)' => 'Galaxy S25+',
@@ -223,18 +226,40 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'messager touch', 'sam-r631' => 'Messager Touch',
+            'pls-m330', 'pls m330' => 'PLS-M330',
+            'sgh-e608', 'sghe608' => 'SGH-E608',
+            'sph-a500', 'spha500' => 'SPH-A500',
+            'sph-a620', 'spha620' => 'SPH-A620',
+            'sph-a640', 'spha640' => 'SPH-A640',
+            'sph-a660', 'spha660' => 'SPH-A660',
+            'sph-a740', 'spha740' => 'SPH-A740',
+            'sph-a790', 'spha790' => 'SPH-A790',
+            'sph-a800', 'spha800' => 'SPH-A800',
+            'sph-a820', 'spha820' => 'SPH-A820',
+            'sph-a840', 'spha840' => 'SPH-A840',
+            'sph-a880', 'spha880' => 'SPH-A880',
+            'sph-a900', 'spha900' => 'SPH-A900',
+            'sph-a940', 'spha940' => 'SPH-A940',
+            'sph-m330', 'sphm330', 'sph m330' => 'SPH-M330',
             'wave 2', 'wave ii' => 'Wave 2',
             // apple
+            'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
+            'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
+            'ipad 2', 'ipad (2nd gen) wi-fi', 'ipad (2nd gen) 3g' => 'iPad 2',
+            'ipad 3', 'ipad (3rd gen) wi-fi', 'ipad (3rd gen) 3g' => 'iPad 3',
+            'ipad 4', 'ipad (4th gen) wi-fi', 'ipad (4th gen) 3g' => 'iPad 4',
             'ipad 9.7" (5th gen) wi-fi', 'ipad 9.7" (5th gen) 4g', 'ipad 5 9.7' => 'iPad 9.7" (5th Gen)',
             'ipad 9.7" (6th gen) wi-fi', 'ipad 9.7" (6th gen) 4g', 'ipad 6 9.7' => 'iPad 9.7" (6th Gen)',
             'ipad 10.2" (7th gen) wi-fi', 'ipad 10.2" (7th gen) 4g', 'ipad 7 10.2' => 'iPad 10.2" (7th Gen)',
             'ipad 10.2" (8th gen) wi-fi', 'ipad 10.2" (8th gen) 4g', 'ipad 8 10.2"' => 'iPad 10.2" (8th Gen)',
             'ipad 10.2" (9th gen) 4g', 'ipad 9 10.2"' => 'iPad 10.2" (9th Gen) 4G',
             'ipad 10.2" (9th gen) wi-fi', 'ipad 9 10.2" wifi' => 'iPad 10.2" (9th Gen) Wi-Fi',
+            'ipad 10.9" (10th gen) 5g', 'ipad 10 10.9"' => 'iPad 10.9" (10th Gen) 5G',
             'ipad 10.9" (10th gen) wi-fi', 'ipad 10 10.9" wifi' => 'iPad 10.9" (10th Gen) Wi-Fi',
             'ipad a16 11" (11th gen) 5g', 'ipad 11 10.9"' => 'iPad A16 11" (11th Gen) 5G',
             'ipad a16 11" (11th gen) wi-fi', 'ipad 11 10.9" wifi' => 'iPad A16 11" (11th Gen) Wi-Fi',
-            'ipad air 4g', 'ipad air' => 'iPad Air',
+            'ipad air 4g', 'ipad air wi-fi', 'ipad air' => 'iPad Air',
             'ipad air 2 wi-fi', 'ipad air 2 4g', 'ipad air 2' => 'iPad Air 2',
             'ipad air 10.5" (3rd gen) wi-fi', 'ipad air 10.5" (3rd gen) 4g', 'ipad air 3' => 'iPad Air 10.5" (3rd Gen)',
             'ipad air 10.9" (4rd gen) 4g', 'ipad air 4' => 'iPad Air 10.9" (4rd Gen) 4G',
@@ -249,8 +274,10 @@ final class DeviceMarketingnameMapper
             'ipad air m3 11" wi-fi', 'ipad air 7 11" wifi' => 'iPad Air M3 11" Wi-Fi',
             'ipad air m3 13" 5g', 'ipad air 7 13"' => 'iPad Air M3 13" 5G',
             'ipad air m3 13" wi-fi', 'ipad air 7 13" wifi' => 'iPad Air M3 13" Wi-Fi',
-            'ipad mini 3 4g', 'ipad mini 3 wi-fi', 'ipad mini 3' => 'iPad Mini 3',
-            'ipad mini 4 4g', 'ipad mini 4 wi-fi', 'ipad mini 4' => 'iPad Mini 4',
+            'ipad mini 4g', 'ipad mini wi-fi', 'ipad mini' => 'iPad Mini',
+            'ipad mini 2', 'ipad mini 2 4g', 'ipad mini 2 wi-fi' => 'iPad Mini 2',
+            'ipad mini 3', 'ipad mini 3 4g', 'ipad mini 3 wi-fi' => 'iPad Mini 3',
+            'ipad mini 4', 'ipad mini 4 4g', 'ipad mini 4 wi-fi' => 'iPad Mini 4',
             'ipad mini 7.9" (5th gen) 4g', 'ipad mini 7.9" (5th gen) wi-fi', 'ipad mini 5' => 'iPad Mini 7.9" (5th Gen)',
             'ipad mini 8.3" (6th gen) 5g', 'ipad mini 6' => 'iPad Mini 8.3" (6th Gen) 5G',
             'ipad mini 8.3" (6th gen) wi-fi', 'ipad mini 6 wifi' => 'iPad Mini 8.3" (6th Gen) Wi-Fi',
@@ -262,7 +289,7 @@ final class DeviceMarketingnameMapper
             'ipad pro 11" wi-fi' => 'iPad Pro 11" Wi-Fi',
             'ipad pro 11" (2nd gen) wi-fi', 'ipad pro 11" (2nd gen) 4g', 'ipad pro 2 11"' => 'iPad Pro 11" (2nd Gen)',
             'ipad pro 11" (3rd gen) 5g', 'ipad pro 3 11"', 'ipad pro 3 11.0' => 'iPad Pro 11" (3rd Gen)',
-            'ipad pro 11" (3rd gen) wi-fi', 'ipad pro 3 11" wifi' => 'iPad Pro 11" (3rd Gen) Wi-Fi',
+            'ipad pro 11" (3rd gen) wi-fi', 'ipad pro 3 11" wifi', 'ipad pro 3 11.0 wifi' => 'iPad Pro 11" (3rd Gen) Wi-Fi',
             'ipad pro 11" (4th gen) 5g', 'ipad pro 4 11"' => 'iPad Pro 11" (4th Gen) 5G',
             'ipad pro 11" (4th gen) wi-fi', 'ipad pro 4 11" wifi' => 'iPad Pro 11" (4th Gen) Wi-Fi',
             'ipad pro 12.9" wi-fi', 'ipad pro 12.9" 4g', 'ipad pro 12.9' => 'iPad Pro 12.9"',
@@ -279,10 +306,15 @@ final class DeviceMarketingnameMapper
             'ipad pro m4 13" wi-fi', 'ipad pro 7 13" wifi' => 'iPad Pro M4 13" Wi-Fi',
             'ipad pro m5 11" (6th gen) 5g', 'ipad pro 6 11"' => 'iPad Pro 6 11"',
             'ipad pro m5 11" (6th gen) wi-fi', 'ipad pro 6 11" wifi' => 'iPad Pro 6 11" Wi-Fi',
+            'iphone', 'iphone 2g' => 'iPhone',
             'iphone se (3rd gen)', 'iphone se (2022)' => 'iPhone SE (3rd Gen)',
             'iphone se (2nd gen)', 'iphone se (2020)' => 'iPhone SE (2nd Gen)',
             'iphone 6s' => 'iPhone 6S',
             'iphone 6s plus' => 'iPhone 6S Plus',
+            'ipod touch (2nd gen)', 'ipod touch 2g' => 'iPod Touch (2nd Gen)',
+            'ipod touch 4', 'ipod touch (4th gen)' => 'iPod Touch 4',
+            'ipod touch 5', 'ipod touch (5th gen)' => 'iPod Touch 5',
+            'ipod touch 6', 'ipod touch (6th gen)' => 'iPod Touch 6',
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
@@ -328,6 +360,7 @@ final class DeviceMarketingnameMapper
             'a94 4g', 'a94' => 'A94',
             'a95 4g', 'a95' => 'A95',
             'a96' => 'A96',
+            'ace 2 5g', 'reno ace 2' => 'Ace 2',
             'f21 pro', 'f21 pro 5g' => 'F21 Pro',
             'f21s pro', 'f21s pro 4g', 'f21s pro 5g' => 'F21s Pro',
             'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
@@ -335,6 +368,8 @@ final class DeviceMarketingnameMapper
             'k10 5g', 'k10 5g (china)' => 'K10 5G',
             'k11x 5g', 'k11x 5g (china)' => 'K11x 5G',
             'k12x 5g', 'k12x 5g (china)' => 'K12x 5G',
+            'pad 3 11.61" wi-fi', 'pad 3 11.61"' => 'Pad 3 11.61"',
+            'pad 3 13.2" wi-fi', 'pad 3 13.2" wifi' => 'Pad 3 13.2" Wi-Fi',
             'pad 11.61" wi-fi', 'pad 11.61" wifi' => 'Pad 11.61" Wi-Fi',
             'pad air 2', 'pad air 2 wi-fi' => 'Pad Air 2',
             'pad neo', 'pad neo 4g', 'pad neo wi-fi' => 'Pad Neo',
@@ -375,6 +410,7 @@ final class DeviceMarketingnameMapper
             '14t', '14t pro' => '14T',
             'm7', 'm7 4g' => 'M7',
             'mi 2sc' => 'Mi 2SC',
+            'mi 5s' => 'MI 5S',
             'mi 10', 'mi 10 5g' => 'Mi 10',
             'mi 10 pro', 'mi 10 pro 5g' => 'Mi 10 Pro',
             'mi 10t 5g', 'mi 10t 5g (global)' => 'Mi 10T 5G',
@@ -524,6 +560,7 @@ final class DeviceMarketingnameMapper
             'nord ce 4 lite 5g', 'nord ce4 lite 5g (india)', 'nord ce4 lite 5g' => 'Nord CE4 Lite 5G',
             'pad 2 12.1" wi-fi', 'pad 2 12.1" wifi' => 'Pad 2 12.1" Wi-Fi',
             'pad go 11.35"', 'pad go 11.35" lte' => 'Pad Go 11.35"',
+            'pad lite 11.0"', 'pad lite 11.0" wi-fi', 'pad lite 11.0" lte' => 'Pad Lite 11.0"',
             // tecno
             'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
             'spark go 1', 'pop 9' => 'Spark Go 1',
@@ -540,6 +577,7 @@ final class DeviceMarketingnameMapper
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
+            'g3', 'oukitel g3' => 'G3',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',
             // huawei/honor
             '70', '70 5g' => '70',
@@ -654,6 +692,7 @@ final class DeviceMarketingnameMapper
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
             'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
             // zte/nubia
+            'adamant', 'adamant (verizon)' => 'Adamant',
             'axon 30 ultra 5g', 'axon 30 pro 5g' => 'Axon 30 Ultra 5G',
             'axon 40 pro', 'axon 40 pro 5g' => 'Axon 40 Pro',
             'blade a73', 'blade a73 5g', '5g ug phone u23' => 'Blade A73',
@@ -713,6 +752,7 @@ final class DeviceMarketingnameMapper
             'tab 9 wi-fi', 'tab 9 wifi' => 'Tab 9 Wi-Fi',
             'tab 10 wi-fi', 'tab 10 wifi' => 'Tab 10 Wi-Fi',
             'tab 50 wi-fi', 'tab 50 wifi' => 'Tab 50 Wi-Fi',
+            'tab 60 wi-fi', 'tab 60 wifi' => 'Tab 60 Wi-Fi',
             'tab 70 wi-fi', 'tab 70 wifi' => 'Tab 70 Wi-Fi',
             'tab 90 wi-fi', 'tab 90 wifi' => 'Tab 90 Wi-Fi',
             // poco
@@ -813,6 +853,7 @@ final class DeviceMarketingnameMapper
             // nokia
             '8.3', '8.3 4g' => '8.3',
             'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
+            'asha 230', 'asha230singlesim' => 'Asha 230',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz
@@ -825,6 +866,20 @@ final class DeviceMarketingnameMapper
             'bison gt2', 'bison gt2 5g' => 'Bison GT2',
             // spc
             'smart ultimate', 'smart ultimate 64' => 'Smart Ultimate',
+            // fujitsu
+            'arrows n', 'arrows n f-51c' => 'Arrows N',
+            // nvidia
+            'shield android tv' => 'Shield Android TV',
+            // tv+
+            'smart tv', 'tvplus box', 'google tv uhd+', 'viera tv' => 'Smart TV',
+            // spice
+            'm5885', 'm5885   browser' => 'M5885',
+            // aoc
+            '50u6305/43i', '50u6305' => '50U6305',
+            // philips
+            'android tv', 'google tv ta1' => 'Android TV',
+            // nintendo
+            '3ds', 'new 3ds' => '3DS',
             default => $marketingName,
         };
     }

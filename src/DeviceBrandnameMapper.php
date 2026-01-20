@@ -81,7 +81,7 @@ final class DeviceBrandnameMapper
             'poco' => 'POCO',
             'meizu' => 'Meizu',
             'cmf' => 'CMF',
-            'tcl' => 'TCL',
+            'tcl', 'tcl scbc' => 'TCL',
             'pritom' => 'Pritom',
             'itel' => 'iTel',
             'casper' => 'Casper',
@@ -125,7 +125,7 @@ final class DeviceBrandnameMapper
             'qiuwoky' => 'Qiuwoky',
             'colorroom' => 'COLORROOM',
             'hometech' => 'Hometech',
-            'premier' => 'Premier',
+            'premier', 'premier star' => 'Premier',
             'umidigi', 'umi' => 'UMIDIGI',
             'logicom' => 'Logicom',
             'walton' => 'Walton',
@@ -375,6 +375,9 @@ final class DeviceBrandnameMapper
             'dynalink', 'dinalink' => 'Dynalink',
             'aiwa' => 'Aiwa',
             'jide', 'jedi' => 'Jide',
+            'sonyericsson', 'sony ericsson' => 'SonyEricsson',
+            'multynet' => 'Multynet',
+            'arcelik', 'arçelik' => 'Arcelik',
             default => $brandName,
         };
     }

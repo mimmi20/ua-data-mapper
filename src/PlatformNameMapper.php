@@ -35,10 +35,11 @@ final class PlatformNameMapper
 
         return match (mb_strtolower($osName)) {
             '', 'unknown', 'other', 'iphone', 'ipad' => null,
-            'mac os', 'mac', 'macintosh' => 'macOS',
+            'mac os', 'mac', 'macintosh', 'mac os x' => 'macOS',
             'gnu/linux', 'ventana linux', 'moblin' => 'Linux',
             'slackware linux', 'slackware' => 'Slackware Linux',
             'suse linux', 'suse' => 'Suse Linux',
+            'opensuse' => 'openSuse',
             'redhat linux', 'red hat' => 'Redhat Linux',
             'linux mint', 'mint' => 'Linux Mint',
             'mandriva linux', 'mandriva' => 'Mandriva Linux',
@@ -48,7 +49,7 @@ final class PlatformNameMapper
             'archlinux', 'arch linux' => 'ArchLinux',
             'zenwalk gnu linux', 'zenwalk' => 'Zenwalk GNU Linux',
             'backtrack linux', 'backtrack' => 'BackTrack Linux',
-            'debian' => 'Debian',
+            'debian', 'debian with freebsd kernel' => 'Debian',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
             'nintendo os', 'nintendo', 'nintendo mobile', 'nintendo switch os', 'nintendo wii os' => 'Nintendo OS',
@@ -64,8 +65,13 @@ final class PlatformNameMapper
             'yi', 'baidu yi' => 'Yi',
             'android', 'android opensource project' => 'Android',
             'series 40', 'symbian os series 40' => 'Series 40',
+            'series 60', 'symbian os series 60' => 'Series 60',
+            'symbian', 'symbian^3' => 'Symbian',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
+            'windows', 'windows nt' => 'Windows',
+            'ios', 'iphone os' => 'iOS',
+            'solaris', 'sunos' => 'Solaris',
             default => $osName,
         };
     }
