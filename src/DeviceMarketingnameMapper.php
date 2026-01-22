@@ -312,6 +312,7 @@ final class DeviceMarketingnameMapper
             'iphone 6s' => 'iPhone 6S',
             'iphone 6s plus' => 'iPhone 6S Plus',
             'ipod touch (2nd gen)', 'ipod touch 2g' => 'iPod Touch (2nd Gen)',
+            'ipod touch 3', 'ipod touch (3rd gen)' => 'iPod Touch 3',
             'ipod touch 4', 'ipod touch (4th gen)' => 'iPod Touch 4',
             'ipod touch 5', 'ipod touch (5th gen)' => 'iPod Touch 5',
             'ipod touch 6', 'ipod touch (6th gen)' => 'iPod Touch 6',
