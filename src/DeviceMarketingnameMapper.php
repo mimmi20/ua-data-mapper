@@ -382,6 +382,7 @@ final class DeviceMarketingnameMapper
             'pad 11.61" wi-fi', 'pad 11.61" wifi' => 'Pad 11.61" Wi-Fi',
             'pad air 2', 'pad air 2 wi-fi' => 'Pad Air 2',
             'pad neo', 'pad neo 4g', 'pad neo wi-fi' => 'Pad Neo',
+            'reno 3 pro', 'reno3 pro 5g (europe, russia)' => 'Reno 3 Pro',
             'reno 4 pro 5g', 'reno 4 pro 5g (international)' => 'Reno 4 Pro 5G',
             'reno 5', 'reno 5 4g' => 'Reno 5',
             'reno 5 5g', 'reno 5 5g (international)' => 'Reno 5 5G',
