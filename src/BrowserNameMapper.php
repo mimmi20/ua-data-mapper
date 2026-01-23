@@ -41,8 +41,7 @@ final class BrowserNameMapper
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
             'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview' => 'Google Bot',
-            'bingbot' => 'BingBot',
-            'bingpreview' => 'Bing Preview',
+            'bingbot', 'bing preview', 'bingpreview' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
             'seokicks-robot' => 'SEOkicks Robot',
@@ -205,6 +204,9 @@ final class BrowserNameMapper
             'rssradio podcast player', 'rssradio', 'rssradio bot' => 'RSSRadio Podcast Player',
             '1password', '1passwordthumbs' => '1Password',
             'obigo', 'obigo q' => 'Obigo',
+            'ccleaner', 'ccleaner browser' => 'CCleaner',
+            'amazon video bot', 'amazonbot-video' => 'Amazon Video Bot',
+            'builtwith', 'builtwith crawler' => 'BuiltWith',
             default => $browserInput,
         };
     }

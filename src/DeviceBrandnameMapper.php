@@ -379,6 +379,7 @@ final class DeviceBrandnameMapper
             'multynet' => 'Multynet',
             'arcelik', 'arçelik' => 'Arcelik',
             'texet' => 'TeXet',
+            'cat', 'caterpillar' => 'Cat',
             default => $brandName,
         };
     }
