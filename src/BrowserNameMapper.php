@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview' => 'Google Bot',
             'bingbot' => 'BingBot',
             'bingpreview' => 'Bing Preview',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
@@ -57,7 +57,7 @@ final class BrowserNameMapper
             'facebook messenger', 'facebook messenger app' => 'Facebook Messenger App',
             'instagram', 'instagram app' => 'Instagram App',
             'java' => 'Java Standard Library',
-            'nokia web browser', 'nokia oss browser' => 'Nokia Browser',
+            'nokia web browser' => 'Nokia Browser',
             'applemail' => 'Apple Mail',
             'sistrix', 'sistrix crawler' => 'Sistrix Crawler',
             'blackberry webkit', 'blackberry browser', 'blackberry playbook browser' => 'BlackBerry',
@@ -204,6 +204,7 @@ final class BrowserNameMapper
             'grapeshotcrawler', 'grapeshot' => 'GrapeshotCrawler',
             'rssradio podcast player', 'rssradio', 'rssradio bot' => 'RSSRadio Podcast Player',
             '1password', '1passwordthumbs' => '1Password',
+            'obigo', 'obigo q' => 'Obigo',
             default => $browserInput,
         };
     }

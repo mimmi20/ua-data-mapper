@@ -60,6 +60,7 @@ final class MakerMapper
             'premier', 'premier star' => 'Premier',
             'multynet' => 'Multynet',
             'tcl', 'tcl scbc' => 'TCL',
+            'texet' => 'TeXet',
             default => $maker,
         };
     }

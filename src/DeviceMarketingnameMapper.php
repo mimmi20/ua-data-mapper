@@ -50,6 +50,9 @@ final class DeviceMarketingnameMapper
             'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
             'desire hd', 'desirehd' => 'Desire HD',
+            'desire s', 'desires s510e' => 'Desire S',
+            'incredible s', 'incredibles s710e' => 'Incredible S',
+            'jetstream', 'p715a' => 'Jetstream',
             // samsung
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy trend lite' => 'Galaxy Trend Lite',
@@ -228,6 +231,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
             'messager touch', 'sam-r631' => 'Messager Touch',
             'pls-m330', 'pls m330' => 'PLS-M330',
+            'sgh-d730', 'sghd730' => 'SGH-D730',
             'sgh-e608', 'sghe608' => 'SGH-E608',
             'sph-a500', 'spha500' => 'SPH-A500',
             'sph-a620', 'spha620' => 'SPH-A620',
@@ -240,6 +244,7 @@ final class DeviceMarketingnameMapper
             'sph-a840', 'spha840' => 'SPH-A840',
             'sph-a880', 'spha880' => 'SPH-A880',
             'sph-a900', 'spha900' => 'SPH-A900',
+            'sph-a920', 'spha920' => 'SPH-A920',
             'sph-a940', 'spha940' => 'SPH-A940',
             'sph-m330', 'sphm330', 'sph m330' => 'SPH-M330',
             'wave 2', 'wave ii' => 'Wave 2',
@@ -856,6 +861,8 @@ final class DeviceMarketingnameMapper
             '8.3', '8.3 4g' => '8.3',
             'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
             'asha 230', 'asha230singlesim' => 'Asha 230',
+            '6110 navigator', '6110' => '6110 Navigator',
+            '5630', '5630d' => '5630',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz
@@ -882,6 +889,8 @@ final class DeviceMarketingnameMapper
             'android tv', 'google tv ta1' => 'Android TV',
             // nintendo
             '3ds', 'new 3ds' => '3DS',
+            // fairphone
+            'fp6', 'fairphone 6' => 'FP6',
             default => $marketingName,
         };
     }

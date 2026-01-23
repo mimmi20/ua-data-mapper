@@ -378,6 +378,7 @@ final class DeviceBrandnameMapper
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             'multynet' => 'Multynet',
             'arcelik', 'arçelik' => 'Arcelik',
+            'texet' => 'TeXet',
             default => $brandName,
         };
     }
