@@ -48,9 +48,9 @@ final class PlatformVersionMapper
             case 'switch':
                 return new NullVersion();
             case 'server 2003':
-                return new Version('2003');
+                return new Version('5', '2');
             case 'nt 5.1':
-                return (new VersionBuilder())->set('XP');
+                return new Version('5', '1');
             case 'nt 6.1':
                 return new Version('7');
             case 'nt 6.2':
