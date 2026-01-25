@@ -207,6 +207,7 @@ final class BrowserNameMapper
             'ccleaner', 'ccleaner browser' => 'CCleaner',
             'amazon video bot', 'amazonbot-video' => 'Amazon Video Bot',
             'builtwith', 'builtwith crawler' => 'BuiltWith',
+            'huawei browser', 'huawei browser mobile' => 'Huawei Browser',
             default => $browserInput,
         };
     }

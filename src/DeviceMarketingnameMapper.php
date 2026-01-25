@@ -85,6 +85,7 @@ final class DeviceMarketingnameMapper
             'galaxy a35 5g', 'galaxy a35 5g (international)', 'galaxy a35 5g (korea)', 'galaxy a35 5g (usa)', 'galaxy a35 5g (china)' => 'Galaxy A35 5G',
             'galaxy a36 5g', 'galaxy a36 5g (international)', 'galaxy a36 5g (usa)', 'galaxy a36 5g (korea)' => 'Galaxy A36 5G',
             'galaxy a42 5g', 'galaxy a42 5g (korea)', 'galaxy a42 5g (usa)', 'galaxy a42 5g (usa unlocked)', 'galaxy a42 5g (international)', 'galaxy a42 5g (china)' => 'Galaxy A42 5G',
+            'galaxy a50', 'galaxy a50 (canada)' => 'Galaxy A50',
             'galaxy a51', 'galaxy a51 4g (global)', 'galaxy a51 4g (usa unlocked)', 'galaxy a51 4g', 'galaxy a51 4g (usa)' => 'Galaxy A51',
             'galaxy a51 5g', 'galaxy a51 5g (international)' => 'Galaxy A51 5G',
             'galaxy a52', 'galaxy a52 4g' => 'Galaxy A52',
@@ -180,6 +181,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab active pro 10.1" wi-fi', 'galaxy tab active pro 10.1" wifi' => 'Galaxy Tab Active Pro 10.1" Wi-Fi',
             'galaxy tab s2 9.7" lte', 'galaxy tab s2 9.7" lte (2016)' => 'Galaxy Tab S2 9.7" LTE',
             'galaxy tab s4 10.5"', 'galaxy tab s4 10.5" lte (2018)' => 'Galaxy Tab S4 10.5"',
+            'galaxy tab s5e 10.5" lte', 'galaxy tab s5e 10.5"' => 'Galaxy Tab S5e 10.5" LTE',
             'galaxy tab s5e 10.5" wi-fi', 'galaxy tab s5e 10.5" wifi' => 'Galaxy Tab S5e 10.5" Wi-Fi',
             'galaxy tab s6 10.5"', 'galaxy tab s6 10.5" lte' => 'Galaxy Tab S6 10.5"',
             'galaxy tab s6 10.5" wi-fi', 'galaxy tab s6 10.5" wifi' => 'Galaxy Tab S6 10.5" Wi-Fi',
@@ -590,6 +592,7 @@ final class DeviceMarketingnameMapper
             'xperia 1 ii', 'xperia 1 ii 5g (global)' => 'Xperia 1 II',
             'xperia 1 v', 'xperia 1 v 5g', 'xperia 1 v 5g uw', 'xperia 1 v 5g (japan)' => 'Xperia 1 V',
             'xperia 1 vi', 'xperia 1 vi 5g' => 'Xperia 1 VI',
+            'xperia 5 ii', 'xperia 5 ii 5g' => 'Xperia 5 II',
             'xperia 5 iv', 'xperia 5 iv 5g', 'xperia 5 iv (japan)' => 'Xperia 5 IV',
             'xperia 5 v', 'xperia 5 v 5g' => 'Xperia 5 V',
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
@@ -698,6 +701,7 @@ final class DeviceMarketingnameMapper
             'gt neo 6', 'gt neo 6 5g' => 'GT Neo 6',
             'note 60', 'narzo n61' => 'Note 60',
             'p2 pro 5g', 'p2 pro 5g (india)' => 'P2 Pro 5G',
+            'x2 pro', 'x2 pro premium edition (global)' => 'X2 Pro',
             'x3 superzoom (global)', 'x3 super zoom' => 'X3 SuperZoom',
             'x50 pro 5g', 'x50 pro 5g standard edition global dual sim' => 'X50 Pro 5G',
             // google
@@ -902,6 +906,8 @@ final class DeviceMarketingnameMapper
             '3ds', 'new 3ds' => '3DS',
             // fairphone
             'fp6', 'fairphone 6' => 'FP6',
+            // amazon
+            'kindle fire hd 8.9" wifi', 'kindle fire hd 8.9 (2nd gen, wi-fi)' => 'Kindle Fire HD 8.9" Wi-Fi',
             default => $marketingName,
         };
     }
