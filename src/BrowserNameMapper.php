@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google read aloud' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
