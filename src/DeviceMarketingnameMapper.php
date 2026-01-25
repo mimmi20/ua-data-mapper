@@ -110,6 +110,7 @@ final class DeviceMarketingnameMapper
             'galaxy f15 5g', 'galaxy f15 5g (international)' => 'Galaxy F15 5G',
             'galaxy f34 5g', 'galaxy f34 5g (international)' => 'Galaxy F34 5G',
             'galaxy fold', 'galaxy fold 5g (global)', 'galaxy fold 5g' => 'Galaxy Fold',
+            'galaxy j3 prime', 'galaxy j3 prime (2017)' => 'Galaxy J3 Prime',
             'galaxy j5 (2015)', 'galaxy j5 (2015, global)' => 'Galaxy J5 (2015)',
             'galaxy j6', 'galaxy j6 (2018)' => 'Galaxy J6',
             'galaxy j7 prime', 'galaxy j7 prime (emea)' => 'Galaxy J7 Prime',
@@ -167,7 +168,7 @@ final class DeviceMarketingnameMapper
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)' => 'Galaxy S25 Ultra',
             'galaxy tab 3 10.1"', 'galaxy tab 3 10.1" 3g' => 'Galaxy Tab 3 10.1"',
             'galaxy tab 3 10.1" wi-fi', 'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1" Wi-Fi',
-            'galaxy tab a 10.1" wi-fi (2016)', 'galaxy tab a 10.1" (2016) wifi' => 'Galaxy Tab A 10.1" Wi-Fi (2016)',
+            'galaxy tab a 10.1" wi-fi (2016)', 'galaxy tab a 10.1" (2016) wifi', 'galaxy tab a 10.1" lte (2016)' => 'Galaxy Tab A 10.1" (2016)',
             'galaxy tab a 10.1" (2019)', 'galaxy tab a 10.1" wi-fi (2019)', 'galaxy tab a 10.1" lte (2019)' => 'Galaxy Tab A 10.1" (2019)',
             'galaxy tab a 10.5 wi-fi (2018)', 'galaxy tab a 10.5" (2018) lte' => 'Galaxy Tab A 10.5" (2018)',
             'galaxy tab a7 10.4" lte (2020)', 'galaxy tab a7 10.4" (2020) lte' => 'Galaxy Tab A7 10.4" LTE (2020)',
@@ -188,6 +189,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab active pro 10.1" lte', 'galaxy tab active pro 10.1"' => 'Galaxy Tab Active Pro 10.1" LTE',
             'galaxy tab active pro 10.1" wi-fi', 'galaxy tab active pro 10.1" wifi' => 'Galaxy Tab Active Pro 10.1" Wi-Fi',
             'galaxy tab s2 9.7" lte', 'galaxy tab s2 9.7" lte (2016)' => 'Galaxy Tab S2 9.7" LTE',
+            'galaxy tab s2 9.7" wi-fi', 'galaxy tab s2 9.7" wifi', 'galaxy tab s2 9.7 wi-fi (2015)' => 'Galaxy Tab S2 9.7" Wi-Fi',
             'galaxy tab s3 9.7" wi-fi', 'galaxy tab s3 9.7" wifi' => 'Galaxy Tab S3 9.7" Wi-Fi',
             'galaxy tab s4 10.5"', 'galaxy tab s4 10.5" lte (2018)' => 'Galaxy Tab S4 10.5"',
             'galaxy tab s4 10.5" wi-fi', 'galaxy tab s4 10.5" wifi' => 'Galaxy Tab S4 10.5" Wi-Fi',
@@ -423,6 +425,7 @@ final class DeviceMarketingnameMapper
             'reno 13', 'reno 13 5g' => 'Reno 13',
             'reno 13 pro', 'reno 13 pro 5g' => 'Reno 13 Pro',
             'reno 14', 'reno 14 5g' => 'Reno 14',
+            'r9s', 'r9sk' => 'R9s',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
@@ -682,6 +685,7 @@ final class DeviceMarketingnameMapper
             'x7c', 'x7c 4g' => 'X7c',
             'x7d', 'x7d 4g' => 'X7d',
             'x9c', 'magic 7 lite' => 'X9c',
+            'honor 8', 'honor 8 (china)' => 'Honor 8',
             'honor view 10', 'honor v10' => 'Honor View 10',
             // realme
             '9 5g', '9 5g (global)' => '9 5G',
@@ -924,6 +928,8 @@ final class DeviceMarketingnameMapper
             'fp6', 'fairphone 6' => 'FP6',
             // amazon
             'kindle fire hd 8.9" wifi', 'kindle fire hd 8.9 (2nd gen, wi-fi)' => 'Kindle Fire HD 8.9" Wi-Fi',
+            // meizu
+            'pro 6' => 'Pro 6',
             default => $marketingName,
         };
     }

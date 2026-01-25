@@ -208,6 +208,7 @@ final class BrowserNameMapper
             'amazon video bot', 'amazonbot-video' => 'Amazon Video Bot',
             'builtwith', 'builtwith crawler' => 'BuiltWith',
             'huawei browser', 'huawei browser mobile' => 'Huawei Browser',
+            'petalbot', 'petal bot' => 'PetalBot',
             default => $browserInput,
         };
     }
