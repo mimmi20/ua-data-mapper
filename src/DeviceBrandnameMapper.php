@@ -380,6 +380,7 @@ final class DeviceBrandnameMapper
             'arcelik', 'arçelik' => 'Arcelik',
             'texet' => 'TeXet',
             'cat', 'caterpillar' => 'Cat',
+            'tesla', 'tesla motors' => 'Tesla',
             default => $brandName,
         };
     }

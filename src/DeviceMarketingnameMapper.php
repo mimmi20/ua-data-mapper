@@ -54,9 +54,6 @@ final class DeviceMarketingnameMapper
             'incredible s', 'incredibles s710e' => 'Incredible S',
             'jetstream', 'p715a' => 'Jetstream',
             // samsung
-            'galaxy note 4' => 'Galaxy Note 4',
-            'galaxy note 9', 'galaxy note 9 (global)' => 'Galaxy Note 9',
-            'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy a9 lte duos (2016, europe)', 'galaxy a9' => 'Galaxy A9',
             'galaxy a03s', 'galaxy a03s 4g', 'galaxy a03s 4g (usa)', 'galaxy a03s 4g (canada)', 'galaxy a03s 4g (usa unlocked)' => 'Galaxy A03s',
             'galaxy a04', 'galaxy a04 4g' => 'Galaxy A04',
@@ -103,6 +100,7 @@ final class DeviceMarketingnameMapper
             'galaxy a90', 'galaxy a90 5g (south korea)' => 'Galaxy A90',
             'galaxy ace plus' => 'Galaxy Ace Plus',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
+            'galaxy camera', 'galaxy camera wifi only' => 'Galaxy Camera',
             'galaxy f04', 'galaxy m04' => 'Galaxy F04',
             'galaxy f06 5g', 'galaxy f06 5g (international)' => 'Galaxy F06 5G',
             'galaxy f14', 'galaxy f14 4g' => 'Galaxy F14',
@@ -124,6 +122,9 @@ final class DeviceMarketingnameMapper
             'galaxy m35 5g', 'galaxy m35 5g (international)' => 'Galaxy M35 5G',
             'galaxy m51', 'galaxy m51 (international)' => 'Galaxy M51',
             'galaxy m62', 'galaxy m62 (international)' => 'Galaxy M62',
+            'galaxy note 3', 'galaxy note 3 lte (t-mobile)' => 'Galaxy Note 3',
+            'galaxy note 4' => 'Galaxy Note 4',
+            'galaxy note 9', 'galaxy note 9 (global)' => 'Galaxy Note 9',
             'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)' => 'Galaxy Note 10',
             'galaxy note 10 lite', 'galaxy note 10 lite (global)' => 'Galaxy Note 10 Lite',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+', 'galaxy note 10+ 5g', 'galaxy note 10+ 4g (usa)', 'galaxy note 10+ 4g (europe)' => 'Galaxy Note 10+',
@@ -132,7 +133,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy s3 lte international', 'galaxy s iii lte' => 'Galaxy S3 LTE',
-            'galaxy s5', 'galaxy s5 lte' => 'Galaxy S5',
+            'galaxy s5', 'galaxy s5 lte', 'galaxy s5 (sprint)' => 'Galaxy S5',
             'galaxy s5 duos', 'galaxy s5 dual-sim' => 'Galaxy S5 Duos',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s7', 'galaxy s7 (verizon)' => 'Galaxy S7',
@@ -184,6 +185,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab a9 8.7" wifi', 'galaxy tab a9 8.7" wi-fi' => 'Galaxy Tab A9 8.7" Wi-Fi',
             'galaxy tab a9+ 11.0" 5g', 'galaxy tab a9+ 11.0" 5g (international, 2023)', 'galaxy tab a9+ 11.0" 5g (usa, 2023)' => 'Galaxy Tab A9+ 11.0" 5G',
             'galaxy tab a9+ 11.0" wi-fi', 'galaxy tab a9+ 11.0" wifi' => 'Galaxy Tab A9+ 11.0" Wi-Fi',
+            'galaxy tab active 8.0"', 'galaxy tab active 8.0 lte' => 'Galaxy Tab Active 8.0"',
             'galaxy tab active 3 8.0"', 'galaxy tab active 3 8.0" 4g (2021)' => 'Galaxy Tab Active 3 8.0"',
             'galaxy tab active 3 8.0" wifi', 'galaxy tab active 3 8.0" wi-fi (2021)' => 'Galaxy Tab Active 3 8.0" Wi-Fi',
             'galaxy tab active 4 pro 10.1" 5g', 'galaxy tab active 4 pro 10.1" 5g (international)' => 'Galaxy Tab Active 4 Pro 10.1" 5G',
@@ -227,6 +229,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s10 ultra 14.6" wi-fi', 'galaxy tab s10 ultra 14.6" wifi' => 'Galaxy Tab S10 Ultra 14.6" Wi-Fi',
             'galaxy tab s10+ 12.4" wi-fi', 'galaxy tab s10+ 12.4" wifi' => 'Galaxy Tab S10+ 12.4" Wi-Fi',
             'galaxy tab s11 wi-fi', 'galaxy tab s11 wifi' => 'Galaxy Tab S11 Wi-Fi',
+            'galaxy trend lite' => 'Galaxy Trend Lite',
             'galaxy w22', 'galaxy w22 5g' => 'Galaxy W22',
             'galaxy w23 fold', 'galaxy w23 fold 5g' => 'Galaxy W23 Fold',
             'galaxy w24 5g', 'galaxy w24 fold' => 'Galaxy W24',
@@ -349,6 +352,7 @@ final class DeviceMarketingnameMapper
             'ipod touch 5', 'ipod touch (5th gen)' => 'iPod Touch 5',
             'ipod touch 6', 'ipod touch (6th gen)' => 'iPod Touch 6',
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
+            'macbook air 13" (2013)', 'macbook air 13" (2013-2014)' => 'MacBook Air 13" (2013)',
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
@@ -605,6 +609,8 @@ final class DeviceMarketingnameMapper
             'spark go 1s', 'spark go 1s 4g' => 'Spark Go 1S',
             'spark 30c 5g', 'pop 9 5g' => 'Spark 30C 5G',
             // sony
+            'txt pro' => 'Txt Pro',
+            'vivaz pro' => 'Vivaz Pro',
             'xperia 10 v', 'xperia 10 v 5g (japan)' => 'Xperia 10 V',
             'xperia 10 vi', 'xperia 10 vi 5g' => 'Xperia 10 VI',
             'xperia 1 ii', 'xperia 1 ii 5g (global)' => 'Xperia 1 II',
@@ -829,6 +835,7 @@ final class DeviceMarketingnameMapper
             'razr 5g' => 'Razr 5G',
             'razr (2022)', 'razr 2022', 'moto razr (2022)' => 'Razr (2022)',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
+            'v360', 'v360v' => 'V360',
             // nuu-mobile
             'b30 pro', 'b30 pro 5g' => 'B30 Pro',
             // sharp
@@ -882,6 +889,7 @@ final class DeviceMarketingnameMapper
             'hbook pro', 'hbook-pro' => 'HBook Pro',
             // archos
             't101 fhd wi-fi', 't101 fhd wifi' => 'T101 FHD Wi-Fi',
+            'gamepad' => 'GamePad',
             // cepter
             'tab 10l', 'tab10l' => 'Tab 10L',
             // energizer
@@ -892,6 +900,7 @@ final class DeviceMarketingnameMapper
             'm5', 'm5 5g', 'm5 (india)' => 'M5',
             // medion
             'lifetab p1075x' => 'LifeTab P1075X',
+            'lifetab s1034x' => 'LifeTab S1034X',
             // magenta
             'tv one (2nd gen)', 'tv one (gen 2)' => 'TV One (2nd Gen)',
             // hammer
@@ -935,6 +944,13 @@ final class DeviceMarketingnameMapper
             'kindle fire hd 8.9" wifi', 'kindle fire hd 8.9 (2nd gen, wi-fi)' => 'Kindle Fire HD 8.9" Wi-Fi',
             // meizu
             'pro 6' => 'Pro 6',
+            // ouya
+            'ouya' => 'Ouya',
+            // sagem
+            'my411c', 'my411c-orange' => 'my411C',
+            'my511x', 'my511x-orange' => 'my511X',
+            'my c5-2v', 'myc5-2v' => 'my C5-2v',
+            'my v-55', 'myv-55' => 'my V-55',
             default => $marketingName,
         };
     }
