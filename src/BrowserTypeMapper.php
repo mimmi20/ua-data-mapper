@@ -48,8 +48,9 @@ final class BrowserTypeMapper
             'search bot' => Type::SearchBot,
             'social media agent' => Type::SocialMediaAgent,
             'site monitor' => Type::SiteMonitor,
-            'ai search crawler', 'bot-syndication-reader' => Type::Crawler,
+            'ai search crawler', 'bot-syndication-reader', 'ai data scraper', 'seo-analytics', 'ai assistant' => Type::Crawler,
             'service agent' => Type::ServiceAgent,
+            'security checker' => Type::SecurityChecker,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($browserType)),
         };
