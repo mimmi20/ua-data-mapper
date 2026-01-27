@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google read aloud', 'google publisher wordpress plugin', 'google web snippet' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google read aloud', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
@@ -229,6 +229,13 @@ final class BrowserNameMapper
             'chatgpt user bot', 'chatgpt-user' => 'ChatGPT User Bot',
             'seekportbot', 'seekport' => 'SeekportBot',
             'startmebot', 'start.me' => 'startmebot',
+            'internet archive', 'archive.org bot' => 'Internet Archive',
+            't3versionsbot', 't3versions' => 't3versionsBot',
+            'sqalix', 'sqalix multiworker', 'sqalix geralworker' => 'sqalix',
+            'gpt bot', 'gptbot' => 'GPT Bot',
+            'bitsightbot', 'bitsight' => 'BitSightBot',
+            'seznambot', 'seznam bot' => 'SeznamBot',
+            'iframely bot', 'iframely' => 'Iframely Bot',
             default => $browserInput,
         };
     }
