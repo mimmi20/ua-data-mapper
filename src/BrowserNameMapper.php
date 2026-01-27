@@ -237,6 +237,11 @@ final class BrowserNameMapper
             'seznambot', 'seznam bot' => 'SeznamBot',
             'iframely bot', 'iframely' => 'Iframely Bot',
             'owler bot', 'owler' => 'Owler Bot',
+            'google notebooklm', 'google-notebooklm' => 'Google NotebookLM',
+            'mistralai user', 'mistralai-user' => 'MistralAI User',
+            'perplexity user', 'perplexity-user' => 'Perplexity User',
+            'meta externalagent', 'meta-externalagent' => 'Meta ExternalAgent',
+            'website info bot', 'website-info' => 'Website Info Bot',
             default => $browserInput,
         };
     }
