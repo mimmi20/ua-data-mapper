@@ -236,6 +236,7 @@ final class BrowserNameMapper
             'bitsightbot', 'bitsight' => 'BitSightBot',
             'seznambot', 'seznam bot' => 'SeznamBot',
             'iframely bot', 'iframely' => 'Iframely Bot',
+            'owler bot', 'owler' => 'Owler Bot',
             default => $browserInput,
         };
     }
