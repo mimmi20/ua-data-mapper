@@ -245,6 +245,7 @@ final class BrowserNameMapper
             '2ip bot', '2ip' => '2ip bot',
             'symfony rss reader', 'sffeedreader' => 'Symfony RSS Reader',
             'dataprovider spider', 'dataprovider' => 'Dataprovider Spider',
+            'comscore crawler', 'comscore' => 'Comscore Crawler',
             default => $browserInput,
         };
     }
