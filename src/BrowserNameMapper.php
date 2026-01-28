@@ -242,6 +242,8 @@ final class BrowserNameMapper
             'perplexity user', 'perplexity-user' => 'Perplexity User',
             'meta externalagent', 'meta-externalagent' => 'Meta ExternalAgent',
             'website info bot', 'website-info' => 'Website Info Bot',
+            '2ip bot', '2ip' => '2ip bot',
+            'symfony rss reader', 'sffeedreader' => 'Symfony RSS Reader',
             default => $browserInput,
         };
     }
