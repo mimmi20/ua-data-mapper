@@ -247,6 +247,8 @@ final class BrowserNameMapper
             'dataprovider spider', 'dataprovider' => 'Dataprovider Spider',
             'comscore crawler', 'comscore' => 'Comscore Crawler',
             'gemini deep research', 'gemini-deep-research' => 'Gemini Deep Research',
+            'flowsurf', 'flow browser' => 'Flowsurf',
+            'linkedinbot', 'linkedin bot' => 'LinkedInBot',
             default => $browserInput,
         };
     }

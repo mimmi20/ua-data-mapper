@@ -50,6 +50,7 @@ final class PlatformNameMapper
             'zenwalk gnu linux', 'zenwalk' => 'Zenwalk GNU Linux',
             'backtrack linux', 'backtrack' => 'BackTrack Linux',
             'debian', 'debian with freebsd kernel' => 'Debian',
+            'blackberry os', 'rim os' => 'BlackBerry OS',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
             'nintendo os', 'nintendo', 'nintendo mobile', 'nintendo switch os', 'nintendo wii os' => 'Nintendo OS',
