@@ -106,7 +106,7 @@ final class BrowserNameMapper
             'microsoft bing', 'bing search', 'bingweb app' => 'Microsoft Bing',
             'via browser', 'via' => 'Via Browser',
             'f-secure safe', 'safe' => 'SAFE',
-            'chrome webview' => 'Chrome WebView',
+            'chrome webview', 'android webview' => 'Chrome WebView',
             'start', 'microsoft start' => 'Start',
             'kodi', 'kodi media center' => 'Kodi',
             'keplr', 'keplr wallet' => 'Keplr',
@@ -246,6 +246,7 @@ final class BrowserNameMapper
             'symfony rss reader', 'sffeedreader' => 'Symfony RSS Reader',
             'dataprovider spider', 'dataprovider' => 'Dataprovider Spider',
             'comscore crawler', 'comscore' => 'Comscore Crawler',
+            'gemini deep research', 'gemini-deep-research' => 'Gemini Deep Research',
             default => $browserInput,
         };
     }
