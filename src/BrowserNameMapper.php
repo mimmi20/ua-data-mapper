@@ -249,6 +249,7 @@ final class BrowserNameMapper
             'gemini deep research', 'gemini-deep-research' => 'Gemini Deep Research',
             'flowsurf', 'flow browser' => 'Flowsurf',
             'linkedinbot', 'linkedin bot' => 'LinkedInBot',
+            'meta external ads', 'meta-externalads' => 'Meta External Ads',
             default => $browserInput,
         };
     }
