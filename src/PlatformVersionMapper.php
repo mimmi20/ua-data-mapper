@@ -47,14 +47,20 @@ final class PlatformVersionMapper
             case 'wii':
             case 'switch':
                 return new NullVersion();
+            case '2000':
+                return new Version('5', '0');
+            case 'nt 5.1':
+            case 'xp':
+                return new Version('5', '1');
             case 'server 2003':
                 return new Version('5', '2');
-            case 'nt 5.1':
-                return new Version('5', '1');
+            case 'nt 6.0':
+            case 'vista':
+                return new Version('6', '0');
             case 'nt 6.1':
-                return new Version('7');
+                return new Version('7', '0');
             case 'nt 6.2':
-                return new Version('8');
+                return new Version('8', '0');
             case 'nt 6.3':
                 return new Version('8', '1');
             default:
@@ -68,19 +74,19 @@ final class PlatformVersionMapper
 
         return match (mb_strtolower($osName)) {
             '', 'unknown', 'other', 'win32' => new NullVersion(),
-            'winxp', 'windows xp', 'nt 5.1' => (new VersionBuilder())->set('XP'),
-            'winvista', 'windows vista', 'nt 6.0' => (new VersionBuilder())->set('Vista'),
-            'win7', 'winphone7', 'windows phone 7', 'windows 7', 'nt 6.1' => new Version('7'),
+            'winxp', 'windows xp', 'nt 5.1' => new Version('5', '1'),
+            'winvista', 'windows vista', 'nt 6.0' => new Version('6', '0'),
+            'win7', 'winphone7', 'windows phone 7', 'windows 7', 'nt 6.1' => new Version('7', '0'),
             'winphone7.5', 'windows phone 7.5' => new Version('7', '5'),
-            'win8', 'winrt8', 'winphone8', 'windows phone 8', 'windows 8', 'nt 6.2' => new Version('8'),
+            'win8', 'winrt8', 'winphone8', 'windows phone 8', 'windows 8', 'nt 6.2' => new Version('8', '0'),
             'win8.1', 'winrt8.1', 'winphone8.1', 'windows phone 8.1', 'windows 8.1', 'nt 6.3' => new Version(
                 '8',
                 '1',
             ),
             'win9' => new Version('9'),
             'win10', 'windows 10' => new Version('10'),
-            'win2000', 'windows 2000', 'nt 5.0' => new Version('2000'),
-            'win2003' => new Version('2003'),
+            'win2000', 'windows 2000', 'nt 5.0' => new Version('5', '0'),
+            'win2003' => new Version('5', '2'),
             'win98', 'windows 98' => new Version('98'),
             'win95' => new Version('95'),
             'winnt' => (new VersionBuilder())->set('NT'),
