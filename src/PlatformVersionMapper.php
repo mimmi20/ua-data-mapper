@@ -78,7 +78,10 @@ final class PlatformVersionMapper
             'winvista', 'windows vista', 'nt 6.0' => new Version('6', '0'),
             'win7', 'winphone7', 'windows phone 7', 'windows 7', 'nt 6.1' => new Version('7', '0'),
             'winphone7.5', 'windows phone 7.5' => new Version('7', '5'),
-            'win8', 'winrt8', 'winphone8', 'windows phone 8', 'windows 8', 'nt 6.2' => new Version('8', '0'),
+            'win8', 'winrt8', 'winphone8', 'windows phone 8', 'windows 8', 'nt 6.2' => new Version(
+                '8',
+                '0',
+            ),
             'win8.1', 'winrt8.1', 'winphone8.1', 'windows phone 8.1', 'windows 8.1', 'nt 6.3' => new Version(
                 '8',
                 '1',
