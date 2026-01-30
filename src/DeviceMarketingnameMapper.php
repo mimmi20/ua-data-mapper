@@ -64,6 +64,7 @@ final class DeviceMarketingnameMapper
             'galaxy a6', 'galaxy a6 (2018)' => 'Galaxy A6',
             'galaxy a6+', 'galaxy a6+ (2018)' => 'Galaxy A6+',
             'galaxy a06', 'galaxy a06 (international)' => 'Galaxy A06',
+            'galaxy a7 (2016)', 'galaxy a7 (europe, south africa, kazakhstan, russia, 2016)' => 'Galaxy A7 (2016)',
             'galaxy a11', 'galaxy a11 (inernational)' => 'Galaxy A11',
             'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)', 'galaxy a12 nacho' => 'Galaxy A12',
             'galaxy a13', 'galaxy a13 (usa)', 'galaxy a13 (usa unlocked)', 'galaxy a13 (korea)' => 'Galaxy A13',
@@ -110,6 +111,7 @@ final class DeviceMarketingnameMapper
             'galaxy f14 5g', 'galaxy f14 5g (international)' => 'Galaxy F14 5G',
             'galaxy f15 5g', 'galaxy f15 5g (international)' => 'Galaxy F15 5G',
             'galaxy f34 5g', 'galaxy f34 5g (international)' => 'Galaxy F34 5G',
+            'galaxy feel', 'galaxy feel 4g' => 'Galaxy Feel',
             'galaxy fold', 'galaxy fold 5g (global)', 'galaxy fold 5g' => 'Galaxy Fold',
             'galaxy j1 ace', 'galaxy j1 ace duos lte', 'galaxy j1 ace lte', 'galaxy j1 ace neo lte' => 'Galaxy J1 Ace',
             'galaxy j1 mini', 'galaxy j1 mini duos (2016)' => 'Galaxy J1 Mini',
@@ -137,7 +139,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 4' => 'Galaxy Note 4',
             'galaxy note 8', 'galaxy note 8 (usa unlocked)' => 'Galaxy Note 8',
             'galaxy note 9', 'galaxy note 9 (global)', 'galaxy note 9 (usa)' => 'Galaxy Note 9',
-            'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)' => 'Galaxy Note 10',
+            'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)', 'galaxy note 10 5g (korea)' => 'Galaxy Note 10',
             'galaxy note 10 lite', 'galaxy note 10 lite (global)' => 'Galaxy Note 10 Lite',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+', 'galaxy note 10+ 5g', 'galaxy note 10+ 4g (usa)', 'galaxy note 10+ 4g (europe)' => 'Galaxy Note 10+',
             'galaxy note 20', 'galaxy note 20 4g' => 'Galaxy Note 20',
@@ -153,6 +155,7 @@ final class DeviceMarketingnameMapper
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
             'galaxy s7', 'galaxy s7 (verizon)' => 'Galaxy S7',
+            'galaxy s7 edge', 'galaxy s7 edge (global)' => 'Galaxy S7 Edge',
             'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)' => 'Galaxy S8',
             'galaxy s9', 'galaxy s9 (usa)', 'galaxy s9 (usa unlocked)' => 'Galaxy S9',
             'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)' => 'Galaxy S9+',
@@ -556,6 +559,7 @@ final class DeviceMarketingnameMapper
             'v50 lite', 'v50 lite 4g' => 'V50 Lite',
             'v60 lite', 'v60 lite 4g' => 'V60 Lite',
             'x fold 3', 'x fold 3 5g' => 'X Fold 3',
+            'xplay 6', 'x play 6' => 'Xplay 6',
             'y3s', 'y3s (2021)' => 'Y3s',
             'y11', 'y11 (2023)' => 'Y11',
             'y18', 'y18 (india)' => 'Y18',
@@ -732,6 +736,7 @@ final class DeviceMarketingnameMapper
             'x9c', 'magic 7 lite' => 'X9c',
             'honor 8', 'honor 8 (china)', 'honor 8 (china, usa)' => 'Honor 8',
             'honor view 10', 'honor v10' => 'Honor View 10',
+            'y5 ii', 'y5ii' => 'Y5 II',
             // realme
             '9 5g', '9 5g (global)' => '9 5G',
             '9 pro+ 5g', '9 pro plus 5g' => '9 Pro+ 5G',
@@ -774,9 +779,10 @@ final class DeviceMarketingnameMapper
             // asus
             'rog phone 6d', 'rog phone 6d 5g' => 'ROG Phone 6D',
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
-            'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
             'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
+            'zenfone 5', 'zenfone 5 (a500cg)' => 'ZenFone 5',
+            'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
             // zte/nubia
             'adamant', 'adamant (verizon)' => 'Adamant',
             'axon 30 ultra 5g', 'axon 30 pro 5g' => 'Axon 30 Ultra 5G',
@@ -993,6 +999,8 @@ final class DeviceMarketingnameMapper
             'my v-55', 'myv-55' => 'my V-55',
             // shift phones
             'shift6m' => 'Shift6m',
+            // ergo
+            'maxx', 'a550 maxx' => 'Maxx',
             default => $marketingName,
         };
     }
