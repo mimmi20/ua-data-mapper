@@ -253,6 +253,7 @@ final class BrowserNameMapper
             'arquivo web crawler', 'arquivo.pt' => 'Arquivo Web Crawler',
             'juzibrowser', 'juzi browser' => 'JuziBrowser',
             'yandex image search', 'yandeximages' => 'Yandex Image Search',
+            'alltheweb', 'fast webcrawler' => 'AlltheWeb',
             default => $browserInput,
         };
     }

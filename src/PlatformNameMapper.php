@@ -67,12 +67,13 @@ final class PlatformNameMapper
             'android', 'android opensource project' => 'Android',
             'series 40', 'symbian os series 40' => 'Series 40',
             'series 60', 'symbian os series 60' => 'Series 60',
-            'symbian', 'symbian^3' => 'Symbian',
+            'symbian', 'symbian^3', 'symbian os' => 'Symbian',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
             'windows', 'windows nt' => 'Windows',
             'ios', 'iphone os' => 'iOS',
             'solaris', 'sunos' => 'Solaris',
+            'windows phone os', 'windows phone' => 'Windows Phone OS',
             default => $osName,
         };
     }
