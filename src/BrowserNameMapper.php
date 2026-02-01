@@ -251,6 +251,7 @@ final class BrowserNameMapper
             'linkedinbot', 'linkedin bot' => 'LinkedInBot',
             'meta external ads', 'meta-externalads' => 'Meta External Ads',
             'arquivo web crawler', 'arquivo.pt' => 'Arquivo Web Crawler',
+            'juzibrowser', 'juzi browser' => 'JuziBrowser',
             default => $browserInput,
         };
     }
