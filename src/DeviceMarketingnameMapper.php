@@ -93,7 +93,7 @@ final class DeviceMarketingnameMapper
             'galaxy a35 5g', 'galaxy a35 5g (international)', 'galaxy a35 5g (korea)', 'galaxy a35 5g (usa)', 'galaxy a35 5g (china)' => 'Galaxy A35 5G',
             'galaxy a36 5g', 'galaxy a36 5g (international)', 'galaxy a36 5g (usa)', 'galaxy a36 5g (korea)' => 'Galaxy A36 5G',
             'galaxy a42 5g', 'galaxy a42 5g (korea)', 'galaxy a42 5g (usa)', 'galaxy a42 5g (usa unlocked)', 'galaxy a42 5g (international)', 'galaxy a42 5g (china)' => 'Galaxy A42 5G',
-            'galaxy a50', 'galaxy a50 (canada)', 'galaxy a50 (latam)', 'galaxy a50 (usa unlocked)' => 'Galaxy A50',
+            'galaxy a50', 'galaxy a50 (canada)', 'galaxy a50 (latam)', 'galaxy a50 (usa unlocked)', 'galaxy a50 (brazil)' => 'Galaxy A50',
             'galaxy a50s', 'galaxy a50s (global)' => 'Galaxy A50s',
             'galaxy a51', 'galaxy a51 4g (global)', 'galaxy a51 4g (usa unlocked)', 'galaxy a51 4g', 'galaxy a51 4g (usa)' => 'Galaxy A51',
             'galaxy a51 5g', 'galaxy a51 5g (international)' => 'Galaxy A51 5G',
@@ -935,6 +935,7 @@ final class DeviceMarketingnameMapper
             // lg
             'g2', 'g2 (at&t)' => 'G2',
             'g8 thinq', 'g8 thinq (at&t)' => 'G8 ThinQ',
+            'k41s' => 'K41s',
             'k92', 'k92 5g' => 'K92',
             'phoenix 3', 'phoenix 3 lte' => 'Phoenix 3',
             'q7', 'q7+' => 'Q7',
