@@ -107,7 +107,7 @@ final class DeviceBrandnameMapper
             'symphony' => 'Symphony',
             'cricket' => 'Cricket',
             'logic' => 'Logic',
-            't-mobile' => 'T-Mobile',
+            't-mobile', 'telekom' => 'T-Mobile',
             'atmpc' => 'ATMPC',
             'globalsec', 'global-sec' => 'GlobalSec',
             'stylo' => 'Stylo',

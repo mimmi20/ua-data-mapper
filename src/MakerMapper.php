@@ -61,6 +61,7 @@ final class MakerMapper
             'multynet' => 'Multynet',
             'tcl', 'tcl scbc' => 'TCL',
             'texet' => 'TeXet',
+            't-mobile', 'telekom' => 'T-Mobile',
             default => $maker,
         };
     }
