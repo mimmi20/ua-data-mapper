@@ -124,6 +124,7 @@ final class DeviceMarketingnameMapper
             'galaxy j2', 'galaxy j2 3g duos', 'galaxy j2 4g duos' => 'Galaxy J2',
             'galaxy j2 core', 'galaxy j2 core (global)' => 'Galaxy J2 Core',
             'galaxy j3 (2016)', 'galaxy j3 4g (2016, emea)' => 'Galaxy J3 (2016)',
+            'galaxy j3 (2018)', 'galaxy amp prime 3 (2018)' => 'Galaxy J3 (2018)',
             'galaxy j3 prime', 'galaxy j3 prime (2017)' => 'Galaxy J3 Prime',
             'galaxy j5 (2015)', 'galaxy j5 (2015, global)' => 'Galaxy J5 (2015)',
             'galaxy j5 (2016)', 'galaxy j5 4g duos (2016, europe)', 'galaxy j5 metal duos (2016)' => 'Galaxy J5 (2016)',
@@ -147,6 +148,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 4', 'galaxy note 4 lte (europe)' => 'Galaxy Note 4',
             'galaxy note 5', 'galaxy note 5 lte (t-mobile)' => 'Galaxy Note 5',
             'galaxy note 8', 'galaxy note 8 (usa unlocked)' => 'Galaxy Note 8',
+            'galaxy note 8.0" wifi', 'galaxy note 8.0" wi-fi' => 'Galaxy Note 8.0" Wi-Fi',
             'galaxy note 9', 'galaxy note 9 (global)', 'galaxy note 9 (usa)' => 'Galaxy Note 9',
             'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)', 'galaxy note 10 5g (korea)' => 'Galaxy Note 10',
             'galaxy note 10 lite', 'galaxy note 10 lite (global)' => 'Galaxy Note 10 Lite',
@@ -164,6 +166,7 @@ final class DeviceMarketingnameMapper
             'galaxy s5', 'galaxy s5 lte', 'galaxy s5 (sprint)', 'galaxy s5 neo', 'galaxy s5 (us cellular)', 'galaxy s5 cdma (verizon)' => 'Galaxy S5',
             'galaxy s5 duos', 'galaxy s5 dual-sim' => 'Galaxy S5 Duos',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
+            'galaxy s6', 'galaxy s6 cdma (sprint)' => 'Galaxy S6',
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos' => 'Galaxy S7',
             'galaxy s7 edge', 'galaxy s7 edge (global)', 'galaxy s7 edge (t-mobile)' => 'Galaxy S7 Edge',
@@ -672,6 +675,7 @@ final class DeviceMarketingnameMapper
             'xperia 10 v', 'xperia 10 v 5g (japan)' => 'Xperia 10 V',
             'xperia 10 vi', 'xperia 10 vi 5g' => 'Xperia 10 VI',
             'xperia ace', 'xperia ace lte' => 'Xperia Ace',
+            'xperia e4', 'xperia e4 dual' => 'Xperia E4',
             'xperia miro' => 'Xperia Miro',
             'xperia z2', 'xperia z2 lte' => 'Xperia Z2',
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
@@ -1008,6 +1012,7 @@ final class DeviceMarketingnameMapper
             '50u6305/43i', '50u6305' => '50U6305',
             // philips
             'android tv', 'google tv ta1' => 'Android TV',
+            '55pfk7199/12', '55pfk719912' => '55PFK7199/12',
             // nintendo
             '3ds', 'new 3ds' => '3DS',
             // fairphone
@@ -1029,6 +1034,10 @@ final class DeviceMarketingnameMapper
             'shift6m' => 'Shift6m',
             // ergo
             'maxx', 'a550 maxx' => 'Maxx',
+            // gigaset
+            'qv830', 'gigaset qv830' => 'QV830',
+            // leeco
+            'le s3', 'le 3s x626' => 'Le S3',
             default => $marketingName,
         };
     }
