@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google read aloud', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',

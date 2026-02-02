@@ -291,6 +291,7 @@ final class DeviceMarketingnameMapper
             'galaxy watch 5 pro 45mm', 'galaxy watch 5 pro (45mm)', 'galaxy watch 5 pro (45mm, lte)' => 'Galaxy Watch 5 Pro (45mm)',
             'galaxy watch 6 classic (43mm)', 'galaxy watch 6 classic 43mm' => 'Galaxy Watch 6 Classic (43mm)',
             'galaxy watch 6 classic (47mm)', 'galaxy watch 6 classic 47mm' => 'Galaxy Watch 6 Classic (47mm)',
+            'galaxy xcover 3', 'galaxy xcover 3 lte' => 'Galaxy Xcover 3',
             'galaxy xcover 4s', 'galaxy xcover 4s (2019, global)' => 'Galaxy Xcover 4s',
             'galaxy xcover 5', 'galaxy xcover 5 (korea)' => 'Galaxy Xcover 5',
             'galaxy xcover 6 pro', 'galaxy xcover 6 pro (usa)', 'galaxy xcover 6 pro (international)' => 'Galaxy Xcover 6 Pro',
