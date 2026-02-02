@@ -940,9 +940,11 @@ final class DeviceMarketingnameMapper
             'g8 thinq', 'g8 thinq (at&t)' => 'G8 ThinQ',
             'k41s' => 'K41s',
             'k92', 'k92 5g' => 'K92',
+            'l90', 'optimus l90' => 'L90',
             'phoenix 3', 'phoenix 3 lte' => 'Phoenix 3',
             'q7', 'q7+' => 'Q7',
             'v30', 'v30 (us cellular)' => 'V30',
+            'v50 thinq', 'v50 thinq 5g' => 'V50 ThinQ',
             // krono
             'net alpha' => 'Net Alpha',
             'net hit' => 'Net Hit',
