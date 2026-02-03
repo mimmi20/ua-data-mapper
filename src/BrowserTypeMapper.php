@@ -37,9 +37,9 @@ final class BrowserTypeMapper
 
         return match (mb_strtolower($browserType)) {
             'browser', 'mobile browser', 'transcoder', 'wap-browser' => Type::Browser,
-            'bot', 'robot', 'bot/crawler' => Type::Bot,
+            'bot', 'robot', 'bot/crawler', 'bot-trancoder' => Type::Bot,
             'library' => Type::Library,
-            'feedreader', 'feed reader' => Type::FeedReader,
+            'feedreader', 'feed reader', 'feed fetcher' => Type::FeedReader,
             'offlinebrowser', 'offline browser' => Type::OfflineBrowser,
             'useragentanonymizer', 'useragent anonymizer' => Type::UseragentAnonymizer,
             'wapbrowser', 'wap browser' => Type::WapBrowser,
@@ -48,8 +48,9 @@ final class BrowserTypeMapper
             'search bot' => Type::SearchBot,
             'social media agent' => Type::SocialMediaAgent,
             'site monitor' => Type::SiteMonitor,
-            'ai search crawler' => Type::Crawler,
+            'ai search crawler', 'bot-syndication-reader', 'ai data scraper', 'seo-analytics', 'ai assistant' => Type::Crawler,
             'service agent' => Type::ServiceAgent,
+            'security checker' => Type::SecurityChecker,
             'unknown' => Type::Unknown,
             default => Type::fromName(mb_strtolower($browserType)),
         };

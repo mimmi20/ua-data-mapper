@@ -50,6 +50,7 @@ final class PlatformNameMapper
             'zenwalk gnu linux', 'zenwalk' => 'Zenwalk GNU Linux',
             'backtrack linux', 'backtrack' => 'BackTrack Linux',
             'debian', 'debian with freebsd kernel' => 'Debian',
+            'blackberry os', 'rim os' => 'BlackBerry OS',
             'blackberry tablet os', 'rim tablet os' => 'BlackBerry Tablet OS',
             'chinese operating system', 'china os' => 'Chinese Operating System',
             'nintendo os', 'nintendo', 'nintendo mobile', 'nintendo switch os', 'nintendo wii os' => 'Nintendo OS',
@@ -66,12 +67,13 @@ final class PlatformNameMapper
             'android', 'android opensource project' => 'Android',
             'series 40', 'symbian os series 40' => 'Series 40',
             'series 60', 'symbian os series 60' => 'Series 60',
-            'symbian', 'symbian^3' => 'Symbian',
+            'symbian', 'symbian^3', 'symbian os' => 'Symbian',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
             'windows', 'windows nt' => 'Windows',
             'ios', 'iphone os' => 'iOS',
             'solaris', 'sunos' => 'Solaris',
+            'windows phone os', 'windows phone' => 'Windows Phone OS',
             default => $osName,
         };
     }

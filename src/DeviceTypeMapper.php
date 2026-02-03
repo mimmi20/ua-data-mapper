@@ -45,6 +45,7 @@ final class DeviceTypeMapper
             'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => Type::Tv,
             'unknown' => Type::Unknown,
             'smartphone', 'feature-phone', 'feature phone' => Type::MobilePhone,
+            'camera' => Type::DigitalCamera,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
     }

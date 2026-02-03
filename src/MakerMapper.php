@@ -60,6 +60,8 @@ final class MakerMapper
             'premier', 'premier star' => 'Premier',
             'multynet' => 'Multynet',
             'tcl', 'tcl scbc' => 'TCL',
+            'texet' => 'TeXet',
+            't-mobile', 'telekom' => 'T-Mobile',
             default => $maker,
         };
     }

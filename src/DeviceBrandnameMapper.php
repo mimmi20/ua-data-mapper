@@ -107,7 +107,7 @@ final class DeviceBrandnameMapper
             'symphony' => 'Symphony',
             'cricket' => 'Cricket',
             'logic' => 'Logic',
-            't-mobile' => 'T-Mobile',
+            't-mobile', 'telekom' => 'T-Mobile',
             'atmpc' => 'ATMPC',
             'globalsec', 'global-sec' => 'GlobalSec',
             'stylo' => 'Stylo',
@@ -378,6 +378,9 @@ final class DeviceBrandnameMapper
             'sonyericsson', 'sony ericsson' => 'SonyEricsson',
             'multynet' => 'Multynet',
             'arcelik', 'arçelik' => 'Arcelik',
+            'texet' => 'TeXet',
+            'cat', 'caterpillar' => 'Cat',
+            'tesla', 'tesla motors' => 'Tesla',
             default => $brandName,
         };
     }
