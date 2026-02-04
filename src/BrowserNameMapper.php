@@ -186,8 +186,7 @@ final class BrowserNameMapper
             'norton secure browser', 'norton private browser' => 'Norton Secure Browser',
             'daum app', 'daum' => 'Daum App',
             'pingdom', 'pingdom bot' => 'Pingdom Bot',
-            'pinterest app' => 'Pinterest App',
-            'pinterest bot', 'pinterest' => 'Pinterest Bot',
+            'pinterest', 'pinterest bot','pinterest app' => 'Pinterest',
             'rddocuments app', 'rddocuments' => 'RDDocuments App',
             'google+ app', 'google plus' => 'Google+ App',
             'weibo app', 'sina weibo' => 'Weibo App',
@@ -254,6 +253,7 @@ final class BrowserNameMapper
             'juzibrowser', 'juzi browser' => 'JuziBrowser',
             'yandex image search', 'yandeximages' => 'Yandex Image Search',
             'alltheweb', 'fast webcrawler' => 'AlltheWeb',
+            'odin browser', 'odin' => 'Odin Browser',
             default => $browserInput,
         };
     }
