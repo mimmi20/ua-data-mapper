@@ -1005,6 +1005,7 @@ final class DeviceMarketingnameMapper
             // free-yond
             'm5', 'm5 5g', 'm5 (india)' => 'M5',
             // medion
+            'lifetab e1060x' => 'LifeTab E1060X',
             'lifetab e1081x' => 'LifeTab E1081X',
             'lifetab p970x' => 'LifeTab P970X',
             'lifetab p1075x' => 'LifeTab P1075X',
