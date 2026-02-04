@@ -254,6 +254,7 @@ final class BrowserNameMapper
             'yandex image search', 'yandeximages' => 'Yandex Image Search',
             'alltheweb', 'fast webcrawler' => 'AlltheWeb',
             'odin browser', 'odin' => 'Odin Browser',
+            'w3c markup validation service', 'validator.nu/lv' => 'W3C Markup Validation Service',
             default => $browserInput,
         };
     }

@@ -209,12 +209,14 @@ final class DeviceMarketingnameMapper
             'galaxy tab', 'galaxy tab 7.0"' => 'Galaxy Tab',
             'galaxy tab 3 10.1"', 'galaxy tab 3 10.1" 3g' => 'Galaxy Tab 3 10.1"',
             'galaxy tab 3 10.1" wi-fi', 'galaxy tab 3 10.1" wifi' => 'Galaxy Tab 3 10.1" Wi-Fi',
+            'galaxy tab 4 7.0" wi-fi', 'galaxy tab 4 7.0" wifi' => 'Galaxy Tab 4 7.0" Wi-Fi',
             'galaxy tab 4 10.1" lte', 'galaxy tab 4 10.1" 3g' => 'Galaxy Tab 4 10.1" LTE',
             'galaxy tab a 7.0" wifi', 'galaxy tab a 7.0" wi-fi (2016)' => 'Galaxy Tab A 7.0" Wi-Fi',
             'galaxy tab a 8.0"', 'galaxy tab a 8.0" lte', 'galaxy tab a 8.0" 3g' => 'Galaxy Tab A 8.0"',
             'galaxy tab a 8.0" wi-fi', 'galaxy tab a 8.0" wifi' => 'Galaxy Tab A 8.0" Wi-Fi',
             'galaxy tab a 8.0" (2018) lte', 'galaxy tab a 8.0" (2018, canada)' => 'Galaxy Tab A 8.0" (2018) LTE',
             'galaxy tab a 8.0" (2019) lte', 'galaxy tab a 8.0" lte (2019, global)' => 'Galaxy Tab A 8.0" (2019) LTE',
+            'galaxy tab a 8.0" (2019) wifi', 'galaxy tab a 8.0" wi-fi (2019, global)' => 'Galaxy Tab A 8.0" (2019) Wi-Fi',
             'galaxy tab a 9.7" lte' => 'Galaxy Tab A 9.7" LTE',
             'galaxy tab a 9.7" wi-fi', 'galaxy tab a 9.7" wifi' => 'Galaxy Tab A 9.7" WiFi',
             'galaxy tab a 10.1" wi-fi (2016)', 'galaxy tab a 10.1" (2016) wifi', 'galaxy tab a 10.1" lte (2016)' => 'Galaxy Tab A 10.1" (2016)',
@@ -244,7 +246,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s2 8.0" lte', 'galaxy tab s2 8.0" lte (2016)' => 'Galaxy Tab S2 8.0" LTE',
             'galaxy tab s2 8.0" wi-fi', 'galaxy tab s2 8.0" wifi' => 'Galaxy Tab S2 8.0" Wi-Fi',
             'galaxy tab s2 9.7" lte', 'galaxy tab s2 9.7" lte (2016)' => 'Galaxy Tab S2 9.7" LTE',
-            'galaxy tab s2 9.7" wi-fi', 'galaxy tab s2 9.7" wifi', 'galaxy tab s2 9.7 wi-fi (2015)', 'galaxy tab s2 9.7" wi-fi (2015)' => 'Galaxy Tab S2 9.7" Wi-Fi',
+            'galaxy tab s2 9.7" wi-fi', 'galaxy tab s2 9.7" wifi', 'galaxy tab s2 9.7 wi-fi (2015)', 'galaxy tab s2 9.7" wi-fi (2015)', 'galaxy tab s2 9.7" wi-fi (2016)' => 'Galaxy Tab S2 9.7" Wi-Fi',
             'galaxy tab s3 9.7" wi-fi', 'galaxy tab s3 9.7" wifi' => 'Galaxy Tab S3 9.7" Wi-Fi',
             'galaxy tab s4 10.5"', 'galaxy tab s4 10.5" lte (2018)' => 'Galaxy Tab S4 10.5"',
             'galaxy tab s4 10.5" wi-fi', 'galaxy tab s4 10.5" wifi' => 'Galaxy Tab S4 10.5" Wi-Fi',
@@ -753,6 +755,7 @@ final class DeviceMarketingnameMapper
             'mediapad t3 8', 'mediapad t3 8.0 lte' => 'MediaPad T3 8.0',
             'nova 5i', 'nova 5i (china)' => 'Nova 5i',
             'nova 10 se', 'nova 10 se 4g' => 'Nova 10 SE',
+            'p40 lite 5g', 'honor 30s' => 'P40 Lite 5G',
             'p40 pro', 'p40 pro 5g' => 'P40 Pro',
             'p50 pro', 'p50 pro 4g' => 'P50 Pro',
             'pad 8 12.0" wi-fi', 'pad 8 12.0" wifi' => 'Pad 8 12.0" Wi-Fi',
@@ -773,7 +776,7 @@ final class DeviceMarketingnameMapper
             'p smart (2021)', 'p smart 4g (2021)' => 'P smart (2021)',
             'p smart z' => 'P smart Z',
             'qinyun c5z 10.4" wi-fi', 'qinyun c5z 10.4" wifi' => 'Qinyun C5z 10.4" Wi-Fi',
-            'x5', 'x5 4g' => 'X5',
+            'x5', 'x5 4g', 'lm-x510' => 'X5',
             'x6b 5g', '7c' => 'X6b 5G',
             'x7c', 'x7c 4g' => 'X7c',
             'x7d', 'x7d 4g' => 'X7d',
@@ -782,6 +785,7 @@ final class DeviceMarketingnameMapper
             'honor view 10', 'honor v10' => 'Honor View 10',
             'y5 ii', 'y5ii' => 'Y5 II',
             'y6 ii', 'y6ii' => 'Y6 II',
+            'y6p', 'y6p (2020)' => 'Y6p',
             // realme
             '9 5g', '9 5g (global)' => '9 5G',
             '9 pro+ 5g', '9 pro plus 5g' => '9 Pro+ 5G',
@@ -1002,7 +1006,9 @@ final class DeviceMarketingnameMapper
             'm5', 'm5 5g', 'm5 (india)' => 'M5',
             // medion
             'lifetab e1081x' => 'LifeTab E1081X',
+            'lifetab p970x' => 'LifeTab P970X',
             'lifetab p1075x' => 'LifeTab P1075X',
+            'lifetab p1091x' => 'LifeTab P1091X',
             'lifetab s1034x' => 'LifeTab S1034X',
             'lifetab x1030x' => 'LifeTab X1030X',
             // magenta
@@ -1070,6 +1076,8 @@ final class DeviceMarketingnameMapper
             'puls', 'telekom puls' => 'Puls',
             // lyf
             'jio f30c', '$f30c' => 'Jio F30c',
+            // barnes & noble
+            'bntv600', 'nook bntv600', 'nook hd+' => 'BNTV600',
             default => $marketingName,
         };
     }
