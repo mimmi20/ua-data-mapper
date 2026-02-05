@@ -965,7 +965,7 @@ final class DeviceMarketingnameMapper
             // pritom
             'm10 c01', 'm10 c01 eea' => 'M10 C01',
             // vale
-            'v10e lte' => 'V10e LTE',
+            'v10e lte', 'v10e_lte_464' => 'V10e LTE',
             'v12e lte' => 'V12e LTE',
             // saiet
             'sicure smart', 'sicuro smart sts602' => 'Sicure Smart',
@@ -1079,6 +1079,10 @@ final class DeviceMarketingnameMapper
             'jio f30c', '$f30c' => 'Jio F30c',
             // barnes & noble
             'bntv600', 'nook bntv600', 'nook hd+' => 'BNTV600',
+            // hmd
+            't21', 'hmd t21' => 'T21',
+            // awow
+            'utbook', 'utbook 15' => 'UTBook',
             default => $marketingName,
         };
     }
