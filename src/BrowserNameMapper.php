@@ -255,6 +255,7 @@ final class BrowserNameMapper
             'alltheweb', 'fast webcrawler' => 'AlltheWeb',
             'odin browser', 'odin' => 'Odin Browser',
             'w3c markup validation service', 'validator.nu/lv' => 'W3C Markup Validation Service',
+            'quick app center', 'huawei quick app center' => 'Quick App Center',
             default => $browserInput,
         };
     }
