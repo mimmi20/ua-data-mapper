@@ -261,6 +261,7 @@ final class BrowserNameMapper
             'petalsearch', 'petal search' => 'PetalSearch',
             'blexbot', 'blexbot crawler' => 'BLEXBot',
             'wavebox browser', 'wavebox' => 'Wavebox Browser',
+            'domains project bot', 'domains project' => 'Domains Project Bot',
             default => $browserInput,
         };
     }
