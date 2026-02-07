@@ -260,6 +260,7 @@ final class BrowserNameMapper
             '360 secure browser', '360 speed browser' => '360 Secure Browser',
             'petalsearch', 'petal search' => 'PetalSearch',
             'blexbot', 'blexbot crawler' => 'BLEXBot',
+            'wavebox browser', 'wavebox' => 'Wavebox Browser',
             default => $browserInput,
         };
     }
