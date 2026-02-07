@@ -256,6 +256,10 @@ final class BrowserNameMapper
             'odin browser', 'odin' => 'Odin Browser',
             'w3c markup validation service', 'validator.nu/lv' => 'W3C Markup Validation Service',
             'quick app center', 'huawei quick app center' => 'Quick App Center',
+            'yahoo! japan', 'yahoo! japan bot', 'yahoo! japan app' => 'Yahoo! Japan',
+            '360 secure browser', '360 speed browser' => '360 Secure Browser',
+            'petalsearch', 'petal search' => 'PetalSearch',
+            'blexbot', 'blexbot crawler' => 'BLEXBot',
             default => $browserInput,
         };
     }

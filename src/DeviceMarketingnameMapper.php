@@ -175,6 +175,7 @@ final class DeviceMarketingnameMapper
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
             'galaxy s6 edge+', 'galaxy s6 edge+ lte (mexico)', 'galaxy s6 edge+ cdma+lte (verizon)' => 'Galaxy S6 Edge+',
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos' => 'Galaxy S7',
+            'galaxy s7 active', 'galaxy s7 active (at&t)' => 'Galaxy S7 Active',
             'galaxy s7 edge', 'galaxy s7 edge (global)', 'galaxy s7 edge (t-mobile)' => 'Galaxy S7 Edge',
             'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)' => 'Galaxy S8',
             'galaxy s9', 'galaxy s9 (usa)', 'galaxy s9 (usa unlocked)' => 'Galaxy S9',
@@ -714,6 +715,7 @@ final class DeviceMarketingnameMapper
             '400', '400 (china)' => '400',
             '400 pro', '400 pro (china)' => '400 Pro',
             'c5 10.4" wi-fi', 'c5 10.4" wifi' => 'C5 10.4" Wi-Fi',
+            'honor 8c', 'honor 8c (china)', 'honor 8c (global)' => 'Honor 8C',
             'magic 6 pro', 'magic 6 rsr' => 'Magic 6 Pro',
             'magic 7 rsr', 'magic 7 rsr porsche design' => 'Magic 7 RSR',
             'magicpad 2 12.3" wi-fi', 'magicpad 2 wifi' => 'MagicPad 2 12.3" Wi-Fi',
@@ -1016,6 +1018,7 @@ final class DeviceMarketingnameMapper
             'lifetab p1075x' => 'LifeTab P1075X',
             'lifetab p1091x' => 'LifeTab P1091X',
             'lifetab s1034x' => 'LifeTab S1034X',
+            'lifetab s1036x' => 'LifeTab S1036X',
             'lifetab x1030x' => 'LifeTab X1030X',
             // magenta
             'tv one (2nd gen)', 'tv one (gen 2)' => 'TV One (2nd Gen)',
