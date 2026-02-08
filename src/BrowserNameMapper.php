@@ -262,6 +262,8 @@ final class BrowserNameMapper
             'blexbot', 'blexbot crawler' => 'BLEXBot',
             'wavebox browser', 'wavebox' => 'Wavebox Browser',
             'domains project bot', 'domains project' => 'Domains Project Bot',
+            'oculusbrowser', 'oculus browser' => 'OculusBrowser',
+            'stractbot', 'stract' => 'StractBot',
             default => $browserInput,
         };
     }

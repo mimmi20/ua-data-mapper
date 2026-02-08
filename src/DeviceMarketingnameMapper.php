@@ -111,6 +111,7 @@ final class DeviceMarketingnameMapper
             'galaxy a80', 'galaxy a80 (2019)' => 'Galaxy A80',
             'galaxy a90', 'galaxy a90 5g (south korea)', 'galaxy a90 5g (global)' => 'Galaxy A90',
             'galaxy ace plus' => 'Galaxy Ace Plus',
+            'galaxy c9 pro', 'galaxy c9 pro duos' => 'Galaxy C9 Pro',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
             'galaxy camera', 'galaxy camera wifi only' => 'Galaxy Camera',
             'galaxy discover', 'galaxy discover (telus)' => 'Galaxy Discover',
