@@ -177,7 +177,7 @@ final class BrowserNameMapper
             'easouspider', 'easou spider' => 'EasouSpider',
             'atomic browser', 'atomic web browser' => 'Atomic Browser',
             'beonex communicator', 'beonex' => 'Beonex Communicator',
-            'surfbrowser', 'surf' => 'SurfBrowser',
+            'surfbrowser', 'surf', 'surf browser' => 'SurfBrowser',
             't-online browser', 't-online.de browser' => 'T-Online Browser',
             'iridium browser', 'iridium' => 'Iridium Browser',
             'coc coc browser', 'coc coc' => 'Coc Coc Browser',
@@ -264,6 +264,7 @@ final class BrowserNameMapper
             'domains project bot', 'domains project' => 'Domains Project Bot',
             'oculusbrowser', 'oculus browser' => 'OculusBrowser',
             'stractbot', 'stract' => 'StractBot',
+            'sraf', 'seraphic sraf' => 'Sraf',
             default => $browserInput,
         };
     }

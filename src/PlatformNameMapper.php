@@ -74,6 +74,7 @@ final class PlatformNameMapper
             'ios', 'iphone os' => 'iOS',
             'solaris', 'sunos' => 'Solaris',
             'windows mobile', 'windows phone os', 'windows phone' => 'Windows Mobile',
+            'horizon', 'meta horizon' => 'Horizon',
             default => $osName,
         };
     }
