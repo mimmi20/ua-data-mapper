@@ -92,7 +92,7 @@ final class BrowserNameMapper
             'wordpress.com' => 'WordPress',
             'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
             'qqbrowser' => 'QQ Browser',
-            'wosbrowser', 'webkit/webos' => 'webOS Browser',
+            'wosbrowser', 'webkit/webos', 'webos browser', 'palm pre' => 'webOS Browser',
             'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile', 'edge mobile for android' => 'Edge',
             'seomoz rogerbot' => 'roger bot',
             'airwatch browser', 'vmware airwatch' => 'AirWatch Browser',
