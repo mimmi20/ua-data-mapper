@@ -73,7 +73,7 @@ final class BrowserNameMapper
             'python urllib' => 'Python-urllib',
             'mail.ru bot', 'mail.ru' => 'Mail.Ru Bot',
             'exabot' => 'Exabot',
-            'curl' => 'cURL',
+            'curl', 'pycurl' => 'cURL',
             'pale moon (firefox variant)', 'pale moon' => 'PaleMoon',
             'opera next', 'opera mobile' => 'Opera',
             'opera mini for ios', 'opera mini ios' => 'Opera Mini for iOS',
@@ -265,6 +265,7 @@ final class BrowserNameMapper
             'oculusbrowser', 'oculus browser' => 'OculusBrowser',
             'stractbot', 'stract' => 'StractBot',
             'sraf', 'seraphic sraf' => 'Sraf',
+            'p3p validator', 'w3c p3p validator' => 'P3P Validator',
             default => $browserInput,
         };
     }
