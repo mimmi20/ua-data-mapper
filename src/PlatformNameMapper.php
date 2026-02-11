@@ -75,6 +75,7 @@ final class PlatformNameMapper
             'solaris', 'sunos' => 'Solaris',
             'windows mobile', 'windows phone os', 'windows phone' => 'Windows Mobile',
             'horizon', 'meta horizon' => 'Horizon',
+            'webos', 'lg webos' => 'webOS',
             default => $osName,
         };
     }

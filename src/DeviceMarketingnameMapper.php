@@ -50,6 +50,7 @@ final class DeviceMarketingnameMapper
             'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
             'one mini2' => 'One Mini 2',
+            'one s dual sim', 'ones dual sim' => 'One S Dual SIM',
             'desire hd', 'desirehd' => 'Desire HD',
             'desire s', 'desires s510e' => 'Desire S',
             'incredible s', 'incredibles s710e' => 'Incredible S',
@@ -86,7 +87,7 @@ final class DeviceMarketingnameMapper
             'galaxy a23', 'galaxy a23 4g' => 'Galaxy A23',
             'galaxy a23 5g', 'galaxy a23 5g (usa)', 'galaxy a23 5g (usa unlocked)', 'galaxy a23 5g (asia/africa)', 'galaxy a23 5g (international)', 'galaxy a23 5g (japan)' => 'Galaxy A23 5G',
             'galaxy a24', 'galaxy a24 4g (international)', 'galaxy a24 4g (usa)', 'galaxy a24 4g (korea)' => 'Galaxy A24',
-            'galaxy a30s', 'galaxy a30s (global)' => 'Galaxy A30s',
+            'galaxy a30s', 'galaxy a30s (global)', 'galaxy a30s (apac)' => 'Galaxy A30s',
             'galaxy a32', 'galaxy a32 4g' => 'Galaxy A32',
             'galaxy a32 5g', 'galaxy a32 5g (usa unlocked)', 'galaxy a32 5g (international)', 'galaxy a32 5g (usa)' => 'Galaxy A32 5G',
             'galaxy a33 5g', 'galaxy a33 5g (international)', 'galaxy a33 5g (asia/africa)', 'galaxy a33 5g (china)' => 'Galaxy A33 5G',
@@ -153,7 +154,7 @@ final class DeviceMarketingnameMapper
             'galaxy m62', 'galaxy m62 (international)' => 'Galaxy M62',
             'galaxy note 2', 'galaxy note ii', 'galaxy note 2 lte' => 'Galaxy Note 2',
             'galaxy note 3', 'galaxy note 3 lte (t-mobile)', 'galaxy note 3 lte (verizon)', 'galaxy note 3 lte', 'galaxy note 3 lte (sprint)' => 'Galaxy Note 3',
-            'galaxy note 4', 'galaxy note 4 lte (europe)', 'galaxy note 4 lte (t-mobile)' => 'Galaxy Note 4',
+            'galaxy note 4', 'galaxy note 4 lte (europe)', 'galaxy note 4 lte (t-mobile)', 'galaxy note 4 cdma (verizon)' => 'Galaxy Note 4',
             'galaxy note 5', 'galaxy note 5 lte (t-mobile)', 'galaxy note 5 duos (china)' => 'Galaxy Note 5',
             'galaxy note 8', 'galaxy note 8 (usa unlocked)' => 'Galaxy Note 8',
             'galaxy note 8.0" wifi', 'galaxy note 8.0" wi-fi' => 'Galaxy Note 8.0" Wi-Fi',
@@ -175,7 +176,7 @@ final class DeviceMarketingnameMapper
             'galaxy s5', 'galaxy s5 lte', 'galaxy s5 (sprint)', 'galaxy s5 neo', 'galaxy s5 (us cellular)', 'galaxy s5 cdma (verizon)', 'galaxy s5 lte (at&t)' => 'Galaxy S5',
             'galaxy s5 duos', 'galaxy s5 dual-sim' => 'Galaxy S5 Duos',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
-            'galaxy s6', 'galaxy s6 cdma (sprint)', 'galaxy s6 (at&t)', 'galaxy s6 (global)' => 'Galaxy S6',
+            'galaxy s6', 'galaxy s6 cdma (sprint)', 'galaxy s6 (at&t)', 'galaxy s6 (global)', 'galaxy s6 (latam, singapore, india, australia)' => 'Galaxy S6',
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
             'galaxy s6 edge+', 'galaxy s6 edge+ lte (mexico)', 'galaxy s6 edge+ cdma+lte (verizon)' => 'Galaxy S6 Edge+',
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos', 'galaxy s7 (at&t)' => 'Galaxy S7',
@@ -531,6 +532,7 @@ final class DeviceMarketingnameMapper
             'mi 10t lite 5g', 'mi 10t lite 5g (global)' => 'Mi 10T Lite 5G',
             'mi 10t pro 5g', 'mi 10t pro 5g (global)' => 'Mi 10T Pro 5G',
             'mi a2 lite' => 'Mi A2 Lite',
+            'mi a2 lite' => 'Mi A2 Lite',
             'mi mix 2', 'mi mix 2s' => 'Mi Mix 2',
             'mi note 2' => 'MI Note 2',
             'mi pad 5 pro', 'mi pad 5 pro 11" wi-fi', 'mi pad 5 pro 11" 5g', 'mi pad 5 pro 12.4" wi-fi' => 'Mi Pad 5 Pro',
@@ -845,6 +847,7 @@ final class DeviceMarketingnameMapper
             // google
             'chromecast', 'chromecast (2020)' => 'Chromecast',
             'pixel 4a', 'pixel 4a 5g', 'pixel 4a (5g)' => 'Pixel 4a',
+            'nexus 7', 'nexus 7p' => 'Nexus 7',
             // asus
             'rog phone 6d', 'rog phone 6d 5g' => 'ROG Phone 6D',
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
@@ -974,7 +977,7 @@ final class DeviceMarketingnameMapper
             'phoenix 3', 'phoenix 3 lte' => 'Phoenix 3',
             'q7', 'q7+' => 'Q7',
             'v20', 'v20 (at&t)' => 'V20',
-            'v30', 'v30 (us cellular)' => 'V30',
+            'v30', 'v30 (us cellular)', 'v30 (europe)' => 'V30',
             'v50 thinq', 'v50 thinq 5g' => 'V50 ThinQ',
             // krono
             'net alpha' => 'Net Alpha',
@@ -1047,6 +1050,7 @@ final class DeviceMarketingnameMapper
             'asha 230', 'asha230singlesim' => 'Asha 230',
             '6110 navigator', '6110' => '6110 Navigator',
             '5630', '5630d' => '5630',
+            '1000', '1000 4g' => '1000',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz

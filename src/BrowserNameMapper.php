@@ -267,6 +267,8 @@ final class BrowserNameMapper
             'sraf', 'seraphic sraf' => 'Sraf',
             'p3p validator', 'w3c p3p validator' => 'P3P Validator',
             'symfony', 'symfony httpclient' => 'Symfony',
+            'qwantbot', 'qwantify' => 'Qwantbot',
+            'repolookoutbot', 'repo lookout' => 'RepoLookoutBot',
             default => $browserInput,
         };
     }
