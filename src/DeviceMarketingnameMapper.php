@@ -78,7 +78,7 @@ final class DeviceMarketingnameMapper
             'galaxy a14 5g', 'galaxy a14 5g (international)', 'galaxy a14 5g (usa unlocked)', 'galaxy a14 5g (usa)', 'galaxy a14 5g (canada)' => 'Galaxy A14 5G',
             'galaxy a15 5g', 'galaxy a15 5g (usa)', 'galaxy a15 5g (canada)' => 'Galaxy A15 5G',
             'galaxy a16 5g', 'galaxy a16 5g (international)' => 'Galaxy A16 5G',
-            'galaxy a20', 'galaxy a20 (global)' => 'Galaxy A20',
+            'galaxy a20', 'galaxy a20 (global)', 'galaxy a20 (usa)' => 'Galaxy A20',
             'galaxy a20s', 'galaxy a20s (global)', 'galaxy a20s (latam, brazil)' => 'Galaxy A20s',
             'galaxy a21s', 'galaxy a21s (2020)', 'galaxy a21s (2020, usa)', 'galaxy a21s (2020, international)' => 'Galaxy A21s',
             'galaxy a22', 'galaxy a22 4g' => 'Galaxy A22',
@@ -973,6 +973,7 @@ final class DeviceMarketingnameMapper
             'l90', 'optimus l90' => 'L90',
             'phoenix 3', 'phoenix 3 lte' => 'Phoenix 3',
             'q7', 'q7+' => 'Q7',
+            'v20', 'v20 (at&t)' => 'V20',
             'v30', 'v30 (us cellular)' => 'V30',
             'v50 thinq', 'v50 thinq 5g' => 'V50 ThinQ',
             // krono
