@@ -269,6 +269,7 @@ final class BrowserNameMapper
             'symfony', 'symfony httpclient' => 'Symfony',
             'qwantbot', 'qwantify' => 'Qwantbot',
             'repolookoutbot', 'repo lookout' => 'RepoLookoutBot',
+            'google read aloud', 'read aloud', 'google-read-aloud' => 'Google Read Aloud',
             default => $browserInput,
         };
     }
