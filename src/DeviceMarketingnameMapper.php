@@ -128,6 +128,7 @@ final class DeviceMarketingnameMapper
             'galaxy f34 5g', 'galaxy f34 5g (international)' => 'Galaxy F34 5G',
             'galaxy feel', 'galaxy feel 4g' => 'Galaxy Feel',
             'galaxy fold', 'galaxy fold 5g (global)', 'galaxy fold 5g' => 'Galaxy Fold',
+            'galaxy folder', 'galaxy folder lte' => 'Galaxy Folder',
             'galaxy j1 ace', 'galaxy j1 ace duos lte', 'galaxy j1 ace lte', 'galaxy j1 ace neo lte' => 'Galaxy J1 Ace',
             'galaxy j1 mini', 'galaxy j1 mini duos (2016)' => 'Galaxy J1 Mini',
             'galaxy j2', 'galaxy j2 3g duos', 'galaxy j2 4g duos' => 'Galaxy J2',
@@ -946,6 +947,7 @@ final class DeviceMarketingnameMapper
             // motorola
             'edge 20', 'edge 20 (2021)' => 'Edge 20',
             'edge 30 ultra 5g', 'moto edge x30 5g' => 'Edge 30 Ultra 5G',
+            'edge 60 pro', 'moto edge 60 pro' => 'Edge 60 Pro',
             'edge+ (2023)', 'edge plus (2023)' => 'Edge+ (2023)',
             'g pure', 'moto g pure' => 'G Pure',
             'moto g', 'moto g (2nd gen)' => 'Moto G',
