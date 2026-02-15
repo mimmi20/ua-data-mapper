@@ -272,6 +272,8 @@ final class BrowserNameMapper
             'google read aloud', 'read aloud', 'google-read-aloud' => 'Google Read Aloud',
             'webwikibot', 'webwiki' => 'WebwikiBot',
             'sitescorebot', 'sitescore' => 'SiteScoreBot',
+            'brightedge crawler', 'brightedge' => 'BrightEdge Crawler',
+            'photon browser', 'photon' => 'Photon Browser',
             default => $browserInput,
         };
     }

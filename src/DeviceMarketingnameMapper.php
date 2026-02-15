@@ -663,7 +663,7 @@ final class DeviceMarketingnameMapper
             'tab m10 plus (gen 3)', 'tab m10 plus (3rd gen) wi-fi', 'tab m10 plus (3rd gen) 5g', 'tab m10 plus wi-fi (3rd gen)', 'tab m10 plus (3rd gen, 2022)' => 'Tab M10 Plus (Gen 3)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
             'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi', 'tab p11 (2nd gen, 2022)', 'tab p11 wi-fi (2nd gen)' => 'Tab P11 (Gen 2)',
-            'tab p11 pro (gen 2)', 'tab p11 pro wi-fi (2nd gen)' => 'Tab P11 Pro (Gen 2)',
+            'tab p11 pro (gen 2)', 'tab p11 pro wi-fi (2nd gen)', 'tab p11 pro 4g' => 'Tab P11 Pro (Gen 2)',
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
             'tab p12 pro', 'tab p12 pro 5g' => 'Tab P12 Pro',
             'tab plus', 'tab plus wi-fi', 'tab plus wifi' => 'Tab Plus',
@@ -781,7 +781,7 @@ final class DeviceMarketingnameMapper
             'matepad pro 13.2" wi-fi (2025)', 'matepad pro 13.2" (2025) wifi', 'matepad pro 13.2" wifi' => 'MatePad Pro 13.2" Wi-Fi',
             'matepad t10s wi-fi', 'matepad t10s wifi', 'matepad t10s 10.1" wifi', 'mediapad t10s 10.1" wifi', 'matepad t10s 10.1" wi-fi' => 'MatePad T10s Wi-Fi',
             'mediapad m3 8', 'mediapad m3 8.4' => 'MediaPad M3 8',
-            'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi' => 'MediaPad M3 Lite',
+            'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi', 'mediapad m3 lite 10' => 'MediaPad M3 Lite',
             'mediapad m5 lite', 'mediapad m5 lite 8.0 (2019)', 'mediapad m5 lite 10.1" lte', 'mediapad m5 lite 10.1" wi-fi' => 'MediaPad M5 Lite',
             'mediapad t1 8.0', 'mediapad t1 8' => 'MediaPad T1 8.0',
             'mediapad t3 8', 'mediapad t3 8.0 lte' => 'MediaPad T3 8.0',
@@ -1097,6 +1097,7 @@ final class DeviceMarketingnameMapper
             // fairphone
             'fp6', 'fairphone 6' => 'FP6',
             // amazon
+            'fire 7"', 'fire 7" (2015)' => 'Fire 7"',
             'fire 7 (2022)', 'fire 7" (2022)' => 'Fire 7 (2022)',
             'fire tv stick (3rd gen)', 'fire tv stick (gen 3)' => 'Fire TV Stick (3rd Gen)',
             'fire hd 6', 'fire hd 6 (2014)', 'fire hd 6" (2014)' => 'Fire HD 6',
@@ -1110,6 +1111,7 @@ final class DeviceMarketingnameMapper
             'fire hd 10 plus (2021)', 'fire hd 10" plus (2021)' => 'Fire HD 10 Plus (2021)',
             'fire hdx 8.9', 'fire hdx 8.9 (2014)', 'fire hdx 8.9" (2014)' => 'Fire HDX 8.9',
             'fire max 11', 'fire max 11"' => 'Fire Max 11',
+            'fire tv stick lite (1st gen)', 'fire tv stick lite (gen 1)' => 'Fire TV Stick Lite (1st Gen)',
             'kindle fire', 'kindle fire (2nd gen)' => 'Kindle Fire',
             'kindle fire hd', 'kindle fire hd 7 (2nd gen)', 'kindle fire hd 7" (2nd gen)' => 'Kindle Fire HD',
             'kindle fire hd 7" wifi', 'kindle fire hd 7" wi-fi (2013)' => 'Kindle Fire HD 7" Wi-Fi',
