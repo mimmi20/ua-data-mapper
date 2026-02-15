@@ -174,6 +174,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)' => 'Galaxy Note 20 5G',
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
+            'galaxy pocket 2' => 'Galaxy Pocket 2',
             'galaxy s2', 'galaxy s ii' => 'Galaxy S2',
             'galaxy s3', 'galaxy s iii', 'galaxy s3 4g cdma' => 'Galaxy S3',
             'galaxy s3 lte international', 'galaxy s iii lte', 'galaxy s3 lte' => 'Galaxy S3 LTE',
@@ -184,7 +185,7 @@ final class DeviceMarketingnameMapper
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
             'galaxy s6', 'galaxy s6 cdma (sprint)', 'galaxy s6 (at&t)', 'galaxy s6 (global)', 'galaxy s6 (latam, singapore, india, australia)' => 'Galaxy S6',
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
-            'galaxy s6 edge+', 'galaxy s6 edge+ lte (mexico)', 'galaxy s6 edge+ cdma+lte (verizon)' => 'Galaxy S6 Edge+',
+            'galaxy s6 edge+', 'galaxy s6 edge+ lte (mexico)', 'galaxy s6 edge+ cdma+lte (verizon)', 'galaxy s6 edge+ lte (europe)' => 'Galaxy S6 Edge+',
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos', 'galaxy s7 (at&t)' => 'Galaxy S7',
             'galaxy s7 active', 'galaxy s7 active (at&t)' => 'Galaxy S7 Active',
             'galaxy s7 edge', 'galaxy s7 edge (global)', 'galaxy s7 edge (t-mobile)' => 'Galaxy S7 Edge',
@@ -536,7 +537,6 @@ final class DeviceMarketingnameMapper
             'mi 10t 5g', 'mi 10t 5g (global)' => 'Mi 10T 5G',
             'mi 10t lite 5g', 'mi 10t lite 5g (global)' => 'Mi 10T Lite 5G',
             'mi 10t pro 5g', 'mi 10t pro 5g (global)' => 'Mi 10T Pro 5G',
-            'mi a2 lite' => 'Mi A2 Lite',
             'mi a2 lite' => 'Mi A2 Lite',
             'mi mix 2', 'mi mix 2s' => 'Mi Mix 2',
             'mi note 2' => 'MI Note 2',
@@ -1141,6 +1141,8 @@ final class DeviceMarketingnameMapper
             'utbook', 'utbook 15' => 'UTBook',
             // blackberry
             'touch', 'blackberry touch' => 'Touch',
+            // acepad
+            'a145 (2024)', 'a145-2024' => 'A145 (2024)',
             default => $marketingName,
         };
     }
