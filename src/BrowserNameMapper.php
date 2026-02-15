@@ -271,6 +271,7 @@ final class BrowserNameMapper
             'repolookoutbot', 'repo lookout' => 'RepoLookoutBot',
             'google read aloud', 'read aloud', 'google-read-aloud' => 'Google Read Aloud',
             'webwikibot', 'webwiki' => 'WebwikiBot',
+            'sitescorebot', 'sitescore' => 'SiteScoreBot',
             default => $browserInput,
         };
     }

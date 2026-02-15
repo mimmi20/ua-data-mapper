@@ -131,6 +131,7 @@ final class DeviceMarketingnameMapper
             'galaxy folder', 'galaxy folder lte' => 'Galaxy Folder',
             'galaxy j1 ace', 'galaxy j1 ace duos lte', 'galaxy j1 ace lte', 'galaxy j1 ace neo lte' => 'Galaxy J1 Ace',
             'galaxy j1 mini', 'galaxy j1 mini duos (2016)' => 'Galaxy J1 Mini',
+            'galaxy j1 mini prime' => 'Galaxy J1 Mini Prime',
             'galaxy j2', 'galaxy j2 3g duos', 'galaxy j2 4g duos' => 'Galaxy J2',
             'galaxy j2 core', 'galaxy j2 core (global)' => 'Galaxy J2 Core',
             'galaxy j2 prime', 'galaxy j2 prime lte', 'galaxy j2 prime lte (india, taiwan, philippines)', 'galaxy j2 prime lte (asia, latam)' => 'Galaxy J2 Prime',
@@ -143,6 +144,7 @@ final class DeviceMarketingnameMapper
             'galaxy j5 (2016)', 'galaxy j5 4g duos (2016, europe)', 'galaxy j5 metal duos (2016)' => 'Galaxy J5 (2016)',
             'galaxy j6', 'galaxy j6 (2018)' => 'Galaxy J6',
             'galaxy j6+', 'galaxy j6+ (2018)' => 'Galaxy J6+',
+            'galaxy j7 (2016)', 'galaxy j7 4g (metropcs, 2016)' => 'Galaxy J7 (2016)',
             'galaxy j7', 'galaxy j7 (emea, 2016)', 'galaxy j7 (china, 2016)', 'galaxy j7 (2017, global)', 'galaxy j7 pro', 'galaxy j7 (2017, uae, russia, kazakhstan)', 'galaxy j7 4g (india, thailand)', 'galaxy j7 pro (2017)' => 'Galaxy J7',
             'galaxy j7 nxt', 'galaxy j7 core', 'galaxy j7 neo', 'galaxy j7 nxt (2017, india)', 'galaxy j7 neo (2017, latam)', 'galaxy j7 core (2017, philippines)' => 'Galaxy J7 Nxt',
             'galaxy j7 prime', 'galaxy j7 prime (emea)', 'galaxy j7 prime (taiwan, philippines)' => 'Galaxy J7 Prime',
@@ -597,6 +599,7 @@ final class DeviceMarketingnameMapper
             'iqoo z7x', 'iqoo z7x 5g', 'iqoo z7x 5g (india)' => 'iQOO Z7x',
             'iqoo z9', 'iqoo z9 (china)' => 'iQOO Z9',
             'iqoo z10 lite', 'iqoo z10 lite 4g' => 'iQOO Z10 Lite',
+            'nex 3s', 'nex 3s 5g' => 'Nex 3S',
             'nex s' => 'NEX S',
             's1', 'v17 neo' => 'S1',
             's1 pro', 's1 pro (global)' => 'S1 Pro',
@@ -777,6 +780,7 @@ final class DeviceMarketingnameMapper
             'matepad pro 12.6" wifi', 'matepad pro 12.6" wi-fi (2022)', 'matepad pro 12.6" wi-fi (2021)' => 'MatePad Pro 12.6" Wi-Fi',
             'matepad pro 13.2" wi-fi (2025)', 'matepad pro 13.2" (2025) wifi', 'matepad pro 13.2" wifi' => 'MatePad Pro 13.2" Wi-Fi',
             'matepad t10s wi-fi', 'matepad t10s wifi', 'matepad t10s 10.1" wifi', 'mediapad t10s 10.1" wifi', 'matepad t10s 10.1" wi-fi' => 'MatePad T10s Wi-Fi',
+            'mediapad m3 8', 'mediapad m3 8.4' => 'MediaPad M3 8',
             'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi' => 'MediaPad M3 Lite',
             'mediapad m5 lite', 'mediapad m5 lite 8.0 (2019)', 'mediapad m5 lite 10.1" lte', 'mediapad m5 lite 10.1" wi-fi' => 'MediaPad M5 Lite',
             'mediapad t1 8.0', 'mediapad t1 8' => 'MediaPad T1 8.0',
@@ -1145,6 +1149,8 @@ final class DeviceMarketingnameMapper
             'touch', 'blackberry touch' => 'Touch',
             // acepad
             'a145 (2024)', 'a145-2024' => 'A145 (2024)',
+            // captiva
+            'pad 10 3g plus', 'pad pad 10 3g plus' => 'Pad 10 3G Plus',
             default => $marketingName,
         };
     }
