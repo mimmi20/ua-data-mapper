@@ -270,6 +270,7 @@ final class BrowserNameMapper
             'qwantbot', 'qwantify' => 'Qwantbot',
             'repolookoutbot', 'repo lookout' => 'RepoLookoutBot',
             'google read aloud', 'read aloud', 'google-read-aloud' => 'Google Read Aloud',
+            'webwikibot', 'webwiki' => 'WebwikiBot',
             default => $browserInput,
         };
     }
