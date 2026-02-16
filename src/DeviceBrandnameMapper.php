@@ -323,7 +323,7 @@ final class DeviceBrandnameMapper
             'sunmax' => 'Sunmax',
             'medion' => 'Medion',
             'kempler & strauss', 'kempler-strauss' => 'Kempler & Strauss',
-            'wortmann' => 'Wortmann',
+            'wortmann', 'terra' => 'Wortmann',
             'redline' => 'RedLine',
             'magenta' => 'Magenta',
             'china telecom', 'china-telecom' => 'China Telecom',
