@@ -62,6 +62,7 @@ final class MakerMapper
             'tcl', 'tcl scbc' => 'TCL',
             'texet' => 'TeXet',
             't-mobile', 'telekom' => 'T-Mobile',
+            'wortmann', 'terra' => 'Wortmann',
             default => $maker,
         };
     }

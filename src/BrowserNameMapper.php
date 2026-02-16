@@ -274,6 +274,8 @@ final class BrowserNameMapper
             'sitescorebot', 'sitescore' => 'SiteScoreBot',
             'brightedge crawler', 'brightedge' => 'BrightEdge Crawler',
             'photon browser', 'photon' => 'Photon Browser',
+            'webceo bot', 'webceo' => 'WebCEO Bot',
+            'workona', 'workona favicon service' => 'Workona',
             default => $browserInput,
         };
     }
