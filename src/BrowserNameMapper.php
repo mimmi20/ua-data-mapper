@@ -155,7 +155,7 @@ final class BrowserNameMapper
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
             'sogou web spider', 'sogou spider' => 'Sogou Web Spider',
             'headline bot', 'headline' => 'headline bot',
-            'hubspot crawler', 'hubspot' => 'HubSpot Crawler',
+            'hubspot crawler', 'hubspot', 'hubspot connect' => 'HubSpot Crawler',
             'kindle browser', 'kindle' => 'Kindle Browser',
             'comodo dragon', 'dragon' => 'Comodo Dragon',
             'evernote app', 'evernote' => 'Evernote App',
