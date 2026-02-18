@@ -178,6 +178,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy pocket 2' => 'Galaxy Pocket 2',
+            'galaxy grand prime', 'galaxy grand prime value edition lte' => 'Galaxy Grand Prime',
             'galaxy s2', 'galaxy s ii' => 'Galaxy S2',
             'galaxy s3', 'galaxy s iii', 'galaxy s3 4g cdma' => 'Galaxy S3',
             'galaxy s3 lte international', 'galaxy s iii lte', 'galaxy s3 lte' => 'Galaxy S3 LTE',
