@@ -285,7 +285,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s6 lite 10.4" (2024) lte', 'galaxy tab s6 lite 10.4" (2024)' => 'Galaxy Tab S6 Lite 10.4" (2024) LTE',
             'galaxy tab s6 lite 10.4" (2024) wi-fi', 'galaxy tab s6 lite 10.4" (2024) wifi' => 'Galaxy Tab S6 Lite 10.4" (2024) Wi-Fi',
             'galaxy tab s7 11.0" 4g', 'galaxy tab s7 11.0" lte' => 'Galaxy Tab S7 11.0" 4G',
-            'galaxy tab s7 11.0" wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7 11.0" Wi-Fi',
+            'galaxy tab s7', 'galaxy tab s7 11.0" wi-fi', 'galaxy tab s7 11.0" wifi' => 'Galaxy Tab S7',
             'galaxy tab s7 fe 12.4" 5g', 'galaxy tab s7 fe 12.4" 5g (international)', 'galaxy tab s7 fe 12.4" 5g (korea)', 'galaxy tab s7 fe 12.4" lte', 'galaxy tab s7 fe 12.4" 5g (usa)' => 'Galaxy Tab S7 FE 12.4"',
             'galaxy tab s7 fe 12.4" wi-fi', 'galaxy tab s7 fe 12.4" wifi' => 'Galaxy Tab S7 FE 12.4" Wi-Fi',
             'galaxy tab s7+ 12.4" 5g' => 'Galaxy Tab S7+ 12.4" 5G',
