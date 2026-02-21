@@ -276,6 +276,8 @@ final class BrowserNameMapper
             'photon browser', 'photon' => 'Photon Browser',
             'webceo bot', 'webceo' => 'WebCEO Bot',
             'workona', 'workona favicon service' => 'Workona',
+            'muninbot', 'munin' => 'MuninBot',
+            'honor search app', 'honor search' => 'Honor Search App',
             default => $browserInput,
         };
     }
