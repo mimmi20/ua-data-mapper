@@ -43,6 +43,7 @@ final class DeviceMarketingnameMapper
             'one touch 6030x' => 'OneTouch Idol',
             'onetouch pop 2 5"', 'one touch pop 2 5"' => 'OneTouch Pop 2 5"',
             'onetouch pop c7', 'one touch 7040x' => 'OneTouch Pop C7',
+            'onetouch go play', 'one touch 7048e' => 'OneTouch Go Play',
             'nxtpaper 11', 'nxtpaper 11 4g' => 'NxtPaper 11',
             'tab 8 le', 'tab 8 le (metropcs)' => 'Tab 8 LE',
             'tab 8"', 'tab 8" 4g' => 'Tab 8"',
@@ -54,8 +55,10 @@ final class DeviceMarketingnameMapper
             'dream', 'dream mozilla' => 'Dream',
             'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
+            'one m8 dual sim', 'one0p6b dual sim' => 'One M8 Dual SIM',
             'one mini2' => 'One Mini 2',
             'one s dual sim', 'ones dual sim' => 'One S Dual SIM',
+            'desire 601 dual sim' => 'Desire 601 Dual SIM',
             'desire hd', 'desirehd' => 'Desire HD',
             'desire s', 'desires s510e' => 'Desire S',
             'incredible s', 'incredibles s710e' => 'Incredible S',
@@ -189,6 +192,7 @@ final class DeviceMarketingnameMapper
             'galaxy s2', 'galaxy s ii' => 'Galaxy S2',
             'galaxy s3', 'galaxy s iii', 'galaxy s3 4g cdma' => 'Galaxy S3',
             'galaxy s3 lte international', 'galaxy s iii lte', 'galaxy s3 lte' => 'Galaxy S3 LTE',
+            'galaxy s3 mini value edition', 'galaxy s iii mini value edition' => 'Galaxy S3 Mini Value Edition',
             'galaxy s4', 'galaxy s4 lte (verizon)' => 'Galaxy S4',
             'galaxy s4 mini', 'galaxy s4 mini lte' => 'Galaxy S4 Mini',
             'galaxy s5', 'galaxy s5 lte', 'galaxy s5 (sprint)', 'galaxy s5 neo', 'galaxy s5 (us cellular)', 'galaxy s5 cdma (verizon)', 'galaxy s5 lte (at&t)' => 'Galaxy S5',
@@ -656,7 +660,7 @@ final class DeviceMarketingnameMapper
             'a7000', 'a7000-a' => 'A7000',
             'ideatab a10-70', 'ideatab a10-70 wi-fi' => 'IdeaTab A10-70',
             'legion y700', 'legion y700 wi-fi (2025)', 'legion y700 wi-fi (2023)' => 'Legion Y700',
-            'tab 2', 'tab 2 a7' => 'Tab 2',
+            'tab 2', 'tab 2 a7', 'tab 2 a7-10f' => 'Tab 2',
             'tab 2 a10-70 wi-fi', 'tab 2 a10-70f' => 'Tab 2 A10-70 Wi-Fi',
             'tab 3 7', 'tab3 7 lte', 'tab3 7 essential' => 'Tab 3 7',
             'tab 4 10', 'tab4 10' => 'Tab 4 10',
@@ -798,7 +802,9 @@ final class DeviceMarketingnameMapper
             'mediapad m3 8', 'mediapad m3 8.4' => 'MediaPad M3 8',
             'mediapad m3 lite', 'mediapad m3 lite 10 wi-fi', 'mediapad m3 lite 10' => 'MediaPad M3 Lite',
             'mediapad m5 lite', 'mediapad m5 lite 8.0 (2019)', 'mediapad m5 lite 10.1" lte', 'mediapad m5 lite 10.1" wi-fi' => 'MediaPad M5 Lite',
+            'mediapad t1 7', 'mediapad t1 7.0 3g' => 'MediaPad T1 7.0',
             'mediapad t1 8.0', 'mediapad t1 8' => 'MediaPad T1 8.0',
+            'mediapad t1 10', 'mediapad t1 10.0 pro lte' => 'MediaPad T1 10.0',
             'mediapad t3 8', 'mediapad t3 8.0 lte' => 'MediaPad T3 8.0',
             'nova 5i', 'nova 5i (china)' => 'Nova 5i',
             'nova 10 se', 'nova 10 se 4g' => 'Nova 10 SE',
@@ -889,7 +895,7 @@ final class DeviceMarketingnameMapper
             'zenfone 5', 'zenfone 5 (a500cg)' => 'ZenFone 5',
             'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
             'zenpad 8.0', 'zenpad 8.0 (z380kl)' => 'ZenPad 8.0',
-            'zenpad 10', 'zenpad 10 (z300cl)' => 'ZenPad 10',
+            'zenpad 10', 'zenpad 10 (z300cl)', 'zenpad 10 (z300c)' => 'ZenPad 10',
             // zte/nubia
             'adamant', 'adamant (verizon)' => 'Adamant',
             'axon 30 ultra 5g', 'axon 30 pro 5g' => 'Axon 30 Ultra 5G',
@@ -1177,6 +1183,8 @@ final class DeviceMarketingnameMapper
             'pad 10 3g plus', 'pad pad 10 3g plus' => 'Pad 10 3G Plus',
             // wortmann/terra
             'terra pad 1005', 'pad 1005' => 'TERRA PAD 1005',
+            // bdf
+            'k960n', 'bk960n mt6580' => 'K960N',
             default => $marketingName,
         };
     }
