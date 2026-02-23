@@ -381,6 +381,7 @@ final class DeviceBrandnameMapper
             'texet' => 'TeXet',
             'cat', 'caterpillar' => 'Cat',
             'tesla', 'tesla motors' => 'Tesla',
+            'qihoo 360', '360' => 'Qihoo 360',
             default => $brandName,
         };
     }

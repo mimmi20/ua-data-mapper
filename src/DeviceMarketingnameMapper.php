@@ -898,6 +898,7 @@ final class DeviceMarketingnameMapper
             'zenfone 4 selfie pro', 'zenfone 4 selfie pro (zd552kl)' => 'ZenFone 4 Selfie Pro',
             'zenfone 5', 'zenfone 5 (a500cg)' => 'ZenFone 5',
             'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
+            'zenfone max pro (m2)', 'zenfone max pro m2', 'zenfone max pro (m2) zb631kl' => 'ZenFone Max Pro (M2)',
             'zenpad 8.0', 'zenpad 8.0 (z380kl)' => 'ZenPad 8.0',
             'zenpad 10', 'zenpad 10 (z300cl)', 'zenpad 10 (z300c)' => 'ZenPad 10',
             // zte/nubia
