@@ -52,17 +52,18 @@ final class DeviceMarketingnameMapper
             'tab 11', 'tab 11 lte', 'tab 11 4g', 'tab 11 wi-fi', 'tab 11 wifi' => 'Tab 11',
             // htc
             'butterfly s', 'butterfly s 901s' => 'Butterfly S',
+            'desire', 'desire ­ a8181' => 'Desire',
+            'desire 601 dual sim' => 'Desire 601 Dual SIM',
+            'desire hd', 'desirehd' => 'Desire HD',
+            'desire s', 'desires s510e' => 'Desire S',
             'dream', 'dream mozilla' => 'Dream',
+            'incredible s', 'incredibles s710e' => 'Incredible S',
+            'jetstream', 'p715a' => 'Jetstream',
             'mytouch 4g' => 'myTouch 4G',
             'one', 'one m7' => 'One',
             'one m8 dual sim', 'one0p6b dual sim' => 'One M8 Dual SIM',
             'one mini2' => 'One Mini 2',
             'one s dual sim', 'ones dual sim' => 'One S Dual SIM',
-            'desire 601 dual sim' => 'Desire 601 Dual SIM',
-            'desire hd', 'desirehd' => 'Desire HD',
-            'desire s', 'desires s510e' => 'Desire S',
-            'incredible s', 'incredibles s710e' => 'Incredible S',
-            'jetstream', 'p715a' => 'Jetstream',
             // samsung
             'galaxy a3 (2015)', 'galaxy a3 lte (2015)' => 'Galaxy A3 (2015)',
             'galaxy a8 (europe, global, 2018)', 'galaxy a8' => 'Galaxy A8',
@@ -174,6 +175,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 4', 'galaxy note 4 lte (europe)', 'galaxy note 4 lte (t-mobile)', 'galaxy note 4 cdma (verizon)', 'galaxy note 4 cdma (at&t)', 'galaxy note 4 lte (singapore, india, australia)' => 'Galaxy Note 4',
             'galaxy note 5', 'galaxy note 5 lte (t-mobile)', 'galaxy note 5 duos (china)' => 'Galaxy Note 5',
             'galaxy note 8', 'galaxy note 8 (usa unlocked)' => 'Galaxy Note 8',
+            'galaxy note 8.0" 4g', 'galaxy note 8.0" lte' => 'Galaxy Note 8.0" 4G',
             'galaxy note 8.0" wifi', 'galaxy note 8.0" wi-fi' => 'Galaxy Note 8.0" Wi-Fi',
             'galaxy note 9', 'galaxy note 9 (global)', 'galaxy note 9 (usa)' => 'Galaxy Note 9',
             'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)', 'galaxy note 10 5g (korea)' => 'Galaxy Note 10',
@@ -206,7 +208,7 @@ final class DeviceMarketingnameMapper
             'galaxy s7 edge', 'galaxy s7 edge (global)', 'galaxy s7 edge (t-mobile)', 'galaxy s7 edge (hong kong)', 'galaxy s7 edge (southeast asia, india)' => 'Galaxy S7 Edge',
             'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)' => 'Galaxy S8',
             'galaxy s9', 'galaxy s9 (usa)', 'galaxy s9 (usa unlocked)' => 'Galaxy S9',
-            'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)' => 'Galaxy S9+',
+            'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)', 'galaxy s9+ (canada)' => 'Galaxy S9+',
             'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)' => 'Galaxy S10',
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)' => 'Galaxy S10+',
             'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)' => 'Galaxy S10e',
@@ -688,6 +690,7 @@ final class DeviceMarketingnameMapper
             'xiaoxin pad 11" (2024)', 'xiaoxin pad 11" wi-fi (2024)' => 'Xiaoxin Pad 11" (2024)',
             'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
             'yoga tab 3', 'yoga tab 3 10' => 'Yoga Tab 3',
+            'yoga tab 3 plus', 'yoga tab 3 plus 10' => 'Yoga Tab 3 Plus',
             // infinix
             'hot 30 play', 'hot 30 play nfc' => 'Hot 30 Play',
             'hot 50', 'hot 50 4g' => 'Hot 50',
@@ -761,6 +764,7 @@ final class DeviceMarketingnameMapper
             'c5 10.4" wi-fi', 'c5 10.4" wifi' => 'C5 10.4" Wi-Fi',
             'honor 8a', 'honor 8a pro' => 'Honor 8A',
             'honor 8c', 'honor 8c (china)', 'honor 8c (global)' => 'Honor 8C',
+            'honor 9i', 'honor 9i (2018)' => 'Honor 9i',
             'magic 6 pro', 'magic 6 rsr' => 'Magic 6 Pro',
             'magic 7 rsr', 'magic 7 rsr porsche design' => 'Magic 7 RSR',
             'magicpad 2 12.3" wi-fi', 'magicpad 2 wifi' => 'MagicPad 2 12.3" Wi-Fi',
@@ -974,6 +978,7 @@ final class DeviceMarketingnameMapper
             // chuwi
             'hi10 xpro', 'hi10 xpro pad' => 'Hi10 XPro',
             // motorola
+            'droid' => 'Droid',
             'edge 20', 'edge 20 (2021)' => 'Edge 20',
             'edge 30 ultra 5g', 'moto edge x30 5g' => 'Edge 30 Ultra 5G',
             'edge 60 pro', 'moto edge 60 pro' => 'Edge 60 Pro',
@@ -1006,6 +1011,7 @@ final class DeviceMarketingnameMapper
             // lg
             'aristo', 'aristo (metro pcs)' => 'Aristo',
             'g2', 'g2 (at&t)' => 'G2',
+            'g5', 'g5 (at&t)' => 'G5',
             'g6', 'g6 (europe)' => 'G6',
             'g8 thinq', 'g8 thinq (at&t)' => 'G8 ThinQ',
             'g pad 7.0" lte', 'g pad 7.0" lte (at&t)' => 'G Pad 7.0" LTE',
@@ -1077,6 +1083,7 @@ final class DeviceMarketingnameMapper
             'lifetab e1060x' => 'LifeTab E1060X',
             'lifetab e1081x' => 'LifeTab E1081X',
             'lifetab p970x' => 'LifeTab P970X',
+            'lifetab p1050x' => 'LifeTab P1050X',
             'lifetab p1075x' => 'LifeTab P1075X',
             'lifetab p1091x' => 'LifeTab P1091X',
             'lifetab s1034x' => 'LifeTab S1034X',
@@ -1099,6 +1106,7 @@ final class DeviceMarketingnameMapper
             // yezz
             'liv 3s', 'liv 3s lte' => 'LIV 3S',
             // teclast
+            'p10 hd', 'apex p10hd' => 'P10 HD',
             'p20 hd', 'p20hd' => 'P20 HD',
             'p25t', 'p25 t' => 'P25T',
             // hisense
@@ -1185,6 +1193,8 @@ final class DeviceMarketingnameMapper
             'terra pad 1005', 'pad 1005' => 'TERRA PAD 1005',
             // bdf
             'k960n', 'bk960n mt6580' => 'K960N',
+            // trekstor
+            'surftab breeze 10.1 quad 3g' => 'SurfTab Breeze 10.1 Quad 3G',
             default => $marketingName,
         };
     }
