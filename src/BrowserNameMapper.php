@@ -279,6 +279,8 @@ final class BrowserNameMapper
             'muninbot', 'munin' => 'MuninBot',
             'honor search app', 'honor search' => 'Honor Search App',
             'ask jeeves', 'teoma' => 'Ask Jeeves',
+            'webprosbot', 'webpros' => 'WebProsBot',
+            'imagesiftbot', 'imagesift' => 'ImagesiftBot',
             default => $browserInput,
         };
     }

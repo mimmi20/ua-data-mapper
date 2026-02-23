@@ -382,6 +382,7 @@ final class DeviceBrandnameMapper
             'cat', 'caterpillar' => 'Cat',
             'tesla', 'tesla motors' => 'Tesla',
             'qihoo 360', '360' => 'Qihoo 360',
+            'tp-link', 'neffos' => 'tp-link',
             default => $brandName,
         };
     }
