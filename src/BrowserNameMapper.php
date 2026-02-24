@@ -281,6 +281,8 @@ final class BrowserNameMapper
             'ask jeeves', 'teoma' => 'Ask Jeeves',
             'webprosbot', 'webpros' => 'WebProsBot',
             'imagesiftbot', 'imagesift' => 'ImagesiftBot',
+            'antbot', 'ant' => 'AntBot',
+            'avast secure browser', 'avast safezone' => 'Avast Secure Browser',
             default => $browserInput,
         };
     }
