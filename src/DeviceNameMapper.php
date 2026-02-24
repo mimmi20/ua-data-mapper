@@ -40,6 +40,7 @@ final class DeviceNameMapper
             '50u6305/43i', '50u6305' => '50U6305',
             'sch-r900', 'sam-r900' => 'SCH-R900',
             'sch-r640', 'sam-r640' => 'SCH-R640',
+            'sm-t255a' => 'SM-T255A',
             default => $deviceName,
         };
     }
