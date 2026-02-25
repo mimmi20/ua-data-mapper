@@ -46,7 +46,7 @@ final class BrowserNameMapper
             'adsbot-google' => 'AdsBot Google',
             'seokicks-robot', 'seokicks robot', 'seokicks' => 'SEOkicks Robot',
             'gomeza', 'gomezagent' => 'Gomez Site Monitor',
-            'yandex.browser', 'yandex search browser' => 'Yandex Browser',
+            'yandex.browser', 'yandex search browser', 'yandex browser corp' => 'Yandex Browser',
             'ie mobile' => 'IEMobile',
             'ovi browser', 'nokia/s40ovi', 'nokia ovi browser' => 'Nokia Proxy Browser',
             'firefox mobile', 'mobile firefox mobile', 'mobile firefox tablet', 'mobile firefox', 'firefox mobile for ios', 'firefox mobile ios', 'firefox for ios', 'firefox ios', 'fxios' => 'Firefox',
