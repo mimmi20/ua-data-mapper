@@ -648,6 +648,7 @@ final class DeviceMarketingnameMapper
             'x fold 3', 'x fold 3 5g' => 'X Fold 3',
             'x9s', 'x9s l' => 'X9s',
             'x9s plus', 'x9s plus l' => 'X9s Plus',
+            'x60', 'x60 (china)' => 'X60',
             'xplay 6', 'x play 6' => 'Xplay 6',
             'y3s', 'y3s (2021)' => 'Y3s',
             'y11', 'y11 (2023)' => 'Y11',
@@ -677,6 +678,8 @@ final class DeviceMarketingnameMapper
             'tab 2 a7-30', 'tab 2 a7-30f' => 'Tab 2 A7-30',
             'tab 2 a10-70 wi-fi', 'tab 2 a10-70f' => 'Tab 2 A10-70 Wi-Fi',
             'tab 3 7', 'tab3 7 lte', 'tab3 7 essential' => 'Tab 3 7',
+            'tab3 8', 'tab3 8 lte' => 'Tab3 8',
+            'tab3 10 business', 'tab3 10 business wi-fi' => 'Tab3 10 Business',
             'tab 4 10', 'tab4 10' => 'Tab 4 10',
             'tab 4 10 plus', 'tab 4 10 plus 10.1', 'tab4 10 plus' => 'Tab 4 10 Plus',
             'tab 10 10.1"', 'tab10 10.1"' => 'Tab 10 10.1"',
@@ -686,7 +689,7 @@ final class DeviceMarketingnameMapper
             'tab m8 wi-fi (4rd gen)', 'tab m8 (gen 4)', 'tab m8 lte (4rd gen)' => 'Tab M8 (4rd Gen)',
             'tab m8 (gen 4) (2024)', 'tab m8 4g (4rd gen, 2024)', 'tab m8 wi-fi (4rd gen, 2024)' => 'Tab M8 4G (4rd Gen, 2024)',
             'tab m9', 'tab m9 wi-fi', 'tab m9 lte' => 'Tab M9',
-            'tab m10', 'tab m10 hd wi-fi', 'tab m10 lte' => 'Tab M10',
+            'tab m10', 'tab m10 hd wi-fi', 'tab m10 lte', 'tab m10 fhd wi-fi' => 'Tab M10',
             'tab m10 (gen 3)', 'tab m10 wi-fi (3rd gen)', 'tab m10 lte (3rd gen)' => 'Tab M10 (Gen 3)',
             'tab m10 fhd plus', 'tab m10 fhd plus wi-fi', 'tab m10 fhd plus lte' => 'Tab M10 FHD Plus',
             'tab m10 hd', 'smart tab m10 hd (2nd gen, wi-fi)' => 'Tab M10 HD',
@@ -994,6 +997,7 @@ final class DeviceMarketingnameMapper
             // chuwi
             'hi10 xpro', 'hi10 xpro pad' => 'Hi10 XPro',
             // motorola
+            'defy', 'defy (2021)' => 'Defy',
             'droid' => 'Droid',
             'droid razr' => 'Droid Razr',
             'edge 20', 'edge 20 (2021)' => 'Edge 20',
@@ -1039,6 +1043,7 @@ final class DeviceMarketingnameMapper
             'g stylo', 'g stylo (t-mobile)' => 'G Stylo',
             'joy', 'joy 3g' => 'Joy',
             'k20', 'k20 (2019)' => 'K20',
+            'k30', 'k30 (2019)' => 'K30',
             'k41s' => 'K41s',
             'k51s' => 'K51s',
             'k92', 'k92 5g' => 'K92',
@@ -1103,6 +1108,7 @@ final class DeviceMarketingnameMapper
             // free-yond
             'm5', 'm5 5g', 'm5 (india)' => 'M5',
             // medion
+            'lifetab e1050x' => 'LifeTab E1050X',
             'lifetab e1060x' => 'LifeTab E1060X',
             'lifetab e1080x' => 'LifeTab E1080X',
             'lifetab e1081x' => 'LifeTab E1081X',
