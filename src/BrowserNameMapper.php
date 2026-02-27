@@ -284,6 +284,7 @@ final class BrowserNameMapper
             'antbot', 'ant' => 'AntBot',
             'avast secure browser', 'avast safezone' => 'Avast Secure Browser',
             'semrush reputation management' => 'SEMrush Reputation Management',
+            'winhttp', 'winhttp winhttprequest' => 'WinHttp',
             default => $browserInput,
         };
     }
