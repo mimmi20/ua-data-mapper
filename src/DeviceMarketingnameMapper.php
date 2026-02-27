@@ -1232,6 +1232,8 @@ final class DeviceMarketingnameMapper
             // tp-link
             'neffos c5l', 'c5l' => 'Neffos C5L',
             'neffos c5 max', 'c5 max' => 'Neffos C5 Max',
+            // a-rival
+            'bioniq p116' => 'BioniQ P116',
             default => $marketingName,
         };
     }
