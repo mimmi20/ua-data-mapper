@@ -65,6 +65,7 @@ final class MakerMapper
             'wortmann', 'terra' => 'Wortmann',
             'qihoo 360', '360' => 'Qihoo 360',
             'a-rival', 'arival' => 'A-Rival',
+            'aoyodkg' => 'Aoyodkg',
             default => $maker,
         };
     }

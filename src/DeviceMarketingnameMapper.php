@@ -187,7 +187,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 10', 'galaxy note 10 (usa)', 'galaxy note 10 (canada)', 'galaxy note 10 (latam, brazil, china)', 'galaxy note 10 (europe)', 'galaxy note 10 5g (korea)' => 'Galaxy Note 10',
             'galaxy note 10 lite', 'galaxy note 10 lite (global)' => 'Galaxy Note 10 Lite',
             'galaxy note 10 plus 4g (europe)', 'galaxy note 10+', 'galaxy note 10+ 5g', 'galaxy note 10+ 4g (usa)', 'galaxy note 10+ 4g (europe)', 'galaxy note 10+ 4g wimax 2+', 'galaxy note 10+ 4g (latam, brazil, china)' => 'Galaxy Note 10+',
-            'galaxy note 10.1" 2014 edition', 'galaxy note 10.1 3g (2014)', 'galaxy note 10.1 lte (2014)', 'galaxy note 10.1" 2014 edition lte' => 'Galaxy Note 10.1" 2014',
+            'galaxy note 10.1" 2014 edition', 'galaxy note 10.1 3g (2014)', 'galaxy note 10.1 lte (2014)', 'galaxy note 10.1" 2014 edition lte', 'galaxy note 10.1" lte (2014)' => 'Galaxy Note 10.1" 2014',
             'galaxy note 10.1" 2014 edition wifi', 'galaxy note 10.1" wi-fi (2014)', 'galaxy note 10.1" wi-fi 2014' => 'Galaxy Note 10.1" Wi-Fi 2014',
             'galaxy note 20', 'galaxy note 20 4g' => 'Galaxy Note 20',
             'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)' => 'Galaxy Note 20 5G',

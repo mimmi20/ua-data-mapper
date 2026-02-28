@@ -384,6 +384,7 @@ final class DeviceBrandnameMapper
             'qihoo 360', '360' => 'Qihoo 360',
             'tp-link', 'neffos' => 'tp-link',
             'a-rival', 'arival' => 'A-Rival',
+            'aoyodkg' => 'Aoyodkg',
             default => $brandName,
         };
     }
