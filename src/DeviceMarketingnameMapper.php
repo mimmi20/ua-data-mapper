@@ -37,6 +37,7 @@ final class DeviceMarketingnameMapper
             '', 'unknown', 'other', 'various', 'some unknown model' => null,
             // alcatel/tcl
             '30 z', '30 z (cricket)' => '30 Z',
+            '3c (2019)' => '3c (2019)',
             '3l', '3l (2021)' => '3L',
             '3t 10.1"', '3t 10.1" 4g' => '3T 10.1"',
             '40 se', '40 se (latam)' => '40 SE',
@@ -99,7 +100,7 @@ final class DeviceMarketingnameMapper
             'galaxy a23', 'galaxy a23 4g' => 'Galaxy A23',
             'galaxy a23 5g', 'galaxy a23 5g (usa)', 'galaxy a23 5g (usa unlocked)', 'galaxy a23 5g (asia/africa)', 'galaxy a23 5g (international)', 'galaxy a23 5g (japan)' => 'Galaxy A23 5G',
             'galaxy a24', 'galaxy a24 4g (international)', 'galaxy a24 4g (usa)', 'galaxy a24 4g (korea)' => 'Galaxy A24',
-            'galaxy a30s', 'galaxy a30s (global)', 'galaxy a30s (apac)' => 'Galaxy A30s',
+            'galaxy a30s', 'galaxy a30s (global)', 'galaxy a30s (apac)', 'galaxy a30s (latam)' => 'Galaxy A30s',
             'galaxy a32', 'galaxy a32 4g' => 'Galaxy A32',
             'galaxy a32 5g', 'galaxy a32 5g (usa unlocked)', 'galaxy a32 5g (international)', 'galaxy a32 5g (usa)' => 'Galaxy A32 5G',
             'galaxy a33 5g', 'galaxy a33 5g (international)', 'galaxy a33 5g (asia/africa)', 'galaxy a33 5g (china)' => 'Galaxy A33 5G',
@@ -211,7 +212,7 @@ final class DeviceMarketingnameMapper
             'galaxy s5', 'galaxy s5 lte', 'galaxy s5 (sprint)', 'galaxy s5 neo', 'galaxy s5 (us cellular)', 'galaxy s5 cdma (verizon)', 'galaxy s5 lte (at&t)' => 'Galaxy S5',
             'galaxy s5 duos', 'galaxy s5 dual-sim' => 'Galaxy S5 Duos',
             'galaxy s5 mini', 'galaxy s5 mini (europe)' => 'Galaxy S5 mini',
-            'galaxy s6', 'galaxy s6 cdma (sprint)', 'galaxy s6 (at&t)', 'galaxy s6 (global)', 'galaxy s6 (latam, singapore, india, australia)' => 'Galaxy S6',
+            'galaxy s6', 'galaxy s6 cdma (sprint)', 'galaxy s6 (at&t)', 'galaxy s6 (global)', 'galaxy s6 (latam, singapore, india, australia)', 'galaxy s6 (verizon)' => 'Galaxy S6',
             'galaxy s6 edge', 'galaxy s6 edge (global)' => 'Galaxy S6 Edge',
             'galaxy s6 edge+', 'galaxy s6 edge+ lte (mexico)', 'galaxy s6 edge+ cdma+lte (verizon)', 'galaxy s6 edge+ lte (europe)', 'galaxy s6 edge+ lte (india)' => 'Galaxy S6 Edge+',
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos', 'galaxy s7 (at&t)', 'galaxy s7 (canada)' => 'Galaxy S7',
@@ -220,7 +221,7 @@ final class DeviceMarketingnameMapper
             'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)' => 'Galaxy S8',
             'galaxy s9', 'galaxy s9 (usa)', 'galaxy s9 (usa unlocked)' => 'Galaxy S9',
             'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)', 'galaxy s9+ (canada)' => 'Galaxy S9+',
-            'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)' => 'Galaxy S10',
+            'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)', 'galaxy s10 5g (global)' => 'Galaxy S10',
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)', 'galaxy s10+ dual sim (latam, brazil, china)' => 'Galaxy S10+',
             'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)' => 'Galaxy S10e',
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
@@ -710,6 +711,7 @@ final class DeviceMarketingnameMapper
             'xiaoxin pad 10.6" (2022)', 'xiaoxin pad pro 10.6" (2022)' => 'Xiaoxin Pad 10.6" (2022)',
             'xiaoxin pad 11" (2024)', 'xiaoxin pad 11" wi-fi (2024)' => 'Xiaoxin Pad 11" (2024)',
             'xiaoxin pad pro 12.7"', 'xiaoxin pad pro 12.7" wi-fi' => 'Xiaoxin Pad Pro 12.7"',
+            'yoga 8', 'yoga tablet 8' => 'Yoga 8',
             'yoga tab 3', 'yoga tab 3 10' => 'Yoga Tab 3',
             'yoga tab 3 plus', 'yoga tab 3 plus 10' => 'Yoga Tab 3 Plus',
             // infinix
@@ -772,6 +774,7 @@ final class DeviceMarketingnameMapper
             'xperia xz3', 'xperia xz3 lte' => 'Xperia XZ3',
             'xperia z2', 'xperia z2 lte' => 'Xperia Z2',
             'xperia z3+', 'xperia z3+ dual' => 'Xperia Z3+',
+            'xperia z4', 'xperia z4 tablet lte' => 'Xperia Z4',
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
             'c1 (2025)', 'oukitel c1' => 'C1',
@@ -915,6 +918,7 @@ final class DeviceMarketingnameMapper
             'pixel 4a', 'pixel 4a 5g', 'pixel 4a (5g)' => 'Pixel 4a',
             'nexus 7', 'nexus 7p' => 'Nexus 7',
             // asus
+            'rog phone 2', 'rog phone 2 zs660kl' => 'ROG Phone 2',
             'rog phone 6d', 'rog phone 6d 5g' => 'ROG Phone 6D',
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
@@ -940,6 +944,7 @@ final class DeviceMarketingnameMapper
             'blade v50', 'blade v50 5g' => 'Blade V50',
             'blade v60 design 4g', 'axon 60 lite' => 'Blade V60 Design 4G',
             'blade v70 vita', 'blade v70 design' => 'Blade V70 Vita',
+            'blade v2020', 'blade v2020 (lte-a, latam)' => 'Blade V2020',
             'open' => 'Open',
             'pad pro 10.9" wi-fi', 'pad pro 10.9" wifi' => 'Pad Pro 10.9" Wi-Fi',
             'red magic 6', 'red magic 6 5g' => 'Red Magic 6',
@@ -1110,6 +1115,7 @@ final class DeviceMarketingnameMapper
             // archos
             't101 fhd wi-fi', 't101 fhd wifi' => 'T101 FHD Wi-Fi',
             'gamepad' => 'GamePad',
+            '101b xenon v2' => '101b Xenon V2',
             // cepter
             'tab 10l', 'tab10l' => 'Tab 10L',
             // energizer
@@ -1252,6 +1258,8 @@ final class DeviceMarketingnameMapper
             // tolino
             'tab 8', 'tolino tab 8' => 'Tab 8',
             'tab 8.9', 'tolino tab 8.9' => 'Tab 8.9',
+            // xoro
+            'hst 260', 'hst 260 s' => 'HST 260',
             default => $marketingName,
         };
     }
