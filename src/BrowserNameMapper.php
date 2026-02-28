@@ -285,6 +285,8 @@ final class BrowserNameMapper
             'avast secure browser', 'avast safezone' => 'Avast Secure Browser',
             'semrush reputation management' => 'SEMrush Reputation Management',
             'winhttp', 'winhttp winhttprequest' => 'WinHttp',
+            'unity web player', 'unityplayer' => 'Unity Web Player',
+            'netpeakcheckerbot', 'netpeak checker' => 'NetpeakCheckerBot',
             default => $browserInput,
         };
     }
