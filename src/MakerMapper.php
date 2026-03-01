@@ -64,6 +64,9 @@ final class MakerMapper
             't-mobile', 'telekom' => 'T-Mobile',
             'wortmann', 'terra' => 'Wortmann',
             'qihoo 360', '360' => 'Qihoo 360',
+            'a-rival', 'arival' => 'A-Rival',
+            'aoyodkg' => 'Aoyodkg',
+            'xiaomi', 'black shark' => 'Xiaomi',
             default => $maker,
         };
     }
