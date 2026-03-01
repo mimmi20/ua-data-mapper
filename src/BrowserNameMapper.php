@@ -218,7 +218,7 @@ final class BrowserNameMapper
             'surveybot', 'survey bot' => 'SurveyBot',
             'gazeta bot', 'yandex.gazeta bot' => 'Gazeta Bot',
             'chrome plus', 'chromeplus' => 'Chrome Plus',
-            'netcraft survey agent', 'netcraft survey bot' => 'Netcraft Survey Agent',
+            'netcraft survey agent', 'netcraft survey bot', 'netcraft webserver survey' => 'Netcraft Survey Agent',
             'optimizer bot', 'sistrix optimizer' => 'Optimizer Bot',
             'go httpclient', 'go-http-client' => 'GO HttpClient',
             'duckduck bot', 'duckduckbot' => 'DuckDuck Bot',
@@ -294,6 +294,7 @@ final class BrowserNameMapper
             'gener8', 'gener8 browser' => 'Gener8',
             'senutobot', 'senuto' => 'SenutoBot',
             'viber', 'viberdownloader' => 'Viber',
+            'flipboard', 'flipboardproxy' => 'Flipboard',
             default => $browserInput,
         };
     }
