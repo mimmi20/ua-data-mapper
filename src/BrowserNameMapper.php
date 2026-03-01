@@ -287,6 +287,9 @@ final class BrowserNameMapper
             'winhttp', 'winhttp winhttprequest' => 'WinHttp',
             'unity web player', 'unityplayer' => 'Unity Web Player',
             'netpeakcheckerbot', 'netpeak checker' => 'NetpeakCheckerBot',
+            'gigablast', 'gigablast search engine' => 'Gigablast',
+            'boardreader', 'boardreader favicon fetcher' => 'BoardReader',
+            'feedly', 'feedly feed fetcher' => 'Feedly',
             default => $browserInput,
         };
     }
