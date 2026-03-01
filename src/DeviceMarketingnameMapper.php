@@ -1286,6 +1286,8 @@ final class DeviceMarketingnameMapper
             'tab 8.9', 'tolino tab 8.9' => 'Tab 8.9',
             // xoro
             'hst 260', 'hst 260 s' => 'HST 260',
+            // wiko
+            'rainbow', 'rainbow 4g' => 'Rainbow',
             default => $marketingName,
         };
     }

@@ -295,6 +295,7 @@ final class BrowserNameMapper
             'senutobot', 'senuto' => 'SenutoBot',
             'viber', 'viberdownloader' => 'Viber',
             'flipboard', 'flipboardproxy' => 'Flipboard',
+            'uptimerobot', 'uptimebot' => 'UptimeRobot',
             default => $browserInput,
         };
     }
