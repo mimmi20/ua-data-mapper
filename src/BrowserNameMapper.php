@@ -290,6 +290,10 @@ final class BrowserNameMapper
             'gigablast', 'gigablast search engine' => 'Gigablast',
             'boardreader', 'boardreader favicon fetcher' => 'BoardReader',
             'feedly', 'feedly feed fetcher' => 'Feedly',
+            'internet web browser', 'internet webbrowser' => 'Internet Web Browser',
+            'gener8', 'gener8 browser' => 'Gener8',
+            'senutobot', 'senuto' => 'SenutoBot',
+            'viber', 'viberdownloader' => 'Viber',
             default => $browserInput,
         };
     }

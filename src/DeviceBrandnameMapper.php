@@ -52,7 +52,7 @@ final class DeviceBrandnameMapper
             'al', 'alcatel' => 'Alcatel',
             'mb', 'mobistel' => 'Mobistel',
             'wi', 'wiko' => 'Wiko',
-            'xi', 'xiaomi' => 'Xiaomi',
+            'xi', 'xiaomi', 'black shark' => 'Xiaomi',
             'ar', 'archos' => 'Archos',
             'kz', 'kazam' => 'KAZAM',
             'ms', 'microsoft' => 'Microsoft',
