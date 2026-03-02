@@ -100,6 +100,7 @@ final class DeviceMarketingnameMapper
             'galaxy a16 5g', 'galaxy a16 5g (international)' => 'Galaxy A16 5G',
             'galaxy a20', 'galaxy a20 (global)', 'galaxy a20 (usa)' => 'Galaxy A20',
             'galaxy a20s', 'galaxy a20s (global)', 'galaxy a20s (latam, brazil)' => 'Galaxy A20s',
+            'galaxy a21', 'galaxy a21 (japan)' => 'Galaxy A21',
             'galaxy a21s', 'galaxy a21s (2020)', 'galaxy a21s (2020, usa)', 'galaxy a21s (2020, international)' => 'Galaxy A21s',
             'galaxy a22', 'galaxy a22 4g' => 'Galaxy A22',
             'galaxy a22 5g', 'galaxy a22 5g (international)' => 'Galaxy A22 5G',
