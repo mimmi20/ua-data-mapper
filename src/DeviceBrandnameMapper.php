@@ -52,7 +52,7 @@ final class DeviceBrandnameMapper
             'al', 'alcatel' => 'Alcatel',
             'mb', 'mobistel' => 'Mobistel',
             'wi', 'wiko' => 'Wiko',
-            'xi', 'xiaomi' => 'Xiaomi',
+            'xi', 'xiaomi', 'black shark' => 'Xiaomi',
             'ar', 'archos' => 'Archos',
             'kz', 'kazam' => 'KAZAM',
             'ms', 'microsoft' => 'Microsoft',
@@ -383,6 +383,8 @@ final class DeviceBrandnameMapper
             'tesla', 'tesla motors' => 'Tesla',
             'qihoo 360', '360' => 'Qihoo 360',
             'tp-link', 'neffos' => 'tp-link',
+            'a-rival', 'arival' => 'A-Rival',
+            'aoyodkg' => 'Aoyodkg',
             default => $brandName,
         };
     }
