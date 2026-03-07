@@ -1067,6 +1067,7 @@ final class DeviceMarketingnameMapper
             'aquos wish3', 'aquos wish 3 5g' => 'Aquos Wish 3',
             'aquos v6', 'aquos v6 4g' => 'Aquos V6',
             'basio active', 'basio active 5g' => 'Basio Active',
+            'aquos r5g', 'aquos r5g 5g' => 'Aquos R5G',
             // lg
             'aristo', 'aristo (metro pcs)' => 'Aristo',
             'g2', 'g2 (at&t)' => 'G2',
