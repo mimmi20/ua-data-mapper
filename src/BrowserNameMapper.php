@@ -304,6 +304,9 @@ final class BrowserNameMapper
             'acoonbot', 'acoon' => 'AcoonBot',
             'netestate', 'netestate ne crawler' => 'netEstate',
             'the old reader', 'theoldreader' => 'The Old Reader',
+            'sider bot', 'sider' => 'Sider Bot',
+            'huggingfacebot', 'huggingface-bot' => 'HuggingFaceBot',
+            'runpodbot', 'runpod-bot' => 'RunPodBot',
             default => $browserInput,
         };
     }
