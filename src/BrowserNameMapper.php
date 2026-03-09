@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot', 'msnbot-media' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
@@ -307,6 +307,11 @@ final class BrowserNameMapper
             'sider bot', 'sider' => 'Sider Bot',
             'huggingfacebot', 'huggingface-bot' => 'HuggingFaceBot',
             'runpodbot', 'runpod-bot' => 'RunPodBot',
+            'megaindex crawler', 'megaindex' => 'MegaIndex Crawler',
+            'domainappender bot', 'domainappender' => 'DomainAppender Bot',
+            'bloglovin bot', 'bloglovin' => 'Bloglovin Bot',
+            'yandexbot' => 'YandexBot',
+            'redline client', 'redline' => 'Redline Client',
             default => $browserInput,
         };
     }
