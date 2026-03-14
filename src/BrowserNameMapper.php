@@ -312,6 +312,10 @@ final class BrowserNameMapper
             'bloglovin bot', 'bloglovin' => 'Bloglovin Bot',
             'yandexbot' => 'YandexBot',
             'redline client', 'redline' => 'Redline Client',
+            'hypestatbot', 'hypestat' => 'HypeStatBot',
+            'ai2bot', 'ai2bot-dolma' => 'Ai2Bot',
+            'big sur ai bot', 'big sur ai' => 'Big Sur AI Bot',
+            'ionos crawler' => 'Ionos Crawler',
             default => $browserInput,
         };
     }
