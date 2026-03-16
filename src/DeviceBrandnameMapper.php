@@ -385,6 +385,7 @@ final class DeviceBrandnameMapper
             'tp-link', 'neffos' => 'tp-link',
             'a-rival', 'arival' => 'A-Rival',
             'aoyodkg' => 'Aoyodkg',
+            'sonos' => 'Sonos',
             default => $brandName,
         };
     }

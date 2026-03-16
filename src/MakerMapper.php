@@ -67,6 +67,7 @@ final class MakerMapper
             'a-rival', 'arival' => 'A-Rival',
             'aoyodkg' => 'Aoyodkg',
             'xiaomi', 'black shark' => 'Xiaomi',
+            'sonos' => 'Sonos',
             default => $maker,
         };
     }
