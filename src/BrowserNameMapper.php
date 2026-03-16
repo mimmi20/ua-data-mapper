@@ -256,7 +256,7 @@ final class BrowserNameMapper
             'odin browser', 'odin' => 'Odin Browser',
             'w3c markup validation service', 'validator.nu/lv' => 'W3C Markup Validation Service',
             'quick app center', 'huawei quick app center' => 'Quick App Center',
-            'yahoo! japan', 'yahoo! japan bot', 'yahoo! japan app', 'yahoo! japan bro', 'yahoo! japan wsc', 'yahoo! japan asr' => 'Yahoo! Japan',
+            'yahoo! japan', 'yahoo! japan bot', 'yahoo! japan app', 'yahoo! japan bro', 'yahoo! japan wsc', 'yahoo! japan asr', 'yahoo! japan psc' => 'Yahoo! Japan',
             '360 secure browser', '360 speed browser' => '360 Secure Browser',
             'petalsearch', 'petal search' => 'PetalSearch',
             'blexbot', 'blexbot crawler' => 'BLEXBot',
@@ -327,6 +327,7 @@ final class BrowserNameMapper
             'diffbot', 'doximity-diffbot' => 'Diffbot',
             'klarnabot', 'klarnabot pricewatcher', 'klarnabot enrichproducts', 'klarnabot downloadproductimage' => 'KlarnaBot',
             'pdr labs bot', 'pdr labs' => 'PDR Labs Bot',
+            'fedilist', 'fedilist agent' => 'FediList',
             default => $browserInput,
         };
     }
