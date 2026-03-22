@@ -842,6 +842,7 @@ final class DeviceMarketingnameMapper
             'matepad 11.5" wi-fi (2023)', 'matepad 11.5" wifi' => 'MatePad 11.5" Wi-Fi (2023)',
             'matepad 11.5" wi-fi (2024)', 'matepad 11.5" (2024) wifi' => 'MatePad 11.5" Wi-Fi (2024)',
             'matepad 12 x wifi', 'matepad 12 x wi-fi (2024)' => 'MatePad 12 X Wi-Fi',
+            'matepad c5e 10.1" wi-fi', 'matepad c5e 10.1" wifi' => 'MatePad C5e 10.1" Wi-Fi',
             'matepad pro 10.8"', 'matepad pro 10.8" lte (2019)' => 'MatePad Pro 10.8"',
             'matepad pro 10.8" 5g' => 'MatePad Pro 10.8" 5G',
             'matepad pro 10.8" wifi', 'matepad pro 10.8" wi-fi (2019)' => 'MatePad Pro 10.8" Wi-Fi',
@@ -1298,6 +1299,13 @@ final class DeviceMarketingnameMapper
             'hst 260', 'hst 260 s' => 'HST 260',
             // wiko
             'rainbow', 'rainbow 4g' => 'Rainbow',
+            // asano
+            '32lh5000t', '32lh5000t 32.0"' => '32LH5000T',
+            '43lu6000t', '43lu6000t 43.0"' => '43LU6000T',
+            '50lu6000t', '50lu6000t 50.0"' => '50LU6000T',
+            '55lu8030s', '55lu8030s 55.0"' => '55LU8030S',
+            '24lf8010t', '24lf8010t 24.0"' => '24LF8010T',
+            '24lh7010t', '24lh7010t 24.0"' => '24LH7010T',
             default => $marketingName,
         };
     }
