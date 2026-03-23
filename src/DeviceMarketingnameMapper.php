@@ -1306,6 +1306,9 @@ final class DeviceMarketingnameMapper
             '55lu8030s', '55lu8030s 55.0"' => '55LU8030S',
             '24lf8010t', '24lf8010t 24.0"' => '24LF8010T',
             '24lh7010t', '24lh7010t 24.0"' => '24LH7010T',
+            '24lh8011t', '24lh8011t 24.0"' => '24LH8011T',
+            // redline
+            'red360 air 8k' => 'Red360 Air 8K',
             default => $marketingName,
         };
     }
