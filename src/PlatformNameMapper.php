@@ -70,7 +70,7 @@ final class PlatformNameMapper
             'symbian', 'symbian^3', 'symbian os' => 'Symbian',
             'nucleus os', 'mtk / nucleus' => 'Nucleus OS',
             'amiga os', 'amigaos' => 'Amiga OS',
-            'windows', 'windows nt' => 'Windows',
+            'windows', 'windows nt', 'windows rt' => 'Windows',
             'ios', 'iphone os' => 'iOS',
             'solaris', 'sunos' => 'Solaris',
             'windows mobile', 'windows phone os', 'windows phone' => 'Windows Mobile',
