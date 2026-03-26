@@ -1311,6 +1311,8 @@ final class DeviceMarketingnameMapper
             '24lh8011t', '24lh8011t 24.0"' => '24LH8011T',
             // redline
             'red360 air 8k' => 'Red360 Air 8K',
+            // rombica
+            'tv impact', 'tv impact pro' => 'TV Impact',
             default => $marketingName,
         };
     }
