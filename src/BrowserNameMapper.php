@@ -328,6 +328,9 @@ final class BrowserNameMapper
             'klarnabot', 'klarnabot pricewatcher', 'klarnabot enrichproducts', 'klarnabot downloadproductimage' => 'KlarnaBot',
             'pdr labs bot', 'pdr labs' => 'PDR Labs Bot',
             'fedilist', 'fedilist agent' => 'FediList',
+            'sonos' => 'Sonos',
+            'peer39 crawler', 'peer39' => 'Peer39 Crawler',
+            'marginalia crawler', 'marginalia' => 'Marginalia Crawler',
             default => $browserInput,
         };
     }
