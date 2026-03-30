@@ -331,6 +331,8 @@ final class BrowserNameMapper
             'sonos' => 'Sonos',
             'peer39 crawler', 'peer39' => 'Peer39 Crawler',
             'marginalia crawler', 'marginalia' => 'Marginalia Crawler',
+            'leak.info bot', 'leak.info' => 'leak.info Bot',
+            '+simple browser', '+simple' => '+Simple Browser',
             default => $browserInput,
         };
     }
