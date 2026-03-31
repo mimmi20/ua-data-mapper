@@ -202,7 +202,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 10.1" 2014 edition', 'galaxy note 10.1 3g (2014)', 'galaxy note 10.1 lte (2014)', 'galaxy note 10.1" 2014 edition lte', 'galaxy note 10.1" lte (2014)' => 'Galaxy Note 10.1" 2014',
             'galaxy note 10.1" 2014 edition wifi', 'galaxy note 10.1" wi-fi (2014)', 'galaxy note 10.1" wi-fi 2014' => 'Galaxy Note 10.1" Wi-Fi 2014',
             'galaxy note 20', 'galaxy note 20 4g' => 'Galaxy Note 20',
-            'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)' => 'Galaxy Note 20 5G',
+            'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)', 'galaxy note 20 5g (usa, unlocked)' => 'Galaxy Note 20 5G',
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)', 'galaxy note 20 ultra 5g (usa, unlocked)', 'galaxy note 20 ultra 5g (korea)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy note pro 12.2" lte', 'galaxy notepro 12.2" lte' => 'Galaxy Note Pro 12.2" LTE',
@@ -665,6 +665,7 @@ final class DeviceMarketingnameMapper
             'v50 lite', 'v50 lite 4g' => 'V50 Lite',
             'v60 lite', 'v60 lite 4g' => 'V60 Lite',
             'x fold 3', 'x fold 3 5g' => 'X Fold 3',
+            'x6 plus', 'x6 plus d' => 'X6 Plus',
             'x9s', 'x9s l' => 'X9s',
             'x9s plus', 'x9s plus l' => 'X9s Plus',
             'x60', 'x60 (china)' => 'X60',
@@ -682,6 +683,7 @@ final class DeviceMarketingnameMapper
             'y72 5g', 'y72 5g (global)' => 'Y72 5G',
             'y77', 'y77 (china)' => 'Y77',
             'y78', 'y78 (china)' => 'Y78',
+            'y85', 'y85a' => 'Y85',
             'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)' => 'Y100',
             'y100 5g', 'y100 5g (china)' => 'Y100 5G',
             'y200 5g', 'y200 5g (china)', 'y200 pro 5g', 'y200 5g (india)' => 'Y200 5G',
@@ -1309,6 +1311,8 @@ final class DeviceMarketingnameMapper
             '24lh8011t', '24lh8011t 24.0"' => '24LH8011T',
             // redline
             'red360 air 8k' => 'Red360 Air 8K',
+            // rombica
+            'tv impact', 'tv impact pro' => 'TV Impact',
             default => $marketingName,
         };
     }
