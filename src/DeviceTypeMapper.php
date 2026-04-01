@@ -44,7 +44,7 @@ final class DeviceTypeMapper
             'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
             'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => Type::Tv,
             'unknown' => Type::Unknown,
-            'phablet' => Type::Smartphone,
+            'phablet', 'featurephone', 'feature-phone', 'feature phone', 'mobilephone', 'mobile-phone', 'mobile phone', 'smartphone' => Type::Phone,
             'camera' => Type::DigitalCamera,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
