@@ -333,6 +333,9 @@ final class BrowserNameMapper
             'marginalia crawler', 'marginalia' => 'Marginalia Crawler',
             'leak.info bot', 'leak.info' => 'leak.info Bot',
             '+simple browser', '+simple' => '+Simple Browser',
+            'yandex news', 'yandexnews' => 'Yandex News',
+            '360 browser', '360 phone browser' => '360 Browser',
+            'iis site analysis web crawler', 'iis site analysis' => 'IIS Site Analysis Web Crawler',
             default => $browserInput,
         };
     }
