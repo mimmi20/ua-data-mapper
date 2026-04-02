@@ -336,6 +336,7 @@ final class BrowserNameMapper
             'yandex news', 'yandexnews' => 'Yandex News',
             '360 browser', '360 phone browser' => '360 Browser',
             'iis site analysis web crawler', 'iis site analysis' => 'IIS Site Analysis Web Crawler',
+            'webdav', 'microsoft-webdav' => 'WebDAV',
             default => $browserInput,
         };
     }

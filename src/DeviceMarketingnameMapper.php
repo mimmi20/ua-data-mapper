@@ -1324,6 +1324,7 @@ final class DeviceMarketingnameMapper
             '24lf8010t', '24lf8010t 24.0"' => '24LF8010T',
             '24lh7010t', '24lh7010t 24.0"' => '24LH7010T',
             '24lh8011t', '24lh8011t 24.0"' => '24LH8011T',
+            '40lf8130s', '40lf8130s 40.0"' => '40LF8130S',
             // redline
             'red360 air 8k' => 'Red360 Air 8K',
             // rombica
