@@ -806,6 +806,7 @@ final class DeviceMarketingnameMapper
             'xperia miro' => 'Xperia Miro',
             'xperia tablet z', 'xperia tablet z wi-fi' => 'Xperia Tablet Z',
             'xperia x10 mini' => 'Xperia X10 Mini',
+            'xperia x10 mini pro' => 'Xperia X10 Mini Pro',
             'xperia xz2', 'xperia xz2 dual', 'xperia xz2 compact' => 'Xperia XZ2',
             'xperia xz3', 'xperia xz3 lte' => 'Xperia XZ3',
             'xperia z2', 'xperia z2 lte' => 'Xperia Z2',
