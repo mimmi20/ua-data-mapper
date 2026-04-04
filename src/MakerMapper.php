@@ -56,7 +56,7 @@ final class MakerMapper
             'mojeek ltd.' => 'Linkdex Limited',
             'kddi' => 'KDDI',
             'jide', 'jedi' => 'Jide',
-            'sonyericsson', 'sony ericsson' => 'SonyEricsson',
+            'sony', 'sonyericsson', 'sony ericsson' => 'Sony',
             'premier', 'premier star' => 'Premier',
             'multynet' => 'Multynet',
             'tcl', 'tcl scbc' => 'TCL',
