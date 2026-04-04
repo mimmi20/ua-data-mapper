@@ -155,7 +155,7 @@ final class BrowserNameMapper
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
             'sogou web spider', 'sogou spider', 'sogou orion spider' => 'Sogou Spider',
             'headline bot', 'headline' => 'headline bot',
-            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher' => 'HubSpot Crawler',
+            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher', 'hubspot ads link fetcher' => 'HubSpot Crawler',
             'kindle browser', 'kindle' => 'Kindle Browser',
             'comodo dragon', 'dragon' => 'Comodo Dragon',
             'evernote app', 'evernote' => 'Evernote App',
@@ -337,6 +337,9 @@ final class BrowserNameMapper
             '360 browser', '360 phone browser' => '360 Browser',
             'iis site analysis web crawler', 'iis site analysis' => 'IIS Site Analysis Web Crawler',
             'webdav', 'microsoft-webdav' => 'WebDAV',
+            'quantcastbot', 'quantcast' => 'QuantcastBot',
+            'gozlebot', 'gozle' => 'GozleBot',
+            'sirdatabot', 'sirdata' => 'SirdataBot',
             default => $browserInput,
         };
     }

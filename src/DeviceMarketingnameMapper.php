@@ -1224,7 +1224,7 @@ final class DeviceMarketingnameMapper
             // nvidia
             'shield android tv' => 'Shield Android TV',
             // tv+
-            'smart tv', 'tvplus box', 'google tv uhd+', 'viera tv' => 'Smart TV',
+            'smart tv', 'tvplus box', 'google tv uhd+', 'viera tv', 'smart tv (2014)' => 'Smart TV',
             // spice
             'm5885', 'm5885   browser' => 'M5885',
             // aoc
