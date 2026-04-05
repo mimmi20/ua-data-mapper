@@ -355,6 +355,7 @@ final class BrowserNameMapper
             'urlinspectorbot', 'urlinspector' => 'URLinspectorBot',
             'sublinq crawler', 'sublinq' => 'Sublinq Crawler',
             'exchange check' => 'Exchange Check',
+            'soso spider', 'soso image spider' => 'Soso Spider',
             default => $browserInput,
         };
     }
