@@ -348,6 +348,9 @@ final class BrowserNameMapper
             'paper.li bot', 'paperlibot' => 'Paper.li Bot',
             'bubing bot', 'bubing' => 'BUbiNG Bot',
             'yandex image resizer', 'yandeximageresizer' => 'Yandex Image Resizer',
+            'garmin fenix 5x', 'garmin fenix 5x plus' => 'Garmin fenix 5X',
+            'playapod', 'playapod lite' => 'Playapod',
+            'awariobot', 'awario' => 'AwarioBot',
             default => $browserInput,
         };
     }
