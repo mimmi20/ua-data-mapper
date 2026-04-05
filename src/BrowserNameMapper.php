@@ -351,6 +351,10 @@ final class BrowserNameMapper
             'garmin fenix 5x', 'garmin fenix 5x plus' => 'Garmin fenix 5X',
             'playapod', 'playapod lite' => 'Playapod',
             'awariobot', 'awario' => 'AwarioBot',
+            'reqbin', 'reqbin curl client' => 'ReqBin',
+            'urlinspectorbot', 'urlinspector' => 'URLinspectorBot',
+            'sublinq crawler', 'sublinq' => 'Sublinq Crawler',
+            'exchange check' => 'Exchange Check',
             default => $browserInput,
         };
     }
