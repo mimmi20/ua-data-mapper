@@ -256,7 +256,7 @@ final class BrowserNameMapper
             'odin browser', 'odin' => 'Odin Browser',
             'w3c markup validation service', 'validator.nu/lv' => 'W3C Markup Validation Service',
             'quick app center', 'huawei quick app center' => 'Quick App Center',
-            'yahoo! japan', 'yahoo! japan bot', 'yahoo! japan app', 'yahoo! japan bro', 'yahoo! japan wsc', 'yahoo! japan asr', 'yahoo! japan psc', 'yahoo! japan brw', 'yahoo! japan bri', 'yahoo! japan bsc' => 'Yahoo! Japan',
+            'yahoo! japan', 'yahoo! japan bot', 'yahoo! japan app', 'yahoo! japan bro', 'yahoo! japan wsc', 'yahoo! japan asr', 'yahoo! japan psc', 'yahoo! japan brw', 'yahoo! japan bri', 'yahoo! japan bsc', 'yahoo! japan brj' => 'Yahoo! Japan',
             '360 secure browser', '360 speed browser' => '360 Secure Browser',
             'petalsearch', 'petal search' => 'PetalSearch',
             'blexbot', 'blexbot crawler' => 'BLEXBot',
@@ -356,6 +356,10 @@ final class BrowserNameMapper
             'sublinq crawler', 'sublinq' => 'Sublinq Crawler',
             'exchange check' => 'Exchange Check',
             'soso spider', 'soso image spider' => 'Soso Spider',
+            'statista', 'statista publication finder' => 'Statista',
+            'disqus', 'disqusadstxtcrawler' => 'Disqus',
+            'dotbot', 'blogbeatbot' => 'DotBot',
+            'entfer', 'entferbot' => 'Entfer',
             default => $browserInput,
         };
     }
