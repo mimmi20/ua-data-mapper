@@ -73,7 +73,7 @@ final class PlatformNameMapper
             'windows', 'windows nt', 'windows rt' => 'Windows',
             'ios', 'iphone os' => 'iOS',
             'solaris', 'sunos' => 'Solaris',
-            'windows mobile', 'windows phone os', 'windows phone' => 'Windows Mobile',
+            'windows mobile', 'windows phone os', 'windows phone', 'windows mobile os' => 'Windows Mobile',
             'horizon', 'meta horizon' => 'Horizon',
             'webos', 'lg webos' => 'webOS',
             default => $osName,
