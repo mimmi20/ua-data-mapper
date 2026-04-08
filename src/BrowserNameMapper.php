@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine', 'google adwords express', 'google adstxt', 'google shopping quality', 'google adwords displayads' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine', 'google adwords express', 'google adstxt', 'google shopping quality', 'google adwords displayads', 'google stale content probe' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot', 'msnbot-media' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
@@ -360,6 +360,9 @@ final class BrowserNameMapper
             'disqus', 'disqusadstxtcrawler' => 'Disqus',
             'dotbot', 'blogbeatbot' => 'DotBot',
             'entfer', 'entferbot' => 'Entfer',
+            'wheregoes', 'wheregoes redirect checker' => 'WhereGoes',
+            'facebook crawler', 'facebook catalog' => 'Facebook Crawler',
+            'vipnytt sitemapparser', 'sitemapparser-vipnytt' => 'VIPnytt SitemapParser',
             default => $browserInput,
         };
     }
