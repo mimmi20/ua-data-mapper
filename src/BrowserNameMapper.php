@@ -363,6 +363,7 @@ final class BrowserNameMapper
             'wheregoes', 'wheregoes redirect checker' => 'WhereGoes',
             'facebook crawler', 'facebook catalog' => 'Facebook Crawler',
             'vipnytt sitemapparser', 'sitemapparser-vipnytt' => 'VIPnytt SitemapParser',
+            'parse.ly', 'parse.ly scraper' => 'parse.ly',
             default => $browserInput,
         };
     }
