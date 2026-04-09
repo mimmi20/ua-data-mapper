@@ -622,7 +622,7 @@ final class DeviceMarketingnameMapper
             'redmi note 9 pro', 'redmi note 9 pro (india)' => 'Redmi Note 9 Pro',
             'redmi note 10 pro', 'redmi note 10 pro (india)' => 'Redmi Note 10 Pro',
             'redmi note 10t', 'redmi note 10t 5g' => 'Redmi Note 10T',
-            'redmi note 11 5g', 'redmi note 11 5g (china)' => 'Redmi Note 11 5G',
+            'redmi note 11', 'redmi note 11 5g', 'redmi note 11 5g (china)' => 'Redmi Note 11',
             'redmi note 11 pro', 'redmi note 11 pro 4g', 'redmi note 11 pro 5g (china)' => 'Redmi Note 11 Pro',
             'redmi note 11 pro+', 'redmi note 11 pro+ 5g' => 'Redmi Note 11 Pro+',
             'redmi note 12', 'redmi note 12 4g', 'redmi note 12 5g', 'note 12 4g top edition', 'redmi note 12 5g (china)' => 'Redmi Note 12',
