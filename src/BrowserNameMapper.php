@@ -364,6 +364,10 @@ final class BrowserNameMapper
             'facebook crawler', 'facebook catalog' => 'Facebook Crawler',
             'vipnytt sitemapparser', 'sitemapparser-vipnytt' => 'VIPnytt SitemapParser',
             'parse.ly', 'parse.ly scraper' => 'parse.ly',
+            'webthumbnail', 'website thumbnail generator' => 'WebThumbnail',
+            'wesee:search', 'wesee:ads' => 'WeSEE:Search',
+            'icatcher', 'icatcher podcast player' => 'iCatcher',
+            'yandex news links', 'yandexnewslinks' => 'Yandex News Links',
             default => $browserInput,
         };
     }
