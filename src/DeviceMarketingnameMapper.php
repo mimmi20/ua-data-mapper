@@ -95,7 +95,7 @@ final class DeviceMarketingnameMapper
             'galaxy a06', 'galaxy a06 (international)' => 'Galaxy A06',
             'galaxy a7', 'galaxy a7 lte duos', 'galaxy a7 duos' => 'Galaxy A7',
             'galaxy a7 (2016)', 'galaxy a7 (europe, south africa, kazakhstan, russia, 2016)', 'galaxy a7 (hong kong, china, 2016)' => 'Galaxy A7 (2016)',
-            'galaxy a11', 'galaxy a11 (inernational)' => 'Galaxy A11',
+            'galaxy a11', 'galaxy a11 (international)', 'galaxy a11 (usa)' => 'Galaxy A11',
             'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)', 'galaxy a12 nacho' => 'Galaxy A12',
             'galaxy a13', 'galaxy a13 (usa)', 'galaxy a13 (usa unlocked)', 'galaxy a13 (korea)' => 'Galaxy A13',
             'galaxy a13 5g', 'galaxy a13 5g (international)', 'galaxy a13 5g (usa unlocked)' => 'Galaxy A13 5G',
