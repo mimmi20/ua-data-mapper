@@ -102,7 +102,7 @@ final class DeviceMarketingnameMapper
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
             'galaxy a14 5g', 'galaxy a14 5g (international)', 'galaxy a14 5g (usa unlocked)', 'galaxy a14 5g (usa)', 'galaxy a14 5g (canada)' => 'Galaxy A14 5G',
             'galaxy a15 5g', 'galaxy a15 5g (usa)', 'galaxy a15 5g (canada)' => 'Galaxy A15 5G',
-            'galaxy a16 5g', 'galaxy a16 5g (international)' => 'Galaxy A16 5G',
+            'galaxy a16 5g', 'galaxy a16 5g (international)', 'galaxy a16 5g (usa)' => 'Galaxy A16 5G',
             'galaxy a20', 'galaxy a20 (global)', 'galaxy a20 (usa)', 'galaxy a20 (latam/brazil)' => 'Galaxy A20',
             'galaxy a20s', 'galaxy a20s (global)', 'galaxy a20s (latam, brazil)' => 'Galaxy A20s',
             'galaxy a21', 'galaxy a21 (japan)' => 'Galaxy A21',
