@@ -822,7 +822,7 @@ final class DeviceMarketingnameMapper
             'xperia z4', 'xperia z4 tablet lte' => 'Xperia Z4',
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
-            'c1 (2025)', 'oukitel c1' => 'C1',
+            'c1 (2025)', 'oukitel c1', 'c1', 'c1-02i' => 'C1',
             'g3', 'oukitel g3', 'g3 (t-mobile)', 'g3 (at&t)', 'g3 (europe)' => 'G3',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',
             // huawei/honor
@@ -1217,7 +1217,6 @@ final class DeviceMarketingnameMapper
             '7210 supernova', '7210 slide' => '7210 Supernova',
             'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
             'asha 230', 'asha230singlesim' => 'Asha 230',
-            'c1', 'c1-02i' => 'C1',
             'e63' => 'E63',
             'e71' => 'E71',
             'e72' => 'E72',
