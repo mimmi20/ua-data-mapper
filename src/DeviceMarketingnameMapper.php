@@ -67,6 +67,7 @@ final class DeviceMarketingnameMapper
             'desire s', 'desires s510e' => 'Desire S',
             'dream', 'dream mozilla' => 'Dream',
             'hd2', 'hd2 t8585' => 'HD2',
+            'hd7', 'hd7 t9292' => 'HD7',
             'explorer', 'explorer a310e' => 'Explorer',
             'incredible s', 'incredibles s710e' => 'Incredible S',
             'jetstream', 'p715a' => 'Jetstream',
@@ -102,7 +103,7 @@ final class DeviceMarketingnameMapper
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
             'galaxy a14 5g', 'galaxy a14 5g (international)', 'galaxy a14 5g (usa unlocked)', 'galaxy a14 5g (usa)', 'galaxy a14 5g (canada)' => 'Galaxy A14 5G',
             'galaxy a15 5g', 'galaxy a15 5g (usa)', 'galaxy a15 5g (canada)' => 'Galaxy A15 5G',
-            'galaxy a16 5g', 'galaxy a16 5g (international)' => 'Galaxy A16 5G',
+            'galaxy a16 5g', 'galaxy a16 5g (international)', 'galaxy a16 5g (usa)' => 'Galaxy A16 5G',
             'galaxy a20', 'galaxy a20 (global)', 'galaxy a20 (usa)', 'galaxy a20 (latam/brazil)' => 'Galaxy A20',
             'galaxy a20s', 'galaxy a20s (global)', 'galaxy a20s (latam, brazil)' => 'Galaxy A20s',
             'galaxy a21', 'galaxy a21 (japan)' => 'Galaxy A21',
@@ -380,6 +381,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'gear s2 42mm', 'gear s2 classic (42mm)' => 'Gear S2 42mm',
             'messager touch', 'sam-r631' => 'Messager Touch',
             'pls-m330', 'pls m330' => 'PLS-M330',
             'sch-i320' => 'SCH-I320',
@@ -478,8 +480,10 @@ final class DeviceMarketingnameMapper
             'ipod touch 5', 'ipod touch (5th gen)' => 'iPod Touch 5',
             'ipod touch 6', 'ipod touch (6th gen)' => 'iPod Touch 6',
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
+            'macbook air 11" (2013)', 'macbook air 11" (2013-2014)' => 'MacBook Air 11" (2013)',
             'macbook air 13" (2013)', 'macbook air 13" (2013-2014)' => 'MacBook Air 13" (2013)',
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
+            'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
             'watch se (40mm)', 'watch se (40mm, lte)', 'watch se 40mm' => 'Watch SE (40mm)',
@@ -620,6 +624,7 @@ final class DeviceMarketingnameMapper
             'redmi k70e', 'redmi k70e 5g' => 'Redmi K70E',
             'redmi k80', 'redmi k80 pro' => 'Redmi K80',
             'redmi note 9 pro', 'redmi note 9 pro (india)' => 'Redmi Note 9 Pro',
+            'redmi note 10', 'redmi note10' => 'Redmi Note 10',
             'redmi note 10 pro', 'redmi note 10 pro (india)' => 'Redmi Note 10 Pro',
             'redmi note 10t', 'redmi note 10t 5g' => 'Redmi Note 10T',
             'redmi note 11', 'redmi note 11 5g', 'redmi note 11 5g (china)' => 'Redmi Note 11',
@@ -683,7 +688,7 @@ final class DeviceMarketingnameMapper
             'x60', 'x60 (china)' => 'X60',
             'xplay 6', 'x play 6' => 'Xplay 6',
             'y3s', 'y3s (2021)' => 'Y3s',
-            'y11', 'y11 (2023)' => 'Y11',
+            'y11', 'y11 (2023)', 'y11 (2019)' => 'Y11',
             'y18', 'y18 (india)' => 'Y18',
             'y28', 'y28 4g' => 'Y28',
             'y28s 5g', 't3 lite 5g' => 'Y28s 5G',
@@ -704,6 +709,7 @@ final class DeviceMarketingnameMapper
             'y400', 'y400 4g' => 'Y400',
             'y500', 'y500 (china)' => 'Y500',
             // lenovo
+            'a388t' => 'A388T',
             'a7000', 'a7000-a' => 'A7000',
             'ideatab a10-70', 'ideatab a10-70 wi-fi' => 'IdeaTab A10-70',
             'legion y700', 'legion y700 wi-fi (2025)', 'legion y700 wi-fi (2023)' => 'Legion Y700',
@@ -817,7 +823,7 @@ final class DeviceMarketingnameMapper
             'xperia z4', 'xperia z4 tablet lte' => 'Xperia Z4',
             'xperia z ultra', 'xperia z ultra lte' => 'Xperia Z Ultra',
             // oukitel
-            'c1 (2025)', 'oukitel c1' => 'C1',
+            'c1 (2025)', 'oukitel c1', 'c1', 'c1-02i' => 'C1',
             'g3', 'oukitel g3', 'g3 (t-mobile)', 'g3 (at&t)', 'g3 (europe)' => 'G3',
             'rt7 titan', 'rt7 titan 4g' => 'RT7 Titan',
             // huawei/honor
@@ -966,6 +972,7 @@ final class DeviceMarketingnameMapper
             'rog phone 2', 'rog phone 2 zs660kl' => 'ROG Phone 2',
             'rog phone 6d', 'rog phone 6d 5g' => 'ROG Phone 6D',
             'rog phone 9', 'rog phone 9 pro', 'zenfone 12 ultra' => 'ROG Phone 9',
+            'transformer prime', 'transformer pad tf700t' => 'Transformer Prime',
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
             'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
             'zenfone 2', 'zenfone 2 5.5 (ze551ml)', 'zenfone 2 5.0 (ze500cl)' => 'ZenFone 2',
@@ -1202,13 +1209,20 @@ final class DeviceMarketingnameMapper
             'construction', 'construction 4g' => 'Construction',
             // nokia
             '8.3', '8.3 4g' => '8.3',
-            'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
-            'asha 230', 'asha230singlesim' => 'Asha 230',
-            '6110 navigator', '6110' => '6110 Navigator',
-            '5630', '5630d' => '5630',
-            '6230', '6230i' => '6230',
             '1000', '1000 4g' => '1000',
             '1100', '1100 4g' => '1100',
+            '5630', '5630d' => '5630',
+            '6110 navigator', '6110', '6710 slide' => '6110 Navigator',
+            '6230', '6230i' => '6230',
+            '6303', '6303i classic' => '6303',
+            '7210 supernova', '7210 slide' => '7210 Supernova',
+            'asha 230 dualsim', 'asha230dualsim' => 'Asha 230 DualSIM',
+            'asha 230', 'asha230singlesim' => 'Asha 230',
+            'e63' => 'E63',
+            'e71' => 'E71',
+            'e72' => 'E72',
+            'n97', 'n97 mini' => 'N97',
+            'n-gage qd', 'n-gageqd' => 'N-Gage QD',
             // next
             'revolution x69k', 'revolution-x69k' => 'Revolution X69K',
             // yezz
@@ -1263,6 +1277,7 @@ final class DeviceMarketingnameMapper
             'kindle fire', 'kindle fire (2nd gen)' => 'Kindle Fire',
             'kindle fire hd', 'kindle fire hd 7 (2nd gen)', 'kindle fire hd 7" (2nd gen)' => 'Kindle Fire HD',
             'kindle fire hd 7" wifi', 'kindle fire hd 7" wi-fi (2013)' => 'Kindle Fire HD 7" Wi-Fi',
+            'kindle fire hd 8.9" 4g', 'kindle fire hd 8.9" 4g (2nd gen)' => 'Kindle Fire HD 8.9" 4G',
             'kindle fire hd 8.9" wifi', 'kindle fire hd 8.9" wi-fi (2nd gen)' => 'Kindle Fire HD 8.9" Wi-Fi',
             'kindle fire hdx 7" 4g', 'kindle fire hdx 7" 4g (2013)' => 'Kindle Fire HDX 7" 4G',
             'kindle fire hdx 7" wifi', 'kindle fire hdx 7" wi-fi (2013)' => 'Kindle Fire HDX 7" WiFi',
@@ -1297,6 +1312,7 @@ final class DeviceMarketingnameMapper
             'utbook', 'utbook 15' => 'UTBook',
             // blackberry
             'touch', 'blackberry touch' => 'Touch',
+            'torch 9800', 'blackberry torch 9800' => 'Torch 9800',
             // acepad
             'a145 (2024)', 'a145-2024' => 'A145 (2024)',
             // captiva
@@ -1333,6 +1349,8 @@ final class DeviceMarketingnameMapper
             'red360 air 8k' => 'Red360 Air 8K',
             // rombica
             'tv impact', 'tv impact pro' => 'TV Impact',
+            // O²
+            'xda neo' => 'Xda Neo',
             default => $marketingName,
         };
     }
