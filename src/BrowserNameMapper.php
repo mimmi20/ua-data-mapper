@@ -67,7 +67,7 @@ final class BrowserNameMapper
             'genieo web filter' => 'Genieo Web Filter',
             'yahoo! slurp', 'slurp', 'inktomi slurp', 'yahoo! adcrawler' => 'Slurp',
             'yandex bot', 'yandex mobile bot', 'yandexbot' => 'YandexBot',
-            'nutch-based bot', 'apache nutch', 'testcrawler', 'ssearch crawler', 'netseer crawler', 'roboobot', 'discovered', 'piplbot' => 'Nutch',
+            'nutch-based bot', 'apache nutch', 'testcrawler', 'ssearch crawler', 'netseer crawler', 'roboobot', 'discovered', 'piplbot', 'danbot' => 'Nutch',
             'baidu spider', 'baiduspider', 'baidu mobile search', 'baidu transcoder', 'baidu image search' => 'BaiduSpider',
             'semrush bot' => 'SemrushBot',
             'python urllib' => 'Python-urllib',
@@ -372,6 +372,7 @@ final class BrowserNameMapper
             'kaspersky', 'kaspersky cfr link resolver', 'kaspersky content filtering research' => 'Kaspersky',
             'nmap', 'nmap scripting engine' => 'Nmap',
             'slimjet browser', 'slimjet' => 'Slimjet Browser',
+            'zetakey browser', 'zetakey' => 'Zetakey Browser',
             default => $browserInput,
         };
     }

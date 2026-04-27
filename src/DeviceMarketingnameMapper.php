@@ -80,6 +80,7 @@ final class DeviceMarketingnameMapper
             'tattoo', 'tattoo a3288' => 'Tattoo',
             'u12+', 'u12 plus' => 'U12+',
             'wildfire s', 'wildfires' => 'Wildfire S',
+            'touch2', 'touch2 t3333' => 'Touch2',
             // samsung
             'galaxy a3 (2015)', 'galaxy a3 lte (2015)' => 'Galaxy A3 (2015)',
             'galaxy a8 (europe, global, 2018)', 'galaxy a8' => 'Galaxy A8',
@@ -381,6 +382,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
             'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'gear s 40mm', 'gear s (40mm)', 'gear s (40mm, 3g)' => 'Gear S 40mm',
             'gear s2 42mm', 'gear s2 classic (42mm)' => 'Gear S2 42mm',
             'messager touch', 'sam-r631' => 'Messager Touch',
             'pls-m330', 'pls m330' => 'PLS-M330',
@@ -482,6 +484,7 @@ final class DeviceMarketingnameMapper
             'ipod touch 7', 'ipod touch (7th gen)' => 'iPod Touch 7',
             'macbook air 11" (2013)', 'macbook air 11" (2013-2014)' => 'MacBook Air 11" (2013)',
             'macbook air 13" (2013)', 'macbook air 13" (2013-2014)' => 'MacBook Air 13" (2013)',
+            'macbook pro 13" (2013)', 'macbook pro 13" (2013-2014)' => 'MacBook Pro 13" (2013)',
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
             'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
@@ -793,8 +796,19 @@ final class DeviceMarketingnameMapper
             'spark go 1s', 'spark go 1s 4g' => 'Spark Go 1S',
             'spark 30c 5g', 'pop 9 5g' => 'Spark 30C 5G',
             // sony
-            'kdl-37ex720', 'kdl37ex720' => 'KDL-37EX720',
+            'kdl-22ex540', 'kdl22ex540' => 'KDL-22EX540',
             'kdl-32ex725', 'kdl32ex725' => 'KDL-32EX725',
+            'kdl-32w705b', 'kdl32w705b' => 'KDL-32W705B',
+            'kdl-32w700b', 'kdl32w700b' => 'KDL-32W700B',
+            'kdl-32w670a', 'kdl32w670a' => 'KDL-32W670A',
+            'kdl-32w605a', 'kdl32w605a' => 'KDL-32W605A',
+            'kdl-32w600a', 'kdl32w600a' => 'KDL-32W600A',
+            'kdl-37ex720', 'kdl37ex720' => 'KDL-37EX720',
+            'kdl-40nx655', 'kdl40nx655' => 'KDL-40NX655',
+            'kdl-42w650a', 'kdl42w650a' => 'KDL-42W650A',
+            'kdl-46ex720', 'kdl46ex720' => 'KDL-46EX720',
+            'kdl-47w807a', 'kdl47w807a' => 'KDL-47W807A',
+            'kdl-50w800b', 'kdl50w800b' => 'KDL-50W800B',
             'txt pro' => 'Txt Pro',
             'vivaz pro' => 'Vivaz Pro',
             'xperia 1 ii', 'xperia 1 ii 5g (global)' => 'Xperia 1 II',
@@ -1271,6 +1285,7 @@ final class DeviceMarketingnameMapper
             'fire hd 10 plus (2021)', 'fire hd 10" plus (2021)' => 'Fire HD 10 Plus (2021)',
             'fire hdx 8.9', 'fire hdx 8.9 (2014)', 'fire hdx 8.9" (2014)' => 'Fire HDX 8.9',
             'fire max 11', 'fire max 11"' => 'Fire Max 11',
+            'fire tv (1st gen)', 'fire tv (gen 1)' => 'Fire TV (1st Gen)',
             'fire tv stick', 'fire tv stick (2nd gen)' => 'Fire TV Stick',
             'fire tv stick (3rd gen)', 'fire tv stick (gen 3)' => 'Fire TV Stick (3rd Gen)',
             'fire tv stick lite (1st gen)', 'fire tv stick lite (gen 1)' => 'Fire TV Stick Lite (1st Gen)',
@@ -1351,6 +1366,9 @@ final class DeviceMarketingnameMapper
             'tv impact', 'tv impact pro' => 'TV Impact',
             // O²
             'xda neo' => 'Xda Neo',
+            'xda star' => 'Xda Star',
+            // hp
+            'elite x3' => 'Elite X3',
             default => $marketingName,
         };
     }

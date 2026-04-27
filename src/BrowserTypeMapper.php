@@ -44,7 +44,7 @@ final class BrowserTypeMapper
             'useragentanonymizer', 'useragent anonymizer' => Type::UseragentAnonymizer,
             'wapbrowser', 'wap browser' => Type::WapBrowser,
             'application', 'mobile app', 'mobile-application', 'pim', 'email-client', 'emailclient', 'email client', 'multimediaplayer', 'mediaplayer', 'multimedia player', 'multimedia-player' => Type::Application,
-            'tool', 'search tools' => Type::Tool,
+            'tool', 'search tools', 'benchmark' => Type::Tool,
             'search bot' => Type::SearchBot,
             'social media agent' => Type::SocialMediaAgent,
             'site monitor' => Type::SiteMonitor,
