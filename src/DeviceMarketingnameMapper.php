@@ -1211,6 +1211,7 @@ final class DeviceMarketingnameMapper
             'lifetab p970x' => 'LifeTab P970X',
             'lifetab p1050x' => 'LifeTab P1050X',
             'lifetab p1060x' => 'LifeTab P1060X',
+            'lifetab p1061x' => 'LifeTab P1061X',
             'lifetab p1071x' => 'LifeTab P1071X',
             'lifetab p1075x' => 'LifeTab P1075X',
             'lifetab p1091x' => 'LifeTab P1091X',
