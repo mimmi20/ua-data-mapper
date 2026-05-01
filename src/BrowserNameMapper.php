@@ -155,7 +155,7 @@ final class BrowserNameMapper
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
             'sogou web spider', 'sogou spider', 'sogou orion spider', 'sogou pic spider', 'sogou head spider' => 'Sogou Spider',
             'headline bot', 'headline' => 'headline bot',
-            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher', 'hubspot ads link fetcher', 'hubspot links crawler', 'hubspot image utils' => 'HubSpot Crawler',
+            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher', 'hubspot ads link fetcher', 'hubspot links crawler', 'hubspot image utils', 'hubspot marketing grader', 'hubspot website grader' => 'HubSpot Crawler',
             'kindle browser', 'kindle' => 'Kindle Browser',
             'comodo dragon', 'dragon' => 'Comodo Dragon',
             'evernote app', 'evernote' => 'Evernote App',
@@ -373,6 +373,9 @@ final class BrowserNameMapper
             'nmap', 'nmap scripting engine' => 'Nmap',
             'slimjet browser', 'slimjet' => 'Slimjet Browser',
             'zetakey browser', 'zetakey' => 'Zetakey Browser',
+            'backlinkcheckbot', 'backlink-check.de' => 'BacklinkcheckBot',
+            'mediumbot', 'mediumbot metatagfetcher', 'mediumbot proxyfetcher' => 'Mediumbot',
+            'seo engine bot', 'seoengbot' => 'SEO Engine Bot',
             default => $browserInput,
         };
     }
