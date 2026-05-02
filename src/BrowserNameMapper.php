@@ -67,7 +67,7 @@ final class BrowserNameMapper
             'genieo web filter' => 'Genieo Web Filter',
             'yahoo! slurp', 'slurp', 'inktomi slurp', 'yahoo! adcrawler' => 'Slurp',
             'yandex bot', 'yandex mobile bot', 'yandexbot' => 'YandexBot',
-            'nutch-based bot', 'apache nutch', 'testcrawler', 'ssearch crawler', 'netseer crawler', 'roboobot', 'discovered', 'piplbot', 'danbot' => 'Nutch',
+            'nutch-based bot', 'apache nutch', 'testcrawler', 'ssearch crawler', 'netseer crawler', 'roboobot', 'discovered', 'piplbot', 'danbot', 'safednsbot' => 'Nutch',
             'baidu spider', 'baiduspider', 'baidu mobile search', 'baidu transcoder', 'baidu image search' => 'BaiduSpider',
             'semrush bot' => 'SemrushBot',
             'python urllib' => 'Python-urllib',
@@ -376,6 +376,7 @@ final class BrowserNameMapper
             'backlinkcheckbot', 'backlink-check.de' => 'BacklinkcheckBot',
             'mediumbot', 'mediumbot metatagfetcher', 'mediumbot proxyfetcher' => 'Mediumbot',
             'seo engine bot', 'seoengbot' => 'SEO Engine Bot',
+            'jobboerse bot', 'jobboersebot' => 'JobBoerse Bot',
             default => $browserInput,
         };
     }
