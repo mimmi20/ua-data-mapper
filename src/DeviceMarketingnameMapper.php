@@ -1302,6 +1302,7 @@ final class DeviceMarketingnameMapper
             // philips
             'android tv', 'google tv ta1' => 'Android TV',
             '55pfk7199/12', '55pfk719912' => '55PFK7199/12',
+            'bdp5600', 'blu-ray player (bdp5600)' => 'BDP5600',
             // nintendo
             '3ds', 'new 3ds' => '3DS',
             // fairphone
@@ -1411,6 +1412,8 @@ final class DeviceMarketingnameMapper
             'elite x3' => 'Elite X3',
             // smartisan
             'u1 jianguo', 'u1' => 'U1 Jianguo',
+            // overmax
+            'steelcore', 'ov-steelcore' => 'SteelCore',
             default => $marketingName,
         };
     }
