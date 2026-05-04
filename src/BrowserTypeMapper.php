@@ -39,7 +39,7 @@ final class BrowserTypeMapper
             'browser', 'mobile browser', 'transcoder', 'wap-browser' => Type::Browser,
             'bot', 'robot', 'bot/crawler', 'bot-trancoder' => Type::Bot,
             'library' => Type::Library,
-            'feedreader', 'feed reader', 'feed fetcher' => Type::FeedReader,
+            'feedreader', 'feed reader', 'feed fetcher', 'feed parser' => Type::FeedReader,
             'offlinebrowser', 'offline browser', 'read-it-later service' => Type::OfflineBrowser,
             'useragentanonymizer', 'useragent anonymizer' => Type::UseragentAnonymizer,
             'wapbrowser', 'wap browser' => Type::WapBrowser,
