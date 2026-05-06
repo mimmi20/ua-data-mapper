@@ -381,6 +381,7 @@ final class BrowserNameMapper
             'newsbeuter', 'newsbeuter rss aggregator' => 'Newsbeuter',
             'addthis.com', 'addthis.com robot' => 'AddThis.com',
             'lunascape', 'ilunascape' => 'Lunascape',
+            'avira secure browser', 'avira scout' => 'Avira Secure Browser',
             default => $browserInput,
         };
     }
