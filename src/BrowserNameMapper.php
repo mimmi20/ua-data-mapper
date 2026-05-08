@@ -233,7 +233,7 @@ final class BrowserNameMapper
             'sqalix', 'sqalix multiworker', 'sqalix geralworker' => 'sqalix',
             'gpt bot', 'gptbot' => 'GPT Bot',
             'bitsightbot', 'bitsight' => 'BitSightBot',
-            'seznambot', 'seznam bot', 'seznam screenshot generator' => 'SeznamBot',
+            'seznambot', 'seznam bot', 'seznam screenshot generator', 'sklikbot' => 'SeznamBot',
             'iframely bot', 'iframely' => 'Iframely Bot',
             'owler bot', 'owler' => 'Owler Bot',
             'google notebooklm', 'google-notebooklm' => 'Google NotebookLM',
@@ -383,6 +383,8 @@ final class BrowserNameMapper
             'lunascape', 'ilunascape' => 'Lunascape',
             'avira secure browser', 'avira scout' => 'Avira Secure Browser',
             'arc search', 'arcmobile2' => 'Arc Search',
+            'pirate browser', 'piratebrowser' => 'Pirate Browser',
+            'barca', 'barcapro' => 'Barca',
             default => $browserInput,
         };
     }
