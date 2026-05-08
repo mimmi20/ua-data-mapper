@@ -382,6 +382,7 @@ final class BrowserNameMapper
             'addthis.com', 'addthis.com robot' => 'AddThis.com',
             'lunascape', 'ilunascape' => 'Lunascape',
             'avira secure browser', 'avira scout' => 'Avira Secure Browser',
+            'arc search', 'arcmobile2' => 'Arc Search',
             default => $browserInput,
         };
     }
