@@ -212,7 +212,7 @@ final class BrowserNameMapper
             'goo', 'ichiro mobile bot' => 'Goo',
             'magpie crawler', 'magpie-crawler' => 'Magpie Crawler',
             'linkdex bot', 'linkdex mobile bot' => 'Linkdex Bot',
-            'newsblur', 'newsblur feed fetcher', 'newsblur favicon fetcher' => 'NewsBlur',
+            'newsblur', 'newsblur feed fetcher', 'newsblur favicon fetcher', 'newsblur feed finder' => 'NewsBlur',
             'orange bot', 'voilabot' => 'Orange Bot',
             'spinn3r', 'spinn3r rss aggregator' => 'Spinn3r',
             'surveybot', 'survey bot' => 'SurveyBot',
@@ -385,6 +385,7 @@ final class BrowserNameMapper
             'arc search', 'arcmobile2' => 'Arc Search',
             'pirate browser', 'piratebrowser' => 'Pirate Browser',
             'barca', 'barcapro' => 'Barca',
+            'lycos spider', 'lycos' => 'Lycos Spider',
             default => $browserInput,
         };
     }

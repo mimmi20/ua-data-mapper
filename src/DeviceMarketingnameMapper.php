@@ -1323,6 +1323,7 @@ final class DeviceMarketingnameMapper
             'fire 7" (2017)', 'fire hd 7 (2017)' => 'Fire 7" (2017)',
             'fire 7 (2022)', 'fire 7" (2022)' => 'Fire 7 (2022)',
             'fire hd 6', 'fire hd 6 (2014)', 'fire hd 6" (2014)' => 'Fire HD 6',
+            'fire hd 7', 'fire hd 7" (2014)' => 'Fire HD 7',
             'fire hd 8 (2015)', 'fire hd 8" (2015)' => 'Fire HD 8 (2015)',
             'fire hd 8 (2016)', 'fire hd 8" (2016)' => 'Fire HD 8 (2016)',
             'fire hd 8 (2017)', 'fire hd 8" (2017)' => 'Fire HD 8 (2017)',
@@ -1425,6 +1426,8 @@ final class DeviceMarketingnameMapper
             'u1 jianguo', 'u1' => 'U1 Jianguo',
             // overmax
             'steelcore', 'ov-steelcore' => 'SteelCore',
+            // evolveo
+            'smart tv stick d2' => 'Smart TV Stick D2',
             default => $marketingName,
         };
     }

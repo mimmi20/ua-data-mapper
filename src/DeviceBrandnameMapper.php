@@ -385,6 +385,7 @@ final class DeviceBrandnameMapper
             'a-rival', 'arival' => 'A-Rival',
             'aoyodkg' => 'Aoyodkg',
             'sonos' => 'Sonos',
+            'aldi nord' => 'Aldi Nord',
             default => $brandName,
         };
     }

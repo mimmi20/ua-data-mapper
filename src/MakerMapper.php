@@ -68,6 +68,7 @@ final class MakerMapper
             'aoyodkg' => 'Aoyodkg',
             'xiaomi', 'black shark' => 'Xiaomi',
             'sonos' => 'Sonos',
+            'aldi nord' => 'Aldi Nord',
             default => $maker,
         };
     }
