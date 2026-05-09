@@ -40,7 +40,7 @@ final class BrowserNameMapper
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
             'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
-            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine', 'google adwords express', 'google adstxt', 'google shopping quality', 'google adwords displayads', 'google stale content probe', 'google other', 'google-adwords-express', 'googlebot-video' => 'Google Bot',
+            'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine', 'google adwords express', 'google adstxt', 'google shopping quality', 'google adwords displayads', 'google stale content probe', 'google other', 'google-adwords-express', 'googlebot-video', 'google dmca takedown tool bot' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot', 'msnbot-media' => 'BingBot',
             'jakarta commons-httpclient' => 'Jakarta Commons HttpClient',
             'adsbot-google' => 'AdsBot Google',
@@ -350,7 +350,7 @@ final class BrowserNameMapper
             'yandex image resizer', 'yandeximageresizer' => 'Yandex Image Resizer',
             'garmin fenix 5x', 'garmin fenix 5x plus' => 'Garmin fenix 5X',
             'playapod', 'playapod lite' => 'Playapod',
-            'awariobot', 'awario' => 'AwarioBot',
+            'awariobot', 'awario', 'awariosmartbot' => 'AwarioBot',
             'reqbin', 'reqbin curl client' => 'ReqBin',
             'urlinspectorbot', 'urlinspector' => 'URLinspectorBot',
             'sublinq crawler', 'sublinq' => 'Sublinq Crawler',
@@ -386,6 +386,7 @@ final class BrowserNameMapper
             'pirate browser', 'piratebrowser' => 'Pirate Browser',
             'barca', 'barcapro' => 'Barca',
             'lycos spider', 'lycos' => 'Lycos Spider',
+            'gog galaxy', 'gog galaxy client' => 'GOG Galaxy',
             default => $browserInput,
         };
     }
