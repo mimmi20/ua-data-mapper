@@ -69,6 +69,7 @@ final class MakerMapper
             'xiaomi', 'black shark' => 'Xiaomi',
             'sonos' => 'Sonos',
             'aldi nord' => 'Aldi Nord',
+            'arris', 'foxtel' => 'ARRIS',
             default => $maker,
         };
     }

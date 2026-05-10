@@ -386,6 +386,7 @@ final class DeviceBrandnameMapper
             'aoyodkg' => 'Aoyodkg',
             'sonos' => 'Sonos',
             'aldi nord' => 'Aldi Nord',
+            'arris', 'foxtel' => 'ARRIS',
             default => $brandName,
         };
     }
