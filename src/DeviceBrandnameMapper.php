@@ -50,7 +50,7 @@ final class DeviceBrandnameMapper
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',
             'al', 'alcatel' => 'Alcatel',
-            'mb', 'mobistel' => 'Mobistel',
+            'mb', 'mobistel', 'elson' => 'Mobistel',
             'wi', 'wiko' => 'Wiko',
             'xi', 'xiaomi', 'black shark' => 'Xiaomi',
             'ar', 'archos' => 'Archos',

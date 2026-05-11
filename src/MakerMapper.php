@@ -70,6 +70,7 @@ final class MakerMapper
             'sonos' => 'Sonos',
             'aldi nord' => 'Aldi Nord',
             'arris', 'foxtel' => 'ARRIS',
+            'mobistel', 'elson' => 'Mobistel',
             default => $maker,
         };
     }
