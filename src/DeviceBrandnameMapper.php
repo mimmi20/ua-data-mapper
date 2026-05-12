@@ -50,7 +50,7 @@ final class DeviceBrandnameMapper
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',
             'al', 'alcatel' => 'Alcatel',
-            'mb', 'mobistel' => 'Mobistel',
+            'mb', 'mobistel', 'elson' => 'Mobistel',
             'wi', 'wiko' => 'Wiko',
             'xi', 'xiaomi', 'black shark' => 'Xiaomi',
             'ar', 'archos' => 'Archos',
@@ -385,6 +385,8 @@ final class DeviceBrandnameMapper
             'a-rival', 'arival' => 'A-Rival',
             'aoyodkg' => 'Aoyodkg',
             'sonos' => 'Sonos',
+            'aldi nord' => 'Aldi Nord',
+            'arris', 'foxtel' => 'ARRIS',
             default => $brandName,
         };
     }

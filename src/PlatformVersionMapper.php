@@ -53,7 +53,7 @@ final class PlatformVersionMapper
             case 'xp':
                 return new Version('5', '1');
             case 'server 2003':
-                return new Version('5', '2');
+                return new Version('2003', '0');
             case 'nt 6.0':
             case 'vista':
                 return new Version('6', '0');
