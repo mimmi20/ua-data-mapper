@@ -393,6 +393,7 @@ final class BrowserNameMapper
             'microsoft office access', 'access' => 'Microsoft Office Access',
             'microsoft office visio', 'visio' => 'Microsoft Office Visio',
             'seolytbot', 'seolyticscrawler' => 'SeolytBot',
+            'opera gx', 'operagx' => 'Opera GX',
             default => $browserInput,
         };
     }
