@@ -72,8 +72,8 @@ final class BrowserNameMapper
             'semrush bot' => 'SemrushBot',
             'python urllib' => 'Python-urllib',
             'mail.ru bot', 'mail.ru' => 'Mail.Ru Bot',
-            'exabot' => 'Exabot',
-            'curl', 'pycurl' => 'cURL',
+            'exabot', 'exalead cloudview' => 'Exabot',
+            'curl', 'pycurl', 'libcurl' => 'cURL',
             'pale moon (firefox variant)', 'pale moon' => 'PaleMoon',
             'opera next', 'opera mobile' => 'Opera',
             'opera mini for ios', 'opera mini ios' => 'Opera Mini for iOS',
@@ -97,7 +97,7 @@ final class BrowserNameMapper
             'seomoz rogerbot' => 'roger bot',
             'airwatch browser', 'vmware airwatch' => 'AirWatch Browser',
             'google search app', 'google mobile app' => 'Google Search App',
-            'office', 'microsoft office' => 'Office',
+            'office', 'microsoft office', 'office syncproc' => 'Office',
             'office mobile', 'microsoft office mobile' => 'Microsoft Office Mobile',
             'word', 'microsoft office word' => 'Microsoft Word',
             'onenote', 'microsoft office onenote' => 'Microsoft OneNote',
@@ -395,6 +395,8 @@ final class BrowserNameMapper
             'seolytbot', 'seolyticscrawler' => 'SeolytBot',
             'opera gx', 'operagx' => 'Opera GX',
             'yahoo ad monitoring', 'yahoo gemini' => 'Yahoo Ad Monitoring',
+            'quora link preview bot', 'quora link preview' => 'Quora Link Preview Bot',
+            'thunderbird', 'icedove' => 'Thunderbird',
             default => $browserInput,
         };
     }

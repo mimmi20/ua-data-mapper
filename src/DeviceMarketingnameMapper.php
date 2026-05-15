@@ -224,7 +224,7 @@ final class DeviceMarketingnameMapper
             'galaxy gear s2 (3g, 44mm)', 'galaxy gear s2 44mm' => 'Galaxy Gear S2 (44mm)',
             'galaxy gear s3 classic (41mm, wi-fi)', 'galaxy gear s3 classic 41mm' => 'Galaxy Gear S3 Classic (41mm, Wi-Fi)',
             'galaxy gear s3 frontier (46mm, wi-fi)', 'galaxy gear s3 frontier 46mm' => 'Galaxy Gear S3 Frontier (46mm, Wi-Fi)',
-            'galaxy grand prime', 'galaxy grand prime value edition lte', 'galaxy grand prime lte', 'galaxy grand prime duos', 'galaxy grand prime ve duos' => 'Galaxy Grand Prime',
+            'galaxy grand prime', 'galaxy grand prime value edition lte', 'galaxy grand prime lte', 'galaxy grand prime duos', 'galaxy grand prime ve duos', 'galaxy grand prime value edition duos lte' => 'Galaxy Grand Prime',
             'galaxy s duos' => 'Galaxy S Duos',
             'galaxy s duos 2' => 'Galaxy S Duos 2',
             'galaxy s duos 3', 'galaxy s duos 3 ve' => 'Galaxy S Duos 3',
