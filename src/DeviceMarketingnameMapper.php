@@ -1407,6 +1407,7 @@ final class DeviceMarketingnameMapper
             'neffos c5l', 'c5l' => 'Neffos C5L',
             'neffos c5 max', 'c5 max' => 'Neffos C5 Max',
             'neffos c9 max', 'c9 max' => 'Neffos C9 Max',
+            'neffos x1 lite', 'x1 lite' => 'Neffos X1 Lite',
             // a-rival
             'bioniq p116' => 'BioniQ P116',
             // tolino

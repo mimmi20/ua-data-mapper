@@ -394,6 +394,7 @@ final class BrowserNameMapper
             'microsoft office visio', 'visio' => 'Microsoft Office Visio',
             'seolytbot', 'seolyticscrawler' => 'SeolytBot',
             'opera gx', 'operagx' => 'Opera GX',
+            'yahoo ad monitoring', 'yahoo gemini' => 'Yahoo Ad Monitoring',
             default => $browserInput,
         };
     }
