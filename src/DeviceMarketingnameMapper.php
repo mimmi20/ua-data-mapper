@@ -690,6 +690,7 @@ final class DeviceMarketingnameMapper
             'redmi pad se 8.7"', 'redmi pad se 8.7" 4g' => 'Redmi Pad SE 8.7"',
             'x7', 'x7 5g' => 'X7',
             'redmi note 6 pro', 'redmi note 6pro' => 'Redmi Note 6 Pro',
+            'f2 4k smart fire tv (2022)', 'f2 4k (2022)' => 'F2 4K Smart Fire TV (2022)',
             // vivo
             'iqoo 9', 'iqoo 9 (china)' => 'iQOO 9',
             'iqoo 9t', 'iqoo 9t 5g' => 'iQOO 9T',
@@ -1353,7 +1354,7 @@ final class DeviceMarketingnameMapper
             'fire max 11', 'fire max 11"' => 'Fire Max 11',
             'fire tv (1st gen)', 'fire tv (gen 1)' => 'Fire TV (1st Gen)',
             'fire tv (3rd gen)', 'fire tv (gen 3)' => 'Fire TV (3rd Gen)',
-            'fire tv stick', 'fire tv stick (2nd gen)' => 'Fire TV Stick',
+            'fire tv stick', 'fire tv stick (2nd gen)', 'fire tv stick (1st gen)' => 'Fire TV Stick',
             'fire tv stick (3rd gen)', 'fire tv stick (gen 3)' => 'Fire TV Stick (3rd Gen)',
             'fire tv stick lite (1st gen)', 'fire tv stick lite (gen 1)' => 'Fire TV Stick Lite (1st Gen)',
             'fire tv stick 4k max', 'fire tv stick 4k max (2021)' => 'Fire TV Stick 4K Max',

@@ -397,6 +397,8 @@ final class BrowserNameMapper
             'yahoo ad monitoring', 'yahoo gemini' => 'Yahoo Ad Monitoring',
             'quora link preview bot', 'quora link preview' => 'Quora Link Preview Bot',
             'thunderbird', 'icedove' => 'Thunderbird',
+            'nrc', 'nrc nieuws' => 'NRC',
+            'audacy app', 'audacy' => 'Audacy App',
             default => $browserInput,
         };
     }
