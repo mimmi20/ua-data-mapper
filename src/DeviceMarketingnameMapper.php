@@ -437,6 +437,7 @@ final class DeviceMarketingnameMapper
             'wave 2', 'wave ii' => 'Wave 2',
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
+            'imac (2009)', 'imac 21.5" (2009)' => 'iMac (2009)',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
             'ipad 2', 'ipad (2nd gen) wi-fi', 'ipad (2nd gen) 3g' => 'iPad 2',
             'ipad 3', 'ipad (3rd gen) wi-fi', 'ipad (3rd gen) 3g' => 'iPad 3',
@@ -520,6 +521,7 @@ final class DeviceMarketingnameMapper
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
             'macbook pro 15" (2012)', 'macbook pro 15" (2012-2013)' => 'MacBook Pro 15" (2012)',
             'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
+            'mac pro (2010)', 'mac pro (2010-2012)' => 'Mac Pro (2010)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
             'watch se (40mm)', 'watch se (40mm, lte)', 'watch se 40mm' => 'Watch SE (40mm)',
@@ -1333,6 +1335,7 @@ final class DeviceMarketingnameMapper
             // fairphone
             'fp6', 'fairphone 6' => 'FP6',
             // amazon
+            'echo show 8', 'echo show 8 (2023)' => 'Echo Show 8',
             'fire 7"', 'fire 7" (2015)' => 'Fire 7"',
             'fire 7" (2017)', 'fire hd 7 (2017)' => 'Fire 7" (2017)',
             'fire 7 (2022)', 'fire 7" (2022)' => 'Fire 7 (2022)',
