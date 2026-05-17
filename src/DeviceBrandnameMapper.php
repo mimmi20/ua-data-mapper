@@ -387,6 +387,7 @@ final class DeviceBrandnameMapper
             'sonos' => 'Sonos',
             'aldi nord' => 'Aldi Nord',
             'arris', 'foxtel' => 'ARRIS',
+            'mstar' => 'MSTAR',
             default => $brandName,
         };
     }
