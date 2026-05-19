@@ -46,6 +46,8 @@ final class DeviceTypeMapper
             'unknown' => Type::Unknown,
             'phablet', 'featurephone', 'feature-phone', 'feature phone', 'mobilephone', 'mobile-phone', 'mobile phone', 'smartphone' => Type::Phone,
             'camera' => Type::DigitalCamera,
+            'smartdisplay', 'smart-display', 'smart display' => Type::SmartSpeaker,
+            'fridgefreezer', 'fridge-freezer', 'fridge freezer' => Type::Peripheral,
             default => Type::fromName(mb_strtolower($deviceType)),
         };
     }

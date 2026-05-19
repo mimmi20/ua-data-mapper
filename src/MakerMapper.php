@@ -71,6 +71,7 @@ final class MakerMapper
             'aldi nord' => 'Aldi Nord',
             'arris', 'foxtel' => 'ARRIS',
             'mobistel', 'elson' => 'Mobistel',
+            'mstar' => 'MSTAR',
             default => $maker,
         };
     }
