@@ -134,7 +134,7 @@ final class DeviceMarketingnameMapper
             'galaxy a54 5g', 'galaxy a54 5g (usa)', 'galaxy a54 5g (international)', 'galaxy a54 5g (china)', 'galaxy a54 5g (asia/africa)', 'galaxy quantum 4', 'galaxy a54 5g (canada)', 'galaxy a54 5g (usa unlocked)', 'galaxy a54 5g (japan)' => 'Galaxy A54 5G',
             'galaxy a55 5g', 'galaxy a55 5g (china)', 'galaxy a55 5g (japan)', 'galaxy a55 5g (usa)' => 'Galaxy A55 5G',
             'galaxy a56 5g', 'galaxy a56 5g (international)', 'galaxy a56 5g (korea)', 'galaxy quantum 6', 'galaxy a56 5g (china)' => 'Galaxy A56 5G',
-            'galaxy a70', 'galaxy a70 (global)', 'galaxy a70 (latam)' => 'Galaxy A70',
+            'galaxy a70', 'galaxy a70 (global)', 'galaxy a70 (latam)', 'galaxy a70 (canada)' => 'Galaxy A70',
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)', 'galaxy a71 5g (international)' => 'Galaxy A71 5G',
             'galaxy a80', 'galaxy a80 (2019)' => 'Galaxy A80',
