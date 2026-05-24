@@ -1357,6 +1357,7 @@ final class DeviceMarketingnameMapper
             'fire max 11', 'fire max 11"' => 'Fire Max 11',
             'fire tv (1st gen)', 'fire tv (gen 1)' => 'Fire TV (1st Gen)',
             'fire tv (3rd gen)', 'fire tv (gen 3)' => 'Fire TV (3rd Gen)',
+            'fire tv cube (gen 3)', 'fire tv cube (3rd gen, 2022)' => 'Fire TV Cube (3rd Gen)',
             'fire tv stick', 'fire tv stick (2nd gen)', 'fire tv stick (1st gen)' => 'Fire TV Stick',
             'fire tv stick (3rd gen)', 'fire tv stick (gen 3)' => 'Fire TV Stick (3rd Gen)',
             'fire tv stick lite (1st gen)', 'fire tv stick lite (gen 1)' => 'Fire TV Stick Lite (1st Gen)',
