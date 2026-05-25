@@ -439,6 +439,7 @@ final class DeviceMarketingnameMapper
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
             'imac (2009)', 'imac 21.5" (2009)' => 'iMac (2009)',
+            'imac 23.5" (2021)', 'imac 24" (2021)' => 'iMac 23.5" (2021)',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
             'ipad 2', 'ipad (2nd gen) wi-fi', 'ipad (2nd gen) 3g' => 'iPad 2',
             'ipad 3', 'ipad (3rd gen) wi-fi', 'ipad (3rd gen) 3g' => 'iPad 3',
@@ -522,6 +523,7 @@ final class DeviceMarketingnameMapper
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
             'macbook pro 15" (2012)', 'macbook pro 15" (2012-2013)' => 'MacBook Pro 15" (2012)',
             'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
+            'macbook pro 15" (2018)', 'macbook pro 15" (2018-2019)' => 'MacBook Pro 15" (2018)',
             'mac pro (2010)', 'mac pro (2010-2012)' => 'Mac Pro (2010)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
