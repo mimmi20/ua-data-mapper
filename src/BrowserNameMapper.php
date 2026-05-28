@@ -399,6 +399,8 @@ final class BrowserNameMapper
             'thunderbird', 'icedove' => 'Thunderbird',
             'nrc', 'nrc nieuws' => 'NRC',
             'audacy app', 'audacy' => 'Audacy App',
+            'baidu browser', 'baidu browser hd' => 'Baidu Browser',
+            'clickagy', 'clickagy intelligence bot' => 'Clickagy',
             default => $browserInput,
         };
     }
