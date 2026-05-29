@@ -1459,6 +1459,15 @@ final class DeviceMarketingnameMapper
             'steelcore', 'ov-steelcore' => 'SteelCore',
             // evolveo
             'smart tv stick d2' => 'Smart TV Stick D2',
+            // thomson
+            't55d18dfs-01b', 't55d18dfs-01b 55.0"' => 'T55D18DFS-01B',
+            't55d18sfs-01b', 't55d18sfs-01b 55.0"' => 'T55D18SFS-01B',
+            'tb28d19dhs-01', 'tb28d19dhs-01 28.0"' => 'TB28D19DHS-01',
+            't32rtm5040', 't32rtm5040 32.0"' => 'T32RTM5040',
+            't40d18sfs-01b', 't40d18sfs-01b 40.0"' => 'T40D18SFS-01B',
+            't43d18sfs-01b', 't43d18sfs-01b 43.0"' => 'T43D18SFS-01B',
+            't43fsl5031', 't43fsl5031 43.0"' => 'T43FSL5031',
+            't49d18sfs-01b', 't49d18sfs-01b 49.0"' => 'T49D18SFS-01B',
             default => $marketingName,
         };
     }
