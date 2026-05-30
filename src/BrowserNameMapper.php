@@ -155,7 +155,7 @@ final class BrowserNameMapper
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',
             'sogou web spider', 'sogou spider', 'sogou orion spider', 'sogou pic spider', 'sogou head spider' => 'Sogou Spider',
             'headline bot', 'headline' => 'headline bot',
-            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher', 'hubspot ads link fetcher', 'hubspot links crawler', 'hubspot image utils', 'hubspot marketing grader', 'hubspot website grader', 'hubspot webcrawler' => 'HubSpot Crawler',
+            'hubspot crawler', 'hubspot', 'hubspot connect', 'hubspot page fetcher', 'hubspot ads link fetcher', 'hubspot links crawler', 'hubspot image utils', 'hubspot marketing grader', 'hubspot website grader', 'hubspot webcrawler', 'hubspot page screenshot service' => 'HubSpot Crawler',
             'kindle browser', 'kindle' => 'Kindle Browser',
             'comodo dragon', 'dragon' => 'Comodo Dragon',
             'evernote app', 'evernote' => 'Evernote App',
@@ -297,7 +297,7 @@ final class BrowserNameMapper
             'flipboard', 'flipboardproxy', 'flipboardrss' => 'Flipboard',
             'uptimerobot', 'uptimebot' => 'UptimeRobot',
             'infegy bot', 'infegy', 'infegyatlas' => 'Infegy Bot',
-            'admantx', 'admantx platform semantic analyzer' => 'ADMantX',
+            'admantx', 'admantx platform semantic analyzer', 'admantx service fetcher' => 'ADMantX',
             'larbin', 'larbin web crawler' => 'Larbin',
             'speedy', 'speedy spider' => 'Speedy',
             'mnogosearch' => 'MnoGoSearch',
@@ -401,6 +401,7 @@ final class BrowserNameMapper
             'audacy app', 'audacy' => 'Audacy App',
             'baidu browser', 'baidu browser hd' => 'Baidu Browser',
             'clickagy', 'clickagy intelligence bot' => 'Clickagy',
+            'adstxtlab.com crawler', 'adstxtlab.com' => 'adstxtlab.com Crawler',
             default => $browserInput,
         };
     }
