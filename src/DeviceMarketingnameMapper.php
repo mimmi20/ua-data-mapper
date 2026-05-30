@@ -933,6 +933,7 @@ final class DeviceMarketingnameMapper
             'mate 40e', 'mate 40e 4g', 'mate 40e 5g' => 'Mate 40E',
             'mate 40 pro', 'mate 40 pro 4g' => 'Mate 40 Pro',
             'mate 70 5g', 'mate 70 5g (china)' => 'Mate 70 5G',
+            'matebook pro', 'matebook pro 14.2"' => 'MateBook Pro',
             'matepad 10.4"', 'matepad 10.4" wi-fi', 'matepad 10.4" wifi' => 'MatePad 10.4"',
             'matepad 10.4" wi-fi (2022)', 'matepad 10.4" (2022) wifi' => 'MatePad 10.4" Wi-Fi (2022)',
             'matepad 10.4" se', 'matepad 10.4" se (2023)', 'matepad 10.4" se lte (2023)' => 'MatePad 10.4" SE',
@@ -1468,6 +1469,8 @@ final class DeviceMarketingnameMapper
             't43d18sfs-01b', 't43d18sfs-01b 43.0"' => 'T43D18SFS-01B',
             't43fsl5031', 't43fsl5031 43.0"' => 'T43FSL5031',
             't49d18sfs-01b', 't49d18sfs-01b 49.0"' => 'T49D18SFS-01B',
+            't28d18sfs-01b', 't28d18sfs-01b 28.0"' => 'T28D18SFS-01B',
+            't32d18sfs-01b', 't32d18sfs-01b 32.0"' => 'T32D18SFS-01B',
             default => $marketingName,
         };
     }
