@@ -375,6 +375,7 @@ final class DeviceMarketingnameMapper
             'galaxy w25', 'galaxy w25 5g' => 'Galaxy W25',
             'galaxy watch (42mm)', 'galaxy watch 42mm' => 'Galaxy Watch (42mm)',
             'galaxy watch (42mm, lte)', 'galaxy watch 42mm lte' => 'Galaxy Watch (42mm, LTE)',
+            'galaxy watch (46mm)', 'galaxy watch 46mm' => 'Galaxy Watch (46mm)',
             'galaxy watch (46mm, lte)', 'galaxy watch 46mm lte' => 'Galaxy Watch (46mm, LTE)',
             'galaxy watch 3 (41mm, wi-fi)', 'galaxy watch 3 41mm' => 'Galaxy Watch 3 (41mm, Wi-Fi)',
             'galaxy watch 3 (41mm, lte)', 'galaxy watch 3 41mm 4g' => 'Galaxy Watch 3 (41mm, LTE)',
