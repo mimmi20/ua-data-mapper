@@ -375,6 +375,7 @@ final class DeviceMarketingnameMapper
             'galaxy w25', 'galaxy w25 5g' => 'Galaxy W25',
             'galaxy watch (42mm)', 'galaxy watch 42mm' => 'Galaxy Watch (42mm)',
             'galaxy watch (42mm, lte)', 'galaxy watch 42mm lte' => 'Galaxy Watch (42mm, LTE)',
+            'galaxy watch (46mm)', 'galaxy watch 46mm' => 'Galaxy Watch (46mm)',
             'galaxy watch (46mm, lte)', 'galaxy watch 46mm lte' => 'Galaxy Watch (46mm, LTE)',
             'galaxy watch 3 (41mm, wi-fi)', 'galaxy watch 3 41mm' => 'Galaxy Watch 3 (41mm, Wi-Fi)',
             'galaxy watch 3 (41mm, lte)', 'galaxy watch 3 41mm 4g' => 'Galaxy Watch 3 (41mm, LTE)',
@@ -439,6 +440,7 @@ final class DeviceMarketingnameMapper
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
             'imac (2009)', 'imac 21.5" (2009)' => 'iMac (2009)',
+            'imac 23.5" (2021)', 'imac 24" (2021)' => 'iMac 23.5" (2021)',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
             'ipad 2', 'ipad (2nd gen) wi-fi', 'ipad (2nd gen) 3g' => 'iPad 2',
             'ipad 3', 'ipad (3rd gen) wi-fi', 'ipad (3rd gen) 3g' => 'iPad 3',
@@ -522,6 +524,7 @@ final class DeviceMarketingnameMapper
             'macbook pro 13" (2018)', 'macbook pro 13" (2018-2019)' => 'MacBook Pro 13" (2018)',
             'macbook pro 15" (2012)', 'macbook pro 15" (2012-2013)' => 'MacBook Pro 15" (2012)',
             'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
+            'macbook pro 15" (2018)', 'macbook pro 15" (2018-2019)' => 'MacBook Pro 15" (2018)',
             'mac pro (2010)', 'mac pro (2010-2012)' => 'Mac Pro (2010)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
@@ -931,6 +934,7 @@ final class DeviceMarketingnameMapper
             'mate 40e', 'mate 40e 4g', 'mate 40e 5g' => 'Mate 40E',
             'mate 40 pro', 'mate 40 pro 4g' => 'Mate 40 Pro',
             'mate 70 5g', 'mate 70 5g (china)' => 'Mate 70 5G',
+            'matebook pro', 'matebook pro 14.2"' => 'MateBook Pro',
             'matepad 10.4"', 'matepad 10.4" wi-fi', 'matepad 10.4" wifi' => 'MatePad 10.4"',
             'matepad 10.4" wi-fi (2022)', 'matepad 10.4" (2022) wifi' => 'MatePad 10.4" Wi-Fi (2022)',
             'matepad 10.4" se', 'matepad 10.4" se (2023)', 'matepad 10.4" se lte (2023)' => 'MatePad 10.4" SE',
@@ -1457,6 +1461,17 @@ final class DeviceMarketingnameMapper
             'steelcore', 'ov-steelcore' => 'SteelCore',
             // evolveo
             'smart tv stick d2' => 'Smart TV Stick D2',
+            // thomson
+            't55d18dfs-01b', 't55d18dfs-01b 55.0"' => 'T55D18DFS-01B',
+            't55d18sfs-01b', 't55d18sfs-01b 55.0"' => 'T55D18SFS-01B',
+            'tb28d19dhs-01', 'tb28d19dhs-01 28.0"' => 'TB28D19DHS-01',
+            't32rtm5040', 't32rtm5040 32.0"' => 'T32RTM5040',
+            't40d18sfs-01b', 't40d18sfs-01b 40.0"' => 'T40D18SFS-01B',
+            't43d18sfs-01b', 't43d18sfs-01b 43.0"' => 'T43D18SFS-01B',
+            't43fsl5031', 't43fsl5031 43.0"' => 'T43FSL5031',
+            't49d18sfs-01b', 't49d18sfs-01b 49.0"' => 'T49D18SFS-01B',
+            't28d18sfs-01b', 't28d18sfs-01b 28.0"' => 'T28D18SFS-01B',
+            't32d18sfs-01b', 't32d18sfs-01b 32.0"' => 'T32D18SFS-01B',
             default => $marketingName,
         };
     }

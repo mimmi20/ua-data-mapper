@@ -76,6 +76,7 @@ final class PlatformNameMapper
             'windows mobile', 'windows phone os', 'windows phone', 'windows mobile os' => 'Windows Mobile',
             'horizon', 'meta horizon' => 'Horizon',
             'webos', 'lg webos' => 'webOS',
+            'ubuntu', 'ubuntu touch' => 'Ubuntu',
             default => $osName,
         };
     }
