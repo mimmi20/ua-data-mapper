@@ -402,6 +402,7 @@ final class BrowserNameMapper
             'baidu browser', 'baidu browser hd' => 'Baidu Browser',
             'clickagy', 'clickagy intelligence bot' => 'Clickagy',
             'adstxtlab.com crawler', 'adstxtlab.com' => 'adstxtlab.com Crawler',
+            'ryowl', 'ryowl engine' => 'Ryowl',
             default => $browserInput,
         };
     }
