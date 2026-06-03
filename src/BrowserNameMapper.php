@@ -149,7 +149,7 @@ final class BrowserNameMapper
             'telegram app', 'telegram' => 'Telegram App',
             'oceanhero browser', 'oceanhero' => 'OceanHero Browser',
             'stargon browser', 'stargon' => 'Stargon Browser',
-            'puffin', 'puffin web browser' => 'Puffin',
+            'puffin', 'puffin web browser', 'puffin secure browser' => 'Puffin',
             'slack app', 'slack' => 'Slack App',
             'radio.de app', 'radio.de' => 'radio.de App',
             'guzzle http client', 'guzzle (php http client)' => 'Guzzle Http Client',

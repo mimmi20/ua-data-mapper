@@ -1344,6 +1344,7 @@ final class DeviceMarketingnameMapper
             'fp6', 'fairphone 6' => 'FP6',
             // amazon
             'echo', 'echo dot', 'echo show' => 'Echo',
+            'echo show (2nd gen)', 'echo show (gen 2)' => 'Echo Show (2nd Gen)',
             'echo show 8', 'echo show 8 (2023)' => 'Echo Show 8',
             'fire 7"', 'fire 7" (2015)' => 'Fire 7"',
             'fire 7" (2017)', 'fire hd 7 (2017)' => 'Fire 7" (2017)',
