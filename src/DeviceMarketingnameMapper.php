@@ -405,7 +405,7 @@ final class DeviceMarketingnameMapper
             'galaxy z fold 2 5g', 'galaxy z fold 2 5g (international)', 'galaxy z fold 2 5g (usa)' => 'Galaxy Z Fold 2 5G',
             'galaxy z fold 3 5g', 'galaxy z fold 3 5g (canada)', 'galaxy z fold 3 5g (international)', 'galaxy z fold 3 5g (korea)', 'galaxy z fold 3 5g (usa)' => 'Galaxy Z Fold 3 5G',
             'galaxy z fold 4', 'galaxy z fold 4 5g (international)', 'galaxy z fold 4 5g (canada)', 'galaxy z fold 4 5g (usa)', 'galaxy z fold 4 5g (korea)', 'galaxy z fold 4 5g (china)', 'galaxy z fold 4 5g (usa unlocked)', 'galaxy z fold 4 5g (japan)' => 'Galaxy Z Fold 4',
-            'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)', 'galaxy z fold 5 (china)', 'galaxy z fold 5 (canada)' => 'Galaxy Z Fold 5',
+            'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)', 'galaxy z fold 5 (china)', 'galaxy z fold 5 (canada)', 'galaxy z fold 5 (usa)' => 'Galaxy Z Fold 5',
             'galaxy z fold 6', 'galaxy z fold 6 (korea)' => 'Galaxy Z Fold 6',
             'galaxy z flip 5g', 'galaxy z flip 5g (usa)', 'galaxy z flip 5g (international)' => 'Galaxy Z Flip 5G',
             'galaxy z flip 3', 'galaxy z flip 3 5g (usa)', 'galaxy z flip 3 5g (china)', 'galaxy z flip 3 5g (international)', 'galaxy z flip 3 5g (usa unlocked)', 'galaxy z flip 3 5g (canada)' => 'Galaxy Z Flip 3',
