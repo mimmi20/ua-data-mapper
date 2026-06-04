@@ -788,6 +788,7 @@ final class DeviceMarketingnameMapper
             'tab m10 hd', 'smart tab m10 hd (2nd gen, wi-fi)', 'smart tab m10 hd (2nd gen, lte)' => 'Tab M10 HD',
             'tab m10 plus (gen 3)', 'tab m10 plus (3rd gen) wi-fi', 'tab m10 plus (3rd gen) 5g', 'tab m10 plus wi-fi (3rd gen)', 'tab m10 plus (3rd gen, 2022)' => 'Tab M10 Plus (Gen 3)',
             'tab m11', 'tab m11 lte', 'tab m11 wi-fi' => 'Tab M11',
+            'tab p11', 'tab p11 lte' => 'Tab P11',
             'tab p11 (gen 2)', 'tab p11 (gen 2) wi-fi', 'tab p11 (gen 2) wifi', 'tab p11 (2nd gen, 2022)', 'tab p11 wi-fi (2nd gen)' => 'Tab P11 (Gen 2)',
             'tab p11 pro (gen 2)', 'tab p11 pro wi-fi (2nd gen)', 'tab p11 pro', 'tab p11 pro 4g' => 'Tab P11 Pro',
             'tab p12', 'tab p12 wi-fi', 'tab p12 wifi' => 'Tab P12',
