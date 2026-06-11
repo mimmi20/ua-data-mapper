@@ -403,6 +403,8 @@ final class BrowserNameMapper
             'clickagy', 'clickagy intelligence bot' => 'Clickagy',
             'adstxtlab.com crawler', 'adstxtlab.com' => 'adstxtlab.com Crawler',
             'ryowl', 'ryowl engine' => 'Ryowl',
+            'yahoo! mail', 'yahoo mail' => 'Yahoo! Mail',
+            'acrobat reader', 'adobe acrobat reader' => 'Acrobat Reader',
             default => $browserInput,
         };
     }
