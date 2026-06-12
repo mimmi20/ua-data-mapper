@@ -405,6 +405,8 @@ final class BrowserNameMapper
             'ryowl', 'ryowl engine' => 'Ryowl',
             'yahoo! mail', 'yahoo mail' => 'Yahoo! Mail',
             'acrobat reader', 'adobe acrobat reader' => 'Acrobat Reader',
+            'mojeek app', 'mojeek' => 'Mojeek App',
+            'radio app', 'radioapp' => 'Radio App',
             default => $browserInput,
         };
     }
