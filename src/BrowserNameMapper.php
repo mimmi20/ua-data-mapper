@@ -407,6 +407,8 @@ final class BrowserNameMapper
             'acrobat reader', 'adobe acrobat reader' => 'Acrobat Reader',
             'mojeek app', 'mojeek' => 'Mojeek App',
             'radio app', 'radioapp' => 'Radio App',
+            'metatrader', 'metatrader 5 terminal' => 'MetaTrader',
+            'cygwin', 'cygwin setup' => 'Cygwin',
             default => $browserInput,
         };
     }
