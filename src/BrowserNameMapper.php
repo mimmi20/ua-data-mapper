@@ -409,6 +409,10 @@ final class BrowserNameMapper
             'radio app', 'radioapp' => 'Radio App',
             'metatrader', 'metatrader 5 terminal' => 'MetaTrader',
             'cygwin', 'cygwin setup' => 'Cygwin',
+            'discord', 'discord updater' => 'Discord',
+            'clear tv browser', 'clear tv web browser' => 'Clear TV Browser',
+            'ray', 'ray browser' => 'Ray',
+            'ace', 'ace browser' => 'Ace',
             default => $browserInput,
         };
     }
