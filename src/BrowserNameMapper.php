@@ -413,6 +413,8 @@ final class BrowserNameMapper
             'clear tv browser', 'clear tv web browser' => 'Clear TV Browser',
             'ray', 'ray browser' => 'Ray',
             'ace', 'ace browser' => 'Ace',
+            'internet browser (tv)', 'tv-browser internet' => 'Internet Browser (TV)',
+            'xbrowser', 'mmbox xbrowser' => 'XBrowser',
             default => $browserInput,
         };
     }
