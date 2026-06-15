@@ -415,6 +415,8 @@ final class BrowserNameMapper
             'ace', 'ace browser' => 'Ace',
             'internet browser (tv)', 'tv-browser internet' => 'Internet Browser (TV)',
             'xbrowser', 'mmbox xbrowser' => 'XBrowser',
+            'nyxone browser', 'pintar browser' => 'NyxOne Browser',
+            'smartview browser', 'hotbrowser' => 'SmartView Browser',
             default => $browserInput,
         };
     }
