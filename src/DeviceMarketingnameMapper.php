@@ -624,6 +624,7 @@ final class DeviceMarketingnameMapper
             '11i', 'mi 11i' => '11i',
             '11 lite 5g ne', 'mi 11 lite 5g', 'mi 11 lite 5g ne' => '11 Lite 5G NE',
             '11 lite ne' => '11 Lite NE',
+            '11i hypercharge 5g', 'mi 11i hypercharge 5g' => '11i HyperCharge 5G',
             '11t', 'mi 11t' => '11T',
             '11t pro', 'mi 11t pro' => '11T Pro',
             '12 lite', '12 lite 5g' => '12 Lite',
