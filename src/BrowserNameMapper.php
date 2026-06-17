@@ -417,6 +417,7 @@ final class BrowserNameMapper
             'xbrowser', 'mmbox xbrowser' => 'XBrowser',
             'nyxone browser', 'pintar browser' => 'NyxOne Browser',
             'smartview browser', 'hotbrowser' => 'SmartView Browser',
+            'perfect browser', 'perfect browser pro' => 'Perfect Browser',
             default => $browserInput,
         };
     }
