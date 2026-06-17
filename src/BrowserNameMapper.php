@@ -418,6 +418,8 @@ final class BrowserNameMapper
             'nyxone browser', 'pintar browser' => 'NyxOne Browser',
             'smartview browser', 'hotbrowser' => 'SmartView Browser',
             'perfect browser', 'perfect browser pro' => 'Perfect Browser',
+            'the enterprise browser', 'island' => 'The Enterprise Browser',
+            'open vulnerability assessment system', 'openvas' => 'Open Vulnerability Assessment System',
             default => $browserInput,
         };
     }
