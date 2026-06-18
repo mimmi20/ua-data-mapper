@@ -765,6 +765,7 @@ final class DeviceMarketingnameMapper
             'a388t' => 'A388T',
             'a7000', 'a7000-a' => 'A7000',
             'ideatab a10-70', 'ideatab a10-70 wi-fi' => 'IdeaTab A10-70',
+            'idea tab plus wi-fi', 'idea tab plus wifi' => 'Idea Tab Plus Wi-Fi',
             'legion y700', 'legion y700 wi-fi (2025)', 'legion y700 wi-fi (2023)' => 'Legion Y700',
             'tab 2', 'tab 2 a7', 'tab 2 a7-10f', 'tab 2 a7-30h' => 'Tab 2',
             'tab 2 a7-20', 'tab 2 a7-20f', 'tab 2 a7-20 wi-fi' => 'Tab 2 A7-20',
