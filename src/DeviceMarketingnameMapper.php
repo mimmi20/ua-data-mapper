@@ -442,6 +442,7 @@ final class DeviceMarketingnameMapper
             'wave 2', 'wave ii' => 'Wave 2',
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
+            'apple tv 4', 'apple tv (4th gen)' => 'Apple TV 4',
             'imac (2009)', 'imac 21.5" (2009)' => 'iMac (2009)',
             'imac 23.5" (2021)', 'imac 24" (2021)' => 'iMac 23.5" (2021)',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
