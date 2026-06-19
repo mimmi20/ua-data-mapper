@@ -420,6 +420,8 @@ final class BrowserNameMapper
             'perfect browser', 'perfect browser pro' => 'Perfect Browser',
             'the enterprise browser', 'island' => 'The Enterprise Browser',
             'open vulnerability assessment system', 'openvas' => 'Open Vulnerability Assessment System',
+            'gb whatsapp', 'gbwhatsapp' => 'GB WhatsApp',
+            'sohunews', 'sohunews app' => 'SohuNews',
             default => $browserInput,
         };
     }

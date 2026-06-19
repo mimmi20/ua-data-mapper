@@ -829,7 +829,7 @@ final class DeviceMarketingnameMapper
             'zero 5g', 'zero 5g (2023)' => 'Zero 5G',
             // oneplus
             '7t pro', '7t pro (global)' => '7T Pro',
-            '8', '8 (europe/asia)' => '8',
+            '8', '8 (europe/asia)', '8 (china)' => '8',
             '8 pro', '8 pro 5g (europe/asia)', '8 pro 5g (north america)', '8pro', '8 pro 5g' => '8 Pro',
             '10r', '10r 5g' => '10R',
             '15r', '15r (global)' => '15R',
