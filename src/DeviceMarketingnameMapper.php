@@ -249,7 +249,7 @@ final class DeviceMarketingnameMapper
             'galaxy s7', 'galaxy s7 (verizon)', 'galaxy s7 duos', 'galaxy s7 (at&t)', 'galaxy s7 (canada)' => 'Galaxy S7',
             'galaxy s7 active', 'galaxy s7 active (at&t)' => 'Galaxy S7 Active',
             'galaxy s7 edge', 'galaxy s7 edge (global)', 'galaxy s7 edge (t-mobile)', 'galaxy s7 edge (hong kong)', 'galaxy s7 edge (southeast asia, india)' => 'Galaxy S7 Edge',
-            'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)' => 'Galaxy S8',
+            'galaxy s8', 'galaxy s8 (us unlocked)', 'galaxy s8 (global)', 'galaxy s8 (korea)' => 'Galaxy S8',
             'galaxy s9', 'galaxy s9 (usa)', 'galaxy s9 (usa unlocked)' => 'Galaxy S9',
             'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)', 'galaxy s9+ (canada)', 'galaxy s9+ (usa unlocked)' => 'Galaxy S9+',
             'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)', 'galaxy s10 5g (global)' => 'Galaxy S10',
