@@ -422,6 +422,7 @@ final class BrowserNameMapper
             'open vulnerability assessment system', 'openvas' => 'Open Vulnerability Assessment System',
             'gb whatsapp', 'gbwhatsapp' => 'GB WhatsApp',
             'sohunews', 'sohunews app' => 'SohuNews',
+            'spark', 'baidu spark' => 'Spark',
             default => $browserInput,
         };
     }
