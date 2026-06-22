@@ -423,6 +423,7 @@ final class BrowserNameMapper
             'gb whatsapp', 'gbwhatsapp' => 'GB WhatsApp',
             'sohunews', 'sohunews app' => 'SohuNews',
             'spark', 'baidu spark' => 'Spark',
+            'microsoft office onedrive for business', 'onedrive for business' => 'Microsoft Office OneDrive for Business',
             default => $browserInput,
         };
     }
