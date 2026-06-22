@@ -366,7 +366,7 @@ final class DeviceBrandnameMapper
             'hi nova', 'hi-nova' => 'Hi Nova',
             'bq' => 'BQ',
             'andersson' => 'Andersson',
-            'positivo' => 'Positivo',
+            'positivo', 'positivo bgh' => 'Positivo',
             'brondi' => 'Brondi',
             'orbic' => 'Orbic',
             'pcd', 'pcd argentina' => 'PCD',
