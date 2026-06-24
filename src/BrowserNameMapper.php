@@ -66,7 +66,7 @@ final class BrowserNameMapper
             'mobile silk', 'amazon silk' => 'Silk',
             'genieo web filter' => 'Genieo Web Filter',
             'yahoo! slurp', 'slurp', 'inktomi slurp', 'yahoo! adcrawler' => 'Slurp',
-            'yandex bot', 'yandex mobile bot', 'yandexbot' => 'YandexBot',
+            'yandex bot', 'yandex mobile bot', 'yandexbot', 'yandexmobilebot' => 'YandexBot',
             'nutch-based bot', 'apache nutch', 'testcrawler', 'ssearch crawler', 'netseer crawler', 'roboobot', 'discovered', 'piplbot', 'danbot', 'safednsbot', 'domnutch bot', 'travelbot' => 'Nutch',
             'baidu spider', 'baiduspider', 'baidu mobile search', 'baidu transcoder', 'baidu image search' => 'BaiduSpider',
             'semrush bot' => 'SemrushBot',
@@ -93,7 +93,7 @@ final class BrowserNameMapper
             'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
             'qqbrowser' => 'QQ Browser',
             'wosbrowser', 'webkit/webos', 'webos browser', 'palm pre' => 'webOS Browser',
-            'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile', 'edge mobile for android' => 'Edge',
+            'microsoft edge', 'spartan', 'edge mobile for ios', 'edge mobile', 'edge mobile for android', 'edge side panel' => 'Edge',
             'seomoz rogerbot' => 'roger bot',
             'airwatch browser', 'vmware airwatch' => 'AirWatch Browser',
             'google search app', 'google mobile app' => 'Google Search App',
@@ -424,6 +424,7 @@ final class BrowserNameMapper
             'sohunews', 'sohunews app' => 'SohuNews',
             'spark', 'baidu spark' => 'Spark',
             'microsoft office onedrive for business', 'onedrive for business' => 'Microsoft Office OneDrive for Business',
+            'espn', 'espn radio' => 'ESPN',
             default => $browserInput,
         };
     }
