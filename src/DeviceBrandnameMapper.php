@@ -388,6 +388,7 @@ final class DeviceBrandnameMapper
             'aldi nord' => 'Aldi Nord',
             'arris', 'foxtel' => 'ARRIS',
             'mstar' => 'MSTAR',
+            'ioplee' => 'Ioplee',
             default => $brandName,
         };
     }

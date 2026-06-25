@@ -72,6 +72,7 @@ final class MakerMapper
             'arris', 'foxtel' => 'ARRIS',
             'mobistel', 'elson' => 'Mobistel',
             'mstar' => 'MSTAR',
+            'ioplee' => 'Ioplee',
             default => $maker,
         };
     }
