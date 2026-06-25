@@ -52,6 +52,7 @@ final class DeviceMarketingnameMapper
             'onetouch go play', 'one touch 7048e' => 'OneTouch Go Play',
             'onetouch pixi 3 4"', 'one touch pixi 3 4"' => 'OneTouch Pixi 3 4"',
             'onetouch pixi 4 5" 3g', 'one touch pixi 4 5" 3g' => 'OneTouch Pixi 4 5" 3G',
+            'myflip 2', 'my flip 2 (tracfone)' => 'MyFlip 2',
             'nxtpaper 11', 'nxtpaper 11 4g' => 'NxtPaper 11',
             'tab 8 le', 'tab 8 le (metropcs)' => 'Tab 8 LE',
             'tab 8"', 'tab 8" 4g' => 'Tab 8"',

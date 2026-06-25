@@ -425,6 +425,7 @@ final class BrowserNameMapper
             'spark', 'baidu spark' => 'Spark',
             'microsoft office onedrive for business', 'onedrive for business' => 'Microsoft Office OneDrive for Business',
             'espn', 'espn radio' => 'ESPN',
+            'whatsapp+2', 'yo whatsapp 2+' => 'WhatsApp+2',
             default => $browserInput,
         };
     }
