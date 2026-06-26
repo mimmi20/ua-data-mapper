@@ -215,7 +215,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 10.1" 2014 edition', 'galaxy note 10.1 3g (2014)', 'galaxy note 10.1 lte (2014)', 'galaxy note 10.1" 2014 edition lte', 'galaxy note 10.1" lte (2014)' => 'Galaxy Note 10.1" 2014',
             'galaxy note 10.1" 2014 edition wifi', 'galaxy note 10.1" wi-fi (2014)', 'galaxy note 10.1" wi-fi 2014' => 'Galaxy Note 10.1" Wi-Fi 2014',
             'galaxy note 20', 'galaxy note 20 4g' => 'Galaxy Note 20',
-            'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)', 'galaxy note 20 5g (usa, unlocked)' => 'Galaxy Note 20 5G',
+            'galaxy note 20 5g', 'galaxy note 20 5g (australia)', 'galaxy note 20 5g (korea)', 'galaxy note 20 5g (usa, unlocked)', 'galaxy note 20 5g (usa)' => 'Galaxy Note 20 5G',
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)', 'galaxy note 20 ultra 5g (usa, unlocked)', 'galaxy note 20 ultra 5g (korea)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy note pro 12.2" lte', 'galaxy notepro 12.2" lte' => 'Galaxy Note Pro 12.2" LTE',
