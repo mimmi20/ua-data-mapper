@@ -430,6 +430,7 @@ final class BrowserNameMapper
             'surfshark', 'surfshark app' => 'Surfshark',
             'mempresas', 'millennium empresas' => 'MEmpresas',
             'hisearch', 'huawei ai search' => 'HiSearch',
+            'bank millennium', 'bank millenium' => 'Bank Millennium',
             default => $browserInput,
         };
     }
