@@ -426,6 +426,10 @@ final class BrowserNameMapper
             'microsoft office onedrive for business', 'onedrive for business' => 'Microsoft Office OneDrive for Business',
             'espn', 'espn radio' => 'ESPN',
             'whatsapp+2', 'yo whatsapp 2+' => 'WhatsApp+2',
+            'hago', 'hago app' => 'Hago',
+            'surfshark', 'surfshark app' => 'Surfshark',
+            'mempresas', 'millennium empresas' => 'MEmpresas',
+            'hisearch', 'huawei ai search' => 'HiSearch',
             default => $browserInput,
         };
     }
