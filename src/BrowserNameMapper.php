@@ -100,6 +100,7 @@ final class BrowserNameMapper
             'office', 'microsoft office', 'office syncproc' => 'Office',
             'office mobile', 'microsoft office mobile' => 'Microsoft Office Mobile',
             'word', 'microsoft office word' => 'Microsoft Word',
+            'publisher', 'microsoft office publisher' => 'Microsoft Publisher',
             'onenote', 'microsoft office onenote' => 'Microsoft OneNote',
             'powerpoint', 'microsoft office powerpoint' => 'Microsoft PowerPoint',
             'excel', 'microsoft office excel' => 'Microsoft Excel',
