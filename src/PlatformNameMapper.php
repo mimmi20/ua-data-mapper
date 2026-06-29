@@ -77,6 +77,7 @@ final class PlatformNameMapper
             'horizon', 'meta horizon' => 'Horizon',
             'webos', 'lg webos' => 'webOS',
             'ubuntu', 'ubuntu touch' => 'Ubuntu',
+            'vidaa os', 'vidaa' => 'VIDAA OS',
             default => $osName,
         };
     }
