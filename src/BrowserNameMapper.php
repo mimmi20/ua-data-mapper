@@ -38,7 +38,7 @@ final class BrowserNameMapper
             'ie', 'msie' => 'Internet Explorer',
             'iceweasel' => 'Iceweasel',
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
-            'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome' => 'Chrome',
+            'chrome mobile ios', 'chrome frame', 'chrome for ios', 'crios', 'chrome mobile', 'mobile chrome', 'chrome webview', 'android webview' => 'Chrome',
             'android', 'android browser', 'aliyun browser' => 'Android Webkit',
             'googlebot', 'google bot mobile', 'adsbot google-mobile', 'adsbot google', 'google web preview', 'google publisher wordpress plugin', 'google web snippet', 'google ads conversions', 'google ads qualify', 'google adwords displayads webrender', 'google-inspectiontool', 'google feedfetcher', 'adsense bot', 'google adwords instant', 'google image search', 'google sites', 'google app engine', 'google adwords express', 'google adstxt', 'google shopping quality', 'google adwords displayads', 'google stale content probe', 'google other', 'google-adwords-express', 'googlebot-video', 'google dmca takedown tool bot', 'google amphtml', 'google-pagerenderer' => 'Google Bot',
             'bingbot', 'bing preview', 'bingpreview', 'adidxbot', 'msnbot-media' => 'BingBot',
@@ -107,7 +107,6 @@ final class BrowserNameMapper
             'microsoft bing', 'bing search', 'bingweb app' => 'Microsoft Bing',
             'via browser', 'via' => 'Via Browser',
             'f-secure safe', 'safe' => 'SAFE',
-            'chrome webview', 'android webview' => 'Chrome WebView',
             'start', 'microsoft start' => 'Start',
             'kodi', 'kodi media center' => 'Kodi',
             'keplr', 'keplr wallet' => 'Keplr',
@@ -432,6 +431,7 @@ final class BrowserNameMapper
             'mempresas', 'millennium empresas' => 'MEmpresas',
             'hisearch', 'huawei ai search' => 'HiSearch',
             'bank millennium', 'bank millenium' => 'Bank Millennium',
+            'wirtschaftswoche', 'wirtschafts woche' => 'WirtschaftsWoche',
             default => $browserInput,
         };
     }

@@ -389,6 +389,8 @@ final class DeviceBrandnameMapper
             'arris', 'foxtel' => 'ARRIS',
             'mstar' => 'MSTAR',
             'ioplee' => 'Ioplee',
+            'arrqw', 'arrow' => 'ARRQW',
+            'essentiel b', 'essentielb' => 'Essentiel B',
             default => $brandName,
         };
     }

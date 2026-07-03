@@ -698,6 +698,7 @@ final class DeviceMarketingnameMapper
             'redmi note 14', 'redmi note 14 4g', 'redmi note 14 5g', 'redmi note 14 5g (china)', 'redmi note 14 5g (global)', 'redmi note 14 5g (india)' => 'Redmi Note 14',
             'redmi note 14 pro', 'redmi note 14 pro 5g', 'redmi note 14 pro 5g (global)', 'redmi note 14 pro 5g (india)', 'redmi note 14 pro 4g', 'redmi note 14 pro 5g (china)' => 'Redmi Note 14 Pro',
             'redmi note 14 pro+', 'redmi note 14 pro+ 5g (global)', 'redmi note 14 pro+ 5g (india)', 'redmi note 14 pro+ 5g (china)' => 'Redmi Note 14 Pro+',
+            'redmi note 15', 'redmi note 15 4g (europe)' => 'Redmi Note 15',
             'redmi pad 2', 'redmi pad 2 wi-fi', 'redmi pad 2 wifi' => 'Redmi Pad 2',
             'redmi pad 2 pro', 'redmi pad 2 pro wi-fi', 'redmi pad 2 pro wifi' => 'Redmi Pad 2 Pro',
             'redmi pad pro', 'redmi pad pro 12.1"' => 'Redmi Pad Pro',
@@ -854,6 +855,7 @@ final class DeviceMarketingnameMapper
             'spark go 1', 'pop 9' => 'Spark Go 1',
             'spark go 1s', 'spark go 1s 4g' => 'Spark Go 1S',
             'spark 30c 5g', 'pop 9 5g' => 'Spark 30C 5G',
+            'camon c8', 'c8' => 'Camon C8',
             // sony
             'kd-55x8505b', 'kd55x8505b' => 'KD-55X8505B',
             'kd-55x9005b', 'kd55x9005b' => 'KD-55X9005B',
@@ -1155,6 +1157,7 @@ final class DeviceMarketingnameMapper
             'm6', 'm6 4g' => 'M6',
             'm6 pro', 'm6 pro 4g' => 'M6 Pro',
             'pad 12.1"', 'pad 12.1" wi-fi' => 'Pad 12.1"',
+            'x8 pro', 'x8 pro 5g (international)' => 'X8 Pro',
             // oscal
             'pad 70 wi-fi', 'pad 70 wifi' => 'Pad 70 Wi-Fi',
             'pad 80 wi-fi', 'pad 80 wifi' => 'Pad 80 Wi-Fi',
