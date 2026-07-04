@@ -150,6 +150,7 @@ final class DeviceMarketingnameMapper
             'galaxy core 2', 'galaxy core 2 duos (latin)', 'galaxy core 2 dual sim' => 'Galaxy Core 2',
             'galaxy core prime', 'galaxy core prime lte' => 'Galaxy Core Prime',
             'galaxy discover', 'galaxy discover (telus)' => 'Galaxy Discover',
+            'galaxy e5', 'galaxy e5 duos 3g' => 'Galaxy E5',
             'galaxy e7', 'galaxy e7 3g' => 'Galaxy E7',
             'galaxy f04', 'galaxy m04' => 'Galaxy F04',
             'galaxy f06 5g', 'galaxy f06 5g (international)' => 'Galaxy F06 5G',
