@@ -37,6 +37,7 @@ final class DeviceMarketingnameMapper
             '', 'unknown', 'other', 'various', 'some unknown model' => null,
             // alcatel/tcl
             '1s' => '1s',
+            '1t 10" wi-fi', '1t 10 wifi' => '1T 10" Wi-Fi',
             '1v', '1v (2019)' => '1v',
             '30 z', '30 z (cricket)' => '30 Z',
             '3c (2019)' => '3c (2019)',
