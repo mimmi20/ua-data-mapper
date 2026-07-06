@@ -73,6 +73,8 @@ final class MakerMapper
             'mobistel', 'elson' => 'Mobistel',
             'mstar' => 'MSTAR',
             'ioplee' => 'Ioplee',
+            'arrqw', 'arrow' => 'ARRQW',
+            'essentiel b', 'essentielb' => 'Essentiel B',
             default => $maker,
         };
     }
