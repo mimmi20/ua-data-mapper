@@ -432,6 +432,7 @@ final class BrowserNameMapper
             'hisearch', 'huawei ai search' => 'HiSearch',
             'bank millennium', 'bank millenium' => 'Bank Millennium',
             'wirtschaftswoche', 'wirtschafts woche' => 'WirtschaftsWoche',
+            'quetta browser', 'quetta' => 'Quetta Browser',
             default => $browserInput,
         };
     }
