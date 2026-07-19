@@ -101,7 +101,7 @@ final class DeviceMarketingnameMapper
             'galaxy a7', 'galaxy a7 lte duos', 'galaxy a7 duos' => 'Galaxy A7',
             'galaxy a7 (2016)', 'galaxy a7 (europe, south africa, kazakhstan, russia, 2016)', 'galaxy a7 (hong kong, china, 2016)' => 'Galaxy A7 (2016)',
             'galaxy a11', 'galaxy a11 (international)', 'galaxy a11 (usa)' => 'Galaxy A11',
-            'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)', 'galaxy a12 nacho' => 'Galaxy A12',
+            'galaxy a12', 'galaxy a12 (india)', 'galaxy a12 (usa)', 'galaxy a12 nacho', 'galaxy a12 (canada)' => 'Galaxy A12',
             'galaxy a13', 'galaxy a13 (usa)', 'galaxy a13 (usa unlocked)', 'galaxy a13 (korea)' => 'Galaxy A13',
             'galaxy a13 5g', 'galaxy a13 5g (international)', 'galaxy a13 5g (usa unlocked)' => 'Galaxy A13 5G',
             'galaxy a14', 'galaxy a14 4g' => 'Galaxy A14',
@@ -419,7 +419,7 @@ final class DeviceMarketingnameMapper
             'galaxy z flip 3', 'galaxy z flip 3 5g (usa)', 'galaxy z flip 3 5g (china)', 'galaxy z flip 3 5g (international)', 'galaxy z flip 3 5g (usa unlocked)', 'galaxy z flip 3 5g (canada)' => 'Galaxy Z Flip 3',
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
             'galaxy z flip 5', 'galaxy z flip 5 (china)', 'galaxy z flip 5 (international)', 'galaxy z flip 5 (japan)', 'galaxy z flip 5 (canada)', 'galaxy z flip 5 (usa unlocked)', 'galaxy z flip 5 (korea)' => 'Galaxy Z Flip 5',
-            'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)' => 'Galaxy Z Flip 6',
+            'galaxy z flip 6', 'galaxy z flip 6 (international)', 'galaxy z flip 6 (usa)', 'galaxy z flip 6 (china)', 'galaxy z flip 6 (canada)', 'galaxy z flip 6 (korea)' => 'Galaxy Z Flip 6',
             'galaxy z3', 'galaxy z3 3g' => 'Galaxy Z3',
             'gear s 40mm', 'gear s (40mm)', 'gear s (40mm, 3g)' => 'Gear S 40mm',
             'gear s2 42mm', 'gear s2 classic (42mm)' => 'Gear S2 42mm',
@@ -627,6 +627,8 @@ final class DeviceMarketingnameMapper
             'reno 13', 'reno 13 5g' => 'Reno 13',
             'reno 13 pro', 'reno 13 pro 5g' => 'Reno 13 Pro',
             'reno 14', 'reno 14 5g' => 'Reno 14',
+            'reno 15', 'reno 15 5g (china)' => 'Reno 15',
+            'reno 15 pro', 'reno 15 pro 5g (china)' => 'Reno 15 Pro',
             // micromax
             'in 1b' => 'IN 1B',
             // xiaomi
@@ -739,6 +741,7 @@ final class DeviceMarketingnameMapper
             'v27e', 'v25e 4g (latam)' => 'V27e',
             'v29 pro', 'v29 pro 5g' => 'V29 Pro',
             'v29e 5g', 'v29e 5g (international)' => 'V29e 5G',
+            'v29e (india', 'v29e 5g (india)' => 'V29e (India)',
             'v30 lite', 'v30 lite (me)' => 'V30 Lite',
             'v40 lite', 'v40 lite 5g (india)', 'v40 lite (international)' => 'V40 Lite',
             'v50 lite', 'v50 lite 4g' => 'V50 Lite',
@@ -844,6 +847,7 @@ final class DeviceMarketingnameMapper
             '8 pro', '8 pro 5g (europe/asia)', '8 pro 5g (north america)', '8pro', '8 pro 5g' => '8 Pro',
             '10r', '10r 5g' => '10R',
             '15r', '15r (global)' => '15R',
+            '15t', '15t 5g' => '15T',
             'ace 5 racing', 'ace 5 race' => 'Ace 5 Racing',
             'nord 2', 'nord 2 5g' => 'Nord 2',
             'nord 5g', 'nord 5g (international)', 'nord 5g (india)' => 'Nord 5G',
@@ -1359,7 +1363,7 @@ final class DeviceMarketingnameMapper
             // aoc
             '50u6305/43i', '50u6305' => '50U6305',
             // philips
-            'android tv', 'google tv ta1' => 'Android TV',
+            'android tv', 'google tv ta1', 'google tv ta5' => 'Android TV',
             '55pfk7199/12', '55pfk719912' => '55PFK7199/12',
             '55pus7809/12', '55pus780912' => '55PUS7809/12',
             'bdp3490', 'blu-ray player (bdp3490)', 'bdp3490m' => 'BDP3490',
