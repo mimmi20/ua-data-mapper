@@ -281,7 +281,7 @@ final class DeviceMarketingnameMapper
             'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)', 'galaxy s24 fe (canada)', 'galaxy s24 fe (korea)' => 'Galaxy S24 FE',
             'galaxy s24 ultra', 'galaxy s24 ultra (usa)', 'galaxy s24 ultra (canada)', 'galaxy s24 ultra (japan)', 'galaxy s24 ultra (korea)', 'galaxy s24 ultra (china)' => 'Galaxy S24 Ultra',
             'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)', 'galaxy s25 (canada)' => 'Galaxy S25',
-            'galaxy s25+', 'galaxy s25+ (canada)', 'galaxy s25+ (international)', 'galaxy s25+ (usa)' => 'Galaxy S25+',
+            'galaxy s25+', 'galaxy s25+ (canada)', 'galaxy s25+ (international)', 'galaxy s25+ (usa)', 'galaxy s25+ (korea)' => 'Galaxy S25+',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)', 'galaxy s25 ultra 5g' => 'Galaxy S25 Ultra',
             'galaxy star' => 'Galaxy Star',
             'galaxy tab', 'galaxy tab 7.0"' => 'Galaxy Tab',
