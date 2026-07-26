@@ -434,6 +434,7 @@ final class BrowserNameMapper
             'wirtschaftswoche', 'wirtschafts woche' => 'WirtschaftsWoche',
             'quetta browser', 'quetta' => 'Quetta Browser',
             'google app', 'google' => 'Google App',
+            'presearch', 'presearch bot' => 'Presearch',
             default => $browserInput,
         };
     }

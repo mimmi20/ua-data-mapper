@@ -98,6 +98,7 @@ final class DeviceMarketingnameMapper
             'galaxy a6', 'galaxy a6 (2018)' => 'Galaxy A6',
             'galaxy a6+', 'galaxy a6+ (2018)' => 'Galaxy A6+',
             'galaxy a06', 'galaxy a06 (international)' => 'Galaxy A06',
+            'galaxy a06 5g', 'galaxy a06 5g (international)' => 'Galaxy A06 5G',
             'galaxy a7', 'galaxy a7 lte duos', 'galaxy a7 duos' => 'Galaxy A7',
             'galaxy a7 (2016)', 'galaxy a7 (europe, south africa, kazakhstan, russia, 2016)', 'galaxy a7 (hong kong, china, 2016)' => 'Galaxy A7 (2016)',
             'galaxy a11', 'galaxy a11 (international)', 'galaxy a11 (usa)' => 'Galaxy A11',
@@ -271,7 +272,7 @@ final class DeviceMarketingnameMapper
             'galaxy s21+ 5g', 'galaxy s21+ 5g (usa)', 'galaxy s21+ 5g (international)', 'galaxy s21+ 5g (korea)' => 'Galaxy S21+ 5G',
             'galaxy s21 fe 5g', 'galaxy s21 fe 5g (usa)', 'galaxy s21 fe 5g (usa unlocked)', 'galaxy s21 fe 5g (canada)', 'galaxy s21 fe 5g (china)' => 'Galaxy S21 FE 5G',
             'galaxy s21 ultra 5g', 'galaxy s21 ultra 5g (international)', 'galaxy s21 ultra 5g (korea)', 'galaxy s21 ultra 5g (china)', 'galaxy s21 ultra 5g (usa)', 'galaxy s21 ultra 5g (usa unlocked)' => 'Galaxy S21 Ultra 5G',
-            'galaxy s22', 'galaxy s22 5g (international)', 'galaxy s22 5g (korea)', 'galaxy s22 5g (usa unlocked)', 'galaxy s22 5g (asia/africa)', 'galaxy s22 5g (usa)', 'galaxy s22 5g (china)', 'galaxy s22 5g (canada)', 'galaxy s22 5g (japan)', 'galaxy s22 5g (docomo, japan)' => 'Galaxy S22',
+            'galaxy s22', 'galaxy s22 5g', 'galaxy s22 5g (international)', 'galaxy s22 5g (korea)', 'galaxy s22 5g (usa unlocked)', 'galaxy s22 5g (asia/africa)', 'galaxy s22 5g (usa)', 'galaxy s22 5g (china)', 'galaxy s22 5g (canada)', 'galaxy s22 5g (japan)', 'galaxy s22 5g (docomo, japan)' => 'Galaxy S22',
             'galaxy s22+', 'galaxy s22+ 5g (usa)', 'galaxy s22+ 5g (international)', 'galaxy s22+ 5g (asia/africa)', 'galaxy s22+ 5g (usa unlocked)', 'galaxy s22+ 5g (china)', 'galaxy s22+ 5g (korea)', 'galaxy s22+ 5g (canada)' => 'Galaxy S22+',
             'galaxy s22 ultra', 'galaxy s22 ultra 5g (international)', 'galaxy s22 ultra 5g (asia/africa)', 'galaxy s22 ultra 5g (usa unlocked)', 'galaxy s22 ultra 5g (usa)', 'galaxy s22 ultra 5g (china)', 'galaxy s22 ultra 5g (korea)', 'galaxy s22 ultra 5g (canada)', 'galaxy s22 ultra 5g (japan)' => 'Galaxy S22 Ultra',
             'galaxy s23', 'galaxy s23 (china)', 'galaxy s23 (international)', 'galaxy s23 5g uw', 'galaxy s23 (usa unlocked)', 'galaxy s23 (usa)', 'galaxy s23 (canada)', 'galaxy s23 (korea)', 'galaxy s23 5g uw (japan)' => 'Galaxy S23',
@@ -1206,6 +1207,7 @@ final class DeviceMarketingnameMapper
             'edge 30 ultra 5g', 'moto edge x30 5g' => 'Edge 30 Ultra 5G',
             'edge 60 neo', 'edge 60 neo 5g' => 'Edge 60 Neo',
             'edge 60 pro', 'moto edge 60 pro' => 'Edge 60 Pro',
+            'edge 70 ultra', 'edge 70 ultra 5g' => 'Edge 70 Ultra',
             'edge+ (2023)', 'edge plus (2023)' => 'Edge+ (2023)',
             'g pure', 'moto g pure' => 'G Pure',
             'moto g', 'moto g (2nd gen)' => 'Moto G',
@@ -1224,6 +1226,7 @@ final class DeviceMarketingnameMapper
             'razr 60 ultra' => 'Razr 60 Ultra',
             'razr 5g' => 'Razr 5G',
             'razr (2022)', 'razr 2022', 'moto razr (2022)' => 'Razr (2022)',
+            'razr (2024)', 'razr 2024' => 'Razr (2024)',
             'razr plus (2024)', 'razr plus 2024' => 'Razr Plus (2024)',
             'rizr z8' => 'Rizr Z8',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
@@ -1530,6 +1533,8 @@ final class DeviceMarketingnameMapper
             't49d18sfs-01b', 't49d18sfs-01b 49.0"' => 'T49D18SFS-01B',
             't28d18sfs-01b', 't28d18sfs-01b 28.0"' => 'T28D18SFS-01B',
             't32d18sfs-01b', 't32d18sfs-01b 32.0"' => 'T32D18SFS-01B',
+            // iiiF150
+            'b2 ultra', 'b2 ultra (2026)' => 'B2 Ultra',
             default => $marketingName,
         };
     }
