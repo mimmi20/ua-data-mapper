@@ -1293,6 +1293,7 @@ final class DeviceMarketingnameMapper
             'tab stand pro', 'la tab stand pro' => 'Tab Stand Pro',
             // safaricom
             'neon ray ultra', 'neon ray ultra m' => 'Neon Ray Ultra',
+            'neon smarta 2', 'neon smarta 2t' => 'Neon Smarta 2',
             // unihertz
             'tank 2', '8849 tank 2' => 'Tank 2',
             'tank 3', '8849 tank 3' => 'Tank 3',
