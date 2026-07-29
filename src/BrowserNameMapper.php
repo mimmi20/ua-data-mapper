@@ -436,6 +436,7 @@ final class BrowserNameMapper
             'google app', 'google' => 'Google App',
             'presearch', 'presearch bot' => 'Presearch',
             'yahoo! link preview', 'yahoo! slingstone' => 'Yahoo! Link Preview',
+            'mistralai index', 'mistralai-index' => 'MistralAI Index',
             default => $browserInput,
         };
     }
