@@ -435,6 +435,7 @@ final class BrowserNameMapper
             'quetta browser', 'quetta' => 'Quetta Browser',
             'google app', 'google' => 'Google App',
             'presearch', 'presearch bot' => 'Presearch',
+            'yahoo! link preview', 'yahoo! slingstone' => 'Yahoo! Link Preview',
             default => $browserInput,
         };
     }
