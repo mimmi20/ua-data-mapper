@@ -75,6 +75,7 @@ final class MakerMapper
             'ioplee' => 'Ioplee',
             'arrqw', 'arrow' => 'ARRQW',
             'essentiel b', 'essentielb' => 'Essentiel B',
+            'simfer' => 'Simfer',
             default => $maker,
         };
     }
