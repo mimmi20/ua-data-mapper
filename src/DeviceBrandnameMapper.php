@@ -45,7 +45,7 @@ final class DeviceBrandnameMapper
             'go', 'google' => 'Google',
             'le', 'md', 'lenovo' => 'Lenovo',
             'mr', 'motorola' => 'Motorola',
-            'kn', 'amazon' => 'Amazon',
+            'kn', 'amazon', 'amazon basics' => 'Amazon',
             'hu', 'huawei' => 'Huawei',
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',

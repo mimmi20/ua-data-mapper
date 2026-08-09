@@ -544,6 +544,7 @@ final class DeviceMarketingnameMapper
             'macbook pro 15" (2013)', 'macbook pro 15" (2013-2014)' => 'MacBook Pro 15" (2013)',
             'macbook pro 15" (2018)', 'macbook pro 15" (2018-2019)' => 'MacBook Pro 15" (2018)',
             'mac pro (2010)', 'mac pro (2010-2012)' => 'Mac Pro (2010)',
+            'mac studio (2022)', 'mac studio 27" (2022)', 'mac studio 20" (2022)' => 'Mac Studio (2022)',
             'watch (38mm)', 'watch (38mm, lte)', 'watch 38mm' => 'Watch (38mm)',
             'watch (42mm)', 'watch (42mm, lte)', 'watch 42mm' => 'Watch (42mm)',
             'watch se (40mm)', 'watch se (40mm, lte)', 'watch se 40mm' => 'Watch SE (40mm)',
