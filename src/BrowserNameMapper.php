@@ -437,6 +437,7 @@ final class BrowserNameMapper
             'presearch', 'presearch bot' => 'Presearch',
             'yahoo! link preview', 'yahoo! slingstone' => 'Yahoo! Link Preview',
             'mistralai index', 'mistralai-index' => 'MistralAI Index',
+            'urlsumabot', 'urlsuma' => 'URLSuMaBot',
             default => $browserInput,
         };
     }

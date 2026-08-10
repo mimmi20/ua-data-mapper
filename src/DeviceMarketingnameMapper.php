@@ -324,13 +324,14 @@ final class DeviceMarketingnameMapper
             'galaxy tab a9+ 11.0" 5g', 'galaxy tab a9+ 11.0" 5g (international, 2023)', 'galaxy tab a9+ 11.0" 5g (usa, 2023)' => 'Galaxy Tab A9+ 11.0" 5G',
             'galaxy tab a9+ 11.0" wi-fi', 'galaxy tab a9+ 11.0" wifi' => 'Galaxy Tab A9+ 11.0" Wi-Fi',
             'galaxy tab a11 8.7" wi-fi', 'galaxy tab a11 8.7" wifi' => 'Galaxy Tab A11 8.7" Wi-Fi',
-            'galaxy tab a11+ 11" 5g', 'galaxy tab a11+ 11" 5g (korea)' => 'Galaxy Tab A11+ 11" 5G',
+            'galaxy tab a11+ 11" 5g', 'galaxy tab a11+ 11" 5g (korea)', 'galaxy tab a11+ 11" 5g (international)' => 'Galaxy Tab A11+ 11" 5G',
             'galaxy tab a11+ 11" wi-fi', 'galaxy tab a11+ 11" wifi' => 'Galaxy Tab A11+ 11" Wi-Fi',
             'galaxy tab active 8.0"', 'galaxy tab active 8.0 lte', 'galaxy tab active 8.0" lte' => 'Galaxy Tab Active 8.0"',
             'galaxy tab active 3 8.0"', 'galaxy tab active 3 8.0" 4g (2021)' => 'Galaxy Tab Active 3 8.0"',
             'galaxy tab active 3 8.0" wifi', 'galaxy tab active 3 8.0" wi-fi (2021)' => 'Galaxy Tab Active 3 8.0" Wi-Fi',
             'galaxy tab active 4 pro 10.1" 5g', 'galaxy tab active 4 pro 10.1" 5g (international)' => 'Galaxy Tab Active 4 Pro 10.1" 5G',
             'galaxy tab active 5 8.0" wi-fi (2024)', 'galaxy tab active5 8.0 (2024) wifi' => 'Galaxy Tab Active 5 8.0" Wi-Fi (2024)',
+            'galaxy tab active 5 pro 10.1" 5g', 'galaxy tab active 5 pro 10.1" 5g (international)' => 'Galaxy Tab Active 5 Pro 10.1" 5G',
             'galaxy tab active pro 10.1" lte', 'galaxy tab active pro 10.1"' => 'Galaxy Tab Active Pro 10.1" LTE',
             'galaxy tab active pro 10.1" wi-fi', 'galaxy tab active pro 10.1" wifi' => 'Galaxy Tab Active Pro 10.1" Wi-Fi',
             'galaxy tab pro 8.4" wi-fi', 'galaxy tabpro 8.4" wifi' => 'Galaxy Tab Pro 8.4" Wi-Fi',
@@ -379,6 +380,7 @@ final class DeviceMarketingnameMapper
             'galaxy tab s10 ultra 14.6" wi-fi', 'galaxy tab s10 ultra 14.6" wifi' => 'Galaxy Tab S10 Ultra 14.6" Wi-Fi',
             'galaxy tab s10+ 12.4" wi-fi', 'galaxy tab s10+ 12.4" wifi' => 'Galaxy Tab S10+ 12.4" Wi-Fi',
             'galaxy tab s11 5g', 'galaxy tab s11 5g (international)', 'galaxy tab s11 5g (korea)' => 'Galaxy Tab S11 5G',
+            'galaxy tab s11 ultra 14.6" 5g', 'galaxy tab s11 ultra 14.6" 5g (international)' => 'Galaxy Tab S11 Ultra 14.6" 5G',
             'galaxy tab s11 ultra 14.6" wi-fi', 'galaxy tab s11 ultra 14.6" wifi' => 'Galaxy Tab S11 Ultra 14.6" Wi-Fi',
             'galaxy tab s11 wi-fi', 'galaxy tab s11 wifi' => 'Galaxy Tab S11 Wi-Fi',
             'galaxy trend lite' => 'Galaxy Trend Lite',
@@ -424,6 +426,7 @@ final class DeviceMarketingnameMapper
             'galaxy z fold 4', 'galaxy z fold 4 5g (international)', 'galaxy z fold 4 5g (canada)', 'galaxy z fold 4 5g (usa)', 'galaxy z fold 4 5g (korea)', 'galaxy z fold 4 5g (china)', 'galaxy z fold 4 5g (usa unlocked)', 'galaxy z fold 4 5g (japan)' => 'Galaxy Z Fold 4',
             'galaxy z fold 5', 'galaxy z fold 5 (korea)', 'galaxy z fold 5 5g uw', 'galaxy z fold 5 (international)', 'galaxy z fold 5 (china)', 'galaxy z fold 5 (canada)', 'galaxy z fold 5 (usa)', 'galaxy z fold 5 (usa unlocked)' => 'Galaxy Z Fold 5',
             'galaxy z fold 6', 'galaxy z fold 6 (korea)', 'galaxy z fold 6 (usa)', 'galaxy z fold 6 (china)' => 'Galaxy Z Fold 6',
+            'galaxy z fold 7', 'galaxy z fold7' => 'Galaxy Z Fold 7',
             'galaxy z flip 5g', 'galaxy z flip 5g (usa)', 'galaxy z flip 5g (international)', 'galaxy z flip 5g (china, hong kong)' => 'Galaxy Z Flip 5G',
             'galaxy z flip 3', 'galaxy z flip 3 5g (usa)', 'galaxy z flip 3 5g (china)', 'galaxy z flip 3 5g (international)', 'galaxy z flip 3 5g (usa unlocked)', 'galaxy z flip 3 5g (canada)' => 'Galaxy Z Flip 3',
             'galaxy z flip 4', 'galaxy z flip 4 5g (china)', 'galaxy z flip 4 5g (international)', 'galaxy z flip 4 5g (usa)', 'galaxy z flip 4 5g (canada)', 'galaxy z flip 4 5g (korea)', 'galaxy z flip 4 5g (usa unlocked)', 'galaxy z flip 4 5g (japan)', 'galaxy z flip 4 5g' => 'Galaxy Z Flip 4',
@@ -1552,6 +1555,12 @@ final class DeviceMarketingnameMapper
             'b2 ultra', 'b2 ultra (2026)' => 'B2 Ultra',
             // walton
             'gsmart 5.0 2k tv', 'gsmart5.0 2ktv' => 'GSmart 5.0 2K TV',
+            // bmw
+            'bmw (2022)', 'car (2022)' => 'BMW (2022)',
+            // sunny
+            'sn55fmn243', 'sn55fmn243-0246' => 'SN55FMN243',
+            // anker
+            'nebula soundbar', 'nebula soundbar fire tv edition' => 'Nebula Soundbar',
             default => $marketingName,
         };
     }
