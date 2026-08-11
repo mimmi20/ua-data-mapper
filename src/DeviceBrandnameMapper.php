@@ -45,7 +45,7 @@ final class DeviceBrandnameMapper
             'go', 'google' => 'Google',
             'le', 'md', 'lenovo' => 'Lenovo',
             'mr', 'motorola' => 'Motorola',
-            'kn', 'amazon' => 'Amazon',
+            'kn', 'amazon', 'amazon basics' => 'Amazon',
             'hu', 'huawei' => 'Huawei',
             'ni', 'nintendo' => 'Nintendo',
             'ap', 'apple inc', 'apple' => 'Apple',
@@ -391,6 +391,7 @@ final class DeviceBrandnameMapper
             'ioplee' => 'Ioplee',
             'arrqw', 'arrow' => 'ARRQW',
             'essentiel b', 'essentielb' => 'Essentiel B',
+            'simfer' => 'Simfer',
             default => $brandName,
         };
     }
