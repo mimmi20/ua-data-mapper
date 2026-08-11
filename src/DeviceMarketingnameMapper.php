@@ -997,7 +997,7 @@ final class DeviceMarketingnameMapper
             'matepad 10.4" se', 'matepad 10.4" se (2023)', 'matepad 10.4" se lte (2023)' => 'MatePad 10.4" SE',
             'matepad 10.4" se wifi', 'matepad 10.4" se wi-fi (2023)' => 'MatePad 10.4" SE Wi-Fi',
             'matepad 10.8"', 'matepad 10.8" lte' => 'MatePad 10.8" LTE',
-            'matepad 10.8" wifi', 'mediapad m5 10.8" wi-fi', 'mediapad m5 10.8', 'matepad m5 10.8" wi-fi', 'mediapad m5 10.8 pro' => 'MatePad 10.8" WiFi',
+            'matepad 10.8" wifi', 'matepad 10.8" wi-fi', 'mediapad m5 10.8" wi-fi', 'mediapad m5 10.8', 'matepad m5 10.8" wi-fi', 'mediapad m5 10.8 pro' => 'MatePad 10.8" Wi-Fi',
             'matepad 11 wi-fi (2021)', 'matepad 11 wifi', 'matepad 11 wi-fi (2023)', 'matepad 11 (2023) wifi' => 'MatePad 11 Wi-Fi',
             'matepad 11.5" air', 'matepad 11.5" air lte (2021)' => 'MatePad 11.5" Air',
             'matepad 11.5" air wi-fi (2021)', 'matepad 11.5" air wifi' => 'MatePad 11.5" Air Wi-Fi',
