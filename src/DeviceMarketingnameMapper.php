@@ -148,6 +148,7 @@ final class DeviceMarketingnameMapper
             'galaxy ace 2', 'galaxy ace 2 nfc' => 'Galaxy Ace 2',
             'galaxy ace plus' => 'Galaxy Ace Plus',
             'galaxy ace style', 'galaxy ace style lte' => 'Galaxy Ace Style',
+            'galaxy c8', 'galaxy c8 (2017)' => 'Galaxy C8',
             'galaxy c9 pro', 'galaxy c9 pro duos' => 'Galaxy C9 Pro',
             'galaxy c55 5g', 'galaxy c55 5g (china)' => 'Galaxy C55 5G',
             'galaxy camera', 'galaxy camera wifi only' => 'Galaxy Camera',
