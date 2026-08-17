@@ -988,7 +988,7 @@ final class DeviceMarketingnameMapper
             'magic 7 rsr', 'magic 7 rsr porsche design' => 'Magic 7 RSR',
             'magicpad 2 12.3" wi-fi', 'magicpad 2 wifi' => 'MagicPad 2 12.3" Wi-Fi',
             'magicpad 13 wi-fi', 'magicpad 13 wifi' => 'MagicPad 13 Wi-Fi',
-            'magicpad 3 wifi', 'MagicPad 3 13.3" wi-fi' => 'MagicPad 3 Wi-Fi',
+            'magicpad 3 wifi', 'magicpad 3 13.3" wi-fi' => 'MagicPad 3 Wi-Fi',
             'magic vs ultimate 5g', 'magic vs ultimate' => 'Magic Vs Ultimate',
             'magic vs', 'magic vs 5g' => 'Magic Vs',
             'mate 20', 'mate 20 (china)', 'mate 20 (global)' => 'Mate 20',
