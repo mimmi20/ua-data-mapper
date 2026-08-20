@@ -438,6 +438,7 @@ final class BrowserNameMapper
             'yahoo! link preview', 'yahoo! slingstone' => 'Yahoo! Link Preview',
             'mistralai index', 'mistralai-index' => 'MistralAI Index',
             'urlsumabot', 'urlsuma' => 'URLSuMaBot',
+            'fulldive browser', 'fulldive' => 'Fulldive Browser',
             default => $browserInput,
         };
     }
