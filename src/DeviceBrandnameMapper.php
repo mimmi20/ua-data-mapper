@@ -392,6 +392,7 @@ final class DeviceBrandnameMapper
             'arrqw', 'arrow' => 'ARRQW',
             'essentiel b', 'essentielb' => 'Essentiel B',
             'simfer' => 'Simfer',
+            'azumi', 'azumi mobile' => 'Azumi',
             default => $brandName,
         };
     }

@@ -77,6 +77,7 @@ final class MakerMapper
             'essentiel b', 'essentielb' => 'Essentiel B',
             'simfer' => 'Simfer',
             'kn', 'amazon', 'amazon basics' => 'Amazon',
+            'azumi', 'azumi mobile' => 'Azumi',
             default => $maker,
         };
     }
