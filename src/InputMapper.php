@@ -15,8 +15,8 @@ namespace UaDataMapper;
 
 use BrowserDetector\Version\Exception\NotNumericException;
 use BrowserDetector\Version\VersionInterface;
-use UaBrowserType\TypeInterface as BrowserTypeInterface;
-use UaDeviceType\TypeInterface as DeviceTypeInterface;
+use UaBrowserType\Type as BrowserType;
+use UaDeviceType\Type as DeviceType;
 
 /**
  * class with caching and update capabilities
@@ -54,7 +54,7 @@ final class InputMapper
      *
      * @api
      */
-    public function mapBrowserType(string | null $browserType): BrowserTypeInterface
+    public function mapBrowserType(string | null $browserType): BrowserType
     {
         return (new BrowserTypeMapper())->mapBrowserType($browserType);
     }
@@ -114,7 +114,7 @@ final class InputMapper
      *
      * @api
      */
-    public function mapDeviceType(string | null $deviceType): DeviceTypeInterface
+    public function mapDeviceType(string | null $deviceType): DeviceType
     {
         return (new DeviceTypeMapper())->mapDeviceType($deviceType);
     }

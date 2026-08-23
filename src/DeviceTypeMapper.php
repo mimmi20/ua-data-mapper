@@ -13,8 +13,7 @@ declare(strict_types = 1);
 
 namespace UaDataMapper;
 
-use UaDeviceType\Type;
-use UaDeviceType\TypeInterface;
+use UaDeviceType\Type as DeviceType;
 
 use function mb_strtolower;
 
@@ -30,25 +29,25 @@ final class DeviceTypeMapper
      *
      * @api
      */
-    public function mapDeviceType(string | null $deviceType): TypeInterface
+    public function mapDeviceType(string | null $deviceType): DeviceType
     {
         if ($deviceType === null) {
-            return Type::Unknown;
+            return DeviceType::Unknown;
         }
 
         return match (mb_strtolower($deviceType)) {
-            'car browser' => Type::CarEntertainmentSystem,
-            'fonepad', 'fone-pad', 'ebookreader', 'ebook-reader', 'ebook reader' => Type::Tablet,
-            'laptop' => Type::Desktop,
-            'mobileconsole', 'mobile-console', 'mobile console', 'tv-console' => Type::Console,
-            'smartwatch', 'smart-watch', 'watch' => Type::Wearable,
-            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => Type::Tv,
-            'unknown' => Type::Unknown,
-            'phablet', 'featurephone', 'feature-phone', 'feature phone', 'mobilephone', 'mobile-phone', 'mobile phone', 'smartphone' => Type::Phone,
-            'camera' => Type::DigitalCamera,
-            'smartdisplay', 'smart-display', 'smart display' => Type::SmartSpeaker,
-            'fridgefreezer', 'fridge-freezer', 'fridge freezer' => Type::Peripheral,
-            default => Type::fromName(mb_strtolower($deviceType)),
+            'car browser' => DeviceType::CarEntertainmentSystem,
+            'fonepad', 'fone-pad', 'ebookreader', 'ebook-reader', 'ebook reader' => DeviceType::Tablet,
+            'laptop' => DeviceType::Desktop,
+            'mobileconsole', 'mobile-console', 'mobile console', 'tv-console' => DeviceType::Console,
+            'smartwatch', 'smart-watch', 'watch' => DeviceType::Wearable,
+            'tvmediaplayer', 'tv-media-player', 'tv media player', 'tvsettopbox', 'tv-set-top-box', 'tv settop box', 'tvstick', 'tv-stick', 'tv stick' => DeviceType::Tv,
+            'unknown' => DeviceType::Unknown,
+            'phablet', 'featurephone', 'feature-phone', 'feature phone', 'mobilephone', 'mobile-phone', 'mobile phone', 'smartphone' => DeviceType::Phone,
+            'camera' => DeviceType::DigitalCamera,
+            'smartdisplay', 'smart-display', 'smart display' => DeviceType::SmartSpeaker,
+            'fridgefreezer', 'fridge-freezer', 'fridge freezer' => DeviceType::Peripheral,
+            default => DeviceType::fromName(mb_strtolower($deviceType)),
         };
     }
 }
