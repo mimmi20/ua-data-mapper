@@ -27,12 +27,12 @@ return RectorConfig::configure()
     ->withPhpVersion(PhpVersion::PHP_85)
     ->withPreparedSets(
         deadCode: true,
-        codeQuality: false,
+        codeQuality: true,
         typeDeclarations: true,
         typeDeclarationDocblocks: true,
         naming: true,
         namedArgs: true,
-        instanceOf: false,
+        instanceOf: true,
         if: true,
         earlyReturn: true,
         phpunitCodeQuality: true,
