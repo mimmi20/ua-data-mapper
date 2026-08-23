@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace UaDataMapper;
 
-use UaBrowserType\Type;
+use UaBrowserType\Type as BrowserType;
 
 use function mb_strtolower;
 
@@ -29,30 +29,30 @@ final class BrowserTypeMapper
      *
      * @api
      */
-    public function mapBrowserType(string | null $browserType): Type
+    public function mapBrowserType(string | null $browserType): BrowserType
     {
         if ($browserType === null) {
-            return Type::Unknown;
+            return BrowserType::Unknown;
         }
 
         return match (mb_strtolower($browserType)) {
-            'browser', 'mobile browser', 'transcoder', 'wap-browser' => Type::Browser,
-            'bot', 'robot', 'bot/crawler', 'bot-trancoder' => Type::Bot,
-            'library' => Type::Library,
-            'feedreader', 'feed reader', 'feed fetcher', 'feed parser' => Type::FeedReader,
-            'offlinebrowser', 'offline browser', 'read-it-later service' => Type::OfflineBrowser,
-            'useragentanonymizer', 'useragent anonymizer' => Type::UseragentAnonymizer,
-            'wapbrowser', 'wap browser' => Type::WapBrowser,
-            'application', 'mobile app', 'mobile-application', 'pim', 'email-client', 'emailclient', 'email client', 'multimediaplayer', 'mediaplayer', 'multimedia player', 'multimedia-player' => Type::Application,
-            'tool', 'search tools', 'benchmark' => Type::Tool,
-            'search bot' => Type::SearchBot,
-            'social media agent' => Type::SocialMediaAgent,
-            'site monitor' => Type::SiteMonitor,
-            'ai search crawler', 'bot-syndication-reader', 'ai data scraper', 'seo-analytics', 'ai assistant' => Type::Crawler,
-            'service agent', 'service bot', 'ai agent' => Type::ServiceAgent,
-            'security checker', 'security search bot', 'security-search-bot' => Type::SecurityChecker,
-            'unknown' => Type::Unknown,
-            default => Type::fromName(mb_strtolower($browserType)),
+            'browser', 'mobile browser', 'transcoder', 'wap-browser' => BrowserType::Browser,
+            'bot', 'robot', 'bot/crawler', 'bot-trancoder' => BrowserType::Bot,
+            'library' => BrowserType::Library,
+            'feedreader', 'feed reader', 'feed fetcher', 'feed parser' => BrowserType::FeedReader,
+            'offlinebrowser', 'offline browser', 'read-it-later service' => BrowserType::OfflineBrowser,
+            'useragentanonymizer', 'useragent anonymizer' => BrowserType::UseragentAnonymizer,
+            'wapbrowser', 'wap browser' => BrowserType::WapBrowser,
+            'application', 'mobile app', 'mobile-application', 'pim', 'email-client', 'emailclient', 'email client', 'multimediaplayer', 'mediaplayer', 'multimedia player', 'multimedia-player' => BrowserType::Application,
+            'tool', 'search tools', 'benchmark' => BrowserType::Tool,
+            'search bot' => BrowserType::SearchBot,
+            'social media agent' => BrowserType::SocialMediaAgent,
+            'site monitor' => BrowserType::SiteMonitor,
+            'ai search crawler', 'bot-syndication-reader', 'ai data scraper', 'seo-analytics', 'ai assistant' => BrowserType::Crawler,
+            'service agent', 'service bot', 'ai agent' => BrowserType::ServiceAgent,
+            'security checker', 'security search bot', 'security-search-bot' => BrowserType::SecurityChecker,
+            'unknown' => BrowserType::Unknown,
+            default => BrowserType::fromName(mb_strtolower($browserType)),
         };
     }
 }
