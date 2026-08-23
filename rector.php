@@ -17,6 +17,8 @@ use Rector\DeadCode\Rector\If_\RemoveDeadInstanceOfRector;
 use Rector\DeadCode\Rector\StaticCall\RemoveParentCallWithoutParentRector;
 use Rector\Php84\Rector\MethodCall\NewMethodCallWithoutParenthesesRector;
 use Rector\PHPUnit\CodeQuality\Rector\Class_\PreferPHPUnitThisCallRector;
+use Rector\PHPUnit\CodeQuality\Rector\Class_\YieldDataProviderRector;
+use Rector\PHPUnit\CodeQuality\Rector\FuncCall\AssertFuncCallToPHPUnitAssertRector;
 use Rector\ValueObject\PhpVersion;
 
 return RectorConfig::configure()
@@ -48,6 +50,8 @@ return RectorConfig::configure()
         RemoveParentCallWithoutParentRector::class,
         NewMethodCallWithoutParenthesesRector::class,
         PreferPHPUnitThisCallRector::class,
+        AssertFuncCallToPHPUnitAssertRector::class,
+        YieldDataProviderRector::class,
     ])
     ->withoutParallel()
     ->withMemoryLimit('2048M');
