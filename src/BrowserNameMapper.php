@@ -439,6 +439,7 @@ final class BrowserNameMapper
             'mistralai index', 'mistralai-index' => 'MistralAI Index',
             'urlsumabot', 'urlsuma' => 'URLSuMaBot',
             'fulldive browser', 'fulldive' => 'Fulldive Browser',
+            'microsoft office project', 'project' => 'Microsoft Office Project',
             default => $browserInput,
         };
     }
