@@ -393,6 +393,9 @@ final class DeviceBrandnameMapper
             'essentiel b', 'essentielb' => 'Essentiel B',
             'simfer' => 'Simfer',
             'azumi', 'azumi mobile' => 'Azumi',
+            'telstra' => 'Telstra',
+            'bncf' => 'BNCF',
+            'uniwa' => 'UNIWA',
             default => $brandName,
         };
     }

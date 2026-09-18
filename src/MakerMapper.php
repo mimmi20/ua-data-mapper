@@ -78,6 +78,9 @@ final class MakerMapper
             'simfer' => 'Simfer',
             'kn', 'amazon', 'amazon basics' => 'Amazon',
             'azumi', 'azumi mobile' => 'Azumi',
+            'telstra' => 'Telstra',
+            'bncf' => 'BNCF',
+            'uniwa' => 'UNIWA',
             default => $maker,
         };
     }
