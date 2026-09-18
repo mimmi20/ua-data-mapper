@@ -379,7 +379,7 @@ final class DeviceBrandnameMapper
             'arcelik', 'arçelik' => 'Arcelik',
             'texet' => 'TeXet',
             'cat', 'caterpillar' => 'Cat',
-            'tesla', 'tesla motors' => 'Tesla',
+            'tesla', 'tesla motors', 'tesla-motors' => 'Tesla',
             'qihoo 360', '360' => 'Qihoo 360',
             'tp-link', 'neffos' => 'tp-link',
             'a-rival', 'arival' => 'A-Rival',
@@ -403,6 +403,8 @@ final class DeviceBrandnameMapper
             'ai-plus', 'ai+' => 'AI+',
             'vodacom' => 'Vodacom',
             'mtc' => 'MTC',
+            'loewe' => 'Loewe',
+            'k-touch' => 'K-Touch',
             default => $brandName,
         };
     }

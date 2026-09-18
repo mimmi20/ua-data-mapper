@@ -88,6 +88,9 @@ final class MakerMapper
             'ai-plus', 'ai+' => 'AI+',
             'vodacom' => 'Vodacom',
             'mtc' => 'MTC',
+            'loewe' => 'Loewe',
+            'tesla-motors', 'tesla' => 'Tesla',
+            'k-touch' => 'K-Touch',
             default => $maker,
         };
     }
