@@ -285,12 +285,13 @@ final class DeviceMarketingnameMapper
             'galaxy s23 ultra', 'galaxy s23 ultra (china)', 'galaxy s23 ultra (international)', 'galaxy s23 ultra (usa unlocked)', 'galaxy s23 ultra (canada)', 'galaxy s23 ultra (korea)', 'galaxy s23 ultra (usa)' => 'Galaxy S23 Ultra',
             'galaxy s24', 'galaxy s24 (usa)', 'galaxy s24 (china)', 'galaxy s24 5g uw', 'galaxy s24 (canada)', 'galaxy s24 (japan)', 'galaxy s24 (korea)' => 'Galaxy S24',
             'galaxy s24+', 'galaxy s24+ (china)', 'galaxy s24+ (usa)', 'galaxy s24+ (korea)', 'galaxy s24+ (canada)' => 'Galaxy S24+',
-            'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)', 'galaxy s24 fe (canada)', 'galaxy s24 fe (korea)', 'galaxy s24 fe (china)' => 'Galaxy S24 FE',
+            'galaxy s24 fe', 'galaxy s24 fe (international)', 'galaxy s24 fe (usa)', 'galaxy s24 fe (canada)', 'galaxy s24 fe (korea)', 'galaxy s24 fe (china)', 'galaxy s24 fe (japan)' => 'Galaxy S24 FE',
             'galaxy s24 ultra', 'galaxy s24 ultra (usa)', 'galaxy s24 ultra (canada)', 'galaxy s24 ultra (japan)', 'galaxy s24 ultra (korea)', 'galaxy s24 ultra (china)' => 'Galaxy S24 Ultra',
-            'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)', 'galaxy s25 (canada)' => 'Galaxy S25',
+            'galaxy s25', 'galaxy s25 (china)', 'galaxy s25 (international)', 'galaxy s25 (korea)', 'galaxy s25 (usa)', 'galaxy s25 (canada)', 'galaxy s25 (japan)' => 'Galaxy S25',
             'galaxy s25+', 'galaxy s25+ (canada)', 'galaxy s25+ (international)', 'galaxy s25+ (usa)', 'galaxy s25+ (korea)', 'galaxy s25+ (china)' => 'Galaxy S25+',
             'galaxy s25 edge', 'galaxy s25 edge (international)', 'galaxy s25 edge (china)', 'galaxy s25 edge (korea)', 'galaxy s25 edge (canada)', 'galaxy s25 edge (usa)' => 'Galaxy S25 Edge',
             'galaxy s25 ultra', 'galaxy s25 ultra 5g (international)', 'galaxy s25 ultra 5g (china)', 'galaxy s25 ultra 5g (korea)', 'galaxy s25 ultra 5g (usa)', 'galaxy s25 ultra 5g (canada)', 'galaxy s25 ultra 5g', 'galaxy s25 ultra 5g (japan)' => 'Galaxy S25 Ultra',
+            'galaxy s26+', 'galaxy s26+ (canada)', 'galaxy s26+ (international)', 'galaxy s26+ (usa)', 'galaxy s26+ (korea)', 'galaxy s26+ (china)', 'galaxy s26+ (japan)' => 'Galaxy S26+',
             'galaxy star' => 'Galaxy Star',
             'galaxy tab', 'galaxy tab 7.0"' => 'Galaxy Tab',
             'galaxy tab 10.1"', 'galaxy tab 10.1" 3g' => 'Galaxy Tab 10.1"',
@@ -462,7 +463,7 @@ final class DeviceMarketingnameMapper
             'wave 2', 'wave ii' => 'Wave 2',
             // apple
             'apple tv 2', 'apple tv (2nd gen)' => 'Apple TV 2',
-            'apple tv 4', 'apple tv (4th gen)' => 'Apple TV 4',
+            'apple tv 4', 'apple tv (4th gen)', 'apple tv 4 hd' => 'Apple TV 4',
             'imac (2009)', 'imac 21.5" (2009)' => 'iMac (2009)',
             'imac 23.5" (2021)', 'imac 24" (2021)' => 'iMac 23.5" (2021)',
             'ipad', 'ipad (1st gen) wi-fi' => 'iPad',
@@ -1577,6 +1578,8 @@ final class DeviceMarketingnameMapper
             // nothing
             'phone (3a) lite', 'phone 3a lite' => 'Phone (3a) Lite',
             'phone (4a) pro', 'phone 4a pro' => 'Phone (4a) Pro',
+            // onvo
+            'ov55500', '0v55500' => 'OV55500',
             default => $marketingName,
         };
     }

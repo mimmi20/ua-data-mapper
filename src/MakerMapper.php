@@ -81,6 +81,13 @@ final class MakerMapper
             'telstra' => 'Telstra',
             'bncf' => 'BNCF',
             'uniwa' => 'UNIWA',
+            'roku' => 'Roku',
+            'panasonic' => 'Panasonic',
+            'humax' => 'Humax',
+            'sun-king', 'sun king' => 'Sun King',
+            'ai-plus', 'ai+' => 'AI+',
+            'vodacom' => 'Vodacom',
+            'mtc' => 'MTC',
             default => $maker,
         };
     }
