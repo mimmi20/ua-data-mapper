@@ -91,6 +91,9 @@ final class MakerMapper
             'loewe' => 'Loewe',
             'tesla-motors', 'tesla' => 'Tesla',
             'k-touch' => 'K-Touch',
+            'lenix' => 'LENIX',
+            'spectra' => 'SPECTRA',
+            'loop-dl', 'loopdl' => 'LoopDL',
             default => $maker,
         };
     }

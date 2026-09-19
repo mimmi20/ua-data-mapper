@@ -405,6 +405,9 @@ final class DeviceBrandnameMapper
             'mtc' => 'MTC',
             'loewe' => 'Loewe',
             'k-touch' => 'K-Touch',
+            'lenix' => 'LENIX',
+            'spectra' => 'SPECTRA',
+            'loop-dl', 'loopdl' => 'LoopDL',
             default => $brandName,
         };
     }
