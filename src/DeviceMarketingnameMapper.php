@@ -1454,7 +1454,7 @@ final class DeviceMarketingnameMapper
             'fire hd 10 (2021)', 'fire hd 10" (2021)' => 'Fire HD 10 (2021)',
             'fire hd 10 (2023)', 'fire hd 10" (2023)' => 'Fire HD 10 (2023)',
             'fire hd 10 plus (2021)', 'fire hd 10" plus (2021)' => 'Fire HD 10 Plus (2021)',
-            'fire hdx 8.9', 'fire hdx 8.9 (2014)', 'fire hdx 8.9" (2014)' => 'Fire HDX 8.9',
+            'fire hdx 8.9', 'fire hdx 8.9 (2014)', 'fire hdx 8.9" (2014)', 'kindle fire hdx 8.9" wi-fi (2014)' => 'Fire HDX 8.9',
             'fire hdx 8.9 4g', 'fire hdx 8.9" 4g (2014)' => 'Fire HDX 8.9 4G',
             'fire max 11', 'fire max 11"' => 'Fire Max 11',
             'fire tv (1st gen)', 'fire tv (gen 1)' => 'Fire TV (1st Gen)',

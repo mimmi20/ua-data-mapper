@@ -408,6 +408,8 @@ final class DeviceBrandnameMapper
             'lenix' => 'LENIX',
             'spectra' => 'SPECTRA',
             'loop-dl', 'loopdl' => 'LoopDL',
+            'harper' => 'Harper',
+            'skyth' => 'Skyth',
             default => $brandName,
         };
     }
