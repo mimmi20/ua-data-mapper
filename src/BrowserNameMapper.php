@@ -87,7 +87,7 @@ final class BrowserNameMapper
             'wdg html validator' => 'HTML Validator',
             'blekkobot' => 'BlekkoBot',
             'tweetmemebot', 'tweetmeme bot' => 'Tweetmeme Bot',
-            'coremedia', 'applecoremedia' => 'CoreMedia',
+            'coremedia', 'applecoremedia', 'core media', 'apple core media' => 'Core Media',
             'mediapartners-google', 'google mediapartners' => 'AdSense Bot',
             'wordpress.com' => 'WordPress',
             'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
@@ -440,6 +440,8 @@ final class BrowserNameMapper
             'urlsumabot', 'urlsuma' => 'URLSuMaBot',
             'fulldive browser', 'fulldive' => 'Fulldive Browser',
             'microsoft office project', 'project' => 'Microsoft Office Project',
+            'keeper', 'keeper password manager' => 'Keeper',
+            'claudebot', 'claude-searchbot' => 'ClaudeBot',
             default => $browserInput,
         };
     }

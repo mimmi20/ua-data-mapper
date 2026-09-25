@@ -139,6 +139,7 @@ final class MakerMapper
             'jckkcfug' => 'Jckkcfug',
             'lagenio' => 'LAGENIO',
             'suaat' => 'SUAAT',
+            'shift', 'shift-phones' => 'SHIFT',
             default => $maker,
         };
     }
