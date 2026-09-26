@@ -453,6 +453,7 @@ final class DeviceBrandnameMapper
             'jckkcfug' => 'Jckkcfug',
             'lagenio' => 'LAGENIO',
             'suaat' => 'SUAAT',
+            'shift', 'shift-phones' => 'SHIFT',
             default => $brandName,
         };
     }
