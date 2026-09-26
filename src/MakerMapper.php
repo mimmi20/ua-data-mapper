@@ -141,6 +141,11 @@ final class MakerMapper
             'suaat' => 'SUAAT',
             'shift', 'shift-phones' => 'SHIFT',
             'dell' => 'Dell',
+            'smartisan' => 'Smartisan',
+            'unnecto' => 'Unnecto',
+            'haitech' => 'Haitech',
+            'packard bell', 'packard-bell' => 'Packard Bell',
+            'dune hd', 'dune-hd' => 'Dune HD',
             default => $maker,
         };
     }
