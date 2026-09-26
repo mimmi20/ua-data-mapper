@@ -442,6 +442,7 @@ final class BrowserNameMapper
             'microsoft office project', 'project' => 'Microsoft Office Project',
             'keeper', 'keeper password manager' => 'Keeper',
             'claudebot', 'claude-searchbot' => 'ClaudeBot',
+            'bykreator workstation', 'bykreatorworkstation' => 'Bykreator Workstation',
             default => $browserInput,
         };
     }

@@ -140,6 +140,7 @@ final class MakerMapper
             'lagenio' => 'LAGENIO',
             'suaat' => 'SUAAT',
             'shift', 'shift-phones' => 'SHIFT',
+            'dell' => 'Dell',
             default => $maker,
         };
     }
