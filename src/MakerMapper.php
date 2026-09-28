@@ -139,6 +139,17 @@ final class MakerMapper
             'jckkcfug' => 'Jckkcfug',
             'lagenio' => 'LAGENIO',
             'suaat' => 'SUAAT',
+            'shift', 'shift-phones' => 'SHIFT',
+            'dell' => 'Dell',
+            'smartisan' => 'Smartisan',
+            'unnecto' => 'Unnecto',
+            'haitech' => 'Haitech',
+            'packard bell', 'packard-bell' => 'Packard Bell',
+            'dune hd', 'dune-hd' => 'Dune HD',
+            'telecom-argentina', 'telecom argentina', 'flow' => 'Telecom Argentina',
+            'bastyon mobi', 'bastyon-mobi' => 'Bastyon Mobi',
+            'figo' => 'FiGO',
+            'tiok' => 'TIOK',
             default => $maker,
         };
     }
