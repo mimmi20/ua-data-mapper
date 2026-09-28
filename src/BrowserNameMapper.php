@@ -444,6 +444,7 @@ final class BrowserNameMapper
             'claudebot', 'claude-searchbot' => 'ClaudeBot',
             'bykreator workstation', 'bykreatorworkstation' => 'Bykreator Workstation',
             'the podcast app', 'the podcast app (magnolia)' => 'The Podcast App',
+            'xiao yu zhou', 'xiaoyuzhou' => 'Xiao Yu Zhou',
             default => $browserInput,
         };
     }

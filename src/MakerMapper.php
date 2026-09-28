@@ -150,6 +150,7 @@ final class MakerMapper
             'bastyon mobi', 'bastyon-mobi' => 'Bastyon Mobi',
             'figo' => 'FiGO',
             'tiok' => 'TIOK',
+            'nikai' => 'NIKAI',
             default => $maker,
         };
     }
