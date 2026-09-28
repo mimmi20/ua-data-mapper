@@ -460,6 +460,10 @@ final class DeviceBrandnameMapper
             'haitech' => 'Haitech',
             'packard bell', 'packard-bell' => 'Packard Bell',
             'dune hd', 'dune-hd' => 'Dune HD',
+            'telecom-argentina', 'telecom argentina', 'flow' => 'Telecom Argentina',
+            'bastyon mobi', 'bastyon-mobi' => 'Bastyon Mobi',
+            'figo' => 'FiGO',
+            'tiok' => 'TIOK',
             default => $brandName,
         };
     }
