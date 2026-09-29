@@ -1151,15 +1151,15 @@ final class DeviceMarketingnameMapper
             'transformer prime', 'transformer pad tf700t' => 'Transformer Prime',
             'transformer tf101g', 'eee pad transformer 3g' => 'Transformer TF101G',
             'transformer tf101', 'eee pad transformer tf101' => 'Transformer TF101',
-            'zenfone 2', 'zenfone 2 5.5 (ze551ml)', 'zenfone 2 5.0 (ze500cl)' => 'ZenFone 2',
-            'zenfone 3', 'zenfone 3 5.5 (ze552kl)', 'zenfone 3 5.2 (ze520kl)' => 'ZenFone 3',
-            'zenfone 3 max', 'zenfone 3 max 5.2 (zc520tl)', 'zenfone 3 max 5.5 (zc553kl)' => 'ZenFone 3 Max',
-            'zenfone 4 selfie pro', 'zenfone 4 selfie pro (zd552kl)' => 'ZenFone 4 Selfie Pro',
-            'zenfone 5', 'zenfone 5 (a500cg)', 'zenfone 5 (ze620kl)' => 'ZenFone 5',
-            'zenfone 6', 'zenfone 6 (zs630kl)' => 'ZenFone 6',
-            'zenfone max m1', 'zenfone max m1 (zb555kl)' => 'ZenFone Max M1',
-            'zenfone max plus m1', 'zenfone max plus m1 (zb570tl)' => 'ZenFone Max Plus M1',
-            'zenfone max pro (m2)', 'zenfone max pro m2', 'zenfone max pro (m2) zb631kl' => 'ZenFone Max Pro (M2)',
+            'zenfone 2', 'zenfone 2 5.5"', 'zenfone 2 5.0"' => 'ZenFone 2',
+            'zenfone 3', 'zenfone 3 5.5"', 'zenfone 3 5.2"' => 'ZenFone 3',
+            'zenfone 3 max', 'zenfone 3 max 5.2"', 'zenfone 3 max 5.5"' => 'ZenFone 3 Max',
+            'zenfone 4 selfie pro' => 'ZenFone 4 Selfie Pro',
+            'zenfone 5' => 'ZenFone 5',
+            'zenfone 6' => 'ZenFone 6',
+            'zenfone max m1' => 'ZenFone Max M1',
+            'zenfone max plus m1' => 'ZenFone Max Plus M1',
+            'zenfone max pro (m2)', 'zenfone max pro m2' => 'ZenFone Max Pro (M2)',
             'zenpad 8.0', 'zenpad 8.0 (z380kl)' => 'ZenPad 8.0',
             'zenpad 10', 'zenpad 10 (z300cl)', 'zenpad 10 (z300c)' => 'ZenPad 10',
             // zte/nubia
@@ -1521,6 +1521,7 @@ final class DeviceMarketingnameMapper
             'jio f30c', '$f30c' => 'Jio F30c',
             // barnes & noble
             'bntv600', 'nook bntv600', 'nook hd+' => 'BNTV600',
+            'bntv250', 'nook bntv250' => 'BNTV250',
             // hmd
             't21', 'hmd t21' => 'T21',
             // awow

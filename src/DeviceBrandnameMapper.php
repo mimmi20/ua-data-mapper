@@ -380,7 +380,7 @@ final class DeviceBrandnameMapper
             'texet' => 'TeXet',
             'cat', 'caterpillar' => 'Cat',
             'tesla', 'tesla motors', 'tesla-motors' => 'Tesla',
-            'qihoo 360', '360' => 'Qihoo 360',
+            'qihoo', 'qihoo 360', '360' => 'Qihoo 360',
             'tp-link', 'neffos' => 'tp-link',
             'a-rival', 'arival' => 'A-Rival',
             'aoyodkg' => 'Aoyodkg',
@@ -465,6 +465,11 @@ final class DeviceBrandnameMapper
             'figo' => 'FiGO',
             'tiok' => 'TIOK',
             'nikai' => 'NIKAI',
+            'barnes-noble', 'barnes & noble' => 'Barnes & Noble',
+            'prestigio' => 'Prestigio',
+            'irbis' => 'Irbis',
+            'gionee' => 'Gionee',
+            'odys' => 'Odys',
             default => $brandName,
         };
     }
