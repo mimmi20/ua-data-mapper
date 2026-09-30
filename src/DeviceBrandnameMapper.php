@@ -470,6 +470,12 @@ final class DeviceBrandnameMapper
             'irbis' => 'Irbis',
             'gionee' => 'Gionee',
             'odys' => 'Odys',
+            'gree' => 'Gree',
+            'ultrax-privacy' => 'UltraX Privacy',
+            'damasco' => 'DAMASCO',
+            'danew' => 'Danew',
+            'mtn' => 'MTN',
+            'astech' => 'ASTECH',
             default => $brandName,
         };
     }
