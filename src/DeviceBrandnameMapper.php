@@ -476,6 +476,9 @@ final class DeviceBrandnameMapper
             'danew' => 'Danew',
             'mtn' => 'MTN',
             'astech' => 'ASTECH',
+            'twl-mobile', 'twl mobile' => 'TWL Mobile',
+            'kaicom' => 'Kaicom',
+            'dany' => 'Dany',
             default => $brandName,
         };
     }
