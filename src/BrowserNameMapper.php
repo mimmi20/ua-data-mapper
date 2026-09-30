@@ -445,6 +445,7 @@ final class BrowserNameMapper
             'bykreator workstation', 'bykreatorworkstation' => 'Bykreator Workstation',
             'the podcast app', 'the podcast app (magnolia)' => 'The Podcast App',
             'xiao yu zhou', 'xiaoyuzhou' => 'Xiao Yu Zhou',
+            'lark browser', 'lark' => 'Lark Browser',
             default => $browserInput,
         };
     }
