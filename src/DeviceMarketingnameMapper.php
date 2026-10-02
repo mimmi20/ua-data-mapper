@@ -125,13 +125,13 @@ final class DeviceMarketingnameMapper
             'galaxy a26 5g', 'galaxy a26 5g (international)', 'galaxy a26 5g (usa)', 'galaxy a26 5g (japan)', 'galaxy a26 5g (verizon)' => 'Galaxy A26 5G',
             'galaxy a30s', 'galaxy a30s (global)', 'galaxy a30s (apac)', 'galaxy a30s (latam)' => 'Galaxy A30s',
             'galaxy a32', 'galaxy a32 4g' => 'Galaxy A32',
-            'galaxy a32 5g', 'galaxy a32 5g (usa unlocked)', 'galaxy a32 5g (international)', 'galaxy a32 5g (usa)' => 'Galaxy A32 5G',
+            'galaxy a32 5g', 'galaxy a32 5g (usa unlocked)', 'galaxy a32 5g (international)', 'galaxy a32 5g (usa)', 'galaxy jump 5g' => 'Galaxy A32 5G',
             'galaxy a33 5g', 'galaxy a33 5g (international)', 'galaxy a33 5g (asia/africa)', 'galaxy a33 5g (china)' => 'Galaxy A33 5G',
             'galaxy a34 5g', 'galaxy a34 5g (international)', 'galaxy a34 5g (asia/africa)', 'galaxy a34 5g (korea)', 'galaxy a34 5g (china)' => 'Galaxy A34 5G',
             'galaxy a35 5g', 'galaxy a35 5g (international)', 'galaxy a35 5g (korea)', 'galaxy a35 5g (usa)', 'galaxy a35 5g (china)', 'galaxy a35 5g (canada)' => 'Galaxy A35 5G',
             'galaxy a36 5g', 'galaxy a36 5g (international)', 'galaxy a36 5g (usa)', 'galaxy a36 5g (korea)', 'galaxy a36 5g (canada)', 'galaxy a36 5g (china)' => 'Galaxy A36 5G',
             'galaxy a42 5g', 'galaxy a42 5g (korea)', 'galaxy a42 5g (usa)', 'galaxy a42 5g (usa unlocked)', 'galaxy a42 5g (international)', 'galaxy a42 5g (china)' => 'Galaxy A42 5G',
-            'galaxy a50', 'galaxy a50 (canada)', 'galaxy a50 (latam)', 'galaxy a50 (usa unlocked)', 'galaxy a50 (brazil)', 'galaxy a50 (russia)' => 'Galaxy A50',
+            'galaxy a50', 'galaxy a50 (canada)', 'galaxy a50 (latam)', 'galaxy a50 (usa unlocked)', 'galaxy a50 (brazil)', 'galaxy a50 (russia)', 'galaxy a50 (australia, new zealand)' => 'Galaxy A50',
             'galaxy a50s', 'galaxy a50s (global)', 'galaxy a50s (hong kong, china)' => 'Galaxy A50s',
             'galaxy a51', 'galaxy a51 4g (global)', 'galaxy a51 4g (usa unlocked)', 'galaxy a51 4g', 'galaxy a51 4g (usa)' => 'Galaxy A51',
             'galaxy a51 5g', 'galaxy a51 5g (international)' => 'Galaxy A51 5G',
@@ -143,7 +143,7 @@ final class DeviceMarketingnameMapper
             'galaxy a55 5g', 'galaxy a55 5g (china)', 'galaxy a55 5g (japan)', 'galaxy a55 5g (usa)', 'galaxy a55 5g (korea)' => 'Galaxy A55 5G',
             'galaxy a56 5g', 'galaxy a56 5g (international)', 'galaxy a56 5g (korea)', 'galaxy quantum 6', 'galaxy a56 5g (china)', 'galaxy a56 5g (canada)', 'galaxy a56 5g (usa)' => 'Galaxy A56 5G',
             'galaxy a57 5g', 'galaxy a57 5g (international)', 'galaxy a57 5g (korea)', 'galaxy a57 5g (china)', 'galaxy a57 5g (canada)', 'galaxy a57 5g (usa)', 'galaxy a57 5g (japan)' => 'Galaxy A57 5G',
-            'galaxy a70', 'galaxy a70 (global)', 'galaxy a70 (latam)', 'galaxy a70 (canada)' => 'Galaxy A70',
+            'galaxy a70', 'galaxy a70 (global)', 'galaxy a70 (latam)', 'galaxy a70 (canada)', 'galaxy a70 xfinity' => 'Galaxy A70',
             'galaxy a71', 'galaxy a71 4g' => 'Galaxy A71',
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)', 'galaxy a71 5g (international)' => 'Galaxy A71 5G',
             'galaxy a73', 'galaxy a73 5g' => 'Galaxy A73',
@@ -232,6 +232,7 @@ final class DeviceMarketingnameMapper
             'galaxy note 20 ultra', 'galaxy note 20 ultra 4g' => 'Galaxy Note 20 Ultra',
             'galaxy note 20 ultra 5g', 'galaxy note 20 ultra 5g (international)', 'galaxy note 20 ultra 5g (china)', 'galaxy note 20 ultra 5g (usa)', 'galaxy note 20 ultra 5g (usa, unlocked)', 'galaxy note 20 ultra 5g (korea)', 'galaxy note 20 ultra 5g (canada)' => 'Galaxy Note 20 Ultra 5G',
             'galaxy note pro 12.2" lte', 'galaxy notepro 12.2" lte' => 'Galaxy Note Pro 12.2" LTE',
+            'galaxy on7 (2016)', 'galaxy on7 (2016, china)' => 'Galaxy On7 (2016)',
             'galaxy pocket 2' => 'Galaxy Pocket 2',
             'galaxy pocket plus' => 'Galaxy Pocket Plus',
             'galaxy gear s2 (43mm)', 'galaxy gear s2 43mm' => 'Galaxy Gear S2 (43mm)',
@@ -1607,6 +1608,10 @@ final class DeviceMarketingnameMapper
             'phone (4a) pro', 'phone 4a pro' => 'Phone (4a) Pro',
             // onvo
             'ov55500', '0v55500' => 'OV55500',
+            // acer
+            'one 10', 'one 10 t9-1212l' => 'One 10',
+            // blu
+            'studio x10l', 'studio x10l (2022)' => 'Studio X10L',
             default => $marketingName,
         };
     }

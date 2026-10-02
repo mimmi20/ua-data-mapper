@@ -168,6 +168,8 @@ final class MakerMapper
             'geepas' => 'GEEPAS',
             'yasin' => 'YASIN',
             'comtrade-tesla', 'comtrade tesla' => 'ComTrade Tesla',
+            'veon' => 'VEON',
+            'tanix' => 'Tanix',
             default => $maker,
         };
     }
