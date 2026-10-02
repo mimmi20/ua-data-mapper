@@ -480,6 +480,8 @@ final class DeviceBrandnameMapper
             'kaicom' => 'Kaicom',
             'dany' => 'Dany',
             'geepas' => 'GEEPAS',
+            'yasin' => 'YASIN',
+            'comtrade-tesla', 'comtrade tesla' => 'ComTrade Tesla',
             default => $brandName,
         };
     }
