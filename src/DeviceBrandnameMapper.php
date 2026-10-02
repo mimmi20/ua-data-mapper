@@ -479,6 +479,7 @@ final class DeviceBrandnameMapper
             'twl-mobile', 'twl mobile' => 'TWL Mobile',
             'kaicom' => 'Kaicom',
             'dany' => 'Dany',
+            'geepas' => 'GEEPAS',
             default => $brandName,
         };
     }

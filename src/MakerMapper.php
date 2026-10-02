@@ -165,6 +165,7 @@ final class MakerMapper
             'twl-mobile', 'twl mobile' => 'TWL Mobile',
             'kaicom' => 'Kaicom',
             'dany' => 'Dany',
+            'geepas' => 'GEEPAS',
             default => $maker,
         };
     }
