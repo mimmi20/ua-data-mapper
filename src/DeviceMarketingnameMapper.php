@@ -169,6 +169,7 @@ final class DeviceMarketingnameMapper
             'galaxy f14 5g', 'galaxy f14 5g (international)' => 'Galaxy F14 5G',
             'galaxy f15 5g', 'galaxy f15 5g (international)' => 'Galaxy F15 5G',
             'galaxy f34 5g', 'galaxy f34 5g (international)' => 'Galaxy F34 5G',
+            'galaxy f41', 'galaxy f41 (india)' => 'Galaxy F41',
             'galaxy fame duos' => 'Galaxy Fame Duos',
             'galaxy feel', 'galaxy feel 4g' => 'Galaxy Feel',
             'galaxy fold', 'galaxy fold 5g (global)', 'galaxy fold 5g', 'galaxy fold 5g (international)', 'galaxy fold 5g (korea)' => 'Galaxy Fold',
@@ -1616,6 +1617,8 @@ final class DeviceMarketingnameMapper
             'one 10', 'one 10 t9-1212l' => 'One 10',
             // blu
             'studio x10l', 'studio x10l (2022)' => 'Studio X10L',
+            // digi
+            'r2a', 'r2a build' => 'R2A',
             default => $marketingName,
         };
     }

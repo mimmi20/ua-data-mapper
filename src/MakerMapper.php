@@ -185,6 +185,12 @@ final class MakerMapper
             'bbk' => 'BBK',
             'pocketbook' => 'PocketBook',
             'artel' => 'Artel',
+            'digi' => 'Digi',
+            'bgh' => 'BGH',
+            'beko' => 'Beko',
+            'hoobart' => 'Hoobart',
+            'meo' => 'MEO',
+            'polar-line', 'polarline' => 'PolarLine',
             default => $maker,
         };
     }
