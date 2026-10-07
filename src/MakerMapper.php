@@ -191,6 +191,7 @@ final class MakerMapper
             'hoobart' => 'Hoobart',
             'meo' => 'MEO',
             'polar-line', 'polarline' => 'PolarLine',
+            'jinga' => 'Jinga',
             default => $maker,
         };
     }
