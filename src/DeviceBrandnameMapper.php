@@ -506,6 +506,8 @@ final class DeviceBrandnameMapper
             'meo' => 'MEO',
             'polar-line', 'polarline' => 'PolarLine',
             'jinga' => 'Jinga',
+            'ikon' => 'iKon',
+            'hyundai' => 'Hyundai',
             default => $brandName,
         };
     }

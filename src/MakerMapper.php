@@ -192,6 +192,8 @@ final class MakerMapper
             'meo' => 'MEO',
             'polar-line', 'polarline' => 'PolarLine',
             'jinga' => 'Jinga',
+            'ikon' => 'iKon',
+            'hyundai' => 'Hyundai',
             default => $maker,
         };
     }

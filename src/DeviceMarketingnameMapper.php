@@ -1513,6 +1513,7 @@ final class DeviceMarketingnameMapper
             'kindle fire hdx 8.9" wifi', 'kindle fire hdx 8.9" wi-fi (2013)' => 'Kindle Fire HDX 8.9" Wi-Fi',
             // meizu
             'pro 6' => 'Pro 6',
+            'x8', 'x8 (global)' => 'X8',
             // ouya
             'ouya' => 'Ouya',
             // sagem
