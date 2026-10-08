@@ -510,6 +510,7 @@ final class DeviceBrandnameMapper
             'hyundai' => 'Hyundai',
             'viendo' => 'Viendo',
             'wansa' => 'WANSA',
+            'homez' => 'Homez',
             default => $brandName,
         };
     }

@@ -196,6 +196,7 @@ final class MakerMapper
             'hyundai' => 'Hyundai',
             'viendo' => 'Viendo',
             'wansa' => 'WANSA',
+            'homez' => 'Homez',
             default => $maker,
         };
     }
