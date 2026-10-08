@@ -194,6 +194,7 @@ final class MakerMapper
             'jinga' => 'Jinga',
             'ikon' => 'iKon',
             'hyundai' => 'Hyundai',
+            'viendo' => 'Viendo',
             default => $maker,
         };
     }

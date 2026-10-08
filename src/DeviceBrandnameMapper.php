@@ -508,6 +508,7 @@ final class DeviceBrandnameMapper
             'jinga' => 'Jinga',
             'ikon' => 'iKon',
             'hyundai' => 'Hyundai',
+            'viendo' => 'Viendo',
             default => $brandName,
         };
     }
