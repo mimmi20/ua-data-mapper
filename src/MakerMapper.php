@@ -195,6 +195,7 @@ final class MakerMapper
             'ikon' => 'iKon',
             'hyundai' => 'Hyundai',
             'viendo' => 'Viendo',
+            'wansa' => 'WANSA',
             default => $maker,
         };
     }

@@ -509,6 +509,7 @@ final class DeviceBrandnameMapper
             'ikon' => 'iKon',
             'hyundai' => 'Hyundai',
             'viendo' => 'Viendo',
+            'wansa' => 'WANSA',
             default => $brandName,
         };
     }
