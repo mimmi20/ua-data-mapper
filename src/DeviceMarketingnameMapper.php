@@ -112,7 +112,7 @@ final class DeviceMarketingnameMapper
             'galaxy a15 5g', 'galaxy a15 5g (usa)', 'galaxy a15 5g (canada)' => 'Galaxy A15 5G',
             'galaxy a16', 'galaxy a16 (international)', 'galaxy a16 (korea)' => 'Galaxy A16',
             'galaxy a16 5g', 'galaxy a16 5g (international)', 'galaxy a16 5g (usa)', 'galaxy a16 5g (canada)' => 'Galaxy A16 5G',
-            'galaxy a17 5g', 'galaxy a17 5g (international)', 'galaxy a17 5g (usa)', 'galaxy a17 5g (canada)' => 'Galaxy A17 5G',
+            'galaxy a17 5g', 'galaxy a17 5g (international)', 'galaxy a17 5g (usa)', 'galaxy a17 5g (canada)', 'galaxy a17 5g (china)' => 'Galaxy A17 5G',
             'galaxy a20', 'galaxy a20 (global)', 'galaxy a20 (usa)', 'galaxy a20 (latam/brazil)', 'galaxy a20 (australia, new zealand)' => 'Galaxy A20',
             'galaxy a20s', 'galaxy a20s (global)', 'galaxy a20s (latam, brazil)' => 'Galaxy A20s',
             'galaxy a21', 'galaxy a21 (japan)', 'galaxy a21 (canada)', 'galaxy a21 (usa)' => 'Galaxy A21',
@@ -169,6 +169,7 @@ final class DeviceMarketingnameMapper
             'galaxy f14 5g', 'galaxy f14 5g (international)' => 'Galaxy F14 5G',
             'galaxy f15 5g', 'galaxy f15 5g (international)' => 'Galaxy F15 5G',
             'galaxy f34 5g', 'galaxy f34 5g (international)' => 'Galaxy F34 5G',
+            'galaxy f41', 'galaxy f41 (india)' => 'Galaxy F41',
             'galaxy fame duos' => 'Galaxy Fame Duos',
             'galaxy feel', 'galaxy feel 4g' => 'Galaxy Feel',
             'galaxy fold', 'galaxy fold 5g (global)', 'galaxy fold 5g', 'galaxy fold 5g (international)', 'galaxy fold 5g (korea)' => 'Galaxy Fold',
@@ -901,6 +902,7 @@ final class DeviceMarketingnameMapper
             'note 60 pro', 'note 60 pro 5g' => 'Note 60 Pro',
             'smart 6 plus', 'smart 6 plus (india)' => 'Smart 6 Plus',
             'smart 7 plus', 'smart 7 plus (india)' => 'Smart 7 Plus',
+            'smart 20', 'smart 20 4g' => 'Smart 20',
             'zero 30', 'zero 30 4g' => 'Zero 30',
             'zero 40', 'zero 40 4g', 'zero 40 5g' => 'Zero 40',
             'zero 5g', 'zero 5g (2023)' => 'Zero 5G',
@@ -976,6 +978,7 @@ final class DeviceMarketingnameMapper
             'xperia 5 v', 'xperia 5 v 5g' => 'Xperia 5 V',
             'xperia 10 v', 'xperia 10 v 5g (japan)' => 'Xperia 10 V',
             'xperia 10 vi', 'xperia 10 vi 5g' => 'Xperia 10 VI',
+            'xperia 10 vii', 'xperia 10 vii 5g' => 'Xperia 10 VII',
             'xperia ace', 'xperia ace lte' => 'Xperia Ace',
             'xperia arc' => 'Xperia Arc',
             'xperia c', 'xperia c hspa+' => 'Xperia C',
@@ -1011,10 +1014,13 @@ final class DeviceMarketingnameMapper
             'enjoy 5s' => 'Enjoy 5s',
             'honor 5c' => 'Honor 5c',
             'honor 7a', 'honor changwan 7a' => 'Honor 7A',
+            'honor 8', 'honor 8 (china)', 'honor 8 (china, usa)', 'honor 8 (europe)' => 'Honor 8',
             'honor 8 lite', 'honor 8 lite (2017)' => 'Honor 8 Lite',
             'honor 8a', 'honor 8a pro' => 'Honor 8A',
             'honor 8c', 'honor 8c (china)', 'honor 8c (global)' => 'Honor 8C',
             'honor 9i', 'honor 9i (2018)' => 'Honor 9i',
+            'honor magic 2', 'honor magic 2 premium edition' => 'Honor Magic 2',
+            'honor view 10', 'honor v10' => 'Honor View 10',
             'nova 6', 'nova 6 4g' => 'Nova 6',
             'pad x7 8.7" wi-fi', 'pad x7 8.7" wifi' => 'Pad X7 8.7" Wi-Fi',
             'pad x8b wi-fi', 'pad x8b wifi' => 'Pad X8b Wi-Fi',
@@ -1104,8 +1110,6 @@ final class DeviceMarketingnameMapper
             'x7c', 'x7c 4g' => 'X7c',
             'x7d', 'x7d 4g' => 'X7d',
             'x9c', 'magic 7 lite' => 'X9c',
-            'honor 8', 'honor 8 (china)', 'honor 8 (china, usa)', 'honor 8 (europe)' => 'Honor 8',
-            'honor view 10', 'honor v10' => 'Honor View 10',
             'y5 ii', 'y5ii' => 'Y5 II',
             'y6 ii', 'y6ii' => 'Y6 II',
             'y6p', 'y6p (2020)' => 'Y6p',
@@ -1509,6 +1513,7 @@ final class DeviceMarketingnameMapper
             'kindle fire hdx 8.9" wifi', 'kindle fire hdx 8.9" wi-fi (2013)' => 'Kindle Fire HDX 8.9" Wi-Fi',
             // meizu
             'pro 6' => 'Pro 6',
+            'x8', 'x8 (global)' => 'X8',
             // ouya
             'ouya' => 'Ouya',
             // sagem
@@ -1616,6 +1621,8 @@ final class DeviceMarketingnameMapper
             'one 10', 'one 10 t9-1212l' => 'One 10',
             // blu
             'studio x10l', 'studio x10l (2022)' => 'Studio X10L',
+            // digi
+            'r2a', 'r2a build' => 'R2A',
             default => $marketingName,
         };
     }
