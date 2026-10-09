@@ -511,6 +511,7 @@ final class DeviceBrandnameMapper
             'viendo' => 'Viendo',
             'wansa' => 'WANSA',
             'homez' => 'Homez',
+            'linsar' => 'Linsar',
             default => $brandName,
         };
     }

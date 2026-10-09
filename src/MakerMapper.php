@@ -197,6 +197,7 @@ final class MakerMapper
             'viendo' => 'Viendo',
             'wansa' => 'WANSA',
             'homez' => 'Homez',
+            'linsar' => 'Linsar',
             default => $maker,
         };
     }
