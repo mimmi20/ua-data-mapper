@@ -249,7 +249,7 @@ final class DeviceMarketingnameMapper
             'galaxy s duos 3', 'galaxy s duos 3 ve' => 'Galaxy S Duos 3',
             'galaxy s2', 'galaxy s ii', 'galaxy s2 (ntt docomo)' => 'Galaxy S2',
             'galaxy s2 plus', 'galaxy s2 plus nfc', 'galaxy s ii plus' => 'Galaxy S2 Plus',
-            'galaxy s3', 'galaxy s iii', 'galaxy s3 4g cdma' => 'Galaxy S3',
+            'galaxy s3', 'galaxy s iii', 'galaxy s3 4g cdma', 'galaxy s3 neo duos' => 'Galaxy S3',
             'galaxy s3 lte international', 'galaxy s iii lte', 'galaxy s3 lte' => 'Galaxy S3 LTE',
             'galaxy s3 mini', 'galaxy s iii mini' => 'Galaxy S3 Mini',
             'galaxy s3 mini value edition', 'galaxy s iii mini value edition' => 'Galaxy S3 Mini Value Edition',
@@ -1623,6 +1623,8 @@ final class DeviceMarketingnameMapper
             'studio x10l', 'studio x10l (2022)' => 'Studio X10L',
             // digi
             'r2a', 'r2a build' => 'R2A',
+            // sky-worth
+            'swtv-22ae', 'swtv-22ae-4k' => 'SWTV-22AE',
             default => $marketingName,
         };
     }

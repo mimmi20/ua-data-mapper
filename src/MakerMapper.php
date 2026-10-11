@@ -199,6 +199,17 @@ final class MakerMapper
             'homez' => 'Homez',
             'linsar' => 'Linsar',
             'nadco' => 'Nadco',
+            'hisilicon' => 'HiSilicon',
+            'maunfeld' => 'Maunfeld',
+            'megamax' => 'MEGAMAX',
+            'kraft' => 'Kraft',
+            'infiniton' => 'Infiniton',
+            'holleberg' => 'HOLLEBERG',
+            'qin' => 'QIN',
+            'jiuzhou' => 'Jiuzhou',
+            'kion' => 'KION',
+            'cadena' => 'CADENA',
+            'blaupunkt' => 'Blaupunkt',
             default => $maker,
         };
     }
