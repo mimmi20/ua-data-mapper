@@ -523,6 +523,11 @@ final class DeviceBrandnameMapper
             'jiuzhou' => 'Jiuzhou',
             'kion' => 'KION',
             'cadena' => 'CADENA',
+            'smart-kassel', 'smart kassel' => 'Smart Kassel',
+            'leeco' => 'LeEco',
+            'gplus' => 'Gplus',
+            'azeyou' => 'Azeyou',
+            'pantech' => 'Pantech',
             default => $brandName,
         };
     }

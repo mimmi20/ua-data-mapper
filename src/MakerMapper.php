@@ -210,6 +210,11 @@ final class MakerMapper
             'kion' => 'KION',
             'cadena' => 'CADENA',
             'blaupunkt' => 'Blaupunkt',
+            'smart-kassel', 'smart kassel' => 'Smart Kassel',
+            'leeco' => 'LeEco',
+            'gplus' => 'Gplus',
+            'azeyou' => 'Azeyou',
+            'pantech' => 'Pantech',
             default => $maker,
         };
     }
