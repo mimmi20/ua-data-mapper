@@ -274,7 +274,7 @@ final class DeviceMarketingnameMapper
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)', 'galaxy s10+ dual sim (latam, brazil, china)', 'galaxy s10+ (usa)', 'galaxy s10+ (international)' => 'Galaxy S10+',
             'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)', 'galaxy s10e (canada)' => 'Galaxy S10e',
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
-            'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)', 'galaxy s20 5g (usa unlocked)', 'galaxy s20 5g (usa)' => 'Galaxy S20 5G',
+            'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)', 'galaxy s20 5g (usa unlocked)', 'galaxy s20 5g (usa)', 'galaxy s20 5g (canada)' => 'Galaxy S20 5G',
             'galaxy s20+', 'galaxy s20+ 4g' => 'Galaxy S20+',
             'galaxy s20+ 5g', 'galaxy s20+ 5g (international)', 'galaxy s20+ 5g (usa unlocked)', 'galaxy s20+ 5g (korea)', 'galaxy s20+ 5g (usa)' => 'Galaxy S20+ 5G',
             'galaxy s20 fe', 'galaxy s20 fe 4g' => 'Galaxy S20 FE',
