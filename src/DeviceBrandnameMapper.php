@@ -528,6 +528,7 @@ final class DeviceBrandnameMapper
             'gplus' => 'Gplus',
             'azeyou' => 'Azeyou',
             'pantech' => 'Pantech',
+            'ssmart' => 'Ssmart',
             default => $brandName,
         };
     }

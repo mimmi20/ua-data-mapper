@@ -215,6 +215,7 @@ final class MakerMapper
             'gplus' => 'Gplus',
             'azeyou' => 'Azeyou',
             'pantech' => 'Pantech',
+            'ssmart' => 'Ssmart',
             default => $maker,
         };
     }
