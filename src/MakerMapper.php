@@ -215,6 +215,14 @@ final class MakerMapper
             'gplus' => 'Gplus',
             'azeyou' => 'Azeyou',
             'pantech' => 'Pantech',
+            'ssmart' => 'Ssmart',
+            'bravis' => 'Bravis',
+            'kobo' => 'Kobo',
+            'yutmart' => 'Yutmart',
+            'bulsatcom' => 'Bulsatcom',
+            'formuler' => 'Formuler',
+            'rokid' => 'Rokid',
+            'cyrus' => 'Cyrus',
             default => $maker,
         };
     }
