@@ -225,6 +225,8 @@ final class MakerMapper
             'cyrus' => 'Cyrus',
             'fujitsu', 'fcnt' => 'Fujitsu',
             'hartens' => 'Hartens',
+            'kiwi' => 'KIWI',
+            'star-track', 'star track' => 'Star Track',
             default => $maker,
         };
     }

@@ -537,6 +537,8 @@ final class DeviceBrandnameMapper
             'rokid' => 'Rokid',
             'cyrus' => 'Cyrus',
             'hartens' => 'Hartens',
+            'kiwi' => 'KIWI',
+            'star-track', 'star track' => 'Star Track',
             default => $brandName,
         };
     }
