@@ -90,7 +90,7 @@ final class DeviceBrandnameMapper
             'digma' => 'Digma',
             'onn' => 'ONN',
             'agm' => 'AGM',
-            'fujitsu' => 'Fujitsu',
+            'fujitsu', 'fcnt' => 'Fujitsu',
             'kalley' => 'Kalley',
             'lt mobile', 'lt-mobile' => 'LT Mobile',
             'meta' => 'Meta',

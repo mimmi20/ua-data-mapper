@@ -223,6 +223,7 @@ final class MakerMapper
             'formuler' => 'Formuler',
             'rokid' => 'Rokid',
             'cyrus' => 'Cyrus',
+            'fujitsu', 'fcnt' => 'Fujitsu',
             default => $maker,
         };
     }
