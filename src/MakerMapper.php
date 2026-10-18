@@ -224,6 +224,7 @@ final class MakerMapper
             'rokid' => 'Rokid',
             'cyrus' => 'Cyrus',
             'fujitsu', 'fcnt' => 'Fujitsu',
+            'hartens' => 'Hartens',
             default => $maker,
         };
     }

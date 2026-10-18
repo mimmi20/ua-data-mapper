@@ -536,6 +536,7 @@ final class DeviceBrandnameMapper
             'formuler' => 'Formuler',
             'rokid' => 'Rokid',
             'cyrus' => 'Cyrus',
+            'hartens' => 'Hartens',
             default => $brandName,
         };
     }

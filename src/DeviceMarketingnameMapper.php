@@ -1626,6 +1626,10 @@ final class DeviceMarketingnameMapper
             'r2a', 'r2a build' => 'R2A',
             // sky-worth
             'swtv-22ae', 'swtv-22ae-4k' => 'SWTV-22AE',
+            // yasin
+            '4k g smart tv', '4k g smart tv ff' => '4K G Smart TV',
+            // prestigio
+            'node e8 3g', 'pmt4228 3g ru' => 'Node E8 3G',
             default => $marketingName,
         };
     }
