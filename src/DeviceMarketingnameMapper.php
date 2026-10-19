@@ -187,14 +187,14 @@ final class DeviceMarketingnameMapper
             'galaxy j4', 'galaxy j4 (2018)' => 'Galaxy J4',
             'galaxy j4+', 'galaxy j4+ (2018)' => 'Galaxy J4+',
             'galaxy j4 core', 'galaxy j4 core (global)' => 'Galaxy J4 Core',
-            'galaxy j5 (2015)', 'galaxy j5 (2015, global)', 'galaxy j5 (2015, latam)' => 'Galaxy J5 (2015)',
+            'galaxy j5 (2015)', 'galaxy j5 (2015, global)', 'galaxy j5 (2015, latam)', 'galaxy j5 (2015, malaysia, indonesia, singapore, thailand)' => 'Galaxy J5 (2015)',
             'galaxy j5 (2016)', 'galaxy j5 4g duos (2016, europe)', 'galaxy j5 metal duos (2016)' => 'Galaxy J5 (2016)',
             'galaxy j5 prime', 'galaxy j5 prime duos' => 'Galaxy J5 Prime',
             'galaxy j6', 'galaxy j6 (2018)', 'galaxy j6 duos (2018)' => 'Galaxy J6',
             'galaxy j6+', 'galaxy j6+ (2018)' => 'Galaxy J6+',
             'galaxy j7 (2016)', 'galaxy j7 4g (metropcs, 2016)' => 'Galaxy J7 (2016)',
             'galaxy j7 (2018)', 'galaxy j7 refine (sprint, virgin mobile, boost mobile, 2018)' => 'Galaxy J7 (2018)',
-            'galaxy j7', 'galaxy j7 (emea, 2016)', 'galaxy j7 (china, 2016)', 'galaxy j7 (2017, global)', 'galaxy j7 pro', 'galaxy j7 (2017, uae, russia, kazakhstan)', 'galaxy j7 4g (india, thailand)', 'galaxy j7 pro (2017)', 'galaxy j7 3g duos (south africa, pakistan, vietnam, philippines, russia)' => 'Galaxy J7',
+            'galaxy j7', 'galaxy j7 (emea, 2016)', 'galaxy j7 (china, 2016)', 'galaxy j7 (2017, global)', 'galaxy j7 pro', 'galaxy j7 (2017, uae, russia, kazakhstan)', 'galaxy j7 4g (india, thailand)', 'galaxy j7 pro (2017)', 'galaxy j7 3g duos (south africa, pakistan, vietnam, philippines, russia)', 'galaxy j7 4g duos (latam)' => 'Galaxy J7',
             'galaxy j7 max', 'galaxy j7 max duos' => 'Galaxy J7 Max',
             'galaxy j7 nxt', 'galaxy j7 core', 'galaxy j7 neo', 'galaxy j7 nxt (2017, india)', 'galaxy j7 neo (2017, latam)', 'galaxy j7 core (2017, philippines)' => 'Galaxy J7 Nxt',
             'galaxy j7 prime', 'galaxy j7 prime (emea)', 'galaxy j7 prime (taiwan, philippines)', 'galaxy j7 prime (latam)' => 'Galaxy J7 Prime',
@@ -274,7 +274,7 @@ final class DeviceMarketingnameMapper
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)', 'galaxy s10+ dual sim (latam, brazil, china)', 'galaxy s10+ (usa)', 'galaxy s10+ (international)' => 'Galaxy S10+',
             'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)', 'galaxy s10e (canada)' => 'Galaxy S10e',
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
-            'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)', 'galaxy s20 5g (usa unlocked)', 'galaxy s20 5g (usa)' => 'Galaxy S20 5G',
+            'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)', 'galaxy s20 5g (usa unlocked)', 'galaxy s20 5g (usa)', 'galaxy s20 5g (canada)' => 'Galaxy S20 5G',
             'galaxy s20+', 'galaxy s20+ 4g' => 'Galaxy S20+',
             'galaxy s20+ 5g', 'galaxy s20+ 5g (international)', 'galaxy s20+ 5g (usa unlocked)', 'galaxy s20+ 5g (korea)', 'galaxy s20+ 5g (usa)' => 'Galaxy S20+ 5G',
             'galaxy s20 fe', 'galaxy s20 fe 4g' => 'Galaxy S20 FE',
@@ -831,7 +831,7 @@ final class DeviceMarketingnameMapper
             'y77', 'y77 (china)' => 'Y77',
             'y78', 'y78 (china)' => 'Y78',
             'y85', 'y85a' => 'Y85',
-            'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)' => 'Y100',
+            'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)', 'y100 (idn' => 'Y100',
             'y100 5g', 'y100 5g (china)' => 'Y100 5G',
             'y200 5g', 'y200 5g (china)', 'y200 pro 5g', 'y200 5g (india)' => 'Y200 5G',
             'y300', 'y300 (china)', 'y300 5g (china)', 'ascend y300', 'y300-0100' => 'Y300',
@@ -1446,6 +1446,7 @@ final class DeviceMarketingnameMapper
             'smart ultimate', 'smart ultimate 64' => 'Smart Ultimate',
             // fujitsu
             'arrows n', 'arrows n f-51c' => 'Arrows N',
+            'arrows alpha', 'arrows alpha f-51f' => 'Arrows Alpha',
             // nvidia
             'shield android tv' => 'Shield Android TV',
             // tv+
@@ -1625,6 +1626,10 @@ final class DeviceMarketingnameMapper
             'r2a', 'r2a build' => 'R2A',
             // sky-worth
             'swtv-22ae', 'swtv-22ae-4k' => 'SWTV-22AE',
+            // yasin
+            '4k g smart tv', '4k g smart tv ff' => '4K G Smart TV',
+            // prestigio
+            'node e8 3g', 'pmt4228 3g ru' => 'Node E8 3G',
             default => $marketingName,
         };
     }
