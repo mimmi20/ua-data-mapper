@@ -227,6 +227,8 @@ final class MakerMapper
             'hartens' => 'Hartens',
             'kiwi' => 'KIWI',
             'star-track', 'star track' => 'Star Track',
+            'hiper' => 'HIPER',
+            'telezone' => 'Telezone',
             default => $maker,
         };
     }

@@ -539,6 +539,8 @@ final class DeviceBrandnameMapper
             'hartens' => 'Hartens',
             'kiwi' => 'KIWI',
             'star-track', 'star track' => 'Star Track',
+            'hiper' => 'HIPER',
+            'telezone' => 'Telezone',
             default => $brandName,
         };
     }

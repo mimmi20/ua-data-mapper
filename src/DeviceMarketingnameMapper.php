@@ -831,7 +831,7 @@ final class DeviceMarketingnameMapper
             'y77', 'y77 (china)' => 'Y77',
             'y78', 'y78 (china)' => 'Y78',
             'y85', 'y85a' => 'Y85',
-            'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)' => 'Y100',
+            'y100', 'y100 4g', 'y100 (international)', 'y100 (indonesia)', 'y100 (idn' => 'Y100',
             'y100 5g', 'y100 5g (china)' => 'Y100 5G',
             'y200 5g', 'y200 5g (china)', 'y200 pro 5g', 'y200 5g (india)' => 'Y200 5G',
             'y300', 'y300 (china)', 'y300 5g (china)', 'ascend y300', 'y300-0100' => 'Y300',
