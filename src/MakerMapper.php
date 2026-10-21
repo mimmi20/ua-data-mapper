@@ -235,6 +235,7 @@ final class MakerMapper
             'star-light' => 'Star-Light',
             'smart-tech', 'smart tech' => 'Smart Tech',
             'nei' => 'NEI',
+            'cube' => 'Cube',
             default => $maker,
         };
     }
