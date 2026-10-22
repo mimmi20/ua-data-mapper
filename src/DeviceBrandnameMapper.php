@@ -548,6 +548,7 @@ final class DeviceBrandnameMapper
             'smart-tech', 'smart tech' => 'Smart Tech',
             'nei' => 'NEI',
             'cube' => 'Cube',
+            'von' => 'Von',
             default => $brandName,
         };
     }
