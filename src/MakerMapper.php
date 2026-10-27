@@ -229,6 +229,14 @@ final class MakerMapper
             'star-track', 'star track' => 'Star Track',
             'hiper' => 'HIPER',
             'telezone' => 'Telezone',
+            'tokyo' => 'TOKYO',
+            'tele-system', 'tele system' => 'TELE System',
+            'awox' => 'AWOX',
+            'star-light' => 'Star-Light',
+            'smart-tech', 'smart tech' => 'Smart Tech',
+            'nei' => 'NEI',
+            'cube' => 'Cube',
+            'von' => 'Von',
             default => $maker,
         };
     }

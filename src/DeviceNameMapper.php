@@ -41,6 +41,7 @@ final class DeviceNameMapper
             'sch-r900', 'sam-r900' => 'SCH-R900',
             'sch-r640', 'sam-r640' => 'SCH-R640',
             'sm-t255a' => 'SM-T255A',
+            'pmt7077_3g', 'pmt7077 3g' => 'PMT7077_3G',
             default => $deviceName,
         };
     }
