@@ -34,7 +34,7 @@ final class BrowserNameMapper
         }
 
         return match (mb_strtolower($browserInput)) {
-            'unknown', 'other', 'default browser', 'generic', 'misc crawler', 'generic bot', 'http library', 'ios', 'playstation 3', 'playstation 4' => null,
+            'unknown', 'other', 'default browser', 'generic', 'ios', 'playstation 3', 'playstation 4' => null,
             'ie', 'msie' => 'Internet Explorer',
             'iceweasel' => 'Iceweasel',
             'mobile safari', 'mobile safari/wkwebview', 'safari mobile', 'webview', 'mobile safari uiwebview' => 'Safari',
