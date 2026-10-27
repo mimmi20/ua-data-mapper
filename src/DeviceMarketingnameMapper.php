@@ -1299,6 +1299,8 @@ final class DeviceMarketingnameMapper
             'razr plus (2025)', 'razr plus 2025' => 'Razr Plus (2025)',
             'rizr z8' => 'Rizr Z8',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
+            'smart tv (2015)', 'viera (2015)' => 'Smart TV (2015)',
+            'smart tv (2016)', 'viera (2016)' => 'Smart TV (2016)',
             'v360', 'v360v' => 'V360',
             // nuu-mobile
             'b30 pro', 'b30 pro 5g' => 'B30 Pro',
