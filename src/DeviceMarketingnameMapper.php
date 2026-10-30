@@ -1258,6 +1258,7 @@ final class DeviceMarketingnameMapper
             'm6 pro', 'm6 pro 4g' => 'M6 Pro',
             'm8 5g', 'm8 5g (international)' => 'M8 5G',
             'pad 12.1"', 'pad 12.1" wi-fi' => 'Pad 12.1"',
+            'pad m1 wi-fi', 'pad m1 wifi' => 'Pad M1 Wi-Fi',
             'x8 pro', 'x8 pro 5g (international)' => 'X8 Pro',
             'x8 pro max', 'x8 pro max 5g (international)' => 'X8 Pro Max',
             // oscal
