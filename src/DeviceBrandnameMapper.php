@@ -551,6 +551,9 @@ final class DeviceBrandnameMapper
             'von' => 'Von',
             'ila' => 'iLA',
             'spice' => 'Spice',
+            'amcv' => 'AMCV',
+            'hiberg' => 'Hiberg',
+            'kivi' => 'Kivi',
             default => $brandName,
         };
     }

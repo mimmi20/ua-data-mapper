@@ -239,6 +239,9 @@ final class MakerMapper
             'von' => 'Von',
             'ila' => 'iLA',
             'spice' => 'Spice',
+            'amcv' => 'AMCV',
+            'hiberg' => 'Hiberg',
+            'kivi' => 'Kivi',
             default => $maker,
         };
     }
