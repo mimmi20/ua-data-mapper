@@ -822,6 +822,7 @@ final class DeviceMarketingnameMapper
             'y3s', 'y3s (2021)' => 'Y3s',
             'y11', 'y11 (2023)', 'y11 (2019)' => 'Y11',
             'y18', 'y18 (india)' => 'Y18',
+            'y20s g', 'y20s [g]' => 'Y20s G',
             'y21t (india)', 'y21t (india' => 'Y21t (India)',
             'y28', 'y28 4g' => 'Y28',
             'y28s 5g', 't3 lite 5g' => 'Y28s 5G',
@@ -1258,6 +1259,7 @@ final class DeviceMarketingnameMapper
             'm6 pro', 'm6 pro 4g' => 'M6 Pro',
             'm8 5g', 'm8 5g (international)' => 'M8 5G',
             'pad 12.1"', 'pad 12.1" wi-fi' => 'Pad 12.1"',
+            'pad m1 wi-fi', 'pad m1 wifi' => 'Pad M1 Wi-Fi',
             'x8 pro', 'x8 pro 5g (international)' => 'X8 Pro',
             'x8 pro max', 'x8 pro max 5g (international)' => 'X8 Pro Max',
             // oscal
@@ -1299,6 +1301,8 @@ final class DeviceMarketingnameMapper
             'razr plus (2025)', 'razr plus 2025' => 'Razr Plus (2025)',
             'rizr z8' => 'Rizr Z8',
             's50 neo 5g', 'moto g85 5g' => 'S50 Neo 5G',
+            'smart tv (2015)', 'viera (2015)' => 'Smart TV (2015)',
+            'smart tv (2016)', 'viera (2016)' => 'Smart TV (2016)',
             'v360', 'v360v' => 'V360',
             // nuu-mobile
             'b30 pro', 'b30 pro 5g' => 'B30 Pro',
