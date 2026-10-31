@@ -549,6 +549,8 @@ final class DeviceBrandnameMapper
             'nei' => 'NEI',
             'cube' => 'Cube',
             'von' => 'Von',
+            'ila' => 'iLA',
+            'spice' => 'Spice',
             default => $brandName,
         };
     }
