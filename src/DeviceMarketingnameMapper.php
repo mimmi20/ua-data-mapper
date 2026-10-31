@@ -822,6 +822,7 @@ final class DeviceMarketingnameMapper
             'y3s', 'y3s (2021)' => 'Y3s',
             'y11', 'y11 (2023)', 'y11 (2019)' => 'Y11',
             'y18', 'y18 (india)' => 'Y18',
+            'y20s g', 'y20s [g]' => 'Y20s G',
             'y21t (india)', 'y21t (india' => 'Y21t (India)',
             'y28', 'y28 4g' => 'Y28',
             'y28s 5g', 't3 lite 5g' => 'Y28s 5G',
