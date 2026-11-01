@@ -554,6 +554,9 @@ final class DeviceBrandnameMapper
             'amcv' => 'AMCV',
             'hiberg' => 'Hiberg',
             'kivi' => 'Kivi',
+            'xgimi' => 'XGIMI',
+            'realtek' => 'Realtek',
+            'singer' => 'SINGER',
             default => $brandName,
         };
     }

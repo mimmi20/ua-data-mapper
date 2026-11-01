@@ -242,6 +242,9 @@ final class MakerMapper
             'amcv' => 'AMCV',
             'hiberg' => 'Hiberg',
             'kivi' => 'Kivi',
+            'xgimi' => 'XGIMI',
+            'realtek' => 'Realtek',
+            'singer' => 'SINGER',
             default => $maker,
         };
     }
