@@ -149,7 +149,7 @@ final class DeviceMarketingnameMapper
             'galaxy a71 5g', 'galaxy a71 5g (korea)', 'galaxy a quantum', 'galaxy a71 5g (usa)', 'galaxy a71 5g (international)' => 'Galaxy A71 5G',
             'galaxy a73', 'galaxy a73 5g' => 'Galaxy A73',
             'galaxy a80', 'galaxy a80 (2019)' => 'Galaxy A80',
-            'galaxy a90', 'galaxy a90 5g (south korea)', 'galaxy a90 5g (global)' => 'Galaxy A90',
+            'galaxy a90', 'galaxy a90 5g (south korea)', 'galaxy a90 5g (global)', 'galaxy a90 5g (china)' => 'Galaxy A90',
             'galaxy ace 2', 'galaxy ace 2 nfc' => 'Galaxy Ace 2',
             'galaxy ace plus' => 'Galaxy Ace Plus',
             'galaxy ace style', 'galaxy ace style lte' => 'Galaxy Ace Style',
@@ -275,7 +275,7 @@ final class DeviceMarketingnameMapper
             'galaxy s9+', 'galaxy s9+ (europe, global)', 'galaxy s9+ (usa)', 'galaxy s9+ (china, latam)', 'galaxy s9+ (canada)', 'galaxy s9+ (usa unlocked)' => 'Galaxy S9+',
             'galaxy s10', 'galaxy s10 (global)', 'galaxy s10 5g (korea)', 'galaxy s10 (usa)', 'galaxy s10 5g (sprint)', 'galaxy s10 (china)', 'galaxy s10 5g (global)', 'galaxy s10 5g (international)', 'galaxy s10 (canada)' => 'Galaxy S10',
             'galaxy s10+', 'galaxy s10+ dual sim (global)', 'galaxy s10+ dual sim (usa)', 'galaxy s10+ dual sim (latam, brazil, china)', 'galaxy s10+ (usa)', 'galaxy s10+ (international)' => 'Galaxy S10+',
-            'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)', 'galaxy s10e (canada)' => 'Galaxy S10e',
+            'galaxy s10e', 'galaxy s10e (europe, latin america)', 'galaxy s10e (usa)', 'galaxy s10e (canada)', 'galaxy s10e (china)' => 'Galaxy S10e',
             'galaxy s20', 'galaxy s20 4g' => 'Galaxy S20',
             'galaxy s20 5g', 'galaxy s20 5g (international)', 'galaxy s20 5g (china, hong kong)', 'galaxy s20 5g (usa unlocked)', 'galaxy s20 5g (usa)', 'galaxy s20 5g (canada)' => 'Galaxy S20 5G',
             'galaxy s20+', 'galaxy s20+ 4g' => 'Galaxy S20+',
@@ -1648,6 +1648,8 @@ final class DeviceMarketingnameMapper
             // prestigio
             'node e8 3g', 'pmt4228 3g ru' => 'Node E8 3G',
             'pmt4348_3g_e_ru', 'pmt4348 3g e ru' => 'PMT4348_3G_E_RU',
+            // byd
+            'carpad', 'dilink 5.0', 'dilink 4.0' => 'CarPad',
             default => $marketingName,
         };
     }

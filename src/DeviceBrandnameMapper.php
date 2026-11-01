@@ -557,6 +557,8 @@ final class DeviceBrandnameMapper
             'xgimi' => 'XGIMI',
             'realtek' => 'Realtek',
             'singer' => 'SINGER',
+            'orbsmart' => 'Orbsmart',
+            'telefunken' => 'Telefunken',
             default => $brandName,
         };
     }
