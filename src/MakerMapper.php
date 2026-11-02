@@ -247,6 +247,7 @@ final class MakerMapper
             'singer' => 'SINGER',
             'orbsmart' => 'Orbsmart',
             'telefunken' => 'Telefunken',
+            'byd' => 'BYD',
             default => $maker,
         };
     }

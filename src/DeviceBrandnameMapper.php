@@ -559,6 +559,7 @@ final class DeviceBrandnameMapper
             'singer' => 'SINGER',
             'orbsmart' => 'Orbsmart',
             'telefunken' => 'Telefunken',
+            'byd' => 'BYD',
             default => $brandName,
         };
     }

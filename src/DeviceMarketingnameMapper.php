@@ -195,7 +195,7 @@ final class DeviceMarketingnameMapper
             'galaxy j6', 'galaxy j6 (2018)', 'galaxy j6 duos (2018)' => 'Galaxy J6',
             'galaxy j6+', 'galaxy j6+ (2018)' => 'Galaxy J6+',
             'galaxy j7 (2016)', 'galaxy j7 4g (metropcs, 2016)' => 'Galaxy J7 (2016)',
-            'galaxy j7 (2018)', 'galaxy j7 refine (sprint, virgin mobile, boost mobile, 2018)', 'galaxy j7 (us cellular, 2018)', 'galaxy j7 (at&t, 2018)' => 'Galaxy J7 (2018)',
+            'galaxy j7 (2018)', 'galaxy j7 refine (sprint, virgin mobile, boost mobile, 2018)', 'galaxy j7 (us cellular, 2018)', 'galaxy j7 (at&t, 2018)', 'galaxy j7 (usa, 2018)' => 'Galaxy J7 (2018)',
             'galaxy j7', 'galaxy j7 (emea, 2016)', 'galaxy j7 (china, 2016)', 'galaxy j7 (2017, global)', 'galaxy j7 pro', 'galaxy j7 (2017, uae, russia, kazakhstan)', 'galaxy j7 4g (india, thailand)', 'galaxy j7 pro (2017)', 'galaxy j7 3g duos (south africa, pakistan, vietnam, philippines, russia)', 'galaxy j7 4g duos (latam)' => 'Galaxy J7',
             'galaxy j7 crown', 'galaxy j7 crown (tracfone)' => 'Galaxy J7 Crown',
             'galaxy j7 max', 'galaxy j7 max duos' => 'Galaxy J7 Max',
