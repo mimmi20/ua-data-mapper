@@ -549,6 +549,16 @@ final class DeviceBrandnameMapper
             'nei' => 'NEI',
             'cube' => 'Cube',
             'von' => 'Von',
+            'ila' => 'iLA',
+            'spice' => 'Spice',
+            'amcv' => 'AMCV',
+            'hiberg' => 'Hiberg',
+            'kivi' => 'Kivi',
+            'xgimi' => 'XGIMI',
+            'realtek' => 'Realtek',
+            'singer' => 'SINGER',
+            'orbsmart' => 'Orbsmart',
+            'telefunken' => 'Telefunken',
             default => $brandName,
         };
     }
