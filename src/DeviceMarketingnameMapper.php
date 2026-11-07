@@ -947,6 +947,7 @@ final class DeviceMarketingnameMapper
             'spark go (2024)', 'spark go 2024' => 'Spark Go (2024)',
             'spark slim', 'tecno km7k' => 'Spark Slim',
             // sony
+            'bravia (2015)', 'bravia 2015' => 'Bravia (2015)',
             'kd-55x8505b', 'kd55x8505b' => 'KD-55X8505B',
             'kd-55x9005b', 'kd55x9005b' => 'KD-55X9005B',
             'kd-65s9005b', 'kd65s9005b' => 'KD-65S9005B',
