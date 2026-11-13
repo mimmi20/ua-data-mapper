@@ -633,6 +633,7 @@ final class DeviceMarketingnameMapper
             'a95', 'a95 4g' => 'A95',
             'a96' => 'A96',
             'ace 2 5g', 'reno ace 2' => 'Ace 2',
+            'f17 pro', 'f17 pro (2020)' => 'F17 Pro',
             'f21 pro', 'f21 pro 5g' => 'F21 Pro',
             'f21s pro', 'f21s pro 4g', 'f21s pro 5g' => 'F21s Pro',
             'find x2 pro', 'find x2 pro 5g' => 'Find X2 Pro',
