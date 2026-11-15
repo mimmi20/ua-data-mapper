@@ -139,7 +139,7 @@ final class MakerMapper
             'jckkcfug' => 'Jckkcfug',
             'lagenio' => 'LAGENIO',
             'suaat' => 'SUAAT',
-            'shift', 'shift-phones' => 'SHIFT',
+            'shift', 'shift-phones', 'shift phones' => 'SHIFT',
             'dell' => 'Dell',
             'smartisan' => 'Smartisan',
             'unnecto' => 'Unnecto',
@@ -249,6 +249,7 @@ final class MakerMapper
             'telefunken' => 'Telefunken',
             'byd' => 'BYD',
             'ouya' => 'OUYA',
+            'redbeat' => 'Redbeat',
             default => $maker,
         };
     }

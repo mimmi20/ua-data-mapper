@@ -1611,6 +1611,7 @@ final class DeviceMarketingnameMapper
             'elite x3' => 'Elite X3',
             // smartisan
             'u1 jianguo', 'u1' => 'U1 Jianguo',
+            'nut pro 2', 'pro 2' => 'Nut Pro 2',
             // overmax
             'steelcore', 'ov-steelcore' => 'SteelCore',
             // evolveo
