@@ -248,6 +248,7 @@ final class MakerMapper
             'orbsmart' => 'Orbsmart',
             'telefunken' => 'Telefunken',
             'byd' => 'BYD',
+            'ouya' => 'OUYA',
             default => $maker,
         };
     }

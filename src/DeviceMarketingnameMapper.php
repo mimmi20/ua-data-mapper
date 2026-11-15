@@ -1656,6 +1656,8 @@ final class DeviceMarketingnameMapper
             'pmt4348_3g_e_ru', 'pmt4348 3g e ru' => 'PMT4348_3G_E_RU',
             // byd
             'carpad', 'dilink 5.0', 'dilink 4.0' => 'CarPad',
+            // fly
+            'e141 tv plus', 'e141tv plus' => 'E141 TV Plus',
             default => $marketingName,
         };
     }
