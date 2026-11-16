@@ -440,7 +440,7 @@ final class BrowserNameMapper
             'fulldive browser', 'fulldive' => 'Fulldive Browser',
             'microsoft office project', 'project' => 'Microsoft Office Project',
             'keeper', 'keeper password manager' => 'Keeper',
-            'claudebot', 'claude-searchbot', 'claude-user', 'claude code' => 'ClaudeBot',
+            'claudebot', 'claude-user', 'claude code' => 'ClaudeBot',
             'bykreator workstation', 'bykreatorworkstation' => 'Bykreator Workstation',
             'the podcast app', 'the podcast app (magnolia)' => 'The Podcast App',
             'xiao yu zhou', 'xiaoyuzhou' => 'Xiao Yu Zhou',
