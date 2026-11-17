@@ -493,7 +493,7 @@ final class DeviceBrandnameMapper
             'neko' => 'NEKO',
             'kogan' => 'Kogan',
             'kiano' => 'Kiano',
-            'okapi-mobile', 'okapi' => 'Okapi',
+            'okapi-mobile', 'okapi', 'okapi mobile' => 'Okapi',
             'razz' => 'RAZZ',
             'amoi' => 'Amoi',
             'bbk' => 'BBK',
@@ -562,6 +562,13 @@ final class DeviceBrandnameMapper
             'byd' => 'BYD',
             'ouya' => 'OUYA',
             'redbeat' => 'Redbeat',
+            'senseit' => 'SENSEIT',
+            'mpman' => 'MPMan',
+            'nextbook' => 'Nextbook',
+            'onda' => 'ONDA',
+            'vkworld' => 'VKWorld',
+            'zopo' => 'ZOPO',
+            'xolo' => 'XOLO',
             default => $brandName,
         };
     }
