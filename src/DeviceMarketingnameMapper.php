@@ -38,7 +38,7 @@ final class DeviceMarketingnameMapper
         $marketingName = mb_strtolower($marketingName);
 
         return match (mb_strtolower($marketingName)) {
-            '', 'unknown', 'other', 'various', 'some unknown model' => null,
+            '', 'unknown', 'other', 'various', 'some unknown model', 'k' => null,
             // alcatel/tcl
             '1s' => '1s',
             '1t 10" wi-fi', '1t 10 wi-fi' => '1T 10" Wi-Fi',
