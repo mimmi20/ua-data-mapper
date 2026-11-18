@@ -14,6 +14,7 @@ declare(strict_types = 1);
 namespace UaDataMapper;
 
 use function mb_strtolower;
+use function str_replace;
 
 /**
  * class with caching and update capabilities
@@ -33,7 +34,7 @@ final class DeviceMarketingnameMapper
             return null;
         }
 
-        $marketingName = str_replace(['Wi-Fi'], ['Wi-Fi'], $marketingName);
+        $marketingName = str_replace(['WiFi'], ['Wi-Fi'], $marketingName);
         $marketingName = mb_strtolower($marketingName);
 
         return match (mb_strtolower($marketingName)) {
