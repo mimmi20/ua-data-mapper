@@ -776,7 +776,7 @@ final class DeviceMarketingnameMapper
             'redmi pad 2 4g', 'redmi pad 2 4g (india)' => 'Redmi Pad 2 4G',
             'redmi pad 2' => 'Redmi Pad 2 Wi-Fi',
             'redmi pad 2 9.7"', 'redmi pad 2 9.7" wi-fi' => 'Redmi Pad 2 9.7"',
-            'redmi pad 2 pro' => 'Redmi Pad 2 Pro',
+            'redmi pad 2 pro', 'redmi pad 2 pro wi-fi' => 'Redmi Pad 2 Pro',
             'redmi pad 2 pro 5g', 'redmi pad 2 pro 5g (international)' => 'Redmi Pad 2 Pro 5G',
             'redmi pad 8 11.2" wi-fi', 'redmi pad 8 11.2" wi-fi (china)' => 'Redmi Pad 8 11.2" Wi-Fi',
             'redmi pad pro', 'redmi pad pro 12.1"' => 'Redmi Pad Pro',
@@ -846,7 +846,7 @@ final class DeviceMarketingnameMapper
             'y52', 'y52 5g' => 'Y52',
             'y55', 'y55 5g', 'y55l' => 'Y55',
             'y71', 'y71a' => 'Y71',
-            'y72 5g', 'y72 5g (global)' => 'Y72 5G',
+            'y72 5g', 'y72 5g (global)', 'y72 5g (international)' => 'Y72 5G',
             'y77', 'y77 (china)' => 'Y77',
             'y78', 'y78 (china)' => 'Y78',
             'y85', 'y85a' => 'Y85',
@@ -892,7 +892,7 @@ final class DeviceMarketingnameMapper
             'tab p11', 'tab p11 lte' => 'Tab P11',
             'tab p11 (gen 2)', 'tab p11 (2nd gen, 2022)', 'tab p11 wi-fi (2nd gen)' => 'Tab P11 (Gen 2)',
             'tab p11 pro (gen 2)', 'tab p11 pro wi-fi (2nd gen)', 'tab p11 pro', 'tab p11 pro 4g' => 'Tab P11 Pro',
-            'tab p12' => 'Tab P12',
+            'tab p12', 'tab p12 wi-fi' => 'Tab P12',
             'tab p12 pro', 'tab p12 pro 5g' => 'Tab P12 Pro',
             'tab plus' => 'Tab Plus',
             'tab qt k11 wi-fi' => 'Tab QT K11 Wi-Fi',
@@ -1669,6 +1669,8 @@ final class DeviceMarketingnameMapper
             'carpad', 'dilink 5.0', 'dilink 4.0' => 'CarPad',
             // fly
             'e141 tv plus', 'e141tv plus' => 'E141 TV Plus',
+            // verizon
+            'ellipsis 7', 'ellipsis 7 4g' => 'Ellipsis 7',
             default => $marketingName,
         };
     }
