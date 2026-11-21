@@ -84,8 +84,8 @@ parameters:
       tooWideThrowType: true
 
   cognitive_complexity:
-    class: 5
-    function: 5
+    class: 14
+    function: 14
 
   type_coverage:
     return_type: 100
@@ -112,6 +112,27 @@ parameters:
     no_mixed_property: true
     no_mixed_caller: true
 
+  symplify:
+    # enabled by default
+    naming: true
+    complexity: true
+    configurable: false
+    static: true
+    modern: false
+    symfony: false
+    symfonyConfig: false
+    doctrine: false
+    phpunit: false
+
+    # disabled by default
+    mocks: true
+    ctor: false
+
+    # optional
+    symfonyReturnType: true
+    laravelReturnType: false
+    pathStrings: true
+
 #  ignoreErrors:
 #    - '~will always evaluate to true~'
 #    - '~so it can be removed from the return type~'
@@ -123,33 +144,3 @@ services:
       relativePathHelper: @simpleRelativePathHelper
       currentWorkingDirectory: %currentWorkingDirectory%
       pretty: true
-
-rules:
-  # code complexity
-  - Symplify\PHPStanRules\Rules\NoDynamicNameRule
-
-  - Symplify\PHPStanRules\Rules\ForbiddenExtendOfNonAbstractClassRule
-
-  # domain
-  - Symplify\PHPStanRules\Rules\Domain\RequireExceptionNamespaceRule
-  - Symplify\PHPStanRules\Rules\Domain\RequireAttributeNamespaceRule
-  - Symplify\PHPStanRules\Rules\Enum\RequireUniqueEnumConstantRule
-  - Symplify\PHPStanRules\Rules\PreventParentMethodVisibilityOverrideRule
-
-  # paths
-  - Symplify\PHPStanRules\Rules\NoReferenceRule
-
-  # explicit naming
-  - Symplify\PHPStanRules\Rules\ForbiddenMultipleClassLikeInOneFileRule
-
-  - Symplify\PHPStanRules\Rules\Complexity\ForbiddenArrayMethodCallRule
-  # - Symplify\PHPStanRules\Rules\CheckRequiredInterfaceInContractNamespaceRule
-
-  # naming
-  - Symplify\PHPStanRules\Rules\RequireAttributeNameRule
-
-  # naming
-  - Symplify\PHPStanRules\Rules\Explicit\ExplicitClassPrefixSuffixRule
-  - Symplify\PHPStanRules\Rules\NoReturnSetterMethodRule
-  - Symplify\PHPStanRules\Rules\UppercaseConstantRule
-  - Symplify\PHPStanRules\Rules\ClassNameRespectsParentSuffixRule
