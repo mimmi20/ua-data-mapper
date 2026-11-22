@@ -876,7 +876,7 @@ final class DeviceMarketingnameMapper
             'tab 4 10 plus', 'tab 4 10 plus 10.1', 'tab4 10 plus' => 'Tab 4 10 Plus',
             'tab 10 10.1"', 'tab10 10.1"' => 'Tab 10 10.1"',
             'tab e10', 'tab e10 wi-fi', 'e10' => 'Tab E10',
-            'tab k10 (gen 2)', 'tab k10 wi-fi (2nd gen)' => 'Tab K10 (Gen 2)',
+            'tab k10 (gen 2)', 'tab k10 wi-fi (2nd gen)', 'tab k10 (gen 2) wi-fi' => 'Tab K10 (Gen 2)',
             'tab m7 (gen 3)', 'tab m7 wi-fi (3rd gen)' => 'Tab M7 (Gen 3)',
             'tab m8 fhd', 'tab4 m8 fhd wi-fi', 'tab4 m8 fhd 4g' => 'Tab M8 FHD',
             'tab m8 wi-fi (4rd gen)', 'tab m8 (gen 4)', 'tab m8 lte (4rd gen)' => 'Tab M8 (4rd Gen)',

@@ -90,7 +90,6 @@ final class BrowserNameMapper
             'blekkobot' => 'BlekkoBot',
             'tweetmemebot', 'tweetmeme bot' => 'Tweetmeme Bot',
             'coremedia', 'applecoremedia', 'core media', 'apple core media' => 'Core Media',
-            'mediapartners-google', 'google mediapartners' => 'AdSense Bot',
             'wordpress.com' => 'WordPress',
             'up.browser', 'au by kddi' => 'Openwave Mobile Browser',
             'qqbrowser' => 'QQ Browser',
