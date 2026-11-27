@@ -946,6 +946,7 @@ final class DeviceMarketingnameMapper
             // tecno
             'camon 40 pro', 'camon 40 pro 4g' => 'Camon 40 Pro',
             'camon c8', 'c8' => 'Camon C8',
+            'pop 4', 'pop 4 3g' => 'Pop 4',
             'pova 7', 'pova 7 4g' => 'Pova 7',
             'pova 7 neo', 'pova 7 neo 4g' => 'POVA 7 Neo',
             'spark 30c 5g', 'pop 9 5g' => 'Spark 30C 5G',
